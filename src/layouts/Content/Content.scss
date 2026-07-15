@@ -1,0 +1,10 @@
+.main {
+   min-block-size: 100dvh;
+   display: flex;
+   flex-direction: column;
+   row-gap: fluid(160, 50, desktop, mobile);
+
+   > section:last-of-type {
+      margin-bottom: fluid(160, 80, desktop, mobile);
+   }
+}

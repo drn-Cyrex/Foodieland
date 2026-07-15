@@ -1,0 +1,36 @@
+.tags {
+   --tagsListGapX: 24px;
+   --tagsItemPadding: 0;
+   --tagsItemBackgroundImage: transparent;
+   --tagsItemBorderRadius: 0;
+
+   &--rounded {
+      --tagsListGapX: 16px;
+      --tagsItemPadding: 8px 16px;
+      --tagsItemBackgroundImage: linear-gradient(
+         var(--color-gray),
+         var(--color-dark) 50%
+      );
+      --tagsItemBorderRadius: var(--radius);
+   }
+
+   &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px var(--tagsListGapX);
+   }
+
+   &__item {
+      display: inline-flex;
+      align-items: center;
+      column-gap: 10px;
+      padding: var(--tagsItemPadding);
+      border-radius: var(--tagsItemBorderRadius);
+      background-image: var(--tagsItemBackgroundImage);
+      transition: color 0.5s ease;
+   }
+
+   &__label {
+      color: white;
+   }
+}

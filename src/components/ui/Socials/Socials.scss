@@ -1,0 +1,21 @@
+.soc1als {
+}
+
+.soc1als__list {
+   display: flex;
+   column-gap: fluid(35, 10, desktop, mobile);
+}
+
+.soc1als__item {
+   display: flex;
+   align-items: center;
+}
+.soc1als__link {
+   padding: 5px;
+   transition: 0.5s ease;
+
+   @include hover {
+      color: var(--color-accent);
+      scale: 1.1;
+   }
+}

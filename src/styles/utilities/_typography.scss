@@ -1,0 +1,70 @@
+@use "../core/variables" as *;
+@use "../core/mixins" as *;
+@use "../core/functions" as *;
+
+/* ------------------------------
+   1. Базовые настройки текста
+------------------------------ */
+body {
+   font-family: var(--font-family);
+   font-size: var(--font-base);
+   color: var(--color-text);
+   line-height: 1.6;
+}
+
+/* ------------------------------
+   Текстовые утилиты
+------------------------------ */
+.lead {
+   @include fluid-type(1.1rem, 1.4rem);
+   color: var(--color-text-secondary);
+}
+
+.muted {
+   color: var(--color-text-secondary);
+}
+
+.small {
+   font-size: 0.875rem;
+}
+
+.bold {
+   font-weight: 700;
+}
+
+h1 {
+   font-size: fluid(64, 22, desktop, mobile);
+   font-weight: 600;
+   letter-spacing: -0.04em;
+}
+
+h2 {
+   font-weight: 600;
+   font-size: fluid(48, 20, desktop, mobile);
+   letter-spacing: -0.04em;
+}
+
+h3 {
+   font-weight: 600;
+   font-size: fluid(36, 18, desktop, mobile);
+   letter-spacing: -0.02em;
+}
+
+p {
+   color: var(--color-dim);
+   font-size: fluid(16, 14, desktop, mobile);
+   font-weight: 400;
+   line-height: 175%;
+   text-wrap: balance;
+}
+
+a {
+   transition: color 0.2s ease;
+
+   @include motion-safe {
+      &:hover {
+         cursor: pointer;
+         color: var(--color-primary-hover);
+      }
+   }
+}

@@ -1,0 +1,32 @@
+.section {
+   display: grid;
+   row-gap: fluid(100, 80, desktop, mobile);
+}
+
+.section__header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 24px 16px;
+}
+
+.section__header--vertical {
+   flex-direction: column;
+
+   .section__description {
+      text-align: center;
+      max-width: 706px;
+   }
+}
+
+.section--text-center {
+   width: 100%;
+   text-align: center;
+}
+
+.section__link {
+   @include mobile {
+      margin-right: auto;
+   }
+}

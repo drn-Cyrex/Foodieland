@@ -1,0 +1,26 @@
+.author-card {
+   display: flex;
+   align-items: center;
+   column-gap: 16px;
+}
+
+.author-card__image {
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.author-card__body {
+   display: grid;
+   row-gap: 8px;
+}
+
+.author-card__name {
+   font-weight: 700;
+   font-size: fluid(16, 14, desktop, mobile);
+}
+
+.author-card__date {
+   color: var(--color-dim);
+   font-weight: 500;
+   font-size: fluid(14, 12, desktop, mobile);
+}

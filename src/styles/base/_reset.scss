@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+   scrollbar-gutter: stable;
+}
+
+a {
+   text-decoration: none;
+}
+
+li {
+   list-style-type: none;
+}
+
+/*  Убираем анимации для людей с ограничениями */
+@media (prefers-reduced-motion: reduce) {
+   * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+   }
+}
+
+::selection {
+   color: var(--color-bg);
+   background-color: var(--color-accent-hover);
+}

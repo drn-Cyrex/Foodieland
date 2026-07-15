@@ -1,0 +1,18 @@
+/* Улучшенная типографика для html */
+html {
+   hanging-punctuation: first last;
+   text-size-adjust: 100%;
+}
+
+body {
+   text-rendering: optimizeLegibility;
+   line-height: 1.5;
+   background-color: var(--color-bg);
+}
+
+
+/* Ссылки ведут себя как inline elements */
+a {
+   color: inherit;
+   text-decoration-skip-ink: auto;
+}

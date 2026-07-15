@@ -1,0 +1,14 @@
+.icon {
+   --iconSize: 24px;
+
+   width: var(--iconSize);
+   height: var(--iconSize);
+
+   display: inline-flex;
+
+   svg {
+      width: 100%;
+      height: 100%;
+   }
+
+}

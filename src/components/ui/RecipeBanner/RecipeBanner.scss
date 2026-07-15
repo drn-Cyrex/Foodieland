@@ -1,0 +1,73 @@
+.recipe-banner {
+   position: relative;
+   width: fluid(400, 300, desktop, mobile);
+   height: fluid(434, 334, desktop, mobile);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid oklch(0.5054 0.081 160.43);
+   background: radial-gradient(
+      oklch(0.5054 0.081 160.43 /75%),
+      oklch(0.3668 0.0533 170.87 /50%)
+   );
+}
+
+.recipe-banner h3 {
+   position: relative;
+   z-index: 10;
+   margin: 5px 10px;
+   text-align: center;
+   color: var(--color-black);
+   font-family: "Lobster", sans-serif;
+   font-weight: 400;
+   font-size: fluid(40, 30, desktop, mobile);
+   transition: 0.5s ease-out;
+}
+
+.recipe-banner {
+   @include hover($mobile-active: false, $touch-fallback: true) {
+      h3 {
+         color: var(--color-title-hover);
+      }
+   }
+}
+
+.recipe-banner span {
+   position: relative;
+   z-index: 10;
+   color: var(--color-dim);
+   margin-bottom: 32px;
+   font-weight: 500;
+   font-size: 14px;
+   letter-spacing: -0.02em;
+}
+
+.recipe-banner img {
+   position: absolute;
+   width: fluid(200, 150, desktop, mobile);
+   height: fluid(200, 150, desktop, mobile);
+   top: 55%;
+   left: 50%;
+   translate: -50% -50%;
+   transform: rotate(0);
+   filter: drop-shadow(0 0 10px var(--color-black));
+   animation: rotate-image 60s linear infinite;
+
+   @include hover {
+   }
+}
+
+.recipe-banner {
+   @include hover($mobile-active: false, $touch-fallback: true) {
+      img {
+         animation-play-state: paused;
+      }
+   }
+}
+
+@keyframes rotate-image {
+   to {
+      transform: rotate(360deg);
+   }
+}

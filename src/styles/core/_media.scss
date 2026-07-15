@@ -1,0 +1,87 @@
+@use "sass:map";
+@use "./breakpoints" as *;
+
+// Универсальная функция для получения значения из карты
+@function bp($key) {
+   @return #{map.get($breakpoints, $key)}px;
+}
+
+// 📱 MOBILE (320–600)
+@mixin mobile {
+   @media (width <= #{map.get($breakpoints, tablet)}px) {
+      @content;
+   }
+}
+
+// 📱 TABLET (600–1024)
+@mixin tablet {
+   @media (width <= #{map.get($breakpoints, laptop)}px) {
+      @content;
+   }
+}
+
+// 💻 LAPTOP (1024–1440)
+@mixin laptop {
+   @media (width <= #{map.get($breakpoints, desktop)}px) {
+      @content;
+   }
+}
+
+// 🖥 DESKTOP (1440–1920)
+@mixin desktop {
+   @media (width <= #{map.get($breakpoints,  desktop-l)}px) {
+      @content;
+   }
+}
+
+// -----------------------------
+// 🔼 ABOVE (min-width)
+// Универсальный миксин для стилей "от X и выше".
+// Пример: @include above(tablet) — всё ≥ 600px.
+// -----------------------------
+@mixin above($key) {
+   @media (min-width: bp($key)) {
+      @content;
+   }
+}
+
+// -----------------------------
+// 🔽 BELOW (max-width)
+// Универсальный миксин для стилей "до X".
+// Пример: @include below(laptop) — всё ≤ 1280px.
+// -----------------------------
+@mixin below($key) {
+   @media (max-width: bp($key)) {
+      @content;
+   }
+}
+
+// === *** === //
+@mixin hover(
+   $mobile-active: true,
+   // включать ли :active на тач
+   $touch-fallback: false // показывать ли эффект всегда на тач
+) {
+   // Десктоп: hover работает
+   @media (any-hover: hover) {
+      &:hover {
+         @content;
+      }
+   }
+
+   // Тач: hover нет → можно включить active
+   @if ($mobile-active) {
+      @media (any-hover: none) {
+         &:active {
+            @content;
+         }
+      }
+   }
+
+   // Тач: fallback — эффект всегда включён
+   @if ($touch-fallback) {
+      @media (any-hover: none) {
+         @content;
+      }
+   }
+}

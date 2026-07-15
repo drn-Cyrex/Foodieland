@@ -1,0 +1,23 @@
+.category-card {
+   position: relative;
+   height: fluid(150, 120, desktop, mobile);
+
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   border-radius: var(--radius);
+   box-shadow: 0px 10px 10px 0px var(--color-black);
+}
+
+.category-card img {
+   position: absolute;
+   top: fluid(-50, -30, desktop, mobile);
+   left: 50%;
+   transform: translateX(-50%);
+   filter: drop-shadow(5px 5px 10px var(--color-black));
+}
+
+.category-card__title {
+   font-size: 18px;
+   padding-bottom: fluid(30, 10, desktop, mobile);
+}

@@ -1,0 +1,85 @@
+/* ------------------------------
+   1. Цветовая система (Light)
+------------------------------ */
+:root {
+   /* Основные цвета */
+   --color-accent: oklch(0.7297 0.1669 29.5);
+   --color-accent-hover: oklch(0.8224 0.1283 63.63 /90%);
+   --color-accent-border: oklch(0.4885 0.1558 30.96);
+
+   --color-bg: var(--color-dark);
+   --color-bg-card-transparent: oklch(0.97 0.0197 212.54 / 0%);
+
+   --card-gradient: linear-gradient(
+      180deg,
+      var(--color-bg-card-transparent) 0%,
+      var(--color-bg-card) 100%
+   );
+
+   --line-gradient: ;
+
+   --color-white: oklch(1 0 0);
+   --color-light: oklch(0.9 0 0);
+
+   --color-black: oklch(0 0 0);
+   --color-light-bg: oklch(0 0 0 / 60%);
+   --color-dark: oklch(0.25 0 0);
+   --color-dim: oklch(1 0 0 / 60%);
+   --color-gray: oklch(0.5 0 0);
+
+   --color-text: var(--color-light);
+   --color-text-secondary: var(--color-dim);
+
+   --color-title-hover: oklch(0.8988 0.0723 66.69);
+
+   /* Успех / Ошибка / Предупреждение */
+   --color-success: #22c55e;
+   --color-warning: #f59e0b;
+   --color-danger: #ef4444;
+
+   /* Радиусы */
+   --radius-m: 60px;
+   --radius: 30px;
+   --radius-s: 16px;
+
+   /* Spacing scale (4px system) */
+   --space-1: 4px;
+   --space-2: 8px;
+   --space-3: 12px;
+   --space-4: 16px;
+   --space-5: 20px;
+   --space-6: 24px;
+   --space-7: 32px;
+   --space-8: 40px;
+   --space-9: 48px;
+
+   /* Контейнеры */
+   --container-width: 1280px;
+   --container-padding: 16px;
+   --section-gap-y: fluid(80, 50, desktop, mobile);
+
+   /* Типографика */
+   --font-base: 16px;
+   --font-family: "Inter", sans-serif;
+
+   /* Динамическое масштабирование   */
+   --index: 1vh + 1vw;
+
+   --bottom-line: 1px solid oklch(0.5 0 0);
+
+   --cubic: 0.75s cubic-bezier(1, 1, 0, 1);
+}
+
+/* Z-index scale */
+$z-index: (
+   base: 1,
+   dropdown: 1000,
+   sticky: 1100,
+   fixed: 1200,
+   modal-backdrop: 1290,
+   modal: 1300,
+   popover: 1400,
+   tooltip: 1500,
+   toast: 1600,
+   debug: 9999,
+);
