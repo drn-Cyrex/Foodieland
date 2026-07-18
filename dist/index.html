@@ -1,525 +1,1003 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodieland| Home</title>
-    <link rel="preload" href="/assets/Inter.css" as="font" type="truetype-variations" crossOrigin="true">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="stylesheet" href="/assets/main.css">
-    <script type="module" src="/assets/app.js"></script>
-    <link rel="stylesheet" href="/assets/bundle.css">
-  </head>
-  <body>
-    <header class="header" data-js-header-hidden="">
-      <div class="header-wrapper">
-        <a href="/" class="logo" title="Home" aria-label="Home">
-          <img class="logo-image" src="/src/assets/icons/logo/Foodieland.png" alt="" height="30" width="110" loading="lazy">
-        </a>
-        <div class="line line__hover"></div>
-        <div class="line line__active"></div>
-        <nav class="header__nav" data-js-overlay-menu-mobile="">
-          <ul class="header__list">
-            <li>
-              <a class="header__link is-active-page" href="/">Home</a>
-            </li>
-            <li>
-              <a class="header__link" href="/recipes">Recipes</a>
-            </li>
-            <li>
-              <a class="header__link" href="/blog">Blog</a>
-            </li>
-            <li>
-              <a class="header__link" href="/contact">Contact</a>
-            </li>
-            <li>
-              <a class="header__link" href="/about-us">About us</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="soc1als header__soc1als">
-          <ul class="soc1als__list">
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#facebook"></use>
-                  </svg>
-                </span></a>
-            </li>
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#twitter"></use>
-                  </svg>
-                </span></a>
-            </li>
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#instagram"></use>
-                  </svg>
-                </span></a>
-            </li>
-          </ul>
-        </div>
-        <button class="button-dropdown" data-js-overlay-menu-burger-button="" type="button" aria-label="Open menu" title="Open menu"><span></span><span></span><span></span></button>
-      </div>
-    </header>
-    <main class="main">
-      <section>
-        <div class="hero swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="hero-content">
-                <div class="hero-content__body">
-                  <div class="hero-content__category">
-                    <img srcset="/assets/images/scroll-24x24.png 24w" src="/assets/images/scroll-24x24.png" sizes="(min-width: 24px) 24px, 100vw" width="24" height="24" alt decoding="async" loading="lazy" class="hero-content__category-image"><span>Hot Recipes</span>
-                  </div>
-                  <h2 class="hero-content__title">Spicy delicious chicken wings</h2>
-                  <div class="hero-description">
-                    <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
-                  </div>
-                  <div class="tags tags--rounded hero-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                  <div class="hero-content__footer">
-                    <div class="author-card hero-content__author">
-                      <img srcset="/assets/images/man-50x50.jpg 50w" src="/assets/images/man-50x50.jpg" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image">
-                      <div class="author-card__body">
-                        <h3 class="author-card__name">John Smith</h3>
-                        <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
-                      </div>
-                    </div>
-                    <a class="button hero-content__button" href="/"><span>View Recipes</span><span class="icon">
-                        <svg fill="currentColor" stroke="none">
-                          <use href="/assets/images/icons.svg#play"></use>
-                        </svg>
-                      </span></a>
-                  </div>
-                </div>
-              </div>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Foodieland| Home</title>
+      <link
+         rel="preload"
+         href="/assets/Inter.css"
+         as="font"
+         type="truetype-variations"
+         crossorigin="true"
+      />
+      <link
+         rel="apple-touch-icon"
+         sizes="180x180"
+         href="/apple-touch-icon.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="/favicon-32x32.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="16x16"
+         href="/favicon-16x16.png"
+      />
+      <link rel="stylesheet" href="/assets/main.css" />
+      <script type="module" src="/assets/app.js"></script>
+      <link rel="stylesheet" href="/assets/bundle.css" />
+   </head>
+   <body>
+      <header class="header" data-js-header-hidden="">
+         <div class="header-wrapper">
+            <a href="/" class="logo" title="Home" aria-label="Home">
+               <img
+                  class="logo-image"
+                  src="/src/assets/icons/logo/Foodieland.png"
+                  alt=""
+                  height="30"
+                  width="110"
+                  loading="lazy"
+               />
+            </a>
+            <div class="line line__hover"></div>
+            <div class="line line__active"></div>
+            <nav class="header__nav" data-js-overlay-menu-mobile="">
+               <ul class="header__list">
+                  <li>
+                     <a class="header__link is-active-page" href="/">Home</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="/recipes">Recipes</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="/blog">Blog</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="/contact">Contact</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="/about-us">About us</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="soc1als header__soc1als">
+               <ul class="soc1als__list">
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Facebook"
+                        ><span class="visually-hidden">Facebook</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/assets/images/icons.svg#facebook"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Twitter"
+                        ><span class="visually-hidden">Twitter</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/assets/images/icons.svg#twitter"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Instagram"
+                        ><span class="visually-hidden">Instagram</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/assets/images/icons.svg#instagram"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+               </ul>
             </div>
-            <div class="swiper-slide">
-              <div class="hero-content">
-                <div class="hero-content__body">
-                  <div class="hero-content__category">
-                    <img srcset="/assets/images/scroll-24x24.png 24w" src="/assets/images/scroll-24x24.png" sizes="(min-width: 24px) 24px, 100vw" width="24" height="24" alt decoding="async" loading="lazy" class="hero-content__category-image"><span>Hot Recipes</span>
+            <button
+               class="button-dropdown"
+               data-js-overlay-menu-burger-button=""
+               type="button"
+               aria-label="Open menu"
+               title="Open menu"
+            >
+               <span></span><span></span><span></span>
+            </button>
+         </div>
+      </header>
+      <main class="main">
+         <section>
+            <div class="hero swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="hero-content">
+                        <div class="hero-content__body">
+                           <div class="hero-content__category">
+                              <img
+                                 srcset="/assets/images/scroll-24x24.png 24w"
+                                 src="/assets/images/scroll-24x24.png"
+                                 sizes="(min-width: 24px) 24px, 100vw"
+                                 width="24"
+                                 height="24"
+                                 alt
+                                 decoding="async"
+                                 loading="lazy"
+                                 class="hero-content__category-image"
+                              /><span>Hot Recipes</span>
+                           </div>
+                           <h2 class="hero-content__title">
+                              Spicy delicious chicken wings
+                           </h2>
+                           <div class="hero-description">
+                              <p>
+                                 Lorem ipsum dolor sit amet, consectetuipisicing
+                                 elit, sed do eiusmod tempor incididunt ut
+                                 labore et dolore magna aliqut enim ad minim
+                              </p>
+                           </div>
+                           <div class="tags tags--rounded hero-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="hero-content__footer">
+                              <div class="author-card hero-content__author">
+                                 <img
+                                    srcset="/assets/images/man-50x50.jpg 50w"
+                                    src="/assets/images/man-50x50.jpg"
+                                    sizes="(min-width: 50px) 50px, 100vw"
+                                    width="50"
+                                    height="50"
+                                    alt
+                                    decoding="async"
+                                    loading="lazy"
+                                    class="author-card__image"
+                                 />
+                                 <div class="author-card__body">
+                                    <h3 class="author-card__name">
+                                       John Smith
+                                    </h3>
+                                    <time
+                                       class="author-card__date"
+                                       datetime="2022-03-15"
+                                       >15 March 2022</time
+                                    >
+                                 </div>
+                              </div>
+                              <a class="button hero-content__button" href="/"
+                                 ><span>View Recipes</span
+                                 ><span class="icon">
+                                    <svg fill="currentColor" stroke="none">
+                                       <use
+                                          href="/assets/images/icons.svg#play"
+                                       ></use>
+                                    </svg> </span
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <h1 class="hero-content__title">Spicy delicious chicken wings</h1>
-                  <div class="hero-description">
-                    <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                  <div class="swiper-slide">
+                     <div class="hero-content">
+                        <div class="hero-content__body">
+                           <div class="hero-content__category">
+                              <img
+                                 srcset="/assets/images/scroll-24x24.png 24w"
+                                 src="/assets/images/scroll-24x24.png"
+                                 sizes="(min-width: 24px) 24px, 100vw"
+                                 width="24"
+                                 height="24"
+                                 alt
+                                 decoding="async"
+                                 loading="lazy"
+                                 class="hero-content__category-image"
+                              /><span>Hot Recipes</span>
+                           </div>
+                           <h1 class="hero-content__title">
+                              Spicy delicious chicken wings
+                           </h1>
+                           <div class="hero-description">
+                              <p>
+                                 Lorem ipsum dolor sit amet, consectetuipisicing
+                                 elit, sed do eiusmod tempor incididunt ut
+                                 labore et dolore magna aliqut enim ad minim
+                              </p>
+                           </div>
+                           <div class="tags tags--rounded hero-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="hero-content__footer">
+                              <div class="author-card hero-content__author">
+                                 <img
+                                    srcset="/assets/images/man-50x50.jpg 50w"
+                                    src="/assets/images/man-50x50.jpg"
+                                    sizes="(min-width: 50px) 50px, 100vw"
+                                    width="50"
+                                    height="50"
+                                    alt
+                                    decoding="async"
+                                    loading="lazy"
+                                    class="author-card__image"
+                                 />
+                                 <div class="author-card__body">
+                                    <h3 class="author-card__name">
+                                       John Smith
+                                    </h3>
+                                    <time
+                                       class="author-card__date"
+                                       datetime="2022-03-15"
+                                       >15 March 2022</time
+                                    >
+                                 </div>
+                              </div>
+                              <a class="button hero-content__button" href="/"
+                                 ><span>View Recipes</span
+                                 ><span class="icon">
+                                    <svg fill="currentColor" stroke="none">
+                                       <use
+                                          href="/assets/images/icons.svg#play"
+                                       ></use>
+                                    </svg> </span
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <div class="tags tags--rounded hero-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
+                  <div class="swiper-slide">
+                     <div class="hero-content">
+                        <div class="hero-content__body">
+                           <div class="hero-content__category">
+                              <img
+                                 srcset="/assets/images/scroll-24x24.png 24w"
+                                 src="/assets/images/scroll-24x24.png"
+                                 sizes="(min-width: 24px) 24px, 100vw"
+                                 width="24"
+                                 height="24"
+                                 alt
+                                 decoding="async"
+                                 loading="lazy"
+                                 class="hero-content__category-image"
+                              /><span>Hot Recipes</span>
+                           </div>
+                           <h2 class="hero-content__title">
+                              Spicy delicious chicken wings
+                           </h2>
+                           <div class="hero-description">
+                              <p>
+                                 Lorem ipsum dolor sit amet, consectetuipisicing
+                                 elit, sed do eiusmod tempor incididunt ut
+                                 labore et dolore magna aliqut enim ad minim
+                              </p>
+                           </div>
+                           <div class="tags tags--rounded hero-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="hero-content__footer">
+                              <div class="author-card hero-content__author">
+                                 <img
+                                    srcset="/assets/images/man-50x50.jpg 50w"
+                                    src="/assets/images/man-50x50.jpg"
+                                    sizes="(min-width: 50px) 50px, 100vw"
+                                    width="50"
+                                    height="50"
+                                    alt
+                                    decoding="async"
+                                    loading="lazy"
+                                    class="author-card__image"
+                                 />
+                                 <div class="author-card__body">
+                                    <h3 class="author-card__name">
+                                       John Smith
+                                    </h3>
+                                    <time
+                                       class="author-card__date"
+                                       datetime="2022-03-15"
+                                       >15 March 2022</time
+                                    >
+                                 </div>
+                              </div>
+                              <a class="button hero-content__button" href="/"
+                                 ><span>View Recipes</span
+                                 ><span class="icon">
+                                    <svg fill="currentColor" stroke="none">
+                                       <use
+                                          href="/assets/images/icons.svg#play"
+                                       ></use>
+                                    </svg> </span
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <div class="hero-content__footer">
-                    <div class="author-card hero-content__author">
-                      <img srcset="/assets/images/man-50x50.jpg 50w" src="/assets/images/man-50x50.jpg" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image">
-                      <div class="author-card__body">
-                        <h3 class="author-card__name">John Smith</h3>
-                        <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
-                      </div>
-                    </div>
-                    <a class="button hero-content__button" href="/"><span>View Recipes</span><span class="icon">
-                        <svg fill="currentColor" stroke="none">
-                          <use href="/assets/images/icons.svg#play"></use>
-                        </svg>
-                      </span></a>
-                  </div>
-                </div>
-              </div>
+               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="hero-content">
-                <div class="hero-content__body">
-                  <div class="hero-content__category">
-                    <img srcset="/assets/images/scroll-24x24.png 24w" src="/assets/images/scroll-24x24.png" sizes="(min-width: 24px) 24px, 100vw" width="24" height="24" alt decoding="async" loading="lazy" class="hero-content__category-image"><span>Hot Recipes</span>
-                  </div>
-                  <h2 class="hero-content__title">Spicy delicious chicken wings</h2>
-                  <div class="hero-description">
-                    <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
-                  </div>
-                  <div class="tags tags--rounded hero-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                  <div class="hero-content__footer">
-                    <div class="author-card hero-content__author">
-                      <img srcset="/assets/images/man-50x50.jpg 50w" src="/assets/images/man-50x50.jpg" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="author-card__image">
-                      <div class="author-card__body">
-                        <h3 class="author-card__name">John Smith</h3>
-                        <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
-                      </div>
-                    </div>
-                    <a class="button hero-content__button" href="/"><span>View Recipes</span><span class="icon">
-                        <svg fill="currentColor" stroke="none">
-                          <use href="/assets/images/icons.svg#play"></use>
-                        </svg>
-                      </span></a>
-                  </div>
-                </div>
-              </div>
+         </section>
+         <section
+            class="categories section container"
+            aria-labelledby="categories"
+         >
+            <header class="section__header">
+               <h2 class="section__title title-effect" id="categories">
+                  Categories
+               </h2>
+               <div>
+                  <a class="button section__link button--secondary" href="/"
+                     >View All Categories</a
+                  >
+               </div>
+            </header>
+            <div class="section__body">
+               <ul class="grid grid--6 categories-list">
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="/assets/images/breakfast-100x100.png 100w"
+                           src="/assets/images/breakfast-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Breakfast</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="/assets/images/vegan-100x100.png 100w"
+                           src="/assets/images/vegan-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Vegan</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="/assets/images/meat-100x100.png 100w"
+                           src="/assets/images/meat-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Meat</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="/assets/images/dessert-100x100.png 100w"
+                           src="/assets/images/dessert-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Dessert</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="/assets/images/lunch-100x100.png 100w"
+                           src="/assets/images/lunch-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Lunch</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="/assets/images/chocolate-100x100.png 100w"
+                           src="/assets/images/chocolate-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Chocolate</h3>
+                     </article>
+                  </li>
+               </ul>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="categories section container" aria-labelledby="categories">
-        <header class="section__header">
-          <h2 class="section__title title-effect" id="categories">Categories</h2>
-          <div>
-            <a class="button section__link button--secondary" href="/">View All Categories</a>
-          </div>
-        </header>
-        <div class="section__body">
-          <ul class="grid grid--6 categories-list">
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/breakfast-100x100.png 100w" src="/assets/images/breakfast-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Breakfast</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/vegan-100x100.png 100w" src="/assets/images/vegan-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Vegan</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/meat-100x100.png 100w" src="/assets/images/meat-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Meat</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/dessert-100x100.png 100w" src="/assets/images/dessert-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Dessert</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/lunch-100x100.png 100w" src="/assets/images/lunch-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Lunch</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/chocolate-100x100.png 100w" src="/assets/images/chocolate-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Chocolate</h3>
-              </article>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="recipes section container" aria-labelledby="recipes">
-        <header class="section__header section__header--vertical">
-          <h2 class="section__title title-effect" id="recipes">Simple and tasty recipes</h2>
-          <div class="section__description">
-            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
-          </div>
-        </header>
-        <div class="section__body">
-          <ul class="grid grid--3">
-            <li class="grid-item">
-              <article class="recipe-card">
-                <a class="recipe-card__link" href="/" style="background-image:url(&#x27;/src/assets/images/recipes/1.jpg&#x27;)">
-                  <h3 class="recipe-card__title h4">Big and Juicy Wagyu Beef Cheeseburger</h3>
-                  <div class="tags recipe-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                </a>
-                <button class="recipe-card__like-button" type="button" aria-label="Like" title="Like"><span class="icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#heart"></use>
-                    </svg>
-                  </span></button>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="recipe-card">
-                <a class="recipe-card__link" href="/" style="background-image:url(&#x27;/src/assets/images/recipes/2.jpg&#x27;)">
-                  <h3 class="recipe-card__title h4">Fresh Lime Roasted Salmon with Ginger Sauce</h3>
-                  <div class="tags recipe-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                </a>
-                <button class="recipe-card__like-button" type="button" aria-label="Like" title="Like"><span class="icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#heart"></use>
-                    </svg>
-                  </span></button>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="recipe-card">
-                <a class="recipe-card__link" href="/" style="background-image:url(&#x27;/src/assets/images/recipes/3.jpg&#x27;)">
-                  <h3 class="recipe-card__title h4">Strawberry Oatmeal Pancake with Honey Syrup</h3>
-                  <div class="tags recipe-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                </a>
-                <button class="recipe-card__like-button" type="button" aria-label="Like" title="Like"><span class="icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#heart"></use>
-                    </svg>
-                  </span></button>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="recipe-card">
-                <a class="recipe-card__link" href="/" style="background-image:url(&#x27;/src/assets/images/recipes/4.jpg&#x27;)">
-                  <h3 class="recipe-card__title h4">Fresh and Healthy Mixed Mayonnaise Salad</h3>
-                  <div class="tags recipe-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                </a>
-                <button class="recipe-card__like-button is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#heart"></use>
-                    </svg>
-                  </span></button>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="recipe-card">
-                <a class="recipe-card__link" href="/" style="background-image:url(&#x27;/src/assets/images/recipes/5.jpg&#x27;)">
-                  <h3 class="recipe-card__title h4">Chicken Meatballs with Cream Cheese</h3>
-                  <div class="tags recipe-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                </a>
-                <button class="recipe-card__like-button is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#heart"></use>
-                    </svg>
-                  </span></button>
-              </article>
-            </li>
-            <li class="grid-item">
-              <a class="recipe-banner" href="/">
-                <h3>Don’t forget to eat healthy food</h3>
-                <img srcset="/assets/images/0.1.2-320x320.png 320w, /assets/images/0.1.2-355x355.png 355w" src="/assets/images/0.1.2-355x355.png" sizes="(min-width: 355px) 355px, 100vw" width="355" height="355" alt decoding="async" loading="lazy"><span>www.foodieland.com</span>
-              </a>
-            </li>
-            <li class="grid-item">
-              <article class="recipe-card">
-                <a class="recipe-card__link" href="/" style="background-image:url(&#x27;/src/assets/images/recipes/7.jpg&#x27;)">
-                  <h3 class="recipe-card__title h4">Fruity Pancake with Orange &amp; Blueberry</h3>
-                  <div class="tags recipe-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                </a>
-                <button class="recipe-card__like-button" type="button" aria-label="Like" title="Like"><span class="icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#heart"></use>
-                    </svg>
-                  </span></button>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="recipe-card">
-                <a class="recipe-card__link" href="/" style="background-image:url(&#x27;/src/assets/images/recipes/8.jpg&#x27;)">
-                  <h3 class="recipe-card__title h4">Big and Juicy Wagyu Beef Cheeseburger</h3>
-                  <div class="tags recipe-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                </a>
-                <button class="recipe-card__like-button is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#heart"></use>
-                    </svg>
-                  </span></button>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="recipe-card">
-                <a class="recipe-card__link" href="/" style="background-image:url(&#x27;/src/assets/images/recipes/9.jpg&#x27;)">
-                  <h3 class="recipe-card__title h4">Big and Juicy Wagyu Beef Cheeseburger</h3>
-                  <div class="tags recipe-card__tags">
-                    <ul class="tags__list">
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#timer"></use>
-                          </svg>
-                        </span><span class="tags__label">30 Minutes</span></li>
-                      <li class="tags__item"><span class="icon">
-                          <svg fill="currentColor" stroke="none">
-                            <use href="/assets/images/icons.svg#fork-knife"></use>
-                          </svg>
-                        </span><span class="tags__label">Chicken</span></li>
-                    </ul>
-                  </div>
-                </a>
-                <button class="recipe-card__like-button" type="button" aria-label="Like" title="Like"><span class="icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#heart"></use>
-                    </svg>
-                  </span></button>
-              </article>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <nav class="footer__menu">
-        <div class="footer__menu-column">
-          <a class="footer__menu-title h6" href="/">Home</a>
-          <ul class="footer__menu-list">
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="/">Categories</a>
-            </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="/">Devices</a>
-            </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="/">Pricing</a>
-            </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="/">FAQ</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__menu-column">
-          <a class="footer__menu-title h6" href="/">Movies</a>
-          <ul class="footer__menu-list">
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="/">Gernes</a>
-            </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="/">Trending</a>
-            </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="/">New Release</a>
-            </li>
-            <li class="footer__menu-item">
-              <a class="footer__menu-link" href="/">Popular</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__menu-column">
-          <a class="footer__menu-title h6" href="/">Connect With Us</a>
-        </div>
-      </nav>
-      <div class="footer__extra">
-        <p class="footer__copyright">@ <time dateTime="2023"></time> DRN company, All Rights Reserved</p>
-        <div class="footer__extra-links">
-          <a href="/">Terms of Use</a>
-          <a href="/">Privacy Policy</a>
-          <a href="/">Cookie Policy</a>
-        </div>
-      </div>
-    </footer>
-  </body>
+         </section>
+         <section class="recipes section container" aria-labelledby="recipes">
+            <header class="section__header section__header--vertical">
+               <h2 class="section__title title-effect" id="recipes">
+                  Simple and tasty recipes
+               </h2>
+               <div class="section__description">
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetuipisicing elit, sed
+                     do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqut enim ad minim
+                  </p>
+               </div>
+            </header>
+            <div class="section__body">
+               <ul class="grid grid--3">
+                  <li class="grid-item">
+                     <article class="recipe-card">
+                        <a
+                           class="recipe-card__link"
+                           href="/"
+                           style="
+                              background-image: url(&#x27;/src/assets/images/recipes/1.jpg&#x27;);
+                           "
+                        >
+                           <h3 class="recipe-card__title h4">
+                              Big and Juicy Wagyu Beef Cheeseburger
+                           </h3>
+                           <div class="tags recipe-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </a>
+                        <button
+                           class="recipe-card__like-button"
+                           type="button"
+                           aria-label="Like"
+                           title="Like"
+                        >
+                           <span class="icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/assets/images/icons.svg#heart"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article class="recipe-card">
+                        <a
+                           class="recipe-card__link"
+                           href="/"
+                           style="
+                              background-image: url(&#x27;/src/assets/images/recipes/2.jpg&#x27;);
+                           "
+                        >
+                           <h3 class="recipe-card__title h4">
+                              Fresh Lime Roasted Salmon with Ginger Sauce
+                           </h3>
+                           <div class="tags recipe-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </a>
+                        <button
+                           class="recipe-card__like-button"
+                           type="button"
+                           aria-label="Like"
+                           title="Like"
+                        >
+                           <span class="icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/assets/images/icons.svg#heart"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article class="recipe-card">
+                        <a
+                           class="recipe-card__link"
+                           href="/"
+                           style="
+                              background-image: url(&#x27;/src/assets/images/recipes/3.jpg&#x27;);
+                           "
+                        >
+                           <h3 class="recipe-card__title h4">
+                              Strawberry Oatmeal Pancake with Honey Syrup
+                           </h3>
+                           <div class="tags recipe-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </a>
+                        <button
+                           class="recipe-card__like-button"
+                           type="button"
+                           aria-label="Like"
+                           title="Like"
+                        >
+                           <span class="icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/assets/images/icons.svg#heart"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article class="recipe-card">
+                        <a
+                           class="recipe-card__link"
+                           href="/"
+                           style="
+                              background-image: url(&#x27;/src/assets/images/recipes/4.jpg&#x27;);
+                           "
+                        >
+                           <h3 class="recipe-card__title h4">
+                              Fresh and Healthy Mixed Mayonnaise Salad
+                           </h3>
+                           <div class="tags recipe-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </a>
+                        <button
+                           class="recipe-card__like-button is-liked disable-hover"
+                           type="button"
+                           aria-label="Dislike"
+                           title="Dislike"
+                        >
+                           <span class="icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/assets/images/icons.svg#heart"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article class="recipe-card">
+                        <a
+                           class="recipe-card__link"
+                           href="/"
+                           style="
+                              background-image: url(&#x27;/src/assets/images/recipes/5.jpg&#x27;);
+                           "
+                        >
+                           <h3 class="recipe-card__title h4">
+                              Chicken Meatballs with Cream Cheese
+                           </h3>
+                           <div class="tags recipe-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </a>
+                        <button
+                           class="recipe-card__like-button is-liked disable-hover"
+                           type="button"
+                           aria-label="Dislike"
+                           title="Dislike"
+                        >
+                           <span class="icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/assets/images/icons.svg#heart"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <a class="recipe-banner" href="/">
+                        <h3>Don’t forget to eat healthy food</h3>
+                        <img
+                           srcset="
+                              /assets/images/0.1.2-320x320.png 320w,
+                              /assets/images/0.1.2-355x355.png 355w
+                           "
+                           src="/assets/images/0.1.2-355x355.png"
+                           sizes="(min-width: 355px) 355px, 100vw"
+                           width="355"
+                           height="355"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        /><span>www.foodieland.com</span>
+                     </a>
+                  </li>
+                  <li class="grid-item">
+                     <article class="recipe-card">
+                        <a
+                           class="recipe-card__link"
+                           href="/"
+                           style="
+                              background-image: url(&#x27;/src/assets/images/recipes/7.jpg&#x27;);
+                           "
+                        >
+                           <h3 class="recipe-card__title h4">
+                              Fruity Pancake with Orange &amp; Blueberry
+                           </h3>
+                           <div class="tags recipe-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </a>
+                        <button
+                           class="recipe-card__like-button"
+                           type="button"
+                           aria-label="Like"
+                           title="Like"
+                        >
+                           <span class="icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/assets/images/icons.svg#heart"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article class="recipe-card">
+                        <a
+                           class="recipe-card__link"
+                           href="/"
+                           style="
+                              background-image: url(&#x27;/src/assets/images/recipes/8.jpg&#x27;);
+                           "
+                        >
+                           <h3 class="recipe-card__title h4">
+                              Big and Juicy Wagyu Beef Cheeseburger
+                           </h3>
+                           <div class="tags recipe-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </a>
+                        <button
+                           class="recipe-card__like-button is-liked disable-hover"
+                           type="button"
+                           aria-label="Dislike"
+                           title="Dislike"
+                        >
+                           <span class="icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/assets/images/icons.svg#heart"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article class="recipe-card">
+                        <a
+                           class="recipe-card__link"
+                           href="/"
+                           style="
+                              background-image: url(&#x27;/src/assets/images/recipes/9.jpg&#x27;);
+                           "
+                        >
+                           <h3 class="recipe-card__title h4">
+                              Big and Juicy Wagyu Beef Cheeseburger
+                           </h3>
+                           <div class="tags recipe-card__tags">
+                              <ul class="tags__list">
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#timer"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">30 Minutes</span>
+                                 </li>
+                                 <li class="tags__item">
+                                    <span class="icon">
+                                       <svg fill="currentColor" stroke="none">
+                                          <use
+                                             href="/assets/images/icons.svg#fork-knife"
+                                          ></use>
+                                       </svg> </span
+                                    ><span class="tags__label">Chicken</span>
+                                 </li>
+                              </ul>
+                           </div>
+                        </a>
+                        <button
+                           class="recipe-card__like-button"
+                           type="button"
+                           aria-label="Like"
+                           title="Like"
+                        >
+                           <span class="icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/assets/images/icons.svg#heart"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </button>
+                     </article>
+                  </li>
+               </ul>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <nav class="footer__menu">
+            <div class="footer__menu-column">
+               <a class="footer__menu-title h6" href="/">Home</a>
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item">
+                     <a class="footer__menu-link" href="/">Categories</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a class="footer__menu-link" href="/">Devices</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a class="footer__menu-link" href="/">Pricing</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a class="footer__menu-link" href="/">FAQ</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer__menu-column">
+               <a class="footer__menu-title h6" href="/">Movies</a>
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item">
+                     <a class="footer__menu-link" href="/">Gernes</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a class="footer__menu-link" href="/">Trending</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a class="footer__menu-link" href="/">New Release</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a class="footer__menu-link" href="/">Popular</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer__menu-column">
+               <a class="footer__menu-title h6" href="/">Connect With Us</a>
+            </div>
+         </nav>
+         <div class="footer__extra">
+            <p class="footer__copyright">
+               @ <time datetime="2023"></time> DRN company, All Rights Reserved
+            </p>
+            <div class="footer__extra-links">
+               <a href="/">Terms of Use</a>
+               <a href="/">Privacy Policy</a>
+               <a href="/">Cookie Policy</a>
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
