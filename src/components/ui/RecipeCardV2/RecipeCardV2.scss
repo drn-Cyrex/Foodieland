@@ -1,100 +1,117 @@
-.recipe-card-v2 {
+.rcp-card {
    position: relative;
-   height: fluid(434, 334, laptop, tablet);
    border-radius: var(--radius);
 
    &:nth-child(odd) {
-      box-shadow: 7px 4px 10px 1px rgba(0, 0, 0, 1);
+      translate: 10px 25px;
+      box-shadow: 7px 4px 10px 1px var(--color-black);
+      border-right: 1px solid var(--color-gray);
+      border-bottom: 1px solid var(--color-gray);
+      opacity: 0;
 
-      .recipe-card__like-button-v2 {
-         top: -20px;
-         right: -30px;
-      }
-   }
-   &:nth-child(even) {
-      box-shadow: -7px 4px 10px 1px rgba(0, 0, 0, 1);
+      animation: recipe-card-center linear both;
+      animation-timeline: view(block);
+      animation-range: cover 0% cover 20%;
 
-      .recipe-card__link-v2 {
-         flex-direction: row-reverse;
-      }
-
-      .recipe-card__wrapper {
-         align-items: flex-end;
+      @include tablet {
+         transform: translateY(0);
       }
 
-      .recipe-card__wrapper h3 {
-         position: absolute;
-         top: 50%;
-         right: 5%;
+      .rcp-card__link {
+         align-items: end;
+         background-position-x: left;
+
+         h3 {
+            text-align: right;
+         }
       }
 
-      .recipe-card__like-button-v2 {
-         top: -20px;
+      .rcp-card__like-button {
          left: -30px;
       }
    }
 
-   margin: 5rem 1rem;
+   &:nth-child(even) {
+      translate: -10px 25px;
+      box-shadow: -7px 4px 10px 1px var(--color-black);
+      border-left: 1px solid var(--color-gray);
+      border-bottom: 1px solid var(--color-gray);
+
+      animation: recipe-card-center linear both;
+      animation-timeline: view(block);
+      animation-range: cover 0% cover 20%;
+
+      .rcp-card__link {
+         align-items: start;
+         background-position-x: right;
+
+         h3 {
+            text-align: left;
+         }
+      }
+
+      .rcp-card__like-button {
+         right: -30px;
+      }
+   }
 }
 
-.recipe-card__link-v2 {
+@keyframes recipe-card-center {
+   to {
+      translate: 0 0;
+      opacity: 1;
+   }
+}
+
+.rcp-card__link {
    position: relative;
-   width: 100%;
-   height: 100%;
-   display: flex;
-   overflow: clip;
-
-   // &::before {
-   //    content: "";
-   //    position: absolute;
-   //    inset: 0;
-   //    background-image: linear-gradient(
-   //       to bottom,
-   //       transparent 30%,
-   //       var(--color-black) 80%
-   //    );
-   //    border-radius: inherit;
-   // }
-}
-
-.recipe-card__wrapper {
    width: 100%;
    height: 100%;
    padding: fluid(30, 10, desktop, mobile);
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
-   align-items: flex-start;
+   row-gap: 40px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 50%;
+   background-origin: content-box;
+   border-radius: inherit;
+   overflow: clip;
+
+   &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+   }
+
+   @include hover {
+      h3 {
+         color: var(--color-title-hover);
+      }
+   }
 }
 
-.recipe-card__wrapper h3 {
-   position: absolute;
-   top: 50%;
-   left: 5%;
-   transform: translateY(-50%);
-   max-width: 20ch;
+.rcp-card__link h3 {
+   position: relative;
+   max-width: 13ch;
+   margin: 0;
    color: rgba(255, 255, 255, 0.75);
    font-weight: 600;
    font-size: 24px;
    line-height: 133%;
    letter-spacing: -0.04em;
+   transition: color 0.5s ease;
 }
 
-.recipe-card__tags-v2 {
+.rcp-card__tags {
    position: relative;
-   // margin-left: 24px;
-   // margin-bottom: 32px;
 }
 
-.recipe-card__link-v2 > img {
-   height: 150%;
-   width: 50%;
-   border-radius: 30px;
-}
-
-.recipe-card__like-button-v2 {
+.rcp-card__like-button {
    position: absolute;
-
+   top: -20px;
    height: 55px;
    width: 55px;
    border-radius: 50%;
@@ -108,5 +125,15 @@
 
    @include hover {
       border-color: var(--color-accent-hover);
+   }
+}
+
+.is-liked {
+   color: var(--color-accent);
+}
+
+.disable-hover {
+   @include hover {
+      border-color: transparent !important;
    }
 }

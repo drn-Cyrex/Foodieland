@@ -15,7 +15,7 @@ const RecipeBanner = (props) => {
          href='/'
       >
          <h3>{title}</h3>
-         <Image src='/src/assets/images/recipes/0.1.2.png' />
+         <Image src='/src/assets/images/recipes/0.png' />
          <span>{site}</span>
       </a>
    )

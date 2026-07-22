@@ -1,0 +1,9 @@
+.grid-auto {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+   gap: fluid(40, 30, desktop, mobile);
+
+   @include tablet {
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   }
+}

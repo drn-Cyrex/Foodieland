@@ -16,7 +16,7 @@ export default function () {
          <Categories />
          <Recipes />
          <Banner />
-         <Test />
+         {/* <Test /> */}
       </>
    )
 }
