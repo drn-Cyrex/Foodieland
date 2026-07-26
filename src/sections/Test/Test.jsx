@@ -8,11 +8,11 @@ const Test = () => {
 
    return (
       <Section
-         className='recipes'
-         title="Simple and tasty recipes"
-         titleId="recipes"
+         className='test'
+         title="T E S T"
+         titleId="test"
+         description="test test test test test test test "
          isHeaderVertical
-         description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim"
       >
       </Section>
    )

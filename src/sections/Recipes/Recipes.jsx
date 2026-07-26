@@ -8,11 +8,11 @@ const Recipes = () => {
 
    return (
       <Section
-         className='recipes'
+         className='recipes container'
          title="Simple and tasty recipes"
          titleId="recipes"
-         isHeaderVertical
          description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim"
+         isHeaderVertical
       >
          <GridAuto>
             {items.map((item) => {

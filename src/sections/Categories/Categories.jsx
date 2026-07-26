@@ -41,7 +41,7 @@ const Categories = () => {
 
    return (
       <Section
-         className='categories'
+         className='categories container'
          title='Categories'
          titleId='categories'
          linkLabel='View All Categories'

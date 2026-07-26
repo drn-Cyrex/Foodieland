@@ -56,7 +56,7 @@
    /* Контейнеры */
    --container-width: 1280px;
    --container-padding: 32px;
-   --section-gap-y: fluid(80, 50, desktop, mobile);
+   --section-gap-y: #{fluid(80, 50, desktop, mobile)};
 
    /* Типографика */
    --font-base: 16px;

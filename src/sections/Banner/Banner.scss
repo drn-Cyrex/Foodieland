@@ -5,13 +5,25 @@
    text-wrap: balance;
    overflow: clip;
 
-   @include mobile {
+   &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(transparent 80%, var(--color-bg) 95%);
+   }
+
+   @include tablet {
       flex-wrap: wrap;
       justify-content: center;
+      gap: 10px;
    }
 }
 
-/// 660 600
+.banner .section__link {
+   background-color: var(--color-black);
+   margin-top: fluid(70, 0, desktop, tablet);
+}
+
 .banner__image-cook {
    anchor-name: --banner-cook;
    width: fluid(660, 360, desktop, mobile);

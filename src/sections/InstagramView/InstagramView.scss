@@ -1,0 +1,26 @@
+.instagram-view {
+   background: linear-gradient(
+      180deg,
+      rgba(231, 249, 253, 0),
+      var(--color-light-bg),
+      transparent
+   );
+}
+
+.instagram-view__img-collection {
+   display: flex;
+   justify-content: space-between;
+
+   @include laptop {
+      flex-wrap: wrap;
+      gap: 40px;
+   }
+
+   @include tablet {
+      justify-content: center;
+   }
+}
+
+.instagram-view__button {
+   margin: 80px auto;
+}

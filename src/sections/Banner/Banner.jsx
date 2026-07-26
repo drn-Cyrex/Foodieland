@@ -7,14 +7,14 @@ const Banner = () => {
 
    return (
       <Section
-         className="banner"
+         className="banner container"
          title="Everyone can be a
                chef in their own kitchen"
          titleId="banner"
          description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
          linkLabel='Learn More'
       >
-         <div className='banner__image'>
+         <div className='banner__inner'>
             <Image className='banner__image-cook' src='/src/assets/images/q1.png' />
 
             <Image className='banner__image-meat' src='/src/assets/images/categories/meat.png' />

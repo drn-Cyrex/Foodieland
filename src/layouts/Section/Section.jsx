@@ -16,7 +16,7 @@ const Section = (props) => {
    } = props
 
    return (
-      <section className={clsx(className, 'section', 'container')}
+      <section className={clsx(className, 'section')}
          aria-labelledby={titleId}
       >
          <header className={clsx('section__header',
