@@ -1,0 +1,126 @@
+[
+   {
+      "type": "recipe",
+      "title": "Mixed Tropical Fruit Salad with Superfood Boosts ",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/1.png')",
+      "isLiked": true
+   },
+   {
+      "type": "recipe",
+      "title": "Healthy Japanese Fried Rice with Asparagus",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/3.png')",
+      "isLiked": true
+   },
+      {
+      "type": "recipe",
+      "title": "Big and Juicy Wagyu Beef CheeseburgerBoosts ",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/2.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Cauliflower Walnut Vegetarian Taco Meat",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/4.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/5.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Firecracker Vegan Lettuce Wraps - Spicy!",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/7.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Barbeque Spicy Sandwiches with Chips",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/6.png')",
+      "isLiked": true
+   },
+   {
+      "type": "recipe",
+      "title": "Chicken Ramen Soup with Mushroom",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/8.png')",
+      "isLiked": true
+   }
+]

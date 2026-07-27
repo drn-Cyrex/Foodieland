@@ -3,8 +3,8 @@ import Categories from "@/sections/Categories/Categories"
 import Recipes from "@/sections/Recipes/Recipes"
 import Banner from "@/sections/Banner/Banner"
 import InstagramView from "@/sections/InstagramView/InstagramView"
-
-
+import RecipesMore from "@/sections/RecipesMore/RecipesMore"
+import Test from "@/sections/Test/Test"
 
 
 export const metadata = {
@@ -19,6 +19,8 @@ export default function () {
          <Recipes />
          <Banner />
          <InstagramView />
+         <RecipesMore/>
+         <Test/>
       </>
    )
 }

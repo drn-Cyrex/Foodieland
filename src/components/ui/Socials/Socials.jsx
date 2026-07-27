@@ -35,7 +35,8 @@ const Socials = (props) => {
                      href="/"
                      title={label}
                   >
-                     <span className="visually-hidden">{label}</span>
+                     <span className="visually-hidden">{label}
+                     </span>
                      <Icon name={icon} hasFill />
                   </a>
                </li>

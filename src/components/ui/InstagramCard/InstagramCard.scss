@@ -1,0 +1,107 @@
+.instagram__card {
+   position: relative;
+   min-height: 300px;
+   padding: 20px 30px;
+   border: 2px solid transparent;
+   border-radius: var(--radius);
+   background:
+      linear-gradient(var(--color-dark, Canvas)) padding-box,
+      conic-gradient(
+            from 0deg,
+            var(--color-accent),
+            var(--color-accent-hover),
+            var(--color-accent)
+         )
+         border-box;
+
+   isolation: isolate;
+
+   &::before,
+   &::after {
+      content: "";
+      position: absolute;
+      border-radius: inherit;
+   }
+
+   &::before {
+      z-index: -1;
+      inset: 0;
+      background: var(--color-dark, Canvas);
+   }
+   &::after {
+      z-index: -2;
+      background: conic-gradient(
+         from 0deg,
+         var(--color-accent),
+         var(--color-accent-hover),
+         var(--color-accent)
+      );
+      inset: 0px;
+      filter: blur(10px);
+      opacity: 0.5;
+   }
+}
+
+.instagram__card-header {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.instagram__card-logo {
+   scale: 1.7;
+}
+
+.instagram__card-title {
+   position: relative;
+   width: fit-content;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 138%;
+   letter-spacing: -0.01em;
+   color: var(--color-text);
+
+   &::before {
+      content: "+";
+      position: absolute;
+      right: -25px;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--color-accent);
+   }
+}
+
+.instagram__card-location {
+   font-weight: 400;
+   font-size: 12px;
+   letter-spacing: 0.01em;
+   color: var(--color-text-secondary);
+}
+
+.instagram__card-img {
+   display: none;
+   object-fit: cover;
+   aspect-ratio: 1;
+}
+
+.instagram__card-icon {
+   position: absolute;
+   width: 85%;
+   bottom: 10px;
+   margin-top: auto;
+   display: flex;
+   gap: 13px;
+}
+
+.instagram__card-icon span {
+   width: 15px;
+   height: 15px;
+
+   &:nth-child(4) {
+      margin-left: auto;
+   }
+}
