@@ -10,10 +10,9 @@ const InstagramCard = (props) => {
 
    return (
       <div className="instagram__card">
-
          <header className="instagram__card-header">
             <Image className="instagram__card-logo"
-               src="/src/assets/images/instagram-icon-componets/logo-card.svg" />
+               src="/src/assets/images/instagram-logo-card.svg" />
             <div>
                <h4 className="instagram__card-title">
                   Foodieland
@@ -27,14 +26,14 @@ const InstagramCard = (props) => {
          <div className="instagram__card--body">
 
             <div className="instagram__card-img">
-               <Image  src={imgSrc}/>
+               <Image src={imgSrc} />
             </div>
-            
+
             <div className="instagram__card-icon">
-               <Icon name={1}/>
-               <Icon name={2}/>
-               <Icon name={3}/>
-               <Icon name={4}/>
+               <Icon name={'like'} />
+               <Icon name={'comment'} />
+               <Icon name={'share'} />
+               <Icon name={'save'} />
             </div>
 
          </div>

@@ -9,16 +9,16 @@ const Test = () => {
 
    const imageCard = [
       {
-         imgSrc: "/src/assets/images/instagram/jpg.jpg"
+         imgSrc: "/src/assets/images/instagram/0.1.png"
       },
       {
-         imgSrc: "/src/assets/images/instagram/jpg.jpg"
+         imgSrc: "/src/assets/images/instagram/0.2.png"
       },
       {
-         imgSrc: "/src/assets/images/instagram/jpg.jpg"
+         imgSrc: "/src/assets/images/instagram/0.3.png"
       },
       {
-         imgSrc: "/src/assets/images/instagram/jpg.jpg"
+         imgSrc: "/src/assets/images/instagram/0.4.png"
       },
    ]
 

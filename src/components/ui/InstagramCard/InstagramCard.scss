@@ -1,11 +1,23 @@
 .instagram__card {
+}
+
+.instagram__card {
    position: relative;
-   min-height: 300px;
-   padding: 20px 30px;
+   min-height: 445px;
+   max-width: 290px;
+   display: flex;
+   flex-direction: column;
    border: 2px solid transparent;
    border-radius: var(--radius);
+
    background:
-      linear-gradient(var(--color-dark, Canvas)) padding-box,
+      linear-gradient(
+            var(--color-black),
+            var(--color-dark, Canvas),
+            var(--color-accent-hover, Canvas),
+            var(--color-black)
+         )
+         padding-box,
       conic-gradient(
             from 0deg,
             var(--color-accent),
@@ -14,7 +26,7 @@
          )
          border-box;
 
-   isolation: isolate;
+   //isolation: isolate;
 
    &::before,
    &::after {
@@ -25,8 +37,9 @@
 
    &::before {
       z-index: -1;
-      inset: 0;
+      inset: 0px;
       background: var(--color-dark, Canvas);
+      filter: blur(7px);
    }
    &::after {
       z-index: -2;
@@ -36,13 +49,14 @@
          var(--color-accent-hover),
          var(--color-accent)
       );
-      inset: 0px;
+      inset: -2.5px;
       filter: blur(10px);
-      opacity: 0.5;
+      opacity: 0.7;
    }
 }
 
 .instagram__card-header {
+   padding: 20px 30px 0;
    display: flex;
    align-items: center;
    gap: 20px;
@@ -50,6 +64,8 @@
 
 .instagram__card-logo {
    scale: 1.7;
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   border-radius: 50%;
 }
 
 .instagram__card-title {
@@ -62,11 +78,12 @@
    color: var(--color-text);
 
    &::before {
-      content: "+";
+      content: "\2713"; // юникод‑символ ✓
       position: absolute;
+      top: -5px;
       right: -25px;
-      height: 15px;
-      width: 15px;
+      height: 17px;
+      width: 17px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -82,17 +99,23 @@
    color: var(--color-text-secondary);
 }
 
+.instagram__card--body {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+}
+
 .instagram__card-img {
-   display: none;
-   object-fit: cover;
-   aspect-ratio: 1;
+   margin-inline: auto;
+   img {
+      height: 350px;
+      max-width: 275px;
+   }
 }
 
 .instagram__card-icon {
-   position: absolute;
-   width: 85%;
-   bottom: 10px;
    margin-top: auto;
+   padding: 5px 30px 15px;
    display: flex;
    gap: 13px;
 }
