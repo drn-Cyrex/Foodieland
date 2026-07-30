@@ -1,7 +1,6 @@
 import './Banner.scss'
 import { Image } from 'minista'
 import Section from '@/layouts/Section/Section'
-import Button from '@/components/ui/Button/Button'
 
 const Banner = () => {
 

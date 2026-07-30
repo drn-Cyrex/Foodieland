@@ -1,10 +1,8 @@
 import "./InstagramView.scss"
 import Section from "@/layouts/Section/Section"
-import GridAuto from "@/components/GridAuto/GridAuto"
 import InstagramCard from "@/components/ui/InstagramCard/InstagramCard"
 import Button from "@/components/ui/Button/Button"
 import Icon from "@/components/ui/Icon/Icon"
-import { Image } from "minista"
 
 const InstagramView = () => {
 
@@ -25,18 +23,17 @@ const InstagramView = () => {
 
    return (
       <Section
-         className="instagram-view container"
+         className="instagram-view"
          title="Check out @foodieland on Instagram"
          titleId="instagram-view"
          description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim"
          isHeaderVertical
       >
-
-         <GridAuto>
+         <div className="instagram-view-container">
             {imageCard.map((image, index) => (
                <InstagramCard {...image} key={index} />
             ))}
-         </GridAuto>
+         </div>
 
          <Button href="/"
             className="instagram-view__button"

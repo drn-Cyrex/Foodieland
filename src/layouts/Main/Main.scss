@@ -1,0 +1,19 @@
+.main {
+   min-block-size: 100dvh;
+   display: flex;
+   flex-direction: column;
+   row-gap: fluid(160, 50, desktop, mobile);
+
+   // --gutter: 3rem
+   // display: grid;
+   // grid-template-columns:
+   //    minmax(var(--gutter), 1fr)
+   //    1fr
+   //    min(100% - (var(--gutter) * 2), 80ch)
+   //    1fr
+   //    minmax(var(--gutter), 1fr);
+
+   > section:last-of-type {
+      margin-bottom: fluid(160, 80, desktop, mobile);
+   }
+}

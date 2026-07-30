@@ -1,4 +1,4 @@
-import './Content.scss'
+import './Main.scss'
 
 const Content = (props) => {
    const { children } = props

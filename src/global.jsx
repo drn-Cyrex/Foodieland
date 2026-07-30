@@ -1,6 +1,6 @@
 import { Head } from "minista"
 import Header from "@/layouts/Header/Header"
-import Content from "@/layouts/Content/Content"
+import Main from "@/layouts/Main/Main"
 import Footer from "@/layouts/Footer/Footer"
 
 export default function Global(props) {
@@ -36,9 +36,9 @@ export default function Global(props) {
          </Head>
 
          <Header url={url} />
-         <Content>
+         <Main>
             {children}
-         </Content>
+         </Main>
          <Footer />
       </>
    )
