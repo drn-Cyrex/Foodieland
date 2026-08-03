@@ -29,18 +29,22 @@ const InstagramView = () => {
          description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim"
          isHeaderVertical
       >
-         <div className="instagram-view-container">
+         <div className="instagram-view__container-grid">
+
             {imageCard.map((image, index) => (
                <InstagramCard {...image} key={index} />
             ))}
          </div>
 
-         <Button href="/"
-            className="instagram-view__button"
-         >
-            <span>Visit Our Instagram</span>
-            <Icon name="instagram" />
-         </Button>
+         <div className="button-wrapper">
+            <Button href="/"
+               className="instagram-view__button"
+            >
+               <span>Visit Our Instagram</span>
+               <Icon name="instagram" hasFill />
+            </Button>
+         </div>
+
       </Section>
    )
 }

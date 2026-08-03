@@ -2,10 +2,10 @@
    display: grid;
    grid-template-columns: 55% 1fr;
 
-   @include tablet {
+   @include tablet-l {
       grid-template-columns: 75% 1fr;
    }
-   @include mobile {
+   @include tablet {
       grid-template-columns: 100% 1fr;
       border-radius: var(--radius);
    }
