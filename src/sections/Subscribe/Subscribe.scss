@@ -1,0 +1,51 @@
+.subscribe {
+   position: relative;
+   background: linear-gradient(var(--color-accent-border), transparent);
+   border-radius: var(--radius);
+
+   &::before,
+   &::after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      width: 200px;
+      height: 200px;
+      background: center/ cover no-repeat;
+      bottom: 0;
+   }
+
+   &::before {
+      background-image: url("/src/assets/images/subscribe-left.png");
+      left: 0;
+   }
+
+   &::after {
+      background-image: url("/src/assets/images/subscribe-right.png");
+      right: 0;
+   }
+}
+
+.subscribe .title-effect {
+   -webkit-text-fill-color: var(--color-title-hover);
+}
+
+.subscribe-input {
+   display: grid;
+   place-items: center;
+}
+
+.subscribe-input input {
+   border: none;
+   outline: none;
+   padding-left: 32px;
+   border-radius: 24px;
+   width: 480px;
+   height: 80px;
+
+   &::placeholder {
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: -0.02em;
+      color: rgba(0, 0, 0, 0.4);
+   }
+}

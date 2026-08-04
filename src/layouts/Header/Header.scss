@@ -62,14 +62,14 @@
 .header__list {
    display: flex;
    align-items: center;
-   column-gap: 10px;
+   // column-gap: 10px;
 }
 
 .header__link {
    display: inline-block;
    position: relative;
    z-index: 10;
-   padding: 5px 20px;
+   padding: 5px 25px;
    font-weight: 500;
    letter-spacing: -0.02em;
    transition: 0.75s ease;
