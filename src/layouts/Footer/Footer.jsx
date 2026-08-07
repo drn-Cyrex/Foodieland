@@ -38,7 +38,7 @@ const Footer = () => {
             <div className="footer-links">
                <ul className="footer-list">
                   {footerLinks.map(({ links, href }, index) => (
-                     <li><a href={href}>{links}</a></li>
+                     <li key={index}><a href={href}>{links}</a></li>
                   ))}
                </ul>
             </div>

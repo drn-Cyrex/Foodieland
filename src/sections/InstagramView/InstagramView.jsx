@@ -30,7 +30,6 @@ const InstagramView = () => {
          isHeaderVertical
       >
          <div className="instagram-view__container-grid">
-
             {imageCard.map((image, index) => (
                <InstagramCard {...image} key={index} />
             ))}
@@ -40,7 +39,7 @@ const InstagramView = () => {
             <Button href="/"
                className="instagram-view__button"
             >
-               <span>Visit Our Instagram</span>
+               Visit Our Instagram
                <Icon name="instagram" hasFill />
             </Button>
          </div>

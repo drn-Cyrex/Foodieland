@@ -4,8 +4,8 @@ import Recipes from "@/sections/Recipes/Recipes"
 import Banner from "@/sections/Banner/Banner"
 import InstagramView from "@/sections/InstagramView/InstagramView"
 import RecipesMore from "@/sections/RecipesMore/RecipesMore"
-import Test from "@/sections/Test/Test"
 import Subscribe from "@/sections/Subscribe/Subscribe"
+import Test from "@/sections/Test/Test"
 
 
 export const metadata = {
