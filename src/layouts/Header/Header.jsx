@@ -26,10 +26,6 @@ const Header = (props) => {
          label: "Contact",
          href: "/contact",
       },
-      {
-         label: "About us",
-         href: "/about-us",
-      },
    ]
 
 

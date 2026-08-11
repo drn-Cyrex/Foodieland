@@ -5,7 +5,7 @@ import Banner from "@/sections/Banner/Banner"
 import InstagramView from "@/sections/InstagramView/InstagramView"
 import RecipesMore from "@/sections/RecipesMore/RecipesMore"
 import Subscribe from "@/sections/Subscribe/Subscribe"
-import Test from "@/sections/Test/Test"
+
 
 
 export const metadata = {
@@ -22,7 +22,6 @@ export default function () {
          <InstagramView />
          <RecipesMore/>
          <Subscribe/>
-         {/* <Test/> */}
       </>
    )
 }

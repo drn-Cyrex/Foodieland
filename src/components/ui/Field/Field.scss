@@ -1,0 +1,85 @@
+
+.form-group {
+   position: relative;
+   max-width: 480px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-width: 1px;
+   border-style: solid;
+   border-block: none;
+   border-radius: var(--radius-s);
+   font-size: 16px;
+}
+
+.form-input {
+   position: relative;
+   padding: 20px;
+   color: var(--color-title-hover);
+   border: none;
+   border-radius: inherit;
+   background: inherit;
+   font-size: inherit;
+
+   &:focus {
+      outline: 1px solid transparent;
+      background-color: inherit;
+   }
+}
+
+.form-label {
+   position: absolute;
+   left: 35px;
+   transform: translateY(0);
+   color: var(--color-white);
+   opacity: 0.5;
+   transition: all 0.3s ease;
+   pointer-events: none;
+}
+
+.form-border-top,
+.form-border-bottom {
+   position: absolute;
+
+   height: 1px;
+   width: 90%;
+   background: linear-gradient(
+      to right,
+      transparent,
+      rgba(255, 255, 255, 0.5),
+      transparent
+   );
+   transition: 0.25s ease;
+}
+
+.form-border-top {
+   top: -1px;
+   right: 5%;
+}
+
+.form-border-bottom {
+   bottom: -1px;
+   left: 5%;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+   color: var(--color-accent);
+   transform: translateY(-33px) scale(1);
+   opacity: 1;
+}
+
+.form-input:focus ~ .form-border-top,
+.form-input:not(:placeholder-shown) ~ .form-border-top {
+   width: 40%;
+}
+.form-input:focus ~ .form-border-bottom,
+.form-input:not(:placeholder-shown) ~ .form-border-bottom {
+   width: 40%;
+}
+
+.form-group button {
+   margin-right: 10px;
+   color: var(--color-white);
+   border-radius: var(--radius-s);
+}
