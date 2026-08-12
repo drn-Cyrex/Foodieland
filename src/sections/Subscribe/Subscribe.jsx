@@ -1,7 +1,6 @@
 import "./Subscribe.scss"
 import Section from "@/layouts/Section/Section"
-import Field from "@/components/ui/Field/Field"
-
+import FormField from "@/components/ui/FormField/FormField"
 
 const Subscribe = () => {
    return (
@@ -12,7 +11,15 @@ const Subscribe = () => {
          description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
          isHeaderVertical
       >
-         <Field mail />
+         <FormField
+            className="subscribe__form"
+            type="email"
+            name="email"
+            id="email"
+            text="Your email address..."
+            button
+         />
+
       </Section>
    )
 }

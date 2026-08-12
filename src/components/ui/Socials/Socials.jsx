@@ -1,5 +1,5 @@
-import Icon from '../Icon/Icon'
 import './Socials.scss'
+import Icon from '../Icon/Icon'
 import clsx from 'clsx'
 
 

@@ -1,5 +1,6 @@
+import ContactHero from "@/sections/ContactHero/ContactHero"
+import RecipesMore from "@/sections/RecipesMore/RecipesMore"
 import Subscribe from "@/sections/Subscribe/Subscribe"
-import Support from "@/sections/Support/Support"
 
 export const metadata = {
    title: "contact",
@@ -8,7 +9,7 @@ export const metadata = {
 export default function () {
    return (
       <>
-         <Support />
+         <ContactHero />
          <Subscribe />
       </>
    )

@@ -1,4 +1,4 @@
-.banner {
+.chef-promo {
    position: relative;
    display: flex;
    align-items: center;
@@ -19,47 +19,47 @@
    }
 }
 
-.banner .section__link {
+.chef-promo .section__link {
    background-color: var(--color-black);
    margin-top: fluid(70, 0, desktop, tablet);
 }
 
-.banner__image-cook {
+.chef-promo__image-cook {
    anchor-name: --banner-cook;
    width: fluid(660, 360, desktop, mobile);
    height: fluid(600, 300, desktop, mobile);
 }
 
-.banner__image-meat,
-.banner__image-onion,
-.banner__image-vegan,
-.banner__image-tomato {
+.chef-promo__image-meat,
+.chef-promo__image-onion,
+.chef-promo__image-vegan,
+.chef-promo__image-tomato {
    position: absolute;
    position-anchor: --banner-cook;
    width: fluid(50, 20, desktop, mobile);
    height: fluid(50, 20, desktop, mobile);
 }
 
-.banner__image-meat {
+.chef-promo__image-meat {
    top: calc(anchor(top) + fluid(70, 50, desktop, mobile));
    left: calc(anchor(left) + fluid(100, 80, desktop, mobile));
    rotate: -20deg;
    animation: up-and-down 9s -5s linear infinite;
 }
 
-.banner__image-onion {
+.chef-promo__image-onion {
    top: calc(anchor(top) + fluid(100, 80, desktop, mobile));
    right: calc(anchor(right) + fluid(130, 110, desktop, mobile));
    animation: up-and-down 10s 0s linear infinite;
 }
 
-.banner__image-vegan {
+.chef-promo__image-vegan {
    top: calc(anchor(top) + fluid(170, 150, desktop, mobile));
    right: calc(anchor(right) + fluid(14, 10, desktop, mobile));
    animation: up-and-down 9s -3s linear infinite;
 }
 
-.banner__image-tomato {
+.chef-promo__image-tomato {
    left: calc(anchor(left) + fluid(25, 15, desktop, mobile));
    bottom: calc(anchor(bottom) + fluid(125, 105, desktop, mobile));
    animation: up-and-down 10s -1s linear infinite;

@@ -1,7 +1,7 @@
-
-.form-group {
+.field {
+   --filed-padding: 18px;
    position: relative;
-   max-width: 480px;
+   min-width: 400px;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -12,9 +12,8 @@
    font-size: 16px;
 }
 
-.form-input {
-   position: relative;
-   padding: 20px;
+.field__input {
+   padding: var(--filed-padding);
    color: var(--color-title-hover);
    border: none;
    border-radius: inherit;
@@ -27,9 +26,9 @@
    }
 }
 
-.form-label {
+.field__label {
    position: absolute;
-   left: 35px;
+   left: calc(var(--filed-padding) + 12px);
    transform: translateY(0);
    color: var(--color-white);
    opacity: 0.5;
@@ -37,12 +36,11 @@
    pointer-events: none;
 }
 
-.form-border-top,
-.form-border-bottom {
+.field-border-top,
+.field-border-bottom {
    position: absolute;
-
-   height: 1px;
-   width: 90%;
+   height: 2px;
+   width: 96%;
    background: linear-gradient(
       to right,
       transparent,
@@ -52,33 +50,40 @@
    transition: 0.25s ease;
 }
 
-.form-border-top {
+.field-border-top {
    top: -1px;
-   right: 5%;
+   right: 2%;
 }
 
-.form-border-bottom {
+.field-border-bottom {
    bottom: -1px;
-   left: 5%;
+   left: 2%;
 }
 
-.form-input:focus + .form-label,
-.form-input:not(:placeholder-shown) + .form-label {
+.field__input:focus + .field__label,
+.field__input:not(:placeholder-shown) + .field__label {
    color: var(--color-accent);
-   transform: translateY(-33px) scale(1);
+   transform: translateY(-31px) scale(0.9);
    opacity: 1;
 }
 
-.form-input:focus ~ .form-border-top,
-.form-input:not(:placeholder-shown) ~ .form-border-top {
-   width: 40%;
-}
-.form-input:focus ~ .form-border-bottom,
-.form-input:not(:placeholder-shown) ~ .form-border-bottom {
-   width: 40%;
+.field__input:focus ~ .field-border-top,
+.field__input:not(:placeholder-shown) ~ .field-border-top {
+   width: 50%;
 }
 
-.form-group button {
+.field__input:focus ~ .field-border-bottom,
+.field__input:not(:placeholder-shown) ~ .field-border-bottom {
+   width: 50%;
+   background: linear-gradient(
+      to right,
+      transparent,
+      rgba(255, 255, 255, 0.5),
+      transparent
+   );
+}
+
+.field button {
    margin-right: 10px;
    color: var(--color-white);
    border-radius: var(--radius-s);

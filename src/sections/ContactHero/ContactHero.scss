@@ -1,0 +1,10 @@
+.contact-hero__wrapper {
+   position: relative;
+
+   &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(transparent 80%, var(--color-bg) 95%);
+   }
+}

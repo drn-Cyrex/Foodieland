@@ -1,10 +1,11 @@
 import Hero from "@/sections/Hero/Hero"
 import Categories from "@/sections/Categories/Categories"
 import Recipes from "@/sections/Recipes/Recipes"
-import Banner from "@/sections/Banner/Banner"
-import InstagramView from "@/sections/InstagramView/InstagramView"
+import ChefPromo from "@/sections/ChefPromo/ChefPromo"
+import InstagramFeed from "@/sections/InstagramFeed/InstagramFeed"
 import RecipesMore from "@/sections/RecipesMore/RecipesMore"
 import Subscribe from "@/sections/Subscribe/Subscribe"
+
 
 
 
@@ -18,10 +19,10 @@ export default function () {
          <Hero />
          <Categories />
          <Recipes />
-         <Banner />
-         <InstagramView />
-         <RecipesMore/>
-         <Subscribe/>
+         <ChefPromo />
+         <InstagramFeed />
+         <RecipesMore />
+         <Subscribe />
       </>
    )
 }

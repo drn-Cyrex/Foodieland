@@ -1,4 +1,4 @@
-.instagram-view {
+.instagram-feed{
    background: linear-gradient(
       180deg,
       transparent,
@@ -7,7 +7,7 @@
    );
 }
 
-.instagram-view__container-grid {
+.instagram-feed__grid {
    container: instagram-section / inline-size;
    max-width: var(--container-width);
    margin-inline: auto;
@@ -20,7 +20,7 @@
    gap: 16px;
 }
 
-.instagram-view__button {
+.instagram-feed__button {
    margin-top: fluid(80, 40, desktop, mobile);
 }
 

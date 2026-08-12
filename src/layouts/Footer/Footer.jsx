@@ -1,7 +1,6 @@
-import Logo from "@/components/ui/Logo/Logo"
 import "./Footer.scss"
+import Logo from "@/components/ui/Logo/Logo"
 import Socials from "@/components/ui/Socials/Socials"
-//import Socials from "@/components/ui/Socials/Socials"
 
 const Footer = () => {
 
@@ -27,7 +26,7 @@ const Footer = () => {
    return (
       <footer className="footer">
 
-         <div className="footer-inner container">
+         <div className="footer-inner">
             <div className="footer-desc">
                <Logo />
                <p>
@@ -38,7 +37,9 @@ const Footer = () => {
             <div className="footer-links">
                <ul className="footer-list">
                   {footerLinks.map(({ links, href }, index) => (
-                     <li key={index}><a href={href}>{links}</a></li>
+                     <li key={index}>
+                        <a href={href}>{links}</a>
+                     </li>
                   ))}
                </ul>
             </div>
@@ -47,7 +48,7 @@ const Footer = () => {
          <div className="footer-extra container">
             <p className="footer-copyright">© 2020 Flowbase. Powered by <span>Webflow</span>
             </p>
-            <Socials/>
+            <Socials />
          </div>
       </footer>
    )

@@ -1,10 +1,10 @@
-import "./InstagramView.scss"
+import "./InstagramFeed.scss"
 import Section from "@/layouts/Section/Section"
 import InstagramCard from "@/components/ui/InstagramCard/InstagramCard"
 import Button from "@/components/ui/Button/Button"
 import Icon from "@/components/ui/Icon/Icon"
 
-const InstagramView = () => {
+const InstagramFeed = () => {
 
    const imageCard = [
       {
@@ -23,13 +23,13 @@ const InstagramView = () => {
 
    return (
       <Section
-         className="instagram-view"
+         className="instagram-feed"
          title="Check out @foodieland on Instagram"
          titleId="instagram-view"
          description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim"
          isHeaderVertical
       >
-         <div className="instagram-view__container-grid">
+         <div className="instagram-feed__grid">
             {imageCard.map((image, index) => (
                <InstagramCard {...image} key={index} />
             ))}
@@ -37,7 +37,7 @@ const InstagramView = () => {
 
          <div className="button-wrapper">
             <Button href="/"
-               className="instagram-view__button"
+               className="instagram-feed__button"
             >
                Visit Our Instagram
                <Icon name="instagram" hasFill />
@@ -48,4 +48,4 @@ const InstagramView = () => {
    )
 }
 
-export default InstagramView
+export default InstagramFeed
