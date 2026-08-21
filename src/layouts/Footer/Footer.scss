@@ -19,7 +19,9 @@
 
 .footer-list {
    display: flex;
-   column-gap: fluid(60, 15, desktop, mobile);
+   align-items: center;
+   flex-wrap: wrap;
+   gap: fluid(60, 15, desktop, mobile);
 
    li {
       padding: 10px;

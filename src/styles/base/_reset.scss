@@ -26,10 +26,15 @@ li {
       animation-iteration-count: 1 !important;
       transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
-   }
+   }     
 }
 
 ::selection {
    color: var(--color-bg);
    background-color: var(--color-accent-hover);
+}
+
+:focus {
+   outline: 2px dashed var(--color-accent);
+   outline-offset: 5px;
 }

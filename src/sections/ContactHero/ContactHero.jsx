@@ -13,8 +13,10 @@ const ContactHero = () => {
          isHeaderVertical
       >
          <div className="contact-hero__wrapper">
-            <Image src="/src/assets/images/q-contact.png" />
-            <ContactForm/>
+            <Image
+               className="contact-hero__image"
+               src="/src/assets/images/q-contact.png" />
+            <ContactForm />
          </div>
       </Section>
    )

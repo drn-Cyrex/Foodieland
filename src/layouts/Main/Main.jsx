@@ -1,6 +1,6 @@
 import './Main.scss'
 
-const Content = (props) => {
+const Main = (props) => {
    const { children } = props
 
 
@@ -10,4 +10,4 @@ const Content = (props) => {
       </main>
    )
 }
-export default Content
+export default Main

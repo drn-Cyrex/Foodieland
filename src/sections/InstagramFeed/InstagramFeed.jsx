@@ -25,7 +25,7 @@ const InstagramFeed = () => {
       <Section
          className="instagram-feed"
          title="Check out @foodieland on Instagram"
-         titleId="instagram-view"
+         titleId="instagram-feed"
          description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim"
          isHeaderVertical
       >

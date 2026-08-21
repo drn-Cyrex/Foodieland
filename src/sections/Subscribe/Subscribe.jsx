@@ -11,14 +11,16 @@ const Subscribe = () => {
          description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
          isHeaderVertical
       >
-         <FormField
-            className="subscribe__form"
-            type="email"
-            name="email"
-            id="email"
-            text="Your email address..."
-            button
-         />
+         <form action="">
+            <FormField
+               className="subscribe__form"
+               type="email"
+               autoComplete="off"
+               text="Your email address..."
+               button
+            />
+         </form>
+
 
       </Section>
    )

@@ -13,10 +13,6 @@
       animation-timeline: view(block);
       animation-range: cover 0% cover 20%;
 
-      @include tablet {
-         transform: translateY(0);
-      }
-
       .rcp-card__link {
          align-items: end;
          background-position-x: left;
@@ -79,6 +75,8 @@
    border-radius: inherit;
    overflow: clip;
 
+   transition: 0.75s ease-out;
+
    &::before {
       content: "";
       position: absolute;
@@ -87,6 +85,8 @@
    }
 
    @include hover {
+      background-color: var(--color-black);
+
       h3 {
          color: var(--color-title-hover);
       }

@@ -2,15 +2,11 @@
    position: relative;
    display: grid;
    place-items: center;
-   background: linear-gradient(var(--color-accent-border), transparent);
+   background: linear-gradient(var(--color-accent-bg), transparent);
    border-radius: var(--radius);
 }
 
 .subscribe .title-effect {
    padding-top: fluid(50, 25, desktop, mobile);
    -webkit-text-fill-color: var(--color-title-hover);
-}
-
-.subscribe__form .field__input{
-   max-width: 420px;
 }

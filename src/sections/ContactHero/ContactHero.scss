@@ -8,3 +8,8 @@
       background: linear-gradient(transparent 80%, var(--color-bg) 95%);
    }
 }
+
+.contact-hero__image {
+   height: fluid(470, 370, desktop, mobile);
+   width: fluid(350, 250, desktop, mobile);
+}
