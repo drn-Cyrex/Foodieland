@@ -21,7 +21,6 @@ const Subscribe = () => {
             />
          </form>
 
-
       </Section>
    )
 }

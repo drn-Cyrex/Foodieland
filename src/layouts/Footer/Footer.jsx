@@ -47,7 +47,7 @@ const Footer = () => {
 
          <div className="footer-extra container">
             <p className="footer-copyright">
-               © <time dataTime={2020}>2020</time> Flowbase. Powered by <span>Webflow</span>
+               © 2020 Flowbase. Powered by <span>Webflow</span>
             </p>
             <Socials />
          </div>

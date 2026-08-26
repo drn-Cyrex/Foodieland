@@ -6,9 +6,10 @@ const FormField = (props) => {
    const {
       className,
       type,
-      text,
-      button,
+      label,
       autoComplete,
+      button,
+      children,
    } = props
 
    return (
@@ -23,11 +24,13 @@ const FormField = (props) => {
             autoComplete={autoComplete}
          />
          <label className="field__label" htmlFor={type}>
-            {text}
+            {label}
          </label>
 
          <span className="field-border-top"></span>
          <span className="field-border-bottom"></span>
+
+         {children}
 
          {button && (
             <Button type="submit">Subscribe</Button>

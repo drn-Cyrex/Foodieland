@@ -1,5 +1,6 @@
 .contact-hero__wrapper {
    position: relative;
+   display: flex;
 
    &::before {
       content: "";

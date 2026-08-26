@@ -1,6 +1,7 @@
 .field {
    position: relative;
    width: 100%;
+   margin: 30px 5px;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -14,6 +15,7 @@
    width: 100%;
    min-inline-size: 150px;
    padding-left: fluid(25, 15, desktop, mobile);
+   padding-block: 18px;
    border: none;
    outline: none;
    border-top-left-radius: inherit;
