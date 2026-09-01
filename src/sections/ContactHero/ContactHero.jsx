@@ -8,7 +8,7 @@ import Button from "@/components/ui/Button/Button"
 const ContactHero = () => {
 
    const items = [
-      "text", "text", "text", "text", "text",
+      "text 1", "text 2", "text 3", "text 4", "text 5",
    ]
 
    return (
@@ -19,37 +19,51 @@ const ContactHero = () => {
          isHeaderVertical
       >
          <div className="contact-hero__wrapper">
-            <Image
-               className="contact-hero__image"
-               src="/src/assets/images/q-contact.png"
-            />
+            <div className="contact-hero__image">
+               <Image src="/src/assets/images/contact-c2.png" />
+            </div>
 
-            <form action="">
-               <FormField
-                  type="name"
-                  label="Enter your name..."
-               />
+            <form className="contact-form" action="">
                <FormField
                   type="text"
-                  label="Enter subject..."
+                  text="Enter your name..."
+                  isFor="user-name"
                />
                <FormField
                   type="email"
-                  label="Your email address..."
+                  text="Your email address..."
+                  isFor="user-mail"
+               />
+               <FormField
+                  type="text"
+                  text="Enter subject..."
+                  isFor="subject"
                />
 
                <FormField
-                  type="type"
-                  label="Advertising"
+                  type="text"
+                  text="Advertising"
+                  isFor="advertising"
                >
-                  <Select>
-                     {items.map((item, index) => (
-                        <option value={item} key={index}>
-                           {item}
-                        </option>
-                     ))}
-                  </Select>
+                  <Select
+                     isFor="select-advertising"
+                     options={[
+                        { value: "Advertising--1" },
+                        { value: "Advertising--2" },
+                        { value: "Advertising--3" },
+                        { value: "Advertising--4" },
+                        { value: "Advertising--5" },
+                        { value: "Advertising--6" },
+                     ]}
+                  />
                </FormField>
+
+               <FormField
+                  className="textarea"
+                  type="textarea"
+                  text="Enter your messages..."
+                  isFor="message"
+               />
 
                <Button
                   className="form-button" type="button">

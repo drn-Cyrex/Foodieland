@@ -1,0 +1,10 @@
+.select {
+   margin: 10px;
+   background-color: transparent;
+   color: var(--color-accent);
+   border: none;
+}
+
+.select__option {
+   background-color: var(--color-bg);
+}

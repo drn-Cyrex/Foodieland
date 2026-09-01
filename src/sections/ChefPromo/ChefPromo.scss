@@ -5,12 +5,12 @@
    text-wrap: balance;
    overflow: clip;
 
-   &::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(transparent 80%, var(--color-bg) 95%);
-   }
+   // &::before {
+   //    content: "";
+   //    position: absolute;
+   //    inset: 0;
+   //    background: linear-gradient(transparent 80%, var(--color-bg) 95%);
+   // }
 
    @include tablet {
       flex-wrap: wrap;
@@ -26,8 +26,9 @@
 
 .chef-promo__image-cook {
    anchor-name: --banner-cook;
-   width: fluid(660, 360, desktop, mobile);
+   width: fluid(460, 260, desktop, mobile);
    height: fluid(600, 300, desktop, mobile);
+   filter: brightness(0);
 }
 
 .chef-promo__image-meat,
@@ -42,26 +43,26 @@
 
 .chef-promo__image-meat {
    top: calc(anchor(top) + fluid(70, 50, desktop, mobile));
-   left: calc(anchor(left) + fluid(100, 80, desktop, mobile));
+   left: calc(anchor(left) + fluid(50, 30, desktop, mobile));
    rotate: -20deg;
-   animation: up-and-down 9s -5s linear infinite;
+   animation: up-and-down 7s -5s linear infinite;
 }
 
 .chef-promo__image-onion {
-   top: calc(anchor(top) + fluid(100, 80, desktop, mobile));
-   right: calc(anchor(right) + fluid(130, 110, desktop, mobile));
-   animation: up-and-down 10s 0s linear infinite;
+   top: calc(anchor(top) + fluid(150, 80, desktop, mobile));
+   right: calc(anchor(right) + fluid(60, 40, desktop, mobile));
+   animation: up-and-down 8s 0s linear infinite;
 }
 
 .chef-promo__image-vegan {
-   top: calc(anchor(top) + fluid(170, 150, desktop, mobile));
-   right: calc(anchor(right) + fluid(14, 10, desktop, mobile));
-   animation: up-and-down 9s -3s linear infinite;
+   top: calc(anchor(top) + fluid(500, 200, desktop, mobile));
+   right: calc(anchor(right) + fluid(5, 0, desktop, mobile));
+   animation: up-and-down 15s -3s linear infinite;
 }
 
 .chef-promo__image-tomato {
-   left: calc(anchor(left) + fluid(25, 15, desktop, mobile));
-   bottom: calc(anchor(bottom) + fluid(125, 105, desktop, mobile));
+   left: calc(anchor(left) + fluid(5, 0, desktop, mobile));
+   bottom: calc(anchor(bottom) + fluid(300, 150, desktop, mobile));
    animation: up-and-down 10s -1s linear infinite;
 }
 

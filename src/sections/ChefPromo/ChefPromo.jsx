@@ -14,7 +14,7 @@ const ChefPromo = () => {
          linkLabel='Learn More'
       >
          <div className='chef-wrapper'>
-            <Image className='chef-promo__image-cook' src='/src/assets/images/q1.png' />
+            <Image className='chef-promo__image-cook' src='/src/assets/images/q2.png' />
 
             <Image className='chef-promo__image-meat' src='/src/assets/images/categories/meat.png' />
             <Image className='chef-promo__image-onion' src='/src/assets/images/categories/onion.png' />

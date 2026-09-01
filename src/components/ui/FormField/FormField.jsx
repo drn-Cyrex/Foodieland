@@ -1,30 +1,36 @@
 import "./FormField.scss"
 import clsx from "clsx"
 import Button from "@/components/ui/Button/Button"
+import getIdFromTitle from "@/utils/getIdFromTitle"
 
 const FormField = (props) => {
    const {
       className,
+      text,
+      isFor,
       type,
-      label,
       autoComplete,
       button,
       children,
    } = props
 
+   const Component = type === "textarea" ? "textarea" : "input"
+
    return (
       <div className={clsx("field", className)}>
 
-         <input className="field__input"
+         <Component
+            className="field__control"
+            name={isFor}
+            id={isFor}
             type={type}
-            name={type}
-            id={type}
             placeholder=""
             required
             autoComplete={autoComplete}
          />
-         <label className="field__label" htmlFor={type}>
-            {label}
+
+         <label className="field__label" htmlFor={isFor}>
+            {text}
          </label>
 
          <span className="field-border-top"></span>
