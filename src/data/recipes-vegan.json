@@ -1,0 +1,92 @@
+[
+   {
+      "id": "cauliflower-walnut-taco-meat",
+      "title": "Cauliflower Walnut Vegetarian Taco Meat",
+      "description": "A hearty plant‑based taco filling made from roasted cauliflower and walnuts.",
+      "category": "vegan",
+      "time": 20,
+      "tags": ["taco", "vegan", "plant-based"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   },
+   {
+      "id": "firecracker-vegan-lettuce-wraps",
+      "title": "Firecracker Vegan Lettuce Wraps - Spicy!",
+      "description": "Fiery vegan lettuce wraps packed with bold, spicy flavor.",
+      "category": "vegan",
+      "time": 15,
+      "tags": ["wraps", "spicy", "vegan"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   },
+   {
+      "id": "vegan-buddha-bowl",
+      "title": "Vegan Buddha Bowl",
+      "description": "A nourishing bowl filled with quinoa, roasted veggies, and creamy tahini sauce.",
+      "category": "vegan",
+      "time": 25,
+      "tags": ["bowl", "healthy", "vegan"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   },
+   {
+      "id": "vegan-chickpea-curry",
+      "title": "Creamy Vegan Chickpea Curry",
+      "description": "A rich coconut curry with chickpeas, tomatoes, and warming spices.",
+      "category": "vegan",
+      "time": 30,
+      "tags": ["curry", "chickpea", "vegan"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   },
+   {
+      "id": "vegan-avocado-pasta",
+      "title": "Green Vegan Avocado Pasta",
+      "description": "Creamy avocado pasta with basil, garlic, and lemon.",
+      "category": "vegan",
+      "time": 15,
+      "tags": ["pasta", "avocado", "quick"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   },
+   {
+      "id": "vegan-lentil-soup",
+      "title": "Warm Vegan Lentil Soup",
+      "description": "Comforting lentil soup with vegetables and herbs.",
+      "category": "vegan",
+      "time": 35,
+      "tags": ["soup", "lentils", "warm"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   },
+   {
+      "id": "vegan-tofu-stir-fry",
+      "title": "Crispy Tofu Veggie Stir Fry",
+      "description": "Crispy tofu tossed with colorful vegetables in a savory sauce.",
+      "category": "vegan",
+      "time": 20,
+      "tags": ["tofu", "stir-fry", "asian"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   },
+   {
+      "id": "vegan-quinoa-bowl",
+      "title": "High-Protein Vegan Quinoa Bowl",
+      "description": "A protein-rich quinoa bowl with beans, corn, and fresh greens.",
+      "category": "vegan",
+      "time": 18,
+      "tags": ["quinoa", "healthy", "vegan"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   },
+   {
+      "id": "vegan-mushroom-risotto",
+      "title": "Creamy Vegan Mushroom Risotto",
+      "description": "A silky risotto made with mushrooms, garlic, and vegetable broth.",
+      "category": "vegan",
+      "time": 30,
+      "tags": ["risotto", "mushroom", "creamy"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   },
+   {
+      "id": "vegan-sweet-potato-chili",
+      "title": "Vegan Sweet Potato Chili",
+      "description": "A hearty chili with sweet potatoes, beans, and smoky spices.",
+      "category": "vegan",
+      "time": 35,
+      "tags": ["chili", "sweet-potato", "vegan"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
+   }
+]

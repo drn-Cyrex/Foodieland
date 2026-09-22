@@ -1,9 +1,14 @@
+import RecipeBanner from "@/components/ui/RecipeBanner/RecipeBanner"
+
 export const metadata = {
    title: "blog",
 }
 
 export default function () {
    return (
-      <h2>блок</h2>
+      <div>
+         <h2>блок</h2>
+         <RecipeBanner />
+      </div>
    )
 }

@@ -1,10 +1,11 @@
 import Hero from "@/sections/Hero/Hero"
 import Categories from "@/sections/Categories/Categories"
-import Recipes from "@/sections/Recipes/Recipes"
 import ChefPromo from "@/sections/ChefPromo/ChefPromo"
 import InstagramFeed from "@/sections/InstagramFeed/InstagramFeed"
-import RecipesMore from "@/sections/RecipesMore/RecipesMore"
+import RecipesQuick from "@/sections/RecipesQuick/RecipesQuick"
 import Subscribe from "@/sections/Subscribe/Subscribe"
+import RecipesPopular from "@/sections/RecipesPopular/RecipesPopular"
+
 
 
 export const metadata = {
@@ -16,10 +17,10 @@ export default function () {
       <>
          <Hero />
          <Categories />
-         <Recipes />
+         <RecipesPopular />
          <ChefPromo />
          <InstagramFeed />
-         <RecipesMore />
+         <RecipesQuick />
          <Subscribe />
       </>
    )

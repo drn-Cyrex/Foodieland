@@ -14,9 +14,9 @@ const Hero = () => {
                         imgSrc: '/src/assets/images/scroll.png',
                         label: 'Hot Recipes'
                      }}
-                     title='Spicy delicious chicken wings'
+                     title='Fragrant chicken grill with haze'
                      TitleTag='h2'
-                     description='Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim '
+                     description='Juicy chicken legs with a golden brown crust, baked to perfection. Served with lemon, fresh herbs and baked garlic on a stylish dark plate.'
                      tags={[
                         {
                            iconName: 'timer',
@@ -24,7 +24,7 @@ const Hero = () => {
                         },
                         {
                            iconName: 'fork-knife',
-                           label: 'Chicken'
+                           label: 'Meat'
                         }
                      ]}
                      author={{
@@ -44,9 +44,9 @@ const Hero = () => {
                         imgSrc: '/src/assets/images/scroll.png',
                         label: 'Hot Recipes'
                      }}
-                     title='Spicy delicious chicken wings'
+                     title='The magic of Asian sauce'
                      TitleTag='h1'
-                     description='Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim '
+                     description='Appetizing chicken pieces topped with a sticky, caramelized sesame sauce. The perfect snack or base for dinner.'
                      tags={[
                         {
                            iconName: 'timer',
@@ -54,7 +54,7 @@ const Hero = () => {
                         },
                         {
                            iconName: 'fork-knife',
-                           label: 'Chicken'
+                           label: 'Meat'
                         }
                      ]}
                      author={{
@@ -74,9 +74,9 @@ const Hero = () => {
                         imgSrc: '/src/assets/images/scroll.png',
                         label: 'Hot Recipes'
                      }}
-                     title='Spicy delicious chicken wings'
+                     title=' Fundamentals of Taste'
                      TitleTag='h2'
-                     description='Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim '
+                     description='Garlic, lime, chili and coriander — a classic combination for preparing Asian or Mexican dishes.'
                      tags={[
                         {
                            iconName: 'timer',
@@ -84,7 +84,7 @@ const Hero = () => {
                         },
                         {
                            iconName: 'fork-knife',
-                           label: 'Chicken'
+                           label: 'Vegan'
                         }
                      ]}
                      author={{

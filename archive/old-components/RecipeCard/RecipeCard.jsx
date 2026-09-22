@@ -1,53 +1,46 @@
-import './RecipeCard.scss'
-import { Image } from 'minista'
+import "./RecipeCard.scss"
 import clsx from 'clsx'
 import Tags from '../Tags/Tags'
-import Icon from '../Icon/Icon'
+import Icon from '../../../src/components/ui/Icon/Icon'
 
 const RecipeCard = (props) => {
 
    const {
       title,
-      titleExtraClassName = 'h4',
       /**
-       * '' (default), 'transparent',
+       * '' (default), '',
        */
       mode = '',
       tags = [],
       isLiked,
-      backgroundImgSrc,
+      backgroundImgSrc
    } = props
+
+   const likeButtonTitle = isLiked ? 'Dislike' : 'Like'
 
    const style = {
       backgroundImage: backgroundImgSrc,
    }
 
-   const likeButtonTitle = isLiked ? 'Dislike' : 'Like'
-
    return (
       <article
          className={clsx(
-            'recipe-card',
+            'rcp-card',
             mode && `recipe-card--${mode}`
          )}
       >
-         <a
-            className="recipe-card__link"
-            href="/"
+         <a className="rcp-card__link"
             style={style}
+            href={`/recipes/${title.toLowerCase().replaceAll(' ', '-')}`}
          >
-
-            <h3 className={clsx('recipe-card__title', titleExtraClassName)}>
-               {title}
-            </h3>
+            <h3>{title}</h3>
             <Tags
-               className="recipe-card__tags"
-               items={tags}
+               className='rcp-card__tags' type="rounded" items={tags}
             />
          </a>
          <button
             className={clsx(
-               'recipe-card__like-button',
+               'rcp-card__like-button',
                isLiked && 'is-liked',
                isLiked && 'disable-hover'
             )}

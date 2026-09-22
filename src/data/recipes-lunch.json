@@ -1,0 +1,102 @@
+[
+   {
+      "id": "mixed-mayo-salad",
+      "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+      "description": "A crisp veggie mix coated in a light, creamy mayo dressing.",
+      "category": "lunch",
+      "time": 10,
+      "tags": ["salad", "fresh", "quick"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": true
+   },
+   {
+      "id": "tropical-fruit-salad",
+      "title": "Mixed Tropical Fruit Salad with Superfood Boosts",
+      "description": "A vibrant tropical fruit mix enhanced with nutrient‑packed superfoods.",
+      "category": "lunch",
+      "time": 10,
+      "tags": ["salad", "fruit", "healthy"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": false
+   },
+   {
+      "id": "rainbow-chicken-salad",
+      "title": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+      "description": "A colorful chicken salad drizzled with sweet almond honey‑mustard dressing.",
+      "category": "lunch",
+      "time": 15,
+      "tags": ["salad", "chicken", "healthy"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": true
+   },
+   {
+      "id": "japanese-fried-rice-asparagus",
+      "title": "Healthy Japanese Fried Rice with Asparagus",
+      "description": "Light Japanese‑style fried rice featuring crisp asparagus and savory seasoning.",
+      "category": "lunch",
+      "time": 20,
+      "tags": ["rice", "asian", "healthy"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": false
+   },
+   {
+      "id": "classic-caesar-salad",
+      "title": "Classic Caesar Salad",
+      "description": "Crisp romaine lettuce with creamy Caesar dressing and crunchy croutons.",
+      "category": "lunch",
+      "time": 10,
+      "tags": ["salad", "classic", "quick"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": true
+   },
+   {
+      "id": "tomato-basil-soup",
+      "title": "Tomato Basil Soup",
+      "description": "Warm tomato soup with fresh basil and a smooth texture.",
+      "category": "lunch",
+      "time": 25,
+      "tags": ["soup", "warm", "vegetarian"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": false
+   },
+   {
+      "id": "grilled-veggie-wrap",
+      "title": "Grilled Veggie Wrap",
+      "description": "A soft tortilla filled with grilled vegetables and light dressing.",
+      "category": "lunch",
+      "time": 15,
+      "tags": ["wrap", "vegetarian", "quick"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": true
+   },
+   {
+      "id": "pesto-pasta-bowl",
+      "title": "Pesto Pasta Bowl",
+      "description": "Fresh pasta tossed in aromatic basil pesto.",
+      "category": "lunch",
+      "time": 20,
+      "tags": ["pasta", "italian", "quick"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": false
+   },
+   {
+      "id": "mediterranean-quinoa-salad",
+      "title": "Mediterranean Quinoa Salad",
+      "description": "A protein-rich quinoa salad with olives, tomatoes, and herbs.",
+      "category": "lunch",
+      "time": 15,
+      "tags": ["salad", "quinoa", "healthy"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": true
+   },
+   {
+      "id": "creamy-potato-soup",
+      "title": "Creamy Potato Soup",
+      "description": "A comforting potato soup with a smooth creamy base.",
+      "category": "lunch",
+      "time": 30,
+      "tags": ["soup", "warm", "comfort"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/lunch/8.png')",
+      "isLiked": false
+   }
+]

@@ -10,6 +10,7 @@ const Tags = (props) => {
        * '' (default) | 'rounded'
        */
       type = '',
+
    } = props
 
    if (items.length === 0) {

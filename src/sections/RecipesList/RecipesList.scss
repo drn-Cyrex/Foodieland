@@ -1,0 +1,23 @@
+.rcp-list {
+   margin-block: fluid(50, 20, desktop, mobile);
+}
+
+.rcp-list__title {
+   width: fit-content;
+   margin-bottom: fluid(20, 10, desktop, mobile);
+}
+
+.rcp-list__wrapper {
+   display: flex;
+   justify-content: center;
+   gap: fluid(50, 10, desktop, tablet);
+}
+
+.rcp-list-grid {
+   display: grid;
+   gap: fluid(35, 30, desktop, mobile);
+
+   @include tablet-l {
+      padding-right: 20px;
+   }
+}

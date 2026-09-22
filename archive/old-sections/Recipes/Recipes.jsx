@@ -1,8 +1,8 @@
 import Section from "@/layouts/Section/Section"
 import GridAuto from "@/components/GridAuto/GridAuto"
-import RecipeCardV2 from "@/components/ui/RecipeCardV2/RecipeCardV2"
+import RecipeCard from "../../old-components/RecipeCard/RecipeCard"
 import RecipeBanner from "@/components/ui/RecipeBanner/RecipeBanner"
-import items from './data-v2.json'
+import items from './data.json'
 
 const Recipes = () => {
 
@@ -25,7 +25,7 @@ const Recipes = () => {
                }
 
                return (
-                  <RecipeCardV2 {...rest} key={item.title} />
+                  <RecipeCard {...rest} key={item.title} />
                )
             })}
          </GridAuto>

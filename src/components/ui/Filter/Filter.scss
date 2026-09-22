@@ -1,0 +1,156 @@
+.overlay-filter {
+   position: sticky;
+   top: 130px;
+   padding: fluid(25, 20, desktop, mobile);
+   width: fit-content;
+   display: grid;
+   gap: 20px;
+   place-items: center;
+   border-right: 1px solid var(--color-gray);
+   border-radius: var(--radius);
+   box-shadow: 5px 3px 7px 0 var(--color-black);
+}
+
+.filter-title {
+   text-align: center;
+   /* Определение градиента */
+   background-image: linear-gradient(gray, transparent);
+   /* Обрезка фона по тексту */
+   -webkit-background-clip: text;
+   background-clip: text;
+   /* Прозрачный цвет текста, чтобы видеть фон */
+   color: transparent;
+}
+
+.filter-button.filter-active {
+   pointer-events: none;
+   color: var(--color-accent);
+
+   span {
+      border-color: var(--color-accent);
+
+      &::before {
+         content: "";
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         translate: -50% -50%;
+         width: 10px;
+         height: 10px;
+         border-radius: 50%;
+         background-color: var(--color-accent-hover);
+      }
+   }
+}
+
+.filter-button {
+   width: 150px;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+   border: none;
+   border-radius: var(--radius);
+   border-width: 1px;
+   border-color: transparent;
+   border-bottom-style: solid;
+   background-color: transparent;
+   text-transform: uppercase;
+   color: var(--color-white);
+   cursor: pointer;
+   transition: 0.25s ease-out;
+
+   span {
+      position: relative;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border-width: 1px;
+      border-style: solid;
+      border-color: var(--color-gray);
+   }
+
+   @include hover {
+      border-color: var(--color-accent);
+   }
+}
+
+.overlay-filter img {
+   height: 400px;
+}
+
+.overlay-filter__btn {
+   display: none;
+}
+// overlay mobile filter
+@media (width < 768px) {
+   .overlay-filter {
+      position: fixed;
+      top: 50%;
+      left: -75%;
+      transform: translateY(-50%);
+      scale: 0.5;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      background-color: var(--color-black);
+      transition: 0.5s ease-out;
+   }
+
+   // overlayFilterBtn
+   .overlay-filter__btn {
+      display: block;
+      position: fixed;
+      top: 50%;
+      right: -2px;
+      transform: translateY(-50%);
+      padding: 40px 15px;
+      background-color: var(--color-black);
+      border: none;
+      border-left: 1px solid var(--color-gray);
+      border-top-left-radius: var(--radius);
+      border-bottom-left-radius: var(--radius);
+      color: var(--color-title-hover);
+      writing-mode: vertical-rl;
+      text-transform: uppercase;
+      -webkit-text-orientation: upright;
+      text-orientation: upright;
+      letter-spacing: 7px;
+      transition: 0.1s ease-in;
+
+      cursor: pointer;
+
+      &::before,
+      &::after {
+         content: "";
+         position: absolute;
+         right: -3px;
+         height: 20px;
+         width: 20px;
+
+         background-color: transparent;
+         border-radius: 50%;
+      }
+
+      &::before {
+         top: -15px;
+         box-shadow: -10px -10px 0px -5px var(--color-black) inset;
+      }
+
+      &::after {
+         bottom: -15px;
+         box-shadow: -10px 10px 0px -5px var(--color-black) inset;
+      }
+
+      &:active {
+         scale: 0.95;
+      }
+   }
+
+   .overlay-filter img {
+      display: none;
+   }
+}
+
+.is-active-filter {
+   left: 0;
+   scale: 1;
+}

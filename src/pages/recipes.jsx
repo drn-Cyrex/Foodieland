@@ -1,7 +1,13 @@
+import RecipesList from "@/sections/RecipesList/RecipesList"
+
 export const metadata = {
    title: "recipes",
 }
 
 export default function () {
-   return <h1>рецепты</h1>
+   return (
+      <>
+         <RecipesList />
+      </>
+   )
 }

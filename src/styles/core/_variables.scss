@@ -1,5 +1,5 @@
 /* ------------------------------
-   1. Цве--color-accentтовая система (Light)
+   1. Цве--color-accent система (Light)
 ------------------------------ */
 :root {
    /* Основные цвета */
@@ -33,7 +33,7 @@
    --color-title-hover: oklch(0.8988 0.0723 66.69);
 
    /* Успех / Ошибка / Предупреждение */
-   --color-success: #22c55e;
+   --color-success: lime;
    --color-warning: #f59e0b;
    --color-danger: #ef4444;
 

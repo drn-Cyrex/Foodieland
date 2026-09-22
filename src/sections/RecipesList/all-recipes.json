@@ -1,0 +1,281 @@
+[
+   {
+      "type": "recipe",
+      "title": "Big and Juicy Wagyu Beef Cheeseburger",
+      "description": "A rich, tender Wagyu burger stacked with melted cheese and fresh toppings.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "popular" }, { "label": "quick-recipes" }],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/1.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+      "description": "Zesty lime‑infused salmon roasted to perfection with a warm ginger glaze.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "popular" }],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/2.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+      "description": "A fluffy oat‑based pancake topped with fresh strawberries and sweet honey.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "quick-recipes" }],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/3.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+      "description": "A crisp veggie mix coated in a light, creamy mayo dressing.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "quick-recipes" }, { "label": "vegan" }],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/4.png')",
+      "isLiked": true
+   },
+   {
+      "type": "recipe",
+      "title": "Chicken Meatballs with Cream Cheese",
+      "description": "Tender chicken meatballs filled with smooth, savory cream cheese.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "popular" }],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/5.png')",
+      "isLiked": true
+   },
+   {
+      "type": "recipe",
+      "title": "Fruity Pancake with Orange & Blueberry",
+      "description": "A bright, citrusy pancake bursting with orange zest and juicy blueberries.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "quick-recipes" }],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/7.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+      "description": "Ultra‑creamy pasta loaded with chicken, smoky bacon, and rich sauce.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/9.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "The Best Easy One Pot Chicken and Rice",
+      "description": "A simple, comforting chicken‑and‑rice dish cooked together in one pot.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "popular" }],
+
+      "backgroundImgSrc": "url('/src/assets/images/recipes/8.png')",
+      "isLiked": true
+   },
+   {
+      "type": "recipe",
+      "title": "Mixed Tropical Fruit Salad with Superfood Boosts ",
+      "description": "A vibrant tropical fruit mix enhanced with nutrient‑packed superfoods.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "quick-recipes" }, { "label": "vegan" }],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/1.png')",
+      "isLiked": true
+   },
+   {
+      "type": "recipe",
+      "title": "Healthy Japanese Fried Rice with Asparagus",
+      "description": "Light Japanese‑style fried rice featuring crisp asparagus and savory seasoning.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/3.png')",
+      "isLiked": true
+   },
+   {
+      "type": "recipe",
+      "title": "Big and Juicy Wagyu Beef CheeseburgerBoosts ",
+      "description": "A deluxe Wagyu cheeseburger with extra flavor and upgraded toppings.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "popular" }, { "label": "quick-recipes" }],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/2.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Cauliflower Walnut Vegetarian Taco Meat",
+      "description": "A hearty plant‑based taco filling made from roasted cauliflower and walnuts.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [{ "label": "quick-recipes" }],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/4.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+      "description": "A colorful chicken salad drizzled with sweet almond honey‑mustard dressing.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/5.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Firecracker Vegan Lettuce Wraps - Spicy!",
+      "description": "Fiery vegan lettuce wraps packed with bold, spicy flavor.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/7.png')"
+   },
+   {
+      "type": "recipe",
+      "title": "Barbeque Spicy Sandwiches with Chips",
+      "description": "Spicy BBQ sandwiches served with crispy chips for a smoky, crunchy combo.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/6.png')",
+      "isLiked": true
+   },
+   {
+      "type": "recipe",
+      "title": "Chicken Ramen Soup with Mushroom",
+      "description": "A warm ramen bowl with tender chicken, mushrooms, and savory broth.",
+      "tags": [
+         {
+            "iconName": "timer",
+            "label": "30 Minutes"
+         },
+         {
+            "iconName": "fork-knife",
+            "label": "Chicken"
+         }
+      ],
+      "filterResult": [
+         { "label": "popular" },
+         { "label": "quick-recipes" },
+         { "label": "vegan" }
+      ],
+      "backgroundImgSrc": "url('/src/assets/images/recipes-more/8.png')",
+      "isLiked": true
+   }
+]

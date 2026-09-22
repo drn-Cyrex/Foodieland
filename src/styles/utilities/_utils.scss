@@ -10,23 +10,21 @@
 }
 
 .title-effect {
-   transform: translateY(100%);
+   letter-spacing: 25px;
    opacity: 0;
-   filter: blur(20px);
-
    background: linear-gradient(to right, var(--color-accent), var(--color-dim));
    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-
+   filter: blur(20px);
    animation: show-scroll-title linear both;
    animation-timeline: view(block);
-   animation-range: cover 0% cover 20%;
+   animation-range: cover 0% cover 25%;
 }
 
 @keyframes show-scroll-title {
    to {
-      transform: translateY(0%);
+      letter-spacing: normal;
       opacity: 1;
       filter: blur(0);
    }

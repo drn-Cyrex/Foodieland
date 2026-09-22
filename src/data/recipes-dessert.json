@@ -1,0 +1,102 @@
+[
+   {
+      "id": "vanilla-cream-cupcakes",
+      "title": "Vanilla Cream Cupcakes",
+      "description": "Soft vanilla cupcakes topped with silky cream frosting.",
+      "category": "dessert",
+      "time": 25,
+      "tags": ["cupcake", "sweet", "vanilla"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": true
+   },
+   {
+      "id": "berry-cheesecake-squares",
+      "title": "Berry Cheesecake Squares",
+      "description": "Creamy cheesecake bites layered with fresh berry topping.",
+      "category": "dessert",
+      "time": 40,
+      "tags": ["cheesecake", "berries", "sweet"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": false
+   },
+   {
+      "id": "lemon-tart",
+      "title": "Fresh Lemon Tart",
+      "description": "A bright and tangy lemon tart with a buttery crust.",
+      "category": "dessert",
+      "time": 35,
+      "tags": ["tart", "citrus", "sweet"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": true
+   },
+   {
+      "id": "caramel-pudding",
+      "title": "Caramel Pudding",
+      "description": "Smooth pudding topped with rich caramel sauce.",
+      "category": "dessert",
+      "time": 20,
+      "tags": ["pudding", "caramel", "sweet"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": false
+   },
+   {
+      "id": "strawberry-mousse",
+      "title": "Strawberry Mousse",
+      "description": "Light and airy mousse made with fresh strawberries.",
+      "category": "dessert",
+      "time": 15,
+      "tags": ["mousse", "berries", "sweet"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": true
+   },
+   {
+      "id": "peach-crumble",
+      "title": "Warm Peach Crumble",
+      "description": "Sweet peaches baked under a crispy crumble topping.",
+      "category": "dessert",
+      "time": 30,
+      "tags": ["crumble", "fruit", "warm"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": false
+   },
+   {
+      "id": "mint-ice-cream",
+      "title": "Mint Ice Cream",
+      "description": "Refreshing mint ice cream with a cool creamy texture.",
+      "category": "dessert",
+      "time": 10,
+      "tags": ["ice-cream", "mint", "cold"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": true
+   },
+   {
+      "id": "apple-pie-slices",
+      "title": "Apple Pie Slices",
+      "description": "Classic apple pie with cinnamon and flaky crust.",
+      "category": "dessert",
+      "time": 45,
+      "tags": ["pie", "apple", "warm"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": false
+   },
+   {
+      "id": "raspberry-gelato",
+      "title": "Raspberry Gelato",
+      "description": "Smooth Italian-style gelato made with fresh raspberries.",
+      "category": "dessert",
+      "time": 15,
+      "tags": ["gelato", "berries", "cold"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": true
+   },
+   {
+      "id": "honey-cookies",
+      "title": "Honey Butter Cookies",
+      "description": "Soft cookies sweetened with natural honey.",
+      "category": "dessert",
+      "time": 12,
+      "tags": ["cookies", "honey", "sweet"],
+      "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
+      "isLiked": false
+   }
+]

@@ -4,7 +4,7 @@ import clsx from 'clsx'
 import Icon from '../Icon/Icon'
 import AuthorCard from '../AuthorCard/AuthorCard'
 import Button from '../Button/Button'
-import Tags from '../Tags/Tags'
+import Tags from '../../../../archive/old-components/Tags/Tags'
 
 const HeroContent = (props) => {
 
@@ -52,7 +52,7 @@ const HeroContent = (props) => {
                   {...author}
                />
                <Button href="/" className="hero-content__button" >
-                  <span>View Recipes</span>
+                  <span>View Recipe</span>
                   <Icon name='play' hasFill />
                </Button>
             </div>

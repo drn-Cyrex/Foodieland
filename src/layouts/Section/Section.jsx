@@ -13,6 +13,7 @@ const Section = (props) => {
       mode = '',
       children,
       linkLabel,
+      linkPage
    } = props
 
    return (
@@ -36,7 +37,7 @@ const Section = (props) => {
             {linkLabel && (
                <div >
                   <Button
-                     href="/"
+                     href={linkPage}
                      mode='secondary'
                      className='section__link'
                   >
