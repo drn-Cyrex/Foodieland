@@ -8,7 +8,7 @@ const RecipeCardStandard = (props) => {
       title,
       description,
       category,
-      items,
+      tags,
       backgroundImgSrc,
    } = props
 
@@ -22,16 +22,31 @@ const RecipeCardStandard = (props) => {
          className={clsx('rcp-card-standard')}
          data-id={id}
       >
+
          <a href=""
             style={style}
          >
-            <h3>{title}</h3>
-            <p>{description}</p>
+            <div className="rcp-card-standard__info">
+               <h3>{title}</h3>
+               <p>{description}</p>
+            </div>
 
+            <ul className="rcp-card-standard__tags-list">
+               {tags.map((tag, index) => (
+                  <li key={index}
+                     className={clsx(
+                        'rcp-card-standard__tag',
+                        `rcp-card-standard__tag--${tag}`
+                     )}>
+                     {tag}
+                  </li>
+               ))}
+            </ul>
 
+            <span className="rcp-card-standard__category">             {category}
+            </span>
          </a>
-         <div className="rcp-card-standard__category">      {category}
-         </div>
+
       </article >
    )
 }

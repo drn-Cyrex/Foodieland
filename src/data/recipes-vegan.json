@@ -5,7 +5,7 @@
       "description": "A hearty plant‑based taco filling made from roasted cauliflower and walnuts.",
       "category": "vegan",
       "time": 20,
-      "tags": ["taco", "vegan", "plant-based"],
+      "tags": ["vegan", "healthy", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    },
    {
@@ -14,7 +14,7 @@
       "description": "Fiery vegan lettuce wraps packed with bold, spicy flavor.",
       "category": "vegan",
       "time": 15,
-      "tags": ["wraps", "spicy", "vegan"],
+      "tags": ["vegan", "quick", "healthy"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    },
    {
@@ -23,7 +23,7 @@
       "description": "A nourishing bowl filled with quinoa, roasted veggies, and creamy tahini sauce.",
       "category": "vegan",
       "time": 25,
-      "tags": ["bowl", "healthy", "vegan"],
+      "tags": ["vegan", "healthy", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    },
    {
@@ -32,7 +32,7 @@
       "description": "A rich coconut curry with chickpeas, tomatoes, and warming spices.",
       "category": "vegan",
       "time": 30,
-      "tags": ["curry", "chickpea", "vegan"],
+      "tags": ["vegan", "comfort", "healthy"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    },
    {
@@ -41,7 +41,7 @@
       "description": "Creamy avocado pasta with basil, garlic, and lemon.",
       "category": "vegan",
       "time": 15,
-      "tags": ["pasta", "avocado", "quick"],
+      "tags": ["vegan", "quick", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    },
    {
@@ -50,7 +50,7 @@
       "description": "Comforting lentil soup with vegetables and herbs.",
       "category": "vegan",
       "time": 35,
-      "tags": ["soup", "lentils", "warm"],
+      "tags": ["vegan", "comfort", "healthy"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    },
    {
@@ -59,7 +59,7 @@
       "description": "Crispy tofu tossed with colorful vegetables in a savory sauce.",
       "category": "vegan",
       "time": 20,
-      "tags": ["tofu", "stir-fry", "asian"],
+      "tags": ["vegan", "quick", "healthy"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    },
    {
@@ -68,7 +68,7 @@
       "description": "A protein-rich quinoa bowl with beans, corn, and fresh greens.",
       "category": "vegan",
       "time": 18,
-      "tags": ["quinoa", "healthy", "vegan"],
+      "tags": ["vegan", "healthy", "quick"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    },
    {
@@ -77,7 +77,7 @@
       "description": "A silky risotto made with mushrooms, garlic, and vegetable broth.",
       "category": "vegan",
       "time": 30,
-      "tags": ["risotto", "mushroom", "creamy"],
+      "tags": ["vegan", "comfort", "healthy"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    },
    {
@@ -86,7 +86,7 @@
       "description": "A hearty chili with sweet potatoes, beans, and smoky spices.",
       "category": "vegan",
       "time": 35,
-      "tags": ["chili", "sweet-potato", "vegan"],
+      "tags": ["vegan", "comfort", "healthy"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/vegan/4.png')"
    }
 ]

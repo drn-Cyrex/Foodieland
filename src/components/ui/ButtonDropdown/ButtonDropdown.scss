@@ -13,22 +13,39 @@
       right: 2.5%;
       width: var(--header-button-size);
       height: var(--header-button-size);
-      background-color: transparent;
-      border: 2px solid transparent;
-      border-image: linear-gradient(220deg, var(--color-white), transparent 80%) 1;
+      background-color: oklch(0 0 0 / 90%);
+      // border: 2px solid transparent;
+      border: none;
+      border-radius: 10px;
+      // border-image: linear-gradient(220deg, var(--color-white), transparent 80%) 1;
       cursor: pointer;
       transition: 0.5s ease;
+
+      &:before {
+         content: "";
+         position: absolute;
+         z-index: -10;
+         inset: -2px;
+         border-radius: 10px;
+         background: conic-gradient(
+            from 225deg,
+            transparent,
+            white ,
+            transparent
+         );
+      }
    }
 
    .button-dropdown > span {
       position: absolute;
+      z-index: 20;
       top: 50%;
       left: 50%;
       translate: -50% -50%;
       rotate: 0;
       height: 1px;
       width: 75%;
-      background-color: var(--color-white);
+      background-color: white;
       transition: 0.25s;
 
       &:nth-child(1) {
@@ -40,20 +57,22 @@
    }
 
    //! active burger btn
-   .is-active .button-dropdown span {
-      background-color: var(--color-accent);
+   .is-active .button-dropdown {
+      span {
+         background-color: var(--color-accent);
 
-      &:nth-child(1) {
-         top: 50%;
-         rotate: 45deg;
-      }
+         &:nth-child(1) {
+            top: 50%;
+            rotate: 45deg;
+         }
 
-      &:nth-child(2) {
-         opacity: 0;
-      }
-      &:nth-child(3) {
-         top: 50%;
-         rotate: -45deg;
+         &:nth-child(2) {
+            opacity: 0;
+         }
+         &:nth-child(3) {
+            top: 50%;
+            rotate: -45deg;
+         }
       }
    }
 }

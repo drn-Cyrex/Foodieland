@@ -5,7 +5,7 @@
       "description": "A fluffy oat‑based pancake topped with fresh strawberries and sweet honey.",
       "category": "breakfast",
       "time": 20,
-      "tags": ["pancake", "sweet", "quick", "berries"],
+      "tags": ["sweet", "quick", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
       "isLiked": true
    },
@@ -15,7 +15,7 @@
       "description": "A bright, citrusy pancake bursting with orange zest and juicy blueberries.",
       "category": "breakfast",
       "time": 20,
-      "tags": ["pancake", "fruit", "quick", "citrus"],
+      "tags": ["sweet", "quick"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
       "isLiked": false
    },
@@ -25,7 +25,7 @@
       "description": "Soft banana pancakes with a naturally sweet flavor and fluffy texture.",
       "category": "breakfast",
       "time": 15,
-      "tags": ["pancake", "banana", "quick"],
+      "tags": ["sweet", "quick", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
       "isLiked": true
    },
@@ -35,7 +35,7 @@
       "description": "Creamy avocado spread over crispy toast topped with a soft‑boiled egg.",
       "category": "breakfast",
       "time": 10,
-      "tags": ["toast", "healthy", "quick"],
+      "tags": ["healthy", "quick"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
       "isLiked": false
    },
@@ -55,7 +55,7 @@
       "description": "Soft scrambled eggs melted together with rich cheddar cheese.",
       "category": "breakfast",
       "time": 8,
-      "tags": ["eggs", "quick", "protein"],
+      "tags": ["quick", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
       "isLiked": false
    },
@@ -65,7 +65,7 @@
       "description": "A refreshing mix of seasonal fruits for a light breakfast.",
       "category": "breakfast",
       "time": 5,
-      "tags": ["fruit", "healthy", "vegan"],
+      "tags": ["healthy", "vegan", "quick"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
       "isLiked": true
    },
@@ -75,7 +75,7 @@
       "description": "Crunchy granola with honey drizzle and fresh berries.",
       "category": "breakfast",
       "time": 7,
-      "tags": ["granola", "sweet", "quick"],
+      "tags": ["sweet", "quick"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
       "isLiked": false
    },
@@ -85,7 +85,7 @@
       "description": "Fluffy omelette packed with fresh vegetables.",
       "category": "breakfast",
       "time": 12,
-      "tags": ["eggs", "protein", "healthy"],
+      "tags": ["healthy", "quick", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
       "isLiked": true
    },
@@ -95,7 +95,7 @@
       "description": "Warm oatmeal with sweet apples and cinnamon spice.",
       "category": "breakfast",
       "time": 10,
-      "tags": ["oatmeal", "sweet", "quick"],
+      "tags": ["sweet", "quick", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
       "isLiked": false
    }

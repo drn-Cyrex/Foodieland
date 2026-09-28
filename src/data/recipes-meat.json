@@ -5,7 +5,7 @@
       "description": "A rich, tender Wagyu burger stacked with melted cheese and fresh toppings.",
       "category": "meat",
       "time": 30,
-      "tags": ["burger", "wagyu", "popular"],
+      "tags": ["meat", "comfort", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": true
    },
@@ -15,7 +15,7 @@
       "description": "A deluxe Wagyu cheeseburger with extra flavor and upgraded toppings.",
       "category": "meat",
       "time": 35,
-      "tags": ["burger", "wagyu", "deluxe"],
+      "tags": ["meat", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": false
    },
@@ -25,7 +25,7 @@
       "description": "Zesty lime‑infused salmon roasted to perfection with a warm ginger glaze.",
       "category": "meat",
       "time": 25,
-      "tags": ["salmon", "roasted", "fresh"],
+      "tags": ["meat", "healthy", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": true
    },
@@ -35,7 +35,7 @@
       "description": "Tender chicken meatballs filled with smooth, savory cream cheese.",
       "category": "meat",
       "time": 25,
-      "tags": ["chicken", "meatballs", "creamy"],
+      "tags": ["meat", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": false
    },
@@ -45,7 +45,7 @@
       "description": "Ultra‑creamy pasta loaded with chicken, smoky bacon, and rich sauce.",
       "category": "meat",
       "time": 30,
-      "tags": ["pasta", "chicken", "bacon"],
+      "tags": ["meat", "comfort", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": true
    },
@@ -55,7 +55,7 @@
       "description": "A simple, comforting chicken‑and‑rice dish cooked together in one pot.",
       "category": "meat",
       "time": 30,
-      "tags": ["chicken", "rice", "comfort"],
+      "tags": ["meat", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": false
    },
@@ -65,7 +65,7 @@
       "description": "Spicy BBQ sandwiches served with crispy chips for a smoky, crunchy combo.",
       "category": "meat",
       "time": 20,
-      "tags": ["bbq", "sandwich", "spicy"],
+      "tags": ["meat", "comfort", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": true
    },
@@ -75,7 +75,7 @@
       "description": "A warm ramen bowl with tender chicken, mushrooms, and savory broth.",
       "category": "meat",
       "time": 25,
-      "tags": ["ramen", "chicken", "asian"],
+      "tags": ["meat", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": false
    },
@@ -85,7 +85,7 @@
       "description": "Juicy grilled steak seasoned with salt, pepper, and herbs.",
       "category": "meat",
       "time": 20,
-      "tags": ["steak", "grilled", "classic"],
+      "tags": ["meat", "comfort", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": true
    },
@@ -95,7 +95,7 @@
       "description": "Golden crispy chicken strips with a crunchy coating.",
       "category": "meat",
       "time": 15,
-      "tags": ["chicken", "crispy", "quick"],
+      "tags": ["meat", "quick"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/meat/0.png')",
       "isLiked": false
    }

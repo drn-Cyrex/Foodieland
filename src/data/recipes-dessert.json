@@ -5,7 +5,7 @@
       "description": "Soft vanilla cupcakes topped with silky cream frosting.",
       "category": "dessert",
       "time": 25,
-      "tags": ["cupcake", "sweet", "vanilla"],
+      "tags": ["sweet", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": true
    },
@@ -15,7 +15,7 @@
       "description": "Creamy cheesecake bites layered with fresh berry topping.",
       "category": "dessert",
       "time": 40,
-      "tags": ["cheesecake", "berries", "sweet"],
+      "tags": ["sweet", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": false
    },
@@ -25,7 +25,7 @@
       "description": "A bright and tangy lemon tart with a buttery crust.",
       "category": "dessert",
       "time": 35,
-      "tags": ["tart", "citrus", "sweet"],
+      "tags": ["sweet", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": true
    },
@@ -35,7 +35,7 @@
       "description": "Smooth pudding topped with rich caramel sauce.",
       "category": "dessert",
       "time": 20,
-      "tags": ["pudding", "caramel", "sweet"],
+      "tags": ["sweet", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": false
    },
@@ -45,7 +45,7 @@
       "description": "Light and airy mousse made with fresh strawberries.",
       "category": "dessert",
       "time": 15,
-      "tags": ["mousse", "berries", "sweet"],
+      "tags": ["sweet", "quick", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": true
    },
@@ -55,7 +55,7 @@
       "description": "Sweet peaches baked under a crispy crumble topping.",
       "category": "dessert",
       "time": 30,
-      "tags": ["crumble", "fruit", "warm"],
+      "tags": ["sweet", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": false
    },
@@ -65,7 +65,7 @@
       "description": "Refreshing mint ice cream with a cool creamy texture.",
       "category": "dessert",
       "time": 10,
-      "tags": ["ice-cream", "mint", "cold"],
+      "tags": ["sweet", "quick", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": true
    },
@@ -75,7 +75,7 @@
       "description": "Classic apple pie with cinnamon and flaky crust.",
       "category": "dessert",
       "time": 45,
-      "tags": ["pie", "apple", "warm"],
+      "tags": ["sweet", "comfort"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": false
    },
@@ -85,7 +85,7 @@
       "description": "Smooth Italian-style gelato made with fresh raspberries.",
       "category": "dessert",
       "time": 15,
-      "tags": ["gelato", "berries", "cold"],
+      "tags": ["sweet", "quick", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": true
    },
@@ -95,7 +95,7 @@
       "description": "Soft cookies sweetened with natural honey.",
       "category": "dessert",
       "time": 12,
-      "tags": ["cookies", "honey", "sweet"],
+      "tags": ["sweet", "quick"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/dessert/5.png')",
       "isLiked": false
    }

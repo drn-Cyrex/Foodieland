@@ -13,10 +13,22 @@ export const allRecipes = {
 };
 
 export { getAllRecipes } from "./getAll";
-export { getRecipesByCategory } from "./getByCategory";
 export { filterRecipes } from "./filter";
+export { getRecipesByCategory } from "./getByCategory";
 export { getRandomRecipes } from "./getRandom";
 export { getLikedRecipes } from "./getLiked";
 export { getLikedRandom } from "./getLikedRandom";
 export { getQuickRecipes } from "./getQuick";
 export { getQuickRandom } from "./getQuickRandom";
+
+
+// перечень тэгов в рецептах 
+// {
+//   "quick": "Быстрые",
+//   "healthy": "Здоровые",
+//   "sweet": "Сладкие",
+//   "vegan": "Веган",
+//   "meat": "Мясо/рыба",
+//   "comfort": "Сытные",
+//   "popular": "Популярные"
+// }
