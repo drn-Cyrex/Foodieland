@@ -4,6 +4,17 @@ import recipesLunch from "../../data/recipes-lunch.json";
 import recipesMeat from "../../data/recipes-meat.json";
 import recipesVegan from "../../data/recipes-vegan.json";
 
+// перечень тэгов в рецептах
+// {
+//   "quick": "Быстрые",
+//   "healthy": "Здоровые",
+//   "sweet": "Сладкие",
+//   "vegan": "Веган",
+//   "meat": "Мясо/рыба",
+//   "comfort": "Сытные",
+//   "popular": "Популярные"
+// }
+
 export const allRecipes = {
    breakfast: recipesBreakfast,
    dessert: recipesDessert,
@@ -22,13 +33,4 @@ export { getQuickRecipes } from "./getQuick";
 export { getQuickRandom } from "./getQuickRandom";
 
 
-// перечень тэгов в рецептах 
-// {
-//   "quick": "Быстрые",
-//   "healthy": "Здоровые",
-//   "sweet": "Сладкие",
-//   "vegan": "Веган",
-//   "meat": "Мясо/рыба",
-//   "comfort": "Сытные",
-//   "popular": "Популярные"
-// }
+

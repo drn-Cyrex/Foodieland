@@ -23,8 +23,6 @@ const RecipesList = () => {
 
             <div className="rcp-list-grid">
                {items.map((item) => {
-                  // const { ...rest } = item
-
                   return (
                      <RecipeCardStandard
                         {...item}

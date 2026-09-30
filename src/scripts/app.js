@@ -4,5 +4,7 @@ import {} from "@/scripts/modules/OverlayFilter";
 import {} from "@/scripts/modules/SliderCollection";
 import {} from "@/scripts/modules/RecipesFilter";
 
+import {} from "./modules/Test";
 
-import {} from "./modules/Test"
+import { allRecipes } from "@/api/recipes/index";
+// console.log(allRecipes);

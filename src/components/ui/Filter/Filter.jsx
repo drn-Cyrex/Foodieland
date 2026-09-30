@@ -1,5 +1,5 @@
-import { Image } from "minista"
 import "./Filter.scss"
+import { Image } from "minista"
 
 
 const Filter = (props) => {
@@ -12,46 +12,37 @@ const Filter = (props) => {
          <div className="overlay-filter" data-js-overlay-filter="">
 
             <h2 className="filter-title">
-               Filter by type
+               Filter
             </h2>
 
             <div>
                <button
-                  className="filter-button filter-active" data-filter="popular">
-                  popular <span></span>
+                  className="filter-button filter-active"
+                  data-filter="all"
+               >
+                  All <span></span>
                </button>
                <button
-                  className="filter-button"
-                  data-filter="breakfast">
-                  Breakfast <span></span>
+                  className="filter-button" data-filter="breakfast">
+                  breakfast<span></span>
                </button>
                <button
-                  className="filter-button"
-                  data-filter="vegan">
-                  Vegan <span></span>
+                  className="filter-button" data-filter="dessert">
+                  dessert<span></span>
                </button>
                <button
-                  className="filter-button"
-                  data-filter="meat">
-                  Meat <span></span>
-               </button>
-               {/* <button
-                  className="filter-button"
-                  data-filter="dessert">
-                  Dessert <span></span>
+                  className="filter-button" data-filter="lunch">
+                  lunch<span></span>
                </button>
                <button
-                  className="filter-button"
-                  data-filter="lunch">
-                  Lunch <span></span>
+                  className="filter-button" data-filter="meat">
+                  meat<span></span>
                </button>
                <button
-                  className="filter-button"
-                  data-filter="chocolate">
-                  Chocolate <span></span>
-               </button> */}
+                  className="filter-button" data-filter="vegan">
+                  vegan<span></span>
+               </button>
             </div>
-
             {img && (
                <Image src="/src/assets/images/q12.png" />
             )}
@@ -69,3 +60,6 @@ const Filter = (props) => {
 }
 
 export default Filter
+
+
+

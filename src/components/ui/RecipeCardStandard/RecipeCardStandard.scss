@@ -2,26 +2,11 @@
    position: relative;
 }
 
-.rcp-card-standard__category {
-   position: absolute;
-   top: -20px;
-   right: 35px;
-   padding: 5px 15px;
-   border-radius: var(--radius);
-   background-color: var(--color-bg);
-   font-size: 11px;
-   font-weight: 600;
-   letter-spacing: 0.2em;
-   text-transform: uppercase;
-   color: var(--color-accent);
-   border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent);
-   box-shadow: 0 2px 8px color-mix(in srgb, currentColor 15%, transparent);
-}
-
 .rcp-card-standard a {
    translate: 0 20px;
    opacity: 0;
    width: 100%;
+   min-width: fluid(600, 350, desktop, mobile);
    padding: fluid(25, 20, desktop, mobile);
    display: flex;
    flex-direction: column;
@@ -114,4 +99,20 @@
       background: rgba(139, 92, 246, 0.15);
       color: #c4b5fd;
    }
+}
+
+.rcp-card-standard__category {
+   position: absolute;
+   top: -20px;
+   right: 35px;
+   padding: 5px 15px;
+   border-radius: var(--radius);
+   background-color: var(--color-bg);
+   font-size: 11px;
+   font-weight: 600;
+   letter-spacing: 0.2em;
+   text-transform: uppercase;
+   color: var(--color-accent);
+   border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+   box-shadow: 0 2px 8px color-mix(in srgb, currentColor 15%, transparent);
 }

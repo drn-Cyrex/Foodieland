@@ -1,23 +1,32 @@
-// const filterList = document.querySelector(".overlay-filter");
-// const filterButtons = document.querySelectorAll(".filter-button");
-// const popular = document.querySelectorAll(".rcp-card-list__popular");
+document.addEventListener("DOMContentLoaded", () => {
+   const buttons = document.querySelectorAll("[data-filter]");
+   const cards = document.querySelectorAll(".rcp-card-standard");
 
-// filterButtons.forEach((button) => {
-//    button.addEventListener("click", (e) => {
-//       const filter = e.target.getAttribute("data-filter");
-//       console.log(filter);
+   if (!buttons.length || !cards.length) return;
 
-//       updateActiveButton(e.target);
-//       recipeFilter();
-//    });
-// });
+   buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+         const filter = button.dataset.filter;
 
-// function updateActiveButton(newButton) {
-//    filterList.querySelector(".filter-active").classList.remove("filter-active");
+         // active button
+         buttons.forEach((btn) => btn.classList.remove("filter-active"));
 
-//    newButton.classList.add("filter-active");
-// }
+         button.classList.add("filter-active");
 
-// function recipeFilter(popularFilter) {
-//    popular.forEach(() => {});
-// }
+         cards.forEach((card) => {
+            if (filter === "all") {
+               card.style.display = "";
+               return;
+            }
+
+            const category = card.dataset.category;
+            const tags = card.dataset.tags.split(",");
+
+            const match = category === filter || tags.includes(filter);
+
+            card.style.display = match ? "" : "none";
+         });
+      });
+   });
+});
+

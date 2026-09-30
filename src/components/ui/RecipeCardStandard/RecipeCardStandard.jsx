@@ -21,9 +21,11 @@ const RecipeCardStandard = (props) => {
       <article
          className={clsx('rcp-card-standard')}
          data-id={id}
+         data-category={category}
+         data-tags={tags.join(",")}
       >
 
-         <a href=""
+         <a href="/recipe"
             style={style}
          >
             <div className="rcp-card-standard__info">
