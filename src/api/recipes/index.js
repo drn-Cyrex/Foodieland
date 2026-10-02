@@ -31,6 +31,3 @@ export { getLikedRecipes } from "./getLiked";
 export { getLikedRandom } from "./getLikedRandom";
 export { getQuickRecipes } from "./getQuick";
 export { getQuickRandom } from "./getQuickRandom";
-
-
-

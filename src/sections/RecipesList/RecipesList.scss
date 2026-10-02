@@ -10,7 +10,7 @@
 .rcp-list__wrapper {
    display: flex;
    justify-content: center;
-   gap: fluid(50, 10, desktop, tablet);
+   gap: fluid(50,0, desktop, tablet);
 }
 
 .rcp-list-grid {
