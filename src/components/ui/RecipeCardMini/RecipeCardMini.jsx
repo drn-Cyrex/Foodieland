@@ -8,9 +8,7 @@ const RecipeCardMini = (props) => {
    const {
       id,
       title,
-      description,
       time,
-      category,
       backgroundImgSrc,
       isLiked
    } = props
@@ -31,7 +29,7 @@ const RecipeCardMini = (props) => {
 
             <RecipeMeta
                time={time}
-               category={category}
+            // category={category}
             />
          </a>
 

@@ -3,6 +3,7 @@ import clsx from 'clsx'
 import { Image } from 'minista'
 
 const AuthorCard = (props) => {
+
    const {
       className,
       imgSrc,

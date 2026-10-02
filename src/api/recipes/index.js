@@ -24,6 +24,7 @@ export const allRecipes = {
 };
 
 export { getAllRecipes } from "./getAll";
+export { getRecipeById } from "./getById";
 export { filterRecipes } from "./filter";
 export { getRecipesByCategory } from "./getByCategory";
 export { getRandomRecipes } from "./getRandom";

@@ -5,6 +5,7 @@ import Icon from '../Icon/Icon'
 import AuthorCard from '../AuthorCard/AuthorCard'
 import Button from '../Button/Button'
 import Tags from '../../../../archive/old-components/Tags/Tags'
+import RecipeMeta from '../RecipeMeta/RecipeMeta'
 
 const HeroContent = (props) => {
 
@@ -14,7 +15,7 @@ const HeroContent = (props) => {
       title,
       TitleTag = 'h1',
       description,
-      tags = [],
+      tags,
       author,
       imgSrc,
    } = props
@@ -39,13 +40,11 @@ const HeroContent = (props) => {
             <div className='hero-description'>
                <p>{description}</p>
             </div>
-
-            <Tags
+            {/* <Tags
                className="hero-card__tags"
                type="rounded"
                items={tags}
-            />
-
+            /> */}
             <div className='hero-content__footer'>
                <AuthorCard
                   className='hero-content__author'

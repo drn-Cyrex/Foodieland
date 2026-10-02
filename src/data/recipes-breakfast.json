@@ -1,6 +1,12 @@
 [
    {
       "id": "strawberry-oatmeal-pancake",
+      "author": {
+         "name": "John Doe",
+         "date": "2024-01-15",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "15 January 2024"
+      },
       "title": "Strawberry Oatmeal Pancake with Honey Syrup",
       "description": "A fluffy oat‑based pancake topped with fresh strawberries and sweet honey.",
       "category": "breakfast",
@@ -11,6 +17,12 @@
    },
    {
       "id": "fruity-orange-blueberry-pancake",
+      "author": {
+         "name": "Emily Carter",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-02-03",
+         "label": "3 February 2024"
+      },
       "title": "Fruity Pancake with Orange & Blueberry",
       "description": "A bright, citrusy pancake bursting with orange zest and juicy blueberries.",
       "category": "breakfast",
@@ -21,6 +33,12 @@
    },
    {
       "id": "classic-banana-pancakes",
+      "author": {
+         "name": "Michael Smith",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-02-18",
+         "label": "18 February 2024"
+      },
       "title": "Classic Banana Pancakes",
       "description": "Soft banana pancakes with a naturally sweet flavor and fluffy texture.",
       "category": "breakfast",
@@ -31,6 +49,12 @@
    },
    {
       "id": "avocado-toast-egg",
+      "author": {
+         "name": "Sophia Bennett",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-03-07",
+         "label": "7 March 2024"
+      },
       "title": "Avocado Toast with Egg",
       "description": "Creamy avocado spread over crispy toast topped with a soft‑boiled egg.",
       "category": "breakfast",
@@ -41,6 +65,12 @@
    },
    {
       "id": "greek-yogurt-parfait",
+      "author": {
+         "name": "Olivia Turner",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-03-22",
+         "label": "22 March 2024"
+      },
       "title": "Greek Yogurt Fruit Parfait",
       "description": "Layers of creamy yogurt, fresh fruit, and crunchy granola.",
       "category": "breakfast",
@@ -51,6 +81,12 @@
    },
    {
       "id": "scrambled-eggs-cheese",
+      "author": {
+         "name": "Daniel Harris",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-04-05",
+         "label": "5 April 2024"
+      },
       "title": "Cheesy Scrambled Eggs",
       "description": "Soft scrambled eggs melted together with rich cheddar cheese.",
       "category": "breakfast",
@@ -61,6 +97,12 @@
    },
    {
       "id": "morning-fruit-bowl",
+      "author": {
+         "name": "Ava Mitchell",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-04-19",
+         "label": "19 April 2024"
+      },
       "title": "Morning Fresh Fruit Bowl",
       "description": "A refreshing mix of seasonal fruits for a light breakfast.",
       "category": "breakfast",
@@ -71,6 +113,12 @@
    },
    {
       "id": "honey-granola-bowl",
+      "author": {
+         "name": "Lucas Morgan",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-05-02",
+         "label": "2 May 2024"
+      },
       "title": "Honey Granola Breakfast Bowl",
       "description": "Crunchy granola with honey drizzle and fresh berries.",
       "category": "breakfast",
@@ -81,6 +129,12 @@
    },
    {
       "id": "veggie-omelette",
+      "author": {
+         "name": "Isabella Reed",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-05-17",
+         "label": "17 May 2024"
+      },
       "title": "Veggie Omelette",
       "description": "Fluffy omelette packed with fresh vegetables.",
       "category": "breakfast",
@@ -91,6 +145,12 @@
    },
    {
       "id": "cinnamon-apple-oatmeal",
+      "author": {
+         "name": "Ethan Cooper",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-06-01",
+         "label": "1 June 2024"
+      },
       "title": "Cinnamon Apple Oatmeal",
       "description": "Warm oatmeal with sweet apples and cinnamon spice.",
       "category": "breakfast",
