@@ -1,5 +1,4 @@
 .meta {
-   width: 100%;
    display: flex;
    justify-content: space-between;
    gap: 16px;
@@ -7,28 +6,17 @@
 
 .meta-timer {
    position: relative;
-   padding: 8px 16px;
+   padding: 8px fluid(16, 14, desktop, mobile);
    display: inline-flex;
    column-gap: 10px;
    border-radius: var(--radius);
    background-color: var(--color-bg);
-   //  background-image: linear-gradient(var(--color-gray), var(--color-dark) 50%);
-
-   &::before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 1px;
-      height: 100%;
-      width: 99%;
-      background-color: var(--color-accent);
-      border-radius: inherit;
-   }
+  
 }
 
-.recipe-meta__category {
+.meta-category {
    display: flex;
-   align-items: center;   
-   gap: 10px;
-   
+   align-items: center;
+   column-gap: 10px;
+   font-size: 22px;
 }
