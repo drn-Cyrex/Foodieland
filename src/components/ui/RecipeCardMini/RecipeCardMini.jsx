@@ -2,6 +2,7 @@ import "./RecipeCardMini.scss"
 import clsx from "clsx"
 import Icon from "../Icon/Icon"
 import RecipeMeta from "../RecipeMeta/RecipeMeta"
+import { Image } from "minista"
 
 const RecipeCardMini = (props) => {
 
@@ -9,6 +10,7 @@ const RecipeCardMini = (props) => {
       id,
       title,
       time,
+      category,
       backgroundImgSrc,
       isLiked
    } = props
@@ -21,18 +23,19 @@ const RecipeCardMini = (props) => {
 
    return (
       <article className="rcp-card-mini" data-id={id}>
-         <a href={`/recipes/${id}`}
-            style={style}
-            className="rcp-card-mini__link"
-         >
-            <h3>{title}</h3>
-
-            <RecipeMeta
-               time={time}
-            // category={category}
-            />
-         </a>
-
+         <div className="rcp-card-mini__body">
+            <a href={`/recipes/${id}`}
+               style={style}
+               className="rcp-card-mini__link"
+            >
+               <h3>{title}</h3>
+            </a>
+         </div>
+         {/* <RecipeMeta
+            className="recipe-meta"
+            time={time}
+            category={category}
+         /> */}
          <button className={clsx(
             'rcp-card-mini__liked',
             isLiked && 'is-liked',

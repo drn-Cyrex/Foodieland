@@ -11,21 +11,20 @@ const RecipeMeta = (props) => {
    } = props
 
    return (
-      <ul className="recipe-meta__list">
+      <div className={clsx(className, 'meta')}>
          {time && (
-            <li className={clsx(className, "recipe-meta__timer"
-            )}>
+            <span className="meta-timer">
                <Icon name="timer" hasFill />
                <span>{time} Minutes</span>
-            </li>
+            </span>
          )}
          {category && (
-            <li className="recipe-meta__category">
+            <span className="meta-category">
                <Icon name="fork-knife" hasFill />
                <span>{category}</span>
-            </li>
+            </span>
          )}
-      </ul>
+      </div>
    )
 }
 
