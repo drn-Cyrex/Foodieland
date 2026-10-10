@@ -4,19 +4,16 @@
    gap: 16px;
 }
 
-.meta-timer {
-   position: relative;
-   padding: 8px fluid(16, 14, desktop, mobile);
-   display: inline-flex;
-   column-gap: 10px;
-   border-radius: var(--radius);
-   background-color: var(--color-bg);
-  
-}
-
+.meta-timer,
 .meta-category {
-   display: flex;
+   position: relative;
+   padding: 5px fluid(16, 14, desktop, mobile);
+   display: inline-flex;
    align-items: center;
-   column-gap: 10px;
-   font-size: 22px;
+   column-gap: fluid(10, 5, desktop, mobile);
+   color: Lime;
+   font-size: fluid(14, 12, desktop, mobile);
+   font-family: "Jura";
+   font-weight: bold;
+   font-size: fluid(16, 10, desktop, mobile);
 }

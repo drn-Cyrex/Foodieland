@@ -75,7 +75,8 @@
 }
 
 .overlay-filter img {
-   height: 400px;
+   width:  fluid(150, 150, desktop ,tablet-l);
+   height: fluid(200, 150, desktop ,tablet-l);
 }
 
 .overlay-filter__btn {

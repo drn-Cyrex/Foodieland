@@ -1,9 +1,10 @@
 .rcp-card-standard {
    position: relative;
    border-radius: var(--radius);
-   background-position: left 15px top 10px;
+   background-position-y: center;
+   background-position-x: 15px;
    background-repeat: no-repeat;
-   background-size: fluid(190, 125, desktop, mobile);
+   background-size: fluid(190, 90, desktop, mobile);
    background-origin: content-box;
 
    transition: 0.75s ease-out;
@@ -22,7 +23,7 @@
    opacity: 0;
    width: 100%;
    min-width: fluid(600, 280, desktop, mobile);
-   padding: fluid(25, 20, desktop, mobile);
+   padding: fluid(20, 15, desktop, mobile);
    display: flex;
    flex-direction: column;
    align-items: end;
@@ -30,7 +31,6 @@
    border-left: 1px solid var(--color-gray);
    border-radius: inherit;
    box-shadow: -5px 3px 7px 0 var(--color-black);
-
    animation: asd linear both;
    animation-timeline: view(block);
    animation-range: cover 0% cover 20%;
@@ -55,9 +55,16 @@
 
    h3 {
       max-inline-size: 25ch;
+      @include tablet {
+         max-inline-size: 20ch;
+      }
    }
    p {
-      max-inline-size: 35ch;
+      max-inline-size: 30ch;
+
+      @include tablet {
+         max-inline-size: 25ch;
+      }
    }
 }
 
@@ -106,13 +113,8 @@
 
 .rcp-card-standard__meta {
    position: absolute;
-   bottom: fluid(15, 10, desktop, mobile);
+   bottom: fluid(17, 8, desktop, mobile);
    left: 10px;
-
-   .meta-timer {
-      background-color: transparent;
-      font-size: 12px;
-   }
 }
 
 .rcp-card-standard__category {

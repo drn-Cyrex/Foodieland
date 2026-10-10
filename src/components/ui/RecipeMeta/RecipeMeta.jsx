@@ -15,7 +15,7 @@ const RecipeMeta = (props) => {
          {time && (
             <span className="meta-timer">
                <Icon name="timer" hasFill />
-               <span>{time} Minutes</span>
+               <span>{time} Min</span>
             </span>
          )}
          {category && (
