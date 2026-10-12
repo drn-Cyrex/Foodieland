@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Foodieland| recipe</title>
+      <link
+         rel="preload"
+         href="/assets/Inter.css"
+         as="font"
+         type="truetype-variations"
+         crossorigin="true"
+      />
+      <link
+         rel="apple-touch-icon"
+         sizes="180x180"
+         href="/apple-touch-icon.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="/favicon-32x32.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="16x16"
+         href="/favicon-16x16.png"
+      />
+      <link rel="stylesheet" href="/assets/main.css" />
+      <script type="module" src="/assets/app.js"></script>
+      <link rel="stylesheet" href="/assets/bundle.css" />
+   </head>
+   <body>
+      <header class="header" data-js-header-hidden="">
+         <div class="header-wrapper">
+            <a href="/" class="logo" title="Home" aria-label="Home">
+               <img
+                  class="logo-image"
+                  src="/src/assets/icons/logo/Foodieland.png"
+                  alt=""
+                  height="30"
+                  width="110"
+                  loading="lazy"
+               />
+            </a>
+            <div class="line line__hover"></div>
+            <div class="line line__active"></div>
+            <nav class="header__nav" data-js-overlay-menu-mobile="">
+               <ul class="header__list">
+                  <li>
+                     <a class="header__link" href="/">Home</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="/recipes">Recipes</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="/blog">Blog</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="/contact">Contact</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="soc1als header__soc1als">
+               <ul class="soc1als__list">
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Facebook"
+                        ><span class="visually-hidden">Facebook</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/assets/images/icons.svg#facebook"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Twitter"
+                        ><span class="visually-hidden">Twitter</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/assets/images/icons.svg#twitter"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Instagram"
+                        ><span class="visually-hidden">Instagram</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/assets/images/icons.svg#instagram"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+               </ul>
+            </div>
+            <button
+               class="button-dropdown"
+               data-js-overlay-menu-burger-button=""
+               type="button"
+               aria-label="Open menu"
+               title="Open menu"
+            >
+               <span></span><span></span><span></span>
+            </button>
+         </div>
+      </header>
+      <main class="main">
+         <div class="recipe-hero">
+            <h2 class="title-effect">
+               Fruity Pancake with Orange &amp; Blueberry
+            </h2>
+            <div class="recipe-hero__meta-info">
+               <div class="author-card">
+                  <img
+                     srcset="/assets/images/man-50x50.jpg 50w"
+                     src="/assets/images/man-50x50.jpg"
+                     sizes="(min-width: 50px) 50px, 100vw"
+                     width="50"
+                     height="50"
+                     alt
+                     decoding="async"
+                     loading="lazy"
+                     class="author-card__image"
+                  />
+                  <div class="author-card__body">
+                     <h3 class="author-card__name">Emily Carter</h3>
+                     <time class="author-card__date" datetime="2024-02-03"
+                        >3 February 2024</time
+                     >
+                  </div>
+               </div>
+               <div class="meta">
+                  <span class="meta-timer"
+                     ><span class="icon">
+                        <svg fill="currentColor" stroke="none">
+                           <use href="/assets/images/icons.svg#timer"></use>
+                        </svg> </span
+                     ><span
+                        >20<!-- -->
+                        Minutes</span
+                     ></span
+                  ><span class="meta-category"
+                     ><span class="icon">
+                        <svg fill="currentColor" stroke="none">
+                           <use
+                              href="/assets/images/icons.svg#fork-knife"
+                           ></use>
+                        </svg> </span
+                     ><span>breakfast</span></span
+                  >
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer-inner">
+            <div class="footer-desc">
+               <a href="/" class="logo" title="Home" aria-label="Home">
+                  <img
+                     class="logo-image"
+                     src="/src/assets/icons/logo/Foodieland.png"
+                     alt=""
+                     height="30"
+                     width="110"
+                     loading="lazy"
+                  />
+               </a>
+               <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+            </div>
+            <div class="footer-links">
+               <ul class="footer-list">
+                  <li>
+                     <a href="/Recipes">Recipes</a>
+                  </li>
+                  <li>
+                     <a href="/Blog">Blog</a>
+                  </li>
+                  <li>
+                     <a href="/Contact">Contact</a>
+                  </li>
+                  <li>
+                     <a href="/AboutUs">About-Us</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer-extra container">
+            <p class="footer-copyright">
+               © 2020 Flowbase. Powered by <span>Webflow</span>
+            </p>
+            <div class="soc1als">
+               <ul class="soc1als__list">
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Facebook"
+                        ><span class="visually-hidden">Facebook</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/assets/images/icons.svg#facebook"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Twitter"
+                        ><span class="visually-hidden">Twitter</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/assets/images/icons.svg#twitter"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Instagram"
+                        ><span class="visually-hidden">Instagram</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/assets/images/icons.svg#instagram"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
