@@ -49,7 +49,7 @@ const RecipeCardStandard = (props) => {
 
             <RecipeMeta
                className="rcp-card-standard__meta"
-               time={time}
+               timeCook={time.cook}
             />
             <span className="rcp-card-standard__category">             {category}
             </span>

@@ -6,17 +6,32 @@ const RecipeMeta = (props) => {
 
    const {
       className,
-      time,
+      labelPrep,
+      timePrep,
+      labelCook,
+      timeCook,
       category,
    } = props
 
    return (
       <div className={clsx(className, 'meta')}>
-         {time && (
-            <span className="meta-timer">
+         {timePrep && (
+            <div className="meta-prep">
                <Icon name="timer" hasFill />
-               <span>{time} Min</span>
-            </span>
+               <div className="meta-wrapper">
+                  <span>{labelPrep}</span>
+                  <p>{timePrep}</p>
+               </div>
+            </div>
+         )}
+         {timeCook && (
+            <div className="meta-timer">
+               <Icon name="timer" hasFill />
+               <div className="meta-wrapper">
+                  <span>{labelCook}</span>
+                  <p>{timeCook}</p>
+               </div>
+            </div>
          )}
          {category && (
             <span className="meta-category">

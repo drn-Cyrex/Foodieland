@@ -10,10 +10,75 @@
       "title": "Strawberry Oatmeal Pancake with Honey Syrup",
       "description": "A fluffy oat‑based pancake topped with fresh strawberries and sweet honey.",
       "category": "breakfast",
-      "time": 20,
+
+      "time": {
+         "prep": "15 Min",
+         "cook": "15 Min"
+      },
+
       "tags": ["sweet", "quick", "popular"],
       "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
-      "isLiked": true
+      "isLiked": true,
+
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "219.9 kcal" },
+            { "label": "Total Fat", "value": "10.7 g" },
+            { "label": "Protein", "value": "7.9 g" },
+            { "label": "Carbohydrate", "value": "22.3 g" },
+            { "label": "Cholesterol", "value": "37.4 mg" }
+         ],
+         "note": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "1 cup rolled oats",
+                  "1/2 cup all-purpose flour",
+                  "1 tablespoon sugar",
+                  "1 teaspoon baking powder",
+                  "1/2 teaspoon salt"
+               ]
+            },
+            {
+               "groupName": "For the sauce",
+               "items": [
+                  "1 cup fresh strawberries, sliced",
+                  "1/4 cup honey",
+                  "1 tablespoon lemon juice"
+               ]
+            }
+         ]
+      },
+
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "stepNumber": 1,
+               "title": "Prepare the batter",
+               "description": "In a large bowl, mix the oats, flour, sugar, baking powder, and salt. Add the milk and eggs, stirring until just combined.",
+               "imgSrc": "/src/assets/images/recipes/steps/step1.jpg"
+            },
+            {
+               "stepNumber": 2,
+               "title": "Cook the pancakes",
+               "description": "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
+               "imgSrc": null
+            },
+            {
+               "stepNumber": 3,
+               "title": "Serve with syrup",
+               "description": "Top with fresh sliced strawberries and drizzle with honey syrup before serving.",
+               "imgSrc": "/src/assets/images/recipes/steps/step3.jpg"
+            }
+         ]
+      }
    },
    {
       "id": "fruity-orange-blueberry-pancake",

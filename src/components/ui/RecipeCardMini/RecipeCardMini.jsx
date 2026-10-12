@@ -34,7 +34,7 @@ const RecipeCardMini = (props) => {
          </a>
          <RecipeMeta
             className="recipe-meta"
-            time={time}
+            timeCook={time.cook}
             category={category}
          />
          <button className={clsx(

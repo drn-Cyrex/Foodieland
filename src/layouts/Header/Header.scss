@@ -1,9 +1,8 @@
 .header {
-   --header-height: clamp(4.375rem, 3.661rem + 3.57vw, 6.875rem);
    position: sticky;
    z-index: z(sticky);
    top: 0;
-   height: var(--header-height);
+   height: fluid(90, 60, desktop, mobile);
    width: 100%;
    background-color: var(--color-light-bg);
    backdrop-filter: blur(20px);
@@ -101,7 +100,7 @@
    .header__nav {
       position: fixed;
       z-index: 100;
-      top: var(--header-height);
+      top: fluid(90, 60, desktop, mobile);
       right: 0%;
       transform: scale(0);
       transform-origin: top right;
@@ -138,7 +137,7 @@
    }
 
    .is-active .header__nav {
-      top: var(--header-height);
+      top: fluid(90, 60, desktop, mobile);
       transform: scale(1);
 
       &::before {
@@ -191,7 +190,7 @@
 
    .header__soc1als {
       position: relative;
-      right: calc(var(--header-button-size) + 50px);
+      right: calc(48px + fluid(40, 20, tablet, mobile));
    }
 }
 

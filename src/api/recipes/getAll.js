@@ -1,7 +1,5 @@
 import { allRecipes } from "./index";
-// export function getAllRecipes() {
-//    return Object.values(allRecipes).flat();
-// }
+
 export const getAllRecipes = () => {
    const items = Object.values(allRecipes).flat();
 

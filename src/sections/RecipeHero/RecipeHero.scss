@@ -1,9 +1,18 @@
 .recipe-hero {
+   margin-top: fluid(60, 30, desktop, mobile);
    padding-inline: 32px;
 }
 
-.recipe-hero__meta-info {
+.recipe-top {
+   margin-bottom: 64px;
+   display: flex;
+   align-items: center;
+}
+
+
+.recipe-info__meta {
+   margin-top: 48px;
    display: flex;
    flex-wrap: wrap;
-   gap: 10px;
+   gap: fluid(90, 20, desktop, mobile);
 }

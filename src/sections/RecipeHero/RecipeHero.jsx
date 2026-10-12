@@ -5,22 +5,45 @@ import { getRecipeById } from "@/api/recipes/index";
 
 const RecipeHero = () => {
 
-   const recipe = getRecipeById("fruity-orange-blueberry-pancake");
+   const recipe = getRecipeById("strawberry-oatmeal-pancake");
 
    return (
-      <div className="recipe-hero ">
-         <h2 className="title-effect">{recipe.title}</h2>
-         <div className="recipe-hero__meta-info">
-            <AuthorCard
-               imgSrc={recipe.author.imgSrc}
-               name={recipe.author.name}
-               date={{ dateTime: recipe.author.date, label: recipe.author.label }}
-            />
-            <RecipeMeta
-               category={recipe.category}
-               time={recipe.time}
-            />
+      <div className="recipe-hero">
+
+         <div className="recipe-top">
+
+            <div className="recipe-info">
+               <h2 className="title-effect">{recipe.title}
+               </h2>
+
+               <div className="recipe-info__meta">
+                  <AuthorCard
+                     imgSrc={recipe.author.imgSrc}
+                     name={recipe.author.name}
+                     date={{ dateTime: recipe.author.date, label: recipe.author.label }}
+                  />
+                  <RecipeMeta
+                     className=""
+                     category={recipe.category}
+                     labelPrep="prep time"
+                     timePrep={recipe.time.prep}
+                     labelCook="cook time"
+                     timeCook={recipe.time.cook}
+                  />
+               </div>
+            </div>
+
+            {/* <div>
+               <span>PRINT</span>
+               <span>SHARE</span>
+            </div> */}
          </div>
+
+         <div>
+            video and Nutrition Information
+         </div>
+
+
       </div>
    )
 }

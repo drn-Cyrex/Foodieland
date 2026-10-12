@@ -1,19 +1,37 @@
 .meta {
    display: flex;
-   justify-content: space-between;
+   flex-wrap: wrap;
    gap: 16px;
 }
 
+.meta-prep,
 .meta-timer,
 .meta-category {
    position: relative;
    padding: 5px fluid(16, 14, desktop, mobile);
-   display: inline-flex;
+   display: flex;
    align-items: center;
-   column-gap: fluid(10, 5, desktop, mobile);
-   color: Lime;
+   column-gap: fluid(16, 14, desktop, mobile);
+   color: white;
+   text-transform: uppercase;
    font-size: fluid(14, 12, desktop, mobile);
-   font-family: "Jura";
-   font-weight: bold;
-   font-size: fluid(16, 10, desktop, mobile);
+   letter-spacing: 2px;
+
+   &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      background-color: var(--color-gray);
+   }
+}
+
+.meta-wrapper {
+   display: flex;
+   flex-direction: column;
+
+   p {
+      font-size: fluid(12, 10, desktop, mobile);
+   }
 }
