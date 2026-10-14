@@ -1,20 +1,12 @@
 .meta {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 16px;
-}
-
-.meta-prep,
-.meta-timer,
-.meta-category {
    position: relative;
-   padding: 5px fluid(16, 14, desktop, mobile);
+   min-width: fluid(150, 140, desktop, mobile);
+   padding: 5px fluid(16, 6, desktop, mobile);
    display: flex;
    align-items: center;
-   column-gap: fluid(16, 14, desktop, mobile);
-   color: white;
+   column-gap: fluid(16, 8, desktop, mobile);
    text-transform: uppercase;
-   font-size: fluid(14, 12, desktop, mobile);
+
    letter-spacing: 2px;
 
    &:before {
@@ -27,11 +19,14 @@
    }
 }
 
-.meta-wrapper {
-   display: flex;
-   flex-direction: column;
 
+.meta__item {
    p {
+      color: white;
+      font-size: fluid(14, 12, desktop, mobile);
+   }
+
+   span {
       font-size: fluid(12, 10, desktop, mobile);
    }
 }

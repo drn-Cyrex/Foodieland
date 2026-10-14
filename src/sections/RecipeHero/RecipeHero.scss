@@ -1,18 +1,74 @@
 .recipe-hero {
    margin-top: fluid(60, 30, desktop, mobile);
-   padding-inline: 32px;
+   padding-inline: fluid(32, 16, desktop, mobile);
 }
 
-.recipe-top {
-   margin-bottom: 64px;
+.recipe-hero__top {
+   position: relative;
+   margin-bottom: fluid(60, 30, desktop, mobile);
    display: flex;
    align-items: center;
+   justify-content: space-between;
+
+   @include tablet-l {
+      h2,
+      p {
+         margin-right: 50px;
+      }
+   }
 }
 
+.recipe-hero__meta {
+   margin-top: fluid(48, 24, desktop, mobile);
+   display: flex;
+   gap: fluid(90, 00, desktop, mobile);
+}
 
-.recipe-info__meta {
-   margin-top: 48px;
+.recipe__meta-author {
+   min-width: 160px;
+}
+
+.recipe__meta-info {
    display: flex;
    flex-wrap: wrap;
-   gap: fluid(90, 20, desktop, mobile);
+   gap: fluid(10, 5, desktop, mobile);
+}
+
+.recipe-hero__action {
+   display: flex;
+   gap: fluid(32, 16, desktop, mobile);
+
+   @include tablet-l {
+      position: absolute;
+      top: 0;
+      right: 0;
+      flex-direction: column;
+      align-self: flex-start;
+   }
+
+   button {
+      cursor: pointer;
+      padding: fluid(15, 5, desktop, mobile);
+      border-radius: 50%;
+      border: none;
+      background: linear-gradient(
+         135deg,
+         var(--color-accent-hover),
+         var(--color-accent)
+      );
+      transition: scale 0.25s ease;
+
+      &:hover {
+         scale: 1.05;
+      }
+
+      &:active {
+         scale: 0.9;
+      }
+   }
+}
+
+.recipe-hero__content {
+   display: flex;
+   flex-wrap: wrap;
 }

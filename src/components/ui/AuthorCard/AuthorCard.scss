@@ -1,7 +1,7 @@
 .author-card {
    display: flex;
    align-items: center;
-   column-gap: 16px;
+   column-gap: fluid(16, 10, desktop, mobile);
 }
 
 .author-card__image {

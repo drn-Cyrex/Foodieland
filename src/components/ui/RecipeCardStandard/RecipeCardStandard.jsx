@@ -1,5 +1,5 @@
-import RecipeMeta from "../RecipeMeta/RecipeMeta"
 import "./RecipeCardStandard.scss"
+import RecipeMeta from "../RecipeMeta/RecipeMeta"
 import clsx from 'clsx'
 
 const RecipeCardStandard = (props) => {
@@ -47,10 +47,13 @@ const RecipeCardStandard = (props) => {
                ))}
             </ul>
 
-            <RecipeMeta
-               className="rcp-card-standard__meta"
-               timeCook={time.cook}
-            />
+            <div className="rcp-card-standard__meta">
+               <RecipeMeta
+                  iconName="timer"
+                  value={time.cook}
+               />
+            </div>
+
             <span className="rcp-card-standard__category">             {category}
             </span>
          </a>

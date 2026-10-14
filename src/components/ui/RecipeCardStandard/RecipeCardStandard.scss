@@ -115,6 +115,10 @@
    position: absolute;
    bottom: fluid(17, 8, desktop, mobile);
    left: 0px;
+
+   div::before {
+      display: none;
+   }
 }
 
 .rcp-card-standard__category {

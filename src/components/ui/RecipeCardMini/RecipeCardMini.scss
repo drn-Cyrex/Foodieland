@@ -97,12 +97,22 @@
    transition: color 0.5s ease;
 }
 
-.recipe-meta {
+.rcp-card__meta {
    position: absolute;
    left: 50%;
    transform: translateX(-50%);
    bottom: 10px;
-   width: 90%; 
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+
+   div::before {
+      display: none;
+   }
+
+   div:nth-child(2) {
+      flex-direction: row-reverse;
+   }
 }
 
 .rcp-card-mini__liked {

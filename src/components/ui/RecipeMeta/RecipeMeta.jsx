@@ -1,44 +1,25 @@
 import "./RecipeMeta.scss"
 import Icon from "../Icon/Icon"
-import clsx from "clsx"
 
 const RecipeMeta = (props) => {
 
    const {
-      className,
-      labelPrep,
-      timePrep,
-      labelCook,
-      timeCook,
-      category,
+      iconName,
+      label,
+      value,
    } = props
 
    return (
-      <div className={clsx(className, 'meta')}>
-         {timePrep && (
-            <div className="meta-prep">
-               <Icon name="timer" hasFill />
-               <div className="meta-wrapper">
-                  <span>{labelPrep}</span>
-                  <p>{timePrep}</p>
-               </div>
-            </div>
-         )}
-         {timeCook && (
-            <div className="meta-timer">
-               <Icon name="timer" hasFill />
-               <div className="meta-wrapper">
-                  <span>{labelCook}</span>
-                  <p>{timeCook}</p>
-               </div>
-            </div>
-         )}
-         {category && (
-            <span className="meta-category">
-               <Icon name="fork-knife" hasFill />
-               <span>{category}</span>
+      <div className="meta">
+         <Icon className="meta__icon" name={iconName} hasFill />
+         <div className="meta__item">
+            <p className="meta__label">
+               {label}
+            </p>
+            <span className="meta__value">
+               {value}
             </span>
-         )}
+         </div>
       </div>
    )
 }

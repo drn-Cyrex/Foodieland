@@ -7,27 +7,32 @@ const AuthorCard = (props) => {
    const {
       className,
       imgSrc,
+      alt,
       name,
       date,
    } = props
 
    return (
-      <div
+      <article
          className={clsx('author-card', className)}
       >
          <Image
             className="author-card__image"
             src={imgSrc}
+            alt={alt || name}
          />
          <div className="author-card__body">
-            <h3 className="author-card__name">{name}</h3>
-            {date && (
-               <time className="author-card__date" dateTime={date.dateTime}>
+            <p className="author-card__name">{name}</p>
+            {date?.dateTime && (
+               <time
+                  className="author-card__date"
+                  dateTime={date.dateTime}
+               >
                   {date.label}
                </time>
             )}
          </div>
-      </div>
+      </article>
    )
 }
 

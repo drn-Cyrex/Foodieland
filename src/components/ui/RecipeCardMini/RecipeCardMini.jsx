@@ -32,11 +32,19 @@ const RecipeCardMini = (props) => {
          >
             <h3>{title}</h3>
          </a>
-         <RecipeMeta
-            className="recipe-meta"
-            timeCook={time.cook}
-            category={category}
-         />
+
+         <div className="rcp-card__meta">
+            <RecipeMeta
+               iconName="timer"
+               value={time.cook}
+            />
+            <RecipeMeta
+               iconName="fork-knife"
+               value={category}
+            />
+         </div>
+
+
          <button className={clsx(
             'rcp-card-mini__liked',
             isLiked && 'is-liked',
