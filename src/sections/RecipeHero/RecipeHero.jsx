@@ -74,7 +74,11 @@ const RecipeHero = () => {
 
          <div className="recipe-hero__content">
             <RecipeVideo />
-            <NutritionInfo />
+            <NutritionInfo
+               title={recipe.nutrition.title}
+               facts={recipe.nutrition.facts}
+               note={recipe.nutrition.note}
+            />
          </div>
       </section >
    )

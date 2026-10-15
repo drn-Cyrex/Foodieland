@@ -11,8 +11,8 @@
    justify-content: space-between;
 
    @include tablet-l {
-      h2,
-      p {
+      & > h2,
+      & > p {
          margin-right: 50px;
       }
    }
@@ -31,6 +31,7 @@
 .recipe__meta-info {
    display: flex;
    flex-wrap: wrap;
+   justify-content: end;
    gap: fluid(10, 5, desktop, mobile);
 }
 
@@ -69,6 +70,6 @@
 }
 
 .recipe-hero__content {
-   display: flex;
-   flex-wrap: wrap;
+   display: grid;
+   gap: 16px;
 }

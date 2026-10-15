@@ -1,0 +1,63 @@
+.nutrition-info {
+   width: 100%;
+   max-width: fluid(400, 300, desktop, mobile);
+   padding: fluid(32, 20, desktop, mobile);
+   border: 1px solid var(--color-gray);
+   border-radius: var(--radius);
+
+   @media (max-width: 900px) {
+      max-width: 100%;
+   }
+}
+
+.nutrition-info__title {
+   font-weight: 600;
+   font-size: 24px;
+   letter-spacing: -0.04em;
+   color: var(--color-gray);
+}
+
+.nutrition-info__table {
+   width: 100%;
+   margin-top: 24px;
+   border-collapse: collapse;
+
+   tr {
+      position: relative;
+      &:before {
+         content: "";
+         position: absolute;
+         left: 50%;
+         transform: translateX(-50%);
+         bottom: 0;
+         height: 1px;
+         width: 100%;
+         background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0.5),
+            var(--color-accent)
+         );
+      }
+   }
+
+   td {
+      padding: fluid(10, 6, desktop, mobile) 0;
+      font-weight: 500;
+      font-size: fluid(18, 16, desktop, mobile);
+      letter-spacing: -0.04em;
+   }
+}
+
+.nutrition-info__label {
+   color: var(--color-white);
+}
+
+.nutrition-info__value {
+   text-align: right;
+   color: var(--color-accent);
+}
+
+.nutrition-info__note {
+   margin-top: fluid(130, 70, desktop, mobile);
+   text-align: center;
+}
