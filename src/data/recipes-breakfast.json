@@ -12,14 +12,23 @@
       "category": "breakfast",
 
       "time": {
-         "prep": "15 Min",
-         "cook": "15 Min"
+         "prep": 15,
+         "cook": 15
       },
 
       "tags": ["sweet", "quick", "popular"],
-      "backgroundImgSrc": "url('/src/assets/images/recipes/breakfast/2.png')",
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
       "isLiked": true,
 
+      "video": {
+         "sources": [
+            {
+               "src": "/videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [

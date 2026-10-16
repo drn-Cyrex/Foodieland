@@ -9,10 +9,12 @@
    display: flex;
    align-items: center;
    justify-content: space-between;
+}
 
+.recipe-hero__info {
    @include tablet-l {
-      & > h2,
-      & > p {
+      > h2,
+      > p {
          margin-right: 50px;
       }
    }
@@ -70,6 +72,11 @@
 }
 
 .recipe-hero__content {
-   display: grid;
-   gap: 16px;
+   display: flex;
+   justify-content: center;
+   gap: fluid(40, 20, desktop, mobile);
+
+   @include tablet-l {
+      flex-wrap: wrap;
+   }
 }

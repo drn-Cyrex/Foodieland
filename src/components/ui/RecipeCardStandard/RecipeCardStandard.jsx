@@ -15,7 +15,7 @@ const RecipeCardStandard = (props) => {
    } = props
 
    const style = {
-      backgroundImage: backgroundImgSrc,
+      backgroundImage: `url(${backgroundImgSrc})`
    }
 
 
@@ -51,6 +51,7 @@ const RecipeCardStandard = (props) => {
                <RecipeMeta
                   iconName="timer"
                   value={time.cook}
+                  minutes
                />
             </div>
 

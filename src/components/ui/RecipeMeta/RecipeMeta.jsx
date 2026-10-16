@@ -7,6 +7,7 @@ const RecipeMeta = (props) => {
       iconName,
       label,
       value,
+      minutes,
    } = props
 
    return (
@@ -17,7 +18,7 @@ const RecipeMeta = (props) => {
                {label}
             </p>
             <span className="meta__value">
-               {value}
+               {value} {minutes && <span>min</span>}
             </span>
          </div>
       </div>

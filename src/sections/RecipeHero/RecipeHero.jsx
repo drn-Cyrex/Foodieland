@@ -41,11 +41,13 @@ const RecipeHero = () => {
                         iconName="timer"
                         label="prep time"
                         value={recipe.time.prep}
+                        minutes
                      />
                      <RecipeMeta
                         iconName="timer"
                         label="cook time"
                         value={recipe.time.cook}
+                        minutes
                      />
                      <RecipeMeta
                         iconName="fork-knife"
@@ -73,7 +75,10 @@ const RecipeHero = () => {
          </div>
 
          <div className="recipe-hero__content">
-            <RecipeVideo />
+            <RecipeVideo
+               poster={recipe.video.poster}
+               sources={recipe.video.sources}
+            />
             <NutritionInfo
                title={recipe.nutrition.title}
                facts={recipe.nutrition.facts}

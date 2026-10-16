@@ -1,11 +1,30 @@
 import "./RecipeVideo.scss"
 
-const RecipeVideo = () => {
+const RecipeVideo = (props) => {
+   const {
+      poster,
+      sources = []
+   } = props
 
    return (
-      <div className="video">
-         <iframe src="https://www.youtube.com/embed/jPOxWOE-3Xk?si=uVH_fIeFVMUdF4o3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-         </iframe>
+      <div className="recipe-hero__video">
+         <video
+            className="recipe-hero__video-player"
+            poster={poster}
+            controls
+            playsInline
+            preload="metadata"
+         >
+            {sources.map(({ src, type }) => (
+               <source
+                  key={src}
+                  src={src}
+                  type={type}
+               />
+            ))}
+
+            <p>Video not available</p>
+         </video>
       </div>
    )
 }

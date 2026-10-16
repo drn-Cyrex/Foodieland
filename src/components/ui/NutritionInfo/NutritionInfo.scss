@@ -1,20 +1,26 @@
 .nutrition-info {
-   width: 100%;
-   max-width: fluid(400, 300, desktop, mobile);
+   max-width: fluid(400, 250, desktop, tablet-l);
    padding: fluid(32, 20, desktop, mobile);
-   border: 1px solid var(--color-gray);
    border-radius: var(--radius);
+   box-shadow: 5px 3px 7px 0 var(--color-black);
 
-   @media (max-width: 900px) {
-      max-width: 100%;
+   @include tablet-l {
+      max-width: 80%;
    }
 }
 
 .nutrition-info__title {
+   /* Определение градиента */
+   background-image: linear-gradient(lightgray, transparent);
+   /* Обрезка фона по тексту */
+   -webkit-background-clip: text;
+   background-clip: text;
+   /* Прозрачный цвет текста, чтобы видеть фон */
+   color: transparent;
+   text-transform: uppercase;
    font-weight: 600;
-   font-size: 24px;
+   font-size: fluid(24, 18, desktop, mobile);
    letter-spacing: -0.04em;
-   color: var(--color-gray);
 }
 
 .nutrition-info__table {
@@ -35,6 +41,7 @@
          background: linear-gradient(
             to right,
             rgba(255, 255, 255, 0.5),
+            transparent,
             var(--color-accent)
          );
       }
@@ -43,13 +50,13 @@
    td {
       padding: fluid(10, 6, desktop, mobile) 0;
       font-weight: 500;
-      font-size: fluid(18, 16, desktop, mobile);
+      font-size: fluid(16, 14, desktop, mobile);
       letter-spacing: -0.04em;
    }
 }
 
 .nutrition-info__label {
-   color: var(--color-white);
+   color: lightgray;
 }
 
 .nutrition-info__value {
@@ -58,6 +65,7 @@
 }
 
 .nutrition-info__note {
-   margin-top: fluid(130, 70, desktop, mobile);
+   margin-top: fluid(100, 50, desktop, mobile);
    text-align: center;
+   font-size: fluid(16, 14, desktop, mobile);
 }

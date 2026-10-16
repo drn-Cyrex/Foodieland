@@ -37,6 +37,7 @@ const RecipeCardMini = (props) => {
             <RecipeMeta
                iconName="timer"
                value={time.cook}
+               minutes
             />
             <RecipeMeta
                iconName="fork-knife"
