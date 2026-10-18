@@ -1,4 +1,5 @@
 import RecipeHero from "@/sections/RecipeHero/RecipeHero"
+import RecipeIngredients from "@/sections/RecipeIngredients/RecipeIngredients"
 import Subscribe from "@/sections/Subscribe/Subscribe"
 
 export const metadata = {
@@ -9,6 +10,7 @@ export default function () {
    return (
       <>
          <RecipeHero />
+         <RecipeIngredients/>
          <Subscribe />
       </>
    )

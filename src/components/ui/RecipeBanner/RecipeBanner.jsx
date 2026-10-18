@@ -8,14 +8,14 @@ const RecipeBanner = (props) => {
       title: "Don’t forget to eat healthy food",
       site: "www.foodieland.com"
    }
-   
+
    return (
       <a
          className='recipe-banner'
          href='/'
       >
          <h3>{item.title}</h3>
-         <Image src='/src/assets/images/recipes/0.png' />
+         <Image src='/src/assets/images/banner.png' />
          <span>{item.site}</span>
       </a>
    )

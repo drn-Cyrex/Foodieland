@@ -18,7 +18,7 @@ const RecipeCardMini = (props) => {
    const likeButtonTitle = isLiked ? 'Dislike' : 'Like'
 
    const style = {
-      backgroundImage: backgroundImgSrc,
+      backgroundImage: `url(${backgroundImgSrc})`
    }
 
    return (

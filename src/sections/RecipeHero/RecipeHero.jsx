@@ -1,7 +1,7 @@
 import "./RecipeHero.scss"
+import { getRecipeById } from "@/api/recipes/index";
 import AuthorCard from "@/components/ui/AuthorCard/AuthorCard"
 import RecipeMeta from "@/components/ui/RecipeMeta/RecipeMeta"
-import { getRecipeById } from "@/api/recipes/index";
 import Icon from "@/components/ui/Icon/Icon";
 import RecipeVideo from "@/components/ui/RecipeVideo/RecipeVideo";
 import NutritionInfo from "@/components/ui/NutritionInfo/NutritionInfo";

@@ -1,0 +1,30 @@
+.ingredient {
+}
+
+.ingredient-title {
+   font-weight: 600;
+   font-size: fluid(32, 24, desktop, mobile);
+   letter-spacing: -0.04em;
+}
+
+.ingredient-group {
+   display: grid;
+}
+
+.ingredient-group legend {
+   font-weight: 600;
+   font-size: fluid(24, 16, desktop, mobile);
+   letter-spacing: -0.04em;
+}
+
+.ingredient-group__label {
+   display: flex;
+   gap: 24px;
+   padding-block: 33px;
+   border-bottom: 1px solid var(--color-gray);
+   cursor: pointer;
+}
+
+.ingredient-group__label input {
+   width: 24px;
+}
