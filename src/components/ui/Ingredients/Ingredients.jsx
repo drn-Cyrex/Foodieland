@@ -18,11 +18,11 @@ const Ingredients = (props) => {
 
                {group.items.map((item, index) => (
                   <label className='ingredient-group__label'
-                     htmlFor="ingredient" key={index}>
+                     htmlFor={item} key={index}>
                      <input
                         type="checkbox"
-                        name="ingredient"
-                        id="ingredient" />
+                        name={item}
+                        id={item} />
                      <span>{item}</span>
                   </label>
                ))}
