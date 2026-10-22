@@ -1,12 +1,13 @@
-.ingredient {
-   display: grid;
+.ingredient-wrapper {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: start;
    row-gap: fluid(48, 24, desktop, mobile);
-}
 
-.ingredient-title {
-   font-weight: 600;
-   font-size: fluid(32, 24, desktop, mobile);
-   letter-spacing: -0.04em;
+   @include tablet {
+      flex-wrap: wrap;
+      justify-content: left;
+   }
 }
 
 .ingredient-group {
@@ -23,17 +24,17 @@
 
 .ingredient-group__label {
    position: relative;
-
+   margin-left: 10px;
    opacity: 0;
    padding-block: fluid(33, 17, desktop, mobile);
    padding-inline: fluid(15, 10, desktop, mobile);
-   padding-right: fluid(33, 17, desktop, mobile);
+   padding-right: fluid(33, 23, desktop, mobile);
    display: flex;
-   gap: 24px;
-   background-image: linear-gradient(to right, lime , transparent);
+   gap: 12px;
+   background-image: linear-gradient(to right, lime, transparent);
    background-repeat: no-repeat;
    background-position: left center;
-   background-size: 0 90%;
+   background-size: 0 75%;
    transition:
       background-size 0.5s linear,
       color 0.5s linear;
@@ -55,13 +56,12 @@
 
    &:has(input:checked) {
       color: contrast-color(lime);
-      background-size: 100% 90%;
+      background-size: 100% 75%;
    }
 }
 
 @keyframes view-label {
    to {
-
       opacity: 1;
    }
 }
@@ -78,10 +78,9 @@
    position: relative;
    flex-shrink: 0;
    transition:
-      background-color 0.3s ease,
-      border-color 0.3s ease;
+      background-color 0.15s ease,
+      border-color 0.15s ease;
 
-   /* галочка через ::after */
    &::after {
       content: "";
       position: absolute;
@@ -100,11 +99,12 @@
    }
 
    &:checked {
-      border-color: lime;
-      background-color: rgba(0, 255, 0, 0.15);
+      //border-color: rgba(0, 255, 0, 0.25);
+      //background-color: rgba(0, 255, 0, 0.15);
+      opacity: 0; // временно скрыто 
    }
 
-   &:checked::after {
+   &:checked::after {      
       transform: scale(1);
    }
 

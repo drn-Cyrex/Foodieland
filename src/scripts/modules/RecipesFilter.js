@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
       button.addEventListener("click", () => {
          const filter = button.dataset.filter;
 
-         // active button
          buttons.forEach((btn) => btn.classList.remove("filter-active"));
 
          button.classList.add("filter-active");
@@ -29,4 +28,3 @@ document.addEventListener("DOMContentLoaded", () => {
       });
    });
 });
-

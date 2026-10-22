@@ -29,6 +29,7 @@
          ],
          "poster": "/video-posters/poster.jpg"
       },
+
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
@@ -70,21 +71,39 @@
          "steps": [
             {
                "stepNumber": 1,
-               "title": "Prepare the batter",
-               "description": "In a large bowl, mix the oats, flour, sugar, baking powder, and salt. Add the milk and eggs, stirring until just combined.",
-               "imgSrc": "/src/assets/images/recipes/steps/step1.jpg"
+               "title": "Prepare the dry ingredients",
+               "description": "In a large mixing bowl, combine the rolled oats, all-purpose flour, sugar, baking powder, and salt. Whisk them together until evenly distributed.",
+               "imgSrc": "/src/assets/images/recipes/steps/step1-dry.jpg"
             },
             {
                "stepNumber": 2,
-               "title": "Cook the pancakes",
-               "description": "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
+               "title": "Mix the wet ingredients",
+               "description": "In a separate bowl, whisk together the milk, eggs, and vanilla extract until smooth and well combined.",
                "imgSrc": null
             },
             {
                "stepNumber": 3,
-               "title": "Serve with syrup",
-               "description": "Top with fresh sliced strawberries and drizzle with honey syrup before serving.",
-               "imgSrc": "/src/assets/images/recipes/steps/step3.jpg"
+               "title": "Combine the batter",
+               "description": "Pour the wet ingredients into the dry ingredients. Stir gently with a spatula until just combined. Be careful not to overmix; a few lumps are perfectly fine. Let the batter rest for 5 minutes to allow the oats to absorb the liquid.",
+               "imgSrc": "/src/assets/images/recipes/steps/step3-batter.jpg"
+            },
+            {
+               "stepNumber": 4,
+               "title": "Cook the pancakes",
+               "description": "Heat a non-stick griddle or frying pan over medium heat and lightly grease it with butter or oil. Pour about 1/4 cup of batter onto the pan for each pancake. Cook until bubbles form on the surface, then flip and cook the other side until golden brown.",
+               "imgSrc": "/src/assets/images/recipes/steps/step4-cooking.jpg"
+            },
+            {
+               "stepNumber": 5,
+               "title": "Prepare the honey syrup",
+               "description": "While the pancakes are cooking, gently warm the honey in a small saucepan over low heat. Stir in the fresh lemon juice to balance the sweetness.",
+               "imgSrc": null
+            },
+            {
+               "stepNumber": 6,
+               "title": "Serve and enjoy",
+               "description": "Stack the warm pancakes on a plate. Top generously with fresh sliced strawberries and drizzle with the warm honey syrup. Serve immediately.",
+               "imgSrc": "/src/assets/images/recipes/steps/step6-serve.jpg"
             }
          ]
       }

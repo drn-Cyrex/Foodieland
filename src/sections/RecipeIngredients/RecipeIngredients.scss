@@ -1,16 +1,10 @@
 .recipe-ingredients {
-   display: flex;
-   justify-content: center;
-   gap: fluid(40, 20, desktop, mobile);
-
-   @include tablet {
-      flex-wrap: wrap;
-   }
+   display: grid;
+   row-gap: fluid(48, 24, desktop, mobile);
 }
 
-.recipe-ingredients .recipe-banner {
-   position: sticky;
-   top: 100px;
-   width: 300px;
-   height: 370px;
+.recipe-ingredients-title {
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: fluid(32, 24, desktop, mobile);
 }

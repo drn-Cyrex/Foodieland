@@ -25,7 +25,10 @@ const RecipeCardStandard = (props) => {
          data-id={id}
          data-category={category}
          data-tags={tags.join(",")}
-         style={style}
+         style={{
+            ...style,
+            viewTransitionName: `recipe-${id}`,
+         }}
       >
 
          <a href="/recipe"

@@ -1,7 +1,6 @@
 import "./RecipeIngredients.scss"
 import { getRecipeById } from "@/api/recipes/index";
 import Ingredients from "@/components/ui/Ingredients/Ingredients"
-import RecipeBanner from "@/components/ui/RecipeBanner/RecipeBanner"
 
 
 const RecipeIngredients = () => {
@@ -10,11 +9,13 @@ const RecipeIngredients = () => {
 
    return (
       <section className="recipe-ingredients container">
+         <h4
+            className='recipe-ingredients-title'>
+            {recipe.ingredients.title}
+         </h4>
          <Ingredients
-            title={recipe.ingredients.title}
             groups={recipe.ingredients.groups}
          />
-         <RecipeBanner />
       </section>
    )
 }

@@ -6,8 +6,9 @@
    background-repeat: no-repeat;
    background-size: fluid(190, 90, desktop, mobile);
    background-origin: content-box;
-
-   transition: 0.75s ease-out;
+   transition:
+      background-color 0.5s ease,
+      color 0.5s ease;
 
    @include hover {
       background-color: var(--color-black);
@@ -22,7 +23,7 @@
    translate: 0 20px;
    opacity: 0;
    width: 100%;
-   min-width: fluid(600, 280, desktop, mobile);
+   min-width: fluid(620, 280, desktop, mobile);
    padding: fluid(20, 15, desktop, mobile);
    display: flex;
    flex-direction: column;
