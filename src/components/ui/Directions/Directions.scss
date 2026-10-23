@@ -1,3 +1,61 @@
 .directions {
-   
+   display: grid;
+   justify-content: center;
+   row-gap: fluid(96, 48, desktop, mobile);
+}
+
+
+
+.directions-group {
+   position: relative;
+   max-width: 800px;
+   padding: fluid(32, 20, desktop, mobile);
+   display: grid;
+   row-gap: fluid(24, 16, desktop, mobile);
+   border-radius: var(--radius);
+   box-shadow: 0px 10px 7px 0 var(--color-black);
+   background-color: var(--color-bg);
+   counter-increment: number;
+   animation: fade-in-directions;
+   animation-timeline: view();
+   animation-range: cover 5%;
+
+   @include tablet {
+      margin-left: 10px;
+   }
+
+   &:before {
+      content: counter(number) / "";
+      position: absolute;
+      z-index: -1;
+      top: 50%;
+      left: -15px;
+      transform: translateY(-50%) scale(5);
+      background-image: linear-gradient(to bottom, gray, transparent);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      opacity: 0.1;
+      animation: directions-counter both;
+      animation-timeline: view();
+   }
+}
+
+@keyframes directions-counter {
+   50% {
+      opacity: 1;
+   }
+}
+
+.directions-group__title {
+   font-weight: 600;
+   font-size: fluid(24, 20, desktop, mobile);
+   letter-spacing: -0.02em;
+}
+
+.directions-group__description {
+   font-weight: 400;
+   font-size: fluid(16, 14, desktop, mobile);
+   line-height: 163%;
+   letter-spacing: -0.02em;
 }

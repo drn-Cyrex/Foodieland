@@ -1,8 +1,11 @@
 .recipe-directions {
+   display: grid;
+   row-gap: fluid(32, 22, desktop, mobile);
 }
 
 .recipe-directions__title {
    text-transform: uppercase;
    font-weight: 600;
    font-size: fluid(32, 24, desktop, mobile);
+   letter-spacing: -0.04em;
 }
