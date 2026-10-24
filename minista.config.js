@@ -3,10 +3,9 @@ import path from "path";
 
 export default defineConfig({
    root: "",
-   // base: "/",
-   base: "/Foodieland/",
+   base: "/",
    public: "public",
-   out: "dist",
+   out: "docs",
    assets: {
       outDir: "assets",
       outName: "[name]",

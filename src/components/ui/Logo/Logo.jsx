@@ -1,3 +1,4 @@
+import { Image } from "minista"
 import "./Logo.scss"
 import classNames from "classnames"
 
@@ -15,13 +16,17 @@ const Logo = (props) => {
          title={title}
          aria-label={title}
       >
-         <img
+         {/* <img
             className="logo-image"
             src="/src/assets/icons/logo/Foodieland.png"
             alt=""
             height={30}
             width={110}
             loading={loading}
+         /> */}
+         <Image
+            className="logo-image"
+            src="/src/assets/icons/logo/Foodieland.png"
          />
       </a>
    )
