@@ -1,613 +1,1281 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodieland| Home</title>
-    <link rel="preload" href="/assets/Inter.css" as="font" type="truetype-variations" crossOrigin="true">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="stylesheet" href="/assets/main.css">
-    <script type="module" src="/assets/app.js"></script>
-    <link rel="stylesheet" href="/assets/bundle.css">
-  </head>
-  <body>
-    <header class="header" data-js-header-hidden="">
-      <div class="header-wrapper">
-        <a href="/" class="logo" title="Home" aria-label="Home">
-          <img srcset="/assets/images/Foodieland-108x19.png 108w" src="/assets/images/Foodieland-108x19.png" sizes="(min-width: 108px) 108px, 100vw" width="108" height="19" alt decoding="async" loading="lazy" class="logo-image">
-        </a>
-        <div class="line line__hover"></div>
-        <div class="line line__active"></div>
-        <nav class="header__nav" data-js-overlay-menu-mobile="">
-          <ul class="header__list">
-            <li>
-              <a class="header__link is-active-page" href="/">Home</a>
-            </li>
-            <li>
-              <a class="header__link" href="/recipes">Recipes</a>
-            </li>
-            <li>
-              <a class="header__link" href="/blog">Blog</a>
-            </li>
-            <li>
-              <a class="header__link" href="/contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="soc1als header__soc1als">
-          <ul class="soc1als__list">
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#facebook"></use>
-                  </svg>
-                </span></a>
-            </li>
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#twitter"></use>
-                  </svg>
-                </span></a>
-            </li>
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#instagram"></use>
-                  </svg>
-                </span></a>
-            </li>
-          </ul>
-        </div>
-        <button class="button-dropdown" data-js-overlay-menu-burger-button="" type="button" aria-label="Open menu" title="Open menu"><span></span><span></span><span></span></button>
-      </div>
-    </header>
-    <main class="main">
-      <section>
-        <div class="hero swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="hero-content">
-                <div class="hero-content__body">
-                  <div class="hero-content__category">
-                    <img srcset="/assets/images/scroll-24x24.png 24w" src="/assets/images/scroll-24x24.png" sizes="(min-width: 24px) 24px, 100vw" width="24" height="24" alt decoding="async" loading="lazy" class="hero-content__category-image"><span>Hot Recipes</span>
-                  </div>
-                  <h2 class="hero-content__title">Fragrant chicken grill with haze</h2>
-                  <div class="hero-description">
-                    <p>Juicy chicken legs with a golden brown crust, baked to perfection. Served with lemon, fresh herbs and baked garlic on a stylish dark plate.</p>
-                  </div>
-                  <div class="hero-content__footer">
-                    <article class="author-card hero-content__author">
-                      <img srcset="/assets/images/man-50x50.jpg 50w" src="/assets/images/man-50x50.jpg" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt="John Smith" decoding="async" loading="lazy" class="author-card__image">
-                      <div class="author-card__body">
-                        <p class="author-card__name">John Smith</p>
-                        <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
-                      </div>
-                    </article>
-                    <a class="button hero-content__button" href="/"><span>View Recipe</span><span class="icon">
-                        <svg fill="currentColor" stroke="none">
-                          <use href="/assets/images/icons.svg#play"></use>
-                        </svg>
-                      </span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="hero-content">
-                <div class="hero-content__body">
-                  <div class="hero-content__category">
-                    <img srcset="/assets/images/scroll-24x24.png 24w" src="/assets/images/scroll-24x24.png" sizes="(min-width: 24px) 24px, 100vw" width="24" height="24" alt decoding="async" loading="lazy" class="hero-content__category-image"><span>Hot Recipes</span>
-                  </div>
-                  <h1 class="hero-content__title">The magic of Asian sauce</h1>
-                  <div class="hero-description">
-                    <p>Appetizing chicken pieces topped with a sticky, caramelized sesame sauce. The perfect snack or base for dinner.</p>
-                  </div>
-                  <div class="hero-content__footer">
-                    <article class="author-card hero-content__author">
-                      <img srcset="/assets/images/man-50x50.jpg 50w" src="/assets/images/man-50x50.jpg" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt="John Smith" decoding="async" loading="lazy" class="author-card__image">
-                      <div class="author-card__body">
-                        <p class="author-card__name">John Smith</p>
-                        <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
-                      </div>
-                    </article>
-                    <a class="button hero-content__button" href="/"><span>View Recipe</span><span class="icon">
-                        <svg fill="currentColor" stroke="none">
-                          <use href="/assets/images/icons.svg#play"></use>
-                        </svg>
-                      </span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="hero-content">
-                <div class="hero-content__body">
-                  <div class="hero-content__category">
-                    <img srcset="/assets/images/scroll-24x24.png 24w" src="/assets/images/scroll-24x24.png" sizes="(min-width: 24px) 24px, 100vw" width="24" height="24" alt decoding="async" loading="lazy" class="hero-content__category-image"><span>Hot Recipes</span>
-                  </div>
-                  <h2 class="hero-content__title"> Fundamentals of Taste</h2>
-                  <div class="hero-description">
-                    <p>Garlic, lime, chili and coriander — a classic combination for preparing Asian or Mexican dishes.</p>
-                  </div>
-                  <div class="hero-content__footer">
-                    <article class="author-card hero-content__author">
-                      <img srcset="/assets/images/man-50x50.jpg 50w" src="/assets/images/man-50x50.jpg" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt="John Smith" decoding="async" loading="lazy" class="author-card__image">
-                      <div class="author-card__body">
-                        <p class="author-card__name">John Smith</p>
-                        <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
-                      </div>
-                    </article>
-                    <a class="button hero-content__button" href="/"><span>View Recipe</span><span class="icon">
-                        <svg fill="currentColor" stroke="none">
-                          <use href="/assets/images/icons.svg#play"></use>
-                        </svg>
-                      </span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="categories container section" aria-labelledby="categories">
-        <header class="section__header">
-          <h2 class="section__title title-effect" id="categories">Categories</h2>
-          <div>
-            <a class="button section__link button--secondary" href="/recipes">View All Categories</a>
-          </div>
-        </header>
-        <div class="section__body">
-          <ul class="grid grid--6 categories-list">
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/breakfast-100x100.png 100w" src="/assets/images/breakfast-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Breakfast</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/vegan-100x100.png 100w" src="/assets/images/vegan-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Vegan</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/meat-100x100.png 100w" src="/assets/images/meat-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Meat</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/dessert-100x100.png 100w" src="/assets/images/dessert-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Dessert</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/lunch-100x100.png 100w" src="/assets/images/lunch-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Lunch</h3>
-              </article>
-            </li>
-            <li class="grid-item">
-              <article class="category-card" style="styles:[object Object]">
-                <img srcset="/assets/images/chocolate-100x100.png 100w" src="/assets/images/chocolate-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy">
-                <h3 class="category-card__title">Chocolate</h3>
-              </article>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="recipes container section" aria-labelledby="recipes">
-        <header class="section__header section__header--vertical">
-          <h2 class="section__title title-effect" id="recipes">Popular and tasty recipes</h2>
-          <div class="section__description">
-            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
-          </div>
-        </header>
-        <div class="section__body">
-          <div class="grid-auto">
-            <article class="rcp-card-mini" data-id="vegan-tofu-stir-fry" style="background-image:url(/images/recipes/vegan/4.png)">
-              <a href="/recipe" class="rcp-card-mini__link">
-                <h3>Crispy Tofu Veggie Stir Fry</h3>
-              </a>
-              <div class="rcp-card__meta">
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#timer"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">12</span>
-                  </div>
-                </div>
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#fork-knife"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">vegan</span>
-                  </div>
-                </div>
-              </div>
-              <button class="rcp-card-mini__liked is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#heart"></use>
-                  </svg>
-                </span></button>
-            </article>
-            <article class="rcp-card-mini" data-id="classic-banana-pancakes" style="background-image:url(/images/recipes/breakfast/2.png)">
-              <a href="/recipe" class="rcp-card-mini__link">
-                <h3>Classic Banana Pancakes</h3>
-              </a>
-              <div class="rcp-card__meta">
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#timer"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">5</span>
-                  </div>
-                </div>
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#fork-knife"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">breakfast</span>
-                  </div>
-                </div>
-              </div>
-              <button class="rcp-card-mini__liked is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#heart"></use>
-                  </svg>
-                </span></button>
-            </article>
-            <article class="rcp-card-mini" data-id="grilled-veggie-wrap" style="background-image:url(/images/recipes/lunch/8.png)">
-              <a href="/recipe" class="rcp-card-mini__link">
-                <h3>Grilled Veggie Wrap</h3>
-              </a>
-              <div class="rcp-card__meta">
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#timer"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">7</span>
-                  </div>
-                </div>
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#fork-knife"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">lunch</span>
-                  </div>
-                </div>
-              </div>
-              <button class="rcp-card-mini__liked is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#heart"></use>
-                  </svg>
-                </span></button>
-            </article>
-            <a class="recipe-banner" href="/">
-              <h3>Don’t forget to eat healthy food</h3>
-              <img srcset="/assets/images/banner-320x320.png 320w, /assets/images/banner-355x355.png 355w" src="/assets/images/banner-355x355.png" sizes="(min-width: 355px) 355px, 100vw" width="355" height="355" alt decoding="async" loading="lazy"><span>www.foodieland.com</span>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Foodieland| Home</title>
+      <link
+         rel="preload"
+         href="/Foodieland/assets/Inter.css"
+         as="font"
+         type="truetype-variations"
+         crossorigin="true"
+      />
+      <link
+         rel="apple-touch-icon"
+         sizes="180x180"
+         href="/apple-touch-icon.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="/favicon-32x32.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="16x16"
+         href="/favicon-16x16.png"
+      />
+      <link rel="stylesheet" href="/Foodieland/assets/main.css" />
+      <script type="module" src="/Foodieland/assets/app.js"></script>
+      <link rel="stylesheet" href="/Foodieland/assets/bundle.css" />
+   </head>
+   <body>
+      <header class="header" data-js-header-hidden="">
+         <div class="header-wrapper">
+            <a href="/" class="logo" title="Home" aria-label="Home">
+               <img
+                  srcset="/Foodieland/assets/images/Foodieland-108x19.png 108w"
+                  src="/Foodieland/assets/images/Foodieland-108x19.png"
+                  sizes="(min-width: 108px) 108px, 100vw"
+                  width="108"
+                  height="19"
+                  alt
+                  decoding="async"
+                  loading="lazy"
+                  class="logo-image"
+               />
             </a>
-            <article class="rcp-card-mini" data-id="cauliflower-walnut-taco-meat" style="background-image:url(/images/recipes/vegan/4.png)">
-              <a href="/recipe" class="rcp-card-mini__link">
-                <h3>Cauliflower Walnut Vegetarian Taco Meat</h3>
-              </a>
-              <div class="rcp-card__meta">
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#timer"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">10</span>
+            <div class="line line__hover"></div>
+            <div class="line line__active"></div>
+            <nav class="header__nav" data-js-overlay-menu-mobile="">
+               <ul class="header__list">
+                  <li>
+                     <a class="header__link" href="/Foodieland/">Home</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="/Foodieland/recipes"
+                        >Recipes</a
+                     >
+                  </li>
+                  <li>
+                     <a class="header__link" href="/Foodieland/blog">Blog</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="/Foodieland/contact"
+                        >Contact</a
+                     >
+                  </li>
+               </ul>
+            </nav>
+            <div class="soc1als header__soc1als">
+               <ul class="soc1als__list">
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Facebook"
+                        ><span class="visually-hidden">Facebook</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#facebook"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Twitter"
+                        ><span class="visually-hidden">Twitter</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#twitter"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Instagram"
+                        ><span class="visually-hidden">Instagram</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#instagram"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+               </ul>
+            </div>
+            <button
+               class="button-dropdown"
+               data-js-overlay-menu-burger-button=""
+               type="button"
+               aria-label="Open menu"
+               title="Open menu"
+            >
+               <span></span><span></span><span></span>
+            </button>
+         </div>
+      </header>
+      <main class="main">
+         <section>
+            <div class="hero swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="hero-content">
+                        <div class="hero-content__body">
+                           <div class="hero-content__category">
+                              <img
+                                 srcset="
+                                    /Foodieland/assets/images/scroll-24x24.png 24w
+                                 "
+                                 src="/Foodieland/assets/images/scroll-24x24.png"
+                                 sizes="(min-width: 24px) 24px, 100vw"
+                                 width="24"
+                                 height="24"
+                                 alt
+                                 decoding="async"
+                                 loading="lazy"
+                                 class="hero-content__category-image"
+                              /><span>Hot Recipes</span>
+                           </div>
+                           <h2 class="hero-content__title">
+                              Fragrant chicken grill with haze
+                           </h2>
+                           <div class="hero-description">
+                              <p>
+                                 Juicy chicken legs with a golden brown crust,
+                                 baked to perfection. Served with lemon, fresh
+                                 herbs and baked garlic on a stylish dark plate.
+                              </p>
+                           </div>
+                           <div class="hero-content__footer">
+                              <article class="author-card hero-content__author">
+                                 <img
+                                    srcset="
+                                       /Foodieland/assets/images/man-50x50.jpg 50w
+                                    "
+                                    src="/Foodieland/assets/images/man-50x50.jpg"
+                                    sizes="(min-width: 50px) 50px, 100vw"
+                                    width="50"
+                                    height="50"
+                                    alt="John Smith"
+                                    decoding="async"
+                                    loading="lazy"
+                                    class="author-card__image"
+                                 />
+                                 <div class="author-card__body">
+                                    <p class="author-card__name">John Smith</p>
+                                    <time
+                                       class="author-card__date"
+                                       datetime="2022-03-15"
+                                       >15 March 2022</time
+                                    >
+                                 </div>
+                              </article>
+                              <a class="button hero-content__button" href="/"
+                                 ><span>View Recipe</span
+                                 ><span class="icon">
+                                    <svg fill="currentColor" stroke="none">
+                                       <use
+                                          href="/Foodieland/assets/images/icons.svg#play"
+                                       ></use>
+                                    </svg> </span
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#fork-knife"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">vegan</span>
+                  <div class="swiper-slide">
+                     <div class="hero-content">
+                        <div class="hero-content__body">
+                           <div class="hero-content__category">
+                              <img
+                                 srcset="
+                                    /Foodieland/assets/images/scroll-24x24.png 24w
+                                 "
+                                 src="/Foodieland/assets/images/scroll-24x24.png"
+                                 sizes="(min-width: 24px) 24px, 100vw"
+                                 width="24"
+                                 height="24"
+                                 alt
+                                 decoding="async"
+                                 loading="lazy"
+                                 class="hero-content__category-image"
+                              /><span>Hot Recipes</span>
+                           </div>
+                           <h1 class="hero-content__title">
+                              The magic of Asian sauce
+                           </h1>
+                           <div class="hero-description">
+                              <p>
+                                 Appetizing chicken pieces topped with a sticky,
+                                 caramelized sesame sauce. The perfect snack or
+                                 base for dinner.
+                              </p>
+                           </div>
+                           <div class="hero-content__footer">
+                              <article class="author-card hero-content__author">
+                                 <img
+                                    srcset="
+                                       /Foodieland/assets/images/man-50x50.jpg 50w
+                                    "
+                                    src="/Foodieland/assets/images/man-50x50.jpg"
+                                    sizes="(min-width: 50px) 50px, 100vw"
+                                    width="50"
+                                    height="50"
+                                    alt="John Smith"
+                                    decoding="async"
+                                    loading="lazy"
+                                    class="author-card__image"
+                                 />
+                                 <div class="author-card__body">
+                                    <p class="author-card__name">John Smith</p>
+                                    <time
+                                       class="author-card__date"
+                                       datetime="2022-03-15"
+                                       >15 March 2022</time
+                                    >
+                                 </div>
+                              </article>
+                              <a class="button hero-content__button" href="/"
+                                 ><span>View Recipe</span
+                                 ><span class="icon">
+                                    <svg fill="currentColor" stroke="none">
+                                       <use
+                                          href="/Foodieland/assets/images/icons.svg#play"
+                                       ></use>
+                                    </svg> </span
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
-              <button class="rcp-card-mini__liked is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#heart"></use>
-                  </svg>
-                </span></button>
-            </article>
-            <article class="rcp-card-mini" data-id="lemon-tart" style="background-image:url(/images/recipes/dessert/5.png)">
-              <a href="/recipe" class="rcp-card-mini__link">
-                <h3>Fresh Lemon Tart</h3>
-              </a>
-              <div class="rcp-card__meta">
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#timer"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">15</span>
+                  <div class="swiper-slide">
+                     <div class="hero-content">
+                        <div class="hero-content__body">
+                           <div class="hero-content__category">
+                              <img
+                                 srcset="
+                                    /Foodieland/assets/images/scroll-24x24.png 24w
+                                 "
+                                 src="/Foodieland/assets/images/scroll-24x24.png"
+                                 sizes="(min-width: 24px) 24px, 100vw"
+                                 width="24"
+                                 height="24"
+                                 alt
+                                 decoding="async"
+                                 loading="lazy"
+                                 class="hero-content__category-image"
+                              /><span>Hot Recipes</span>
+                           </div>
+                           <h2 class="hero-content__title">
+                              Fundamentals of Taste
+                           </h2>
+                           <div class="hero-description">
+                              <p>
+                                 Garlic, lime, chili and coriander — a classic
+                                 combination for preparing Asian or Mexican
+                                 dishes.
+                              </p>
+                           </div>
+                           <div class="hero-content__footer">
+                              <article class="author-card hero-content__author">
+                                 <img
+                                    srcset="
+                                       /Foodieland/assets/images/man-50x50.jpg 50w
+                                    "
+                                    src="/Foodieland/assets/images/man-50x50.jpg"
+                                    sizes="(min-width: 50px) 50px, 100vw"
+                                    width="50"
+                                    height="50"
+                                    alt="John Smith"
+                                    decoding="async"
+                                    loading="lazy"
+                                    class="author-card__image"
+                                 />
+                                 <div class="author-card__body">
+                                    <p class="author-card__name">John Smith</p>
+                                    <time
+                                       class="author-card__date"
+                                       datetime="2022-03-15"
+                                       >15 March 2022</time
+                                    >
+                                 </div>
+                              </article>
+                              <a class="button hero-content__button" href="/"
+                                 ><span>View Recipe</span
+                                 ><span class="icon">
+                                    <svg fill="currentColor" stroke="none">
+                                       <use
+                                          href="/Foodieland/assets/images/icons.svg#play"
+                                       ></use>
+                                    </svg> </span
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/assets/images/icons.svg#fork-knife"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">dessert</span>
+               </div>
+            </div>
+         </section>
+         <section
+            class="categories container section"
+            aria-labelledby="categories"
+         >
+            <header class="section__header">
+               <h2 class="section__title title-effect" id="categories">
+                  Categories
+               </h2>
+               <div>
+                  <a
+                     class="button section__link button--secondary"
+                     href="/recipes"
+                     >View All Categories</a
+                  >
+               </div>
+            </header>
+            <div class="section__body">
+               <ul class="grid grid--6 categories-list">
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/breakfast-100x100.png 100w
+                           "
+                           src="/Foodieland/assets/images/breakfast-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Breakfast</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/vegan-100x100.png 100w
+                           "
+                           src="/Foodieland/assets/images/vegan-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Vegan</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/meat-100x100.png 100w
+                           "
+                           src="/Foodieland/assets/images/meat-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Meat</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/dessert-100x100.png 100w
+                           "
+                           src="/Foodieland/assets/images/dessert-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Dessert</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/lunch-100x100.png 100w
+                           "
+                           src="/Foodieland/assets/images/lunch-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Lunch</h3>
+                     </article>
+                  </li>
+                  <li class="grid-item">
+                     <article
+                        class="category-card"
+                        style="styles: [object Object]"
+                     >
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/chocolate-100x100.png 100w
+                           "
+                           src="/Foodieland/assets/images/chocolate-100x100.png"
+                           sizes="(min-width: 100px) 100px, 100vw"
+                           width="100"
+                           height="100"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                        />
+                        <h3 class="category-card__title">Chocolate</h3>
+                     </article>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="recipes container section" aria-labelledby="recipes">
+            <header class="section__header section__header--vertical">
+               <h2 class="section__title title-effect" id="recipes">
+                  Popular and tasty recipes
+               </h2>
+               <div class="section__description">
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetuipisicing elit, sed
+                     do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqut enim ad minim
+                  </p>
+               </div>
+            </header>
+            <div class="section__body">
+               <div class="grid-auto">
+                  <article
+                     class="rcp-card-mini"
+                     data-id="grilled-steak-classic"
+                     style="background-image: url(/images/recipes/meat/0.png)"
+                  >
+                     <a href="/recipe" class="rcp-card-mini__link">
+                        <h3>Classic Grilled Steak</h3>
+                     </a>
+                     <div class="rcp-card__meta">
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#timer"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">15</span>
+                           </div>
+                        </div>
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#fork-knife"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">meat</span>
+                           </div>
+                        </div>
+                     </div>
+                     <button
+                        class="rcp-card-mini__liked is-liked disable-hover"
+                        type="button"
+                        aria-label="Dislike"
+                        title="Dislike"
+                     >
+                        <span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#heart"
+                              ></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </article>
+                  <article
+                     class="rcp-card-mini"
+                     data-id="raspberry-gelato"
+                     style="
+                        background-image: url(/images/recipes/dessert/5.png);
+                     "
+                  >
+                     <a href="/recipe" class="rcp-card-mini__link">
+                        <h3>Raspberry Gelato</h3>
+                     </a>
+                     <div class="rcp-card__meta">
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#timer"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">0</span>
+                           </div>
+                        </div>
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#fork-knife"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">dessert</span>
+                           </div>
+                        </div>
+                     </div>
+                     <button
+                        class="rcp-card-mini__liked is-liked disable-hover"
+                        type="button"
+                        aria-label="Dislike"
+                        title="Dislike"
+                     >
+                        <span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#heart"
+                              ></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </article>
+                  <article
+                     class="rcp-card-mini"
+                     data-id="grilled-veggie-wrap"
+                     style="background-image: url(/images/recipes/lunch/8.png)"
+                  >
+                     <a href="/recipe" class="rcp-card-mini__link">
+                        <h3>Grilled Veggie Wrap</h3>
+                     </a>
+                     <div class="rcp-card__meta">
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#timer"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">7</span>
+                           </div>
+                        </div>
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#fork-knife"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">lunch</span>
+                           </div>
+                        </div>
+                     </div>
+                     <button
+                        class="rcp-card-mini__liked is-liked disable-hover"
+                        type="button"
+                        aria-label="Dislike"
+                        title="Dislike"
+                     >
+                        <span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#heart"
+                              ></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </article>
+                  <a class="recipe-banner" href="/">
+                     <h3>Don’t forget to eat healthy food</h3>
+                     <img
+                        srcset="
+                           /Foodieland/assets/images/banner-320x320.png 320w,
+                           /Foodieland/assets/images/banner-355x355.png 355w
+                        "
+                        src="/Foodieland/assets/images/banner-355x355.png"
+                        sizes="(min-width: 355px) 355px, 100vw"
+                        width="355"
+                        height="355"
+                        alt
+                        decoding="async"
+                        loading="lazy"
+                     /><span>www.foodieland.com</span>
+                  </a>
+                  <article
+                     class="rcp-card-mini"
+                     data-id="classic-banana-pancakes"
+                     style="
+                        background-image: url(/images/recipes/breakfast/2.png);
+                     "
+                  >
+                     <a href="/recipe" class="rcp-card-mini__link">
+                        <h3>Classic Banana Pancakes</h3>
+                     </a>
+                     <div class="rcp-card__meta">
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#timer"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">5</span>
+                           </div>
+                        </div>
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#fork-knife"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">breakfast</span>
+                           </div>
+                        </div>
+                     </div>
+                     <button
+                        class="rcp-card-mini__liked is-liked disable-hover"
+                        type="button"
+                        aria-label="Dislike"
+                        title="Dislike"
+                     >
+                        <span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#heart"
+                              ></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </article>
+                  <article
+                     class="rcp-card-mini"
+                     data-id="lemon-tart"
+                     style="
+                        background-image: url(/images/recipes/dessert/5.png);
+                     "
+                  >
+                     <a href="/recipe" class="rcp-card-mini__link">
+                        <h3>Fresh Lemon Tart</h3>
+                     </a>
+                     <div class="rcp-card__meta">
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#timer"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">15</span>
+                           </div>
+                        </div>
+                        <div class="meta">
+                           <span class="icon meta__icon">
+                              <svg fill="currentColor" stroke="none">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#fork-knife"
+                                 ></use>
+                              </svg>
+                           </span>
+                           <div class="meta__item">
+                              <p class="meta__label"></p>
+                              <span class="meta__value">dessert</span>
+                           </div>
+                        </div>
+                     </div>
+                     <button
+                        class="rcp-card-mini__liked is-liked disable-hover"
+                        type="button"
+                        aria-label="Dislike"
+                        title="Dislike"
+                     >
+                        <span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#heart"
+                              ></use>
+                           </svg>
+                        </span>
+                     </button>
+                  </article>
+               </div>
+            </div>
+         </section>
+         <section
+            class="chef-promo container section"
+            aria-labelledby="chef-promo"
+         >
+            <header class="section__header">
+               <h2 class="section__title title-effect" id="chef-promo">
+                  Everyone can be a chef in their own kitchen
+               </h2>
+               <div class="section__description">
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetuipisicing elit, sed
+                     do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqut enim ad minim
+                  </p>
+               </div>
+               <div>
+                  <button
+                     class="button section__link button--secondary"
+                     type="button"
+                  >
+                     Learn More
+                  </button>
+               </div>
+            </header>
+            <div class="section__body">
+               <div class="chef-wrapper">
+                  <img
+                     srcset="
+                        /Foodieland/assets/images/q2-320x480.png 320w,
+                        /Foodieland/assets/images/q2-400x600.png 400w,
+                        /Foodieland/assets/images/q2-408x612.png 408w
+                     "
+                     src="/Foodieland/assets/images/q2-408x612.png"
+                     sizes="(min-width: 408px) 408px, 100vw"
+                     width="408"
+                     height="612"
+                     alt
+                     decoding="async"
+                     loading="lazy"
+                     class="chef-promo__image-cook"
+                  />
+                  <img
+                     srcset="/Foodieland/assets/images/meat-100x100.png 100w"
+                     src="/Foodieland/assets/images/meat-100x100.png"
+                     sizes="(min-width: 100px) 100px, 100vw"
+                     width="100"
+                     height="100"
+                     alt
+                     decoding="async"
+                     loading="lazy"
+                     class="chef-promo__image-meat"
+                  />
+                  <img
+                     srcset="/Foodieland/assets/images/onion-62x62.png 62w"
+                     src="/Foodieland/assets/images/onion-62x62.png"
+                     sizes="(min-width: 62px) 62px, 100vw"
+                     width="62"
+                     height="62"
+                     alt
+                     decoding="async"
+                     loading="lazy"
+                     class="chef-promo__image-onion"
+                  />
+                  <img
+                     srcset="/Foodieland/assets/images/vegan-100x100.png 100w"
+                     src="/Foodieland/assets/images/vegan-100x100.png"
+                     sizes="(min-width: 100px) 100px, 100vw"
+                     width="100"
+                     height="100"
+                     alt
+                     decoding="async"
+                     loading="lazy"
+                     class="chef-promo__image-vegan"
+                  />
+                  <img
+                     srcset="/Foodieland/assets/images/tomato-50x50.png 50w"
+                     src="/Foodieland/assets/images/tomato-50x50.png"
+                     sizes="(min-width: 50px) 50px, 100vw"
+                     width="50"
+                     height="50"
+                     alt
+                     decoding="async"
+                     loading="lazy"
+                     class="chef-promo__image-tomato"
+                  />
+               </div>
+            </div>
+         </section>
+         <section
+            class="instagram-feed section"
+            aria-labelledby="instagram-feed"
+         >
+            <header class="section__header section__header--vertical">
+               <h2 class="section__title title-effect" id="instagram-feed">
+                  Check out @foodieland on Instagram
+               </h2>
+               <div class="section__description">
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetuipisicing elit, sed
+                     do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqut enim ad minim
+                  </p>
+               </div>
+            </header>
+            <div class="section__body">
+               <div class="instagram-feed__grid">
+                  <div class="instagram__card">
+                     <header class="instagram__card-header">
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/instagram-logo-card-25x25.jpg 25w
+                           "
+                           src="/Foodieland/assets/images/instagram-logo-card-25x25.jpg"
+                           sizes="(min-width: 25px) 25px, 100vw"
+                           width="25"
+                           height="25"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                           class="instagram__card-logo"
+                        />
+                        <div>
+                           <h4 class="instagram__card-title">Foodieland</h4>
+                           <span class="instagram__card-location"
+                              >Tokyo: Japan</span
+                           >
+                        </div>
+                     </header>
+                     <div class="instagram__card--body">
+                        <div class="instagram__card-img">
+                           <img
+                              srcset="
+                                 /Foodieland/assets/images/0.1-314x563.png 314w
+                              "
+                              src="/Foodieland/assets/images/0.1-314x563.png"
+                              sizes="(min-width: 314px) 314px, 100vw"
+                              width="314"
+                              height="563"
+                              alt
+                              decoding="async"
+                              loading="lazy"
+                           />
+                        </div>
+                        <div class="instagram__card-icon">
+                           <span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#like"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#comment"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#share"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#save"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
-              <button class="rcp-card-mini__liked is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#heart"></use>
-                  </svg>
-                </span></button>
-            </article>
-          </div>
-        </div>
-      </section>
-      <section class="chef-promo container section" aria-labelledby="chef-promo">
-        <header class="section__header">
-          <h2 class="section__title title-effect" id="chef-promo">Everyone can be a
-            chef in their own kitchen</h2>
-          <div class="section__description">
-            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
-          </div>
-          <div>
-            <button class="button section__link button--secondary" type="button">Learn More</button>
-          </div>
-        </header>
-        <div class="section__body">
-          <div class="chef-wrapper">
-            <img srcset="/assets/images/q2-320x480.png 320w, /assets/images/q2-400x600.png 400w, /assets/images/q2-408x612.png 408w" src="/assets/images/q2-408x612.png" sizes="(min-width: 408px) 408px, 100vw" width="408" height="612" alt decoding="async" loading="lazy" class="chef-promo__image-cook">
-            <img srcset="/assets/images/meat-100x100.png 100w" src="/assets/images/meat-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="chef-promo__image-meat">
-            <img srcset="/assets/images/onion-62x62.png 62w" src="/assets/images/onion-62x62.png" sizes="(min-width: 62px) 62px, 100vw" width="62" height="62" alt decoding="async" loading="lazy" class="chef-promo__image-onion">
-            <img srcset="/assets/images/vegan-100x100.png 100w" src="/assets/images/vegan-100x100.png" sizes="(min-width: 100px) 100px, 100vw" width="100" height="100" alt decoding="async" loading="lazy" class="chef-promo__image-vegan">
-            <img srcset="/assets/images/tomato-50x50.png 50w" src="/assets/images/tomato-50x50.png" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt decoding="async" loading="lazy" class="chef-promo__image-tomato">
-          </div>
-        </div>
-      </section>
-      <section class="instagram-feed section" aria-labelledby="instagram-feed">
-        <header class="section__header section__header--vertical">
-          <h2 class="section__title title-effect" id="instagram-feed">Check out @foodieland on Instagram</h2>
-          <div class="section__description">
-            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
-          </div>
-        </header>
-        <div class="section__body">
-          <div class="instagram-feed__grid">
-            <div class="instagram__card">
-              <header class="instagram__card-header">
-                <img srcset="/assets/images/instagram-logo-card-25x25.jpg 25w" src="/assets/images/instagram-logo-card-25x25.jpg" sizes="(min-width: 25px) 25px, 100vw" width="25" height="25" alt decoding="async" loading="lazy" class="instagram__card-logo">
-                <div>
-                  <h4 class="instagram__card-title">Foodieland</h4><span class="instagram__card-location">Tokyo: Japan</span>
-                </div>
-              </header>
-              <div class="instagram__card--body">
-                <div class="instagram__card-img">
-                  <img srcset="/assets/images/0.1-314x563.png 314w" src="/assets/images/0.1-314x563.png" sizes="(min-width: 314px) 314px, 100vw" width="314" height="563" alt decoding="async" loading="lazy">
-                </div>
-                <div class="instagram__card-icon"><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#like"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#comment"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#share"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#save"></use>
-                    </svg>
-                  </span></div>
-              </div>
+                  <div class="instagram__card">
+                     <header class="instagram__card-header">
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/instagram-logo-card-25x25.jpg 25w
+                           "
+                           src="/Foodieland/assets/images/instagram-logo-card-25x25.jpg"
+                           sizes="(min-width: 25px) 25px, 100vw"
+                           width="25"
+                           height="25"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                           class="instagram__card-logo"
+                        />
+                        <div>
+                           <h4 class="instagram__card-title">Foodieland</h4>
+                           <span class="instagram__card-location"
+                              >Tokyo: Japan</span
+                           >
+                        </div>
+                     </header>
+                     <div class="instagram__card--body">
+                        <div class="instagram__card-img">
+                           <img
+                              srcset="
+                                 /Foodieland/assets/images/0.2-320x573.png 320w,
+                                 /Foodieland/assets/images/0.2-373x669.png 373w
+                              "
+                              src="/Foodieland/assets/images/0.2-373x669.png"
+                              sizes="(min-width: 373px) 373px, 100vw"
+                              width="373"
+                              height="669"
+                              alt
+                              decoding="async"
+                              loading="lazy"
+                           />
+                        </div>
+                        <div class="instagram__card-icon">
+                           <span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#like"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#comment"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#share"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#save"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="instagram__card">
+                     <header class="instagram__card-header">
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/instagram-logo-card-25x25.jpg 25w
+                           "
+                           src="/Foodieland/assets/images/instagram-logo-card-25x25.jpg"
+                           sizes="(min-width: 25px) 25px, 100vw"
+                           width="25"
+                           height="25"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                           class="instagram__card-logo"
+                        />
+                        <div>
+                           <h4 class="instagram__card-title">Foodieland</h4>
+                           <span class="instagram__card-location"
+                              >Tokyo: Japan</span
+                           >
+                        </div>
+                     </header>
+                     <div class="instagram__card--body">
+                        <div class="instagram__card-img">
+                           <img
+                              srcset="
+                                 /Foodieland/assets/images/0.3-320x573.png 320w,
+                                 /Foodieland/assets/images/0.3-373x669.png 373w
+                              "
+                              src="/Foodieland/assets/images/0.3-373x669.png"
+                              sizes="(min-width: 373px) 373px, 100vw"
+                              width="373"
+                              height="669"
+                              alt
+                              decoding="async"
+                              loading="lazy"
+                           />
+                        </div>
+                        <div class="instagram__card-icon">
+                           <span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#like"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#comment"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#share"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#save"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="instagram__card">
+                     <header class="instagram__card-header">
+                        <img
+                           srcset="
+                              /Foodieland/assets/images/instagram-logo-card-25x25.jpg 25w
+                           "
+                           src="/Foodieland/assets/images/instagram-logo-card-25x25.jpg"
+                           sizes="(min-width: 25px) 25px, 100vw"
+                           width="25"
+                           height="25"
+                           alt
+                           decoding="async"
+                           loading="lazy"
+                           class="instagram__card-logo"
+                        />
+                        <div>
+                           <h4 class="instagram__card-title">Foodieland</h4>
+                           <span class="instagram__card-location"
+                              >Tokyo: Japan</span
+                           >
+                        </div>
+                     </header>
+                     <div class="instagram__card--body">
+                        <div class="instagram__card-img">
+                           <img
+                              srcset="
+                                 /Foodieland/assets/images/0.4-320x573.png 320w,
+                                 /Foodieland/assets/images/0.4-373x669.png 373w
+                              "
+                              src="/Foodieland/assets/images/0.4-373x669.png"
+                              sizes="(min-width: 373px) 373px, 100vw"
+                              width="373"
+                              height="669"
+                              alt
+                              decoding="async"
+                              loading="lazy"
+                           />
+                        </div>
+                        <div class="instagram__card-icon">
+                           <span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#like"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#comment"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#share"
+                                 ></use>
+                              </svg> </span
+                           ><span class="icon">
+                              <svg fill="none" stroke="currentColor">
+                                 <use
+                                    href="/Foodieland/assets/images/icons.svg#save"
+                                 ></use>
+                              </svg>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="button-wrapper">
+                  <a class="button instagram-feed__button" href="/"
+                     >Visit Our Instagram<span class="icon">
+                        <svg fill="currentColor" stroke="none">
+                           <use
+                              href="/Foodieland/assets/images/icons.svg#instagram"
+                           ></use>
+                        </svg> </span
+                  ></a>
+               </div>
             </div>
-            <div class="instagram__card">
-              <header class="instagram__card-header">
-                <img srcset="/assets/images/instagram-logo-card-25x25.jpg 25w" src="/assets/images/instagram-logo-card-25x25.jpg" sizes="(min-width: 25px) 25px, 100vw" width="25" height="25" alt decoding="async" loading="lazy" class="instagram__card-logo">
-                <div>
-                  <h4 class="instagram__card-title">Foodieland</h4><span class="instagram__card-location">Tokyo: Japan</span>
-                </div>
-              </header>
-              <div class="instagram__card--body">
-                <div class="instagram__card-img">
-                  <img srcset="/assets/images/0.2-320x573.png 320w, /assets/images/0.2-373x669.png 373w" src="/assets/images/0.2-373x669.png" sizes="(min-width: 373px) 373px, 100vw" width="373" height="669" alt decoding="async" loading="lazy">
-                </div>
-                <div class="instagram__card-icon"><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#like"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#comment"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#share"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#save"></use>
-                    </svg>
-                  </span></div>
-              </div>
+         </section>
+         <section
+            class="recipes-more container section"
+            aria-labelledby="recipes"
+         >
+            <header class="section__header">
+               <h2 class="section__title title-effect" id="recipes">
+                  Try these quick recipes to lift your spirits
+               </h2>
+               <div class="section__description">
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetuipisicing elit, sed
+                     do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqut enim ad minim
+                  </p>
+               </div>
+            </header>
+            <div class="section__body">
+               <div class="grid-auto"></div>
             </div>
-            <div class="instagram__card">
-              <header class="instagram__card-header">
-                <img srcset="/assets/images/instagram-logo-card-25x25.jpg 25w" src="/assets/images/instagram-logo-card-25x25.jpg" sizes="(min-width: 25px) 25px, 100vw" width="25" height="25" alt decoding="async" loading="lazy" class="instagram__card-logo">
-                <div>
-                  <h4 class="instagram__card-title">Foodieland</h4><span class="instagram__card-location">Tokyo: Japan</span>
-                </div>
-              </header>
-              <div class="instagram__card--body">
-                <div class="instagram__card-img">
-                  <img srcset="/assets/images/0.3-320x573.png 320w, /assets/images/0.3-373x669.png 373w" src="/assets/images/0.3-373x669.png" sizes="(min-width: 373px) 373px, 100vw" width="373" height="669" alt decoding="async" loading="lazy">
-                </div>
-                <div class="instagram__card-icon"><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#like"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#comment"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#share"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#save"></use>
-                    </svg>
-                  </span></div>
-              </div>
+         </section>
+         <section
+            class="subscribe container section"
+            aria-labelledby="subscribe"
+         >
+            <header class="section__header section__header--vertical">
+               <h2 class="section__title title-effect" id="subscribe">
+                  Deliciousness to your inbox
+               </h2>
+               <div class="section__description">
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetuipisicing elit, sed
+                     do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqut enim ad minim
+                  </p>
+               </div>
+            </header>
+            <div class="section__body">
+               <form action="">
+                  <div class="field subscribe__form">
+                     <input
+                        class="field__control"
+                        type="email"
+                        placeholder=""
+                        required=""
+                        autocomplete="off"
+                     />
+                     <label class="field__label">Your email address...</label
+                     ><span class="field-border-top"></span
+                     ><span class="field-border-bottom"></span>
+                     <button class="button" type="submit">Subscribe</button>
+                  </div>
+               </form>
             </div>
-            <div class="instagram__card">
-              <header class="instagram__card-header">
-                <img srcset="/assets/images/instagram-logo-card-25x25.jpg 25w" src="/assets/images/instagram-logo-card-25x25.jpg" sizes="(min-width: 25px) 25px, 100vw" width="25" height="25" alt decoding="async" loading="lazy" class="instagram__card-logo">
-                <div>
-                  <h4 class="instagram__card-title">Foodieland</h4><span class="instagram__card-location">Tokyo: Japan</span>
-                </div>
-              </header>
-              <div class="instagram__card--body">
-                <div class="instagram__card-img">
-                  <img srcset="/assets/images/0.4-320x573.png 320w, /assets/images/0.4-373x669.png 373w" src="/assets/images/0.4-373x669.png" sizes="(min-width: 373px) 373px, 100vw" width="373" height="669" alt decoding="async" loading="lazy">
-                </div>
-                <div class="instagram__card-icon"><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#like"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#comment"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#share"></use>
-                    </svg>
-                  </span><span class="icon">
-                    <svg fill="none" stroke="currentColor">
-                      <use href="/assets/images/icons.svg#save"></use>
-                    </svg>
-                  </span></div>
-              </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer-inner">
+            <div class="footer-desc">
+               <a href="/" class="logo" title="Home" aria-label="Home">
+                  <img
+                     srcset="
+                        /Foodieland/assets/images/Foodieland-108x19.png 108w
+                     "
+                     src="/Foodieland/assets/images/Foodieland-108x19.png"
+                     sizes="(min-width: 108px) 108px, 100vw"
+                     width="108"
+                     height="19"
+                     alt
+                     decoding="async"
+                     loading="lazy"
+                     class="logo-image"
+                  />
+               </a>
+               <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
             </div>
-          </div>
-          <div class="button-wrapper">
-            <a class="button instagram-feed__button" href="/">Visit Our Instagram<span class="icon">
-                <svg fill="currentColor" stroke="none">
-                  <use href="/assets/images/icons.svg#instagram"></use>
-                </svg>
-              </span></a>
-          </div>
-        </div>
-      </section>
-      <section class="recipes-more container section" aria-labelledby="recipes">
-        <header class="section__header">
-          <h2 class="section__title title-effect" id="recipes">Try these quick recipes to lift your spirits</h2>
-          <div class="section__description">
-            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim</p>
-          </div>
-        </header>
-        <div class="section__body">
-          <div class="grid-auto"></div>
-        </div>
-      </section>
-      <section class="subscribe container section" aria-labelledby="subscribe">
-        <header class="section__header section__header--vertical">
-          <h2 class="section__title title-effect" id="subscribe">Deliciousness to your inbox</h2>
-          <div class="section__description">
-            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
-          </div>
-        </header>
-        <div class="section__body">
-          <form action="">
-            <div class="field subscribe__form">
-              <input class="field__control" type="email" placeholder="" required="" autoComplete="off">
-              <label class="field__label">Your email address...</label><span class="field-border-top"></span><span class="field-border-bottom"></span>
-              <button class="button" type="submit">Subscribe</button>
+            <div class="footer-links">
+               <ul class="footer-list">
+                  <li>
+                     <a href="/Recipes">Recipes</a>
+                  </li>
+                  <li>
+                     <a href="/Blog">Blog</a>
+                  </li>
+                  <li>
+                     <a href="/Contact">Contact</a>
+                  </li>
+                  <li>
+                     <a href="/AboutUs">About-Us</a>
+                  </li>
+               </ul>
             </div>
-          </form>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer-inner">
-        <div class="footer-desc">
-          <a href="/" class="logo" title="Home" aria-label="Home">
-            <img srcset="/assets/images/Foodieland-108x19.png 108w" src="/assets/images/Foodieland-108x19.png" sizes="(min-width: 108px) 108px, 100vw" width="108" height="19" alt decoding="async" loading="lazy" class="logo-image">
-          </a>
-          <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
-        </div>
-        <div class="footer-links">
-          <ul class="footer-list">
-            <li>
-              <a href="/Recipes">Recipes</a>
-            </li>
-            <li>
-              <a href="/Blog">Blog</a>
-            </li>
-            <li>
-              <a href="/Contact">Contact</a>
-            </li>
-            <li>
-              <a href="/AboutUs">About-Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-extra container">
-        <p class="footer-copyright">© 2020 Flowbase. Powered by <span>Webflow</span></p>
-        <div class="soc1als">
-          <ul class="soc1als__list">
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#facebook"></use>
-                  </svg>
-                </span></a>
-            </li>
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#twitter"></use>
-                  </svg>
-                </span></a>
-            </li>
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/assets/images/icons.svg#instagram"></use>
-                  </svg>
-                </span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </body>
+         </div>
+         <div class="footer-extra container">
+            <p class="footer-copyright">
+               © 2020 Flowbase. Powered by <span>Webflow</span>
+            </p>
+            <div class="soc1als">
+               <ul class="soc1als__list">
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Facebook"
+                        ><span class="visually-hidden">Facebook</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#facebook"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Twitter"
+                        ><span class="visually-hidden">Twitter</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#twitter"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+                  <li class="soc1als__item">
+                     <a class="soc1als__link" href="/" title="Instagram"
+                        ><span class="visually-hidden">Instagram</span
+                        ><span class="icon">
+                           <svg fill="currentColor" stroke="none">
+                              <use
+                                 href="/Foodieland/assets/images/icons.svg#instagram"
+                              ></use>
+                           </svg> </span
+                     ></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
