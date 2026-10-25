@@ -3,7 +3,8 @@ import path from "path";
 
 export default defineConfig({
    root: "",
-   base: "/",
+   // base: "/",
+   base: process.env.NODE_ENV === "production" ? "/Foodieland/" : "/",
    public: "public",
    out: "docs",
    assets: {

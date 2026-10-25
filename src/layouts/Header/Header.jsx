@@ -9,22 +9,24 @@ const Header = (props) => {
 
    const { url } = props
 
+   const baseUrl = import.meta.env.BASE_URL;
+
    const menuItems = [
       {
          label: "Home",
-         href: "/",
+         href: baseUrl,
       },
       {
          label: "Recipes",
-         href: "/recipes",
+         href: `${baseUrl}recipes`,
       },
       {
          label: "Blog",
-         href: "/blog",
+         href: `${baseUrl}blog`,
       },
       {
          label: "Contact",
-         href: "/contact",
+         href: `${baseUrl}contact`,
       },
    ]
 

@@ -9,7 +9,7 @@ const Directions = (props) => {
    return (
       <div className='directions'>
          {steps.map((step, index) => (
-            <div className='directions-group'>
+            <div className='directions-group' key={index}>
                <span className='directions-group__title'>{step.title}
                </span>
                <p className='directions-group__description'>{step.description}
