@@ -1,6 +1,5 @@
 import './AuthorCard.scss'
 import clsx from 'clsx'
-import { Image } from 'minista'
 import getAssetUrl from '@/utils/getAssetUrl'
 
 const AuthorCard = (props) => {
@@ -16,7 +15,7 @@ const AuthorCard = (props) => {
       <article className={clsx('author-card', className)}>
          <img
             className="author-card__image"
-            src={imgSrc}
+            src={getAssetUrl(imgSrc)}
             alt={alt || name}
          />
 

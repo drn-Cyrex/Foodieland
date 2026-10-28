@@ -15,7 +15,7 @@
   <body>
     <header class="header" data-js-header-hidden="">
       <div class="header-wrapper">
-        <a href="/" class="logo" title="Home" aria-label="Home">
+        <a href="/Foodieland/" class="logo" title="Home" aria-label="Home">
           <img srcset="/Foodieland/assets/images/Foodieland-108x19.png 108w" src="/Foodieland/assets/images/Foodieland-108x19.png" sizes="(min-width: 108px) 108px, 100vw" width="108" height="19" alt decoding="async" loading="lazy" class="logo-image">
         </a>
         <div class="line line__hover"></div>
@@ -80,7 +80,7 @@
                   </div>
                   <div class="hero-content__footer">
                     <article class="author-card hero-content__author">
-                      <img srcset="/Foodieland/assets/images/man-0x0.jpg 0w" src="/Foodieland/assets/images/man-0x0.jpg" sizes="(min-width: 0px) 0px, 100vw" width="0" height="0" alt="John Smith" decoding="async" loading="lazy" class="author-card__image">
+                      <img class="author-card__image" src="/Foodieland/images/authors/man.jpg" alt="John Smith">
                       <div class="author-card__body">
                         <p class="author-card__name">John Smith</p>
                         <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
@@ -107,7 +107,7 @@
                   </div>
                   <div class="hero-content__footer">
                     <article class="author-card hero-content__author">
-                      <img srcset="/Foodieland/assets/images/man-0x0.jpg 0w" src="/Foodieland/assets/images/man-0x0.jpg" sizes="(min-width: 0px) 0px, 100vw" width="0" height="0" alt="John Smith" decoding="async" loading="lazy" class="author-card__image">
+                      <img class="author-card__image" src="/Foodieland/images/authors/man.jpg" alt="John Smith">
                       <div class="author-card__body">
                         <p class="author-card__name">John Smith</p>
                         <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
@@ -134,7 +134,7 @@
                   </div>
                   <div class="hero-content__footer">
                     <article class="author-card hero-content__author">
-                      <img srcset="/Foodieland/assets/images/man-0x0.jpg 0w" src="/Foodieland/assets/images/man-0x0.jpg" sizes="(min-width: 0px) 0px, 100vw" width="0" height="0" alt="John Smith" decoding="async" loading="lazy" class="author-card__image">
+                      <img class="author-card__image" src="/Foodieland/images/authors/man.jpg" alt="John Smith">
                       <div class="author-card__body">
                         <p class="author-card__name">John Smith</p>
                         <time class="author-card__date" dateTime="2022-03-15">15 March 2022</time>
@@ -209,9 +209,39 @@
         </header>
         <div class="section__body">
           <div class="grid-auto">
-            <article class="rcp-card-mini" data-id="lime-roasted-salmon" style="background-image:url(/Foodieland/images/recipes/meat/0.png)">
+            <article class="rcp-card-mini" data-id="mediterranean-quinoa-salad" style="background-image:url(/Foodieland/images/recipes/lunch/8.png)">
               <a href="/recipe" class="rcp-card-mini__link">
-                <h3>Lime-Roasted Salmon with Ginger Sauce</h3>
+                <h3>Mediterranean Quinoa Salad</h3>
+              </a>
+              <div class="rcp-card__meta">
+                <div class="meta"><span class="icon meta__icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/Foodieland/assets/images/icons.svg#timer"></use>
+                    </svg>
+                  </span>
+                  <div class="meta__item">
+                    <p class="meta__label"></p><span class="meta__value">2</span>
+                  </div>
+                </div>
+                <div class="meta"><span class="icon meta__icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/Foodieland/assets/images/icons.svg#fork-knife"></use>
+                    </svg>
+                  </span>
+                  <div class="meta__item">
+                    <p class="meta__label"></p><span class="meta__value">lunch</span>
+                  </div>
+                </div>
+              </div>
+              <button class="rcp-card-mini__liked is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
+                  <svg fill="currentColor" stroke="none">
+                    <use href="/Foodieland/assets/images/icons.svg#heart"></use>
+                  </svg>
+                </span></button>
+            </article>
+            <article class="rcp-card-mini" data-id="mint-ice-cream" style="background-image:url(/Foodieland/images/recipes/dessert/5.png)">
+              <a href="/recipe" class="rcp-card-mini__link">
+                <h3>Mint Ice Cream</h3>
               </a>
               <div class="rcp-card__meta">
                 <div class="meta"><span class="icon meta__icon">
@@ -229,7 +259,7 @@
                     </svg>
                   </span>
                   <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">meat</span>
+                    <p class="meta__label"></p><span class="meta__value">dessert</span>
                   </div>
                 </div>
               </div>
@@ -269,9 +299,13 @@
                   </svg>
                 </span></button>
             </article>
-            <article class="rcp-card-mini" data-id="classic-banana-pancakes" style="background-image:url(/Foodieland/images/recipes/breakfast/2.png)">
+            <a class="recipe-banner" href="/">
+              <h3>Don’t forget to eat healthy food</h3>
+              <img srcset="/Foodieland/assets/images/banner-320x320.png 320w, /Foodieland/assets/images/banner-355x355.png 355w" src="/Foodieland/assets/images/banner-355x355.png" sizes="(min-width: 355px) 355px, 100vw" width="355" height="355" alt decoding="async" loading="lazy"><span>www.foodieland.com</span>
+            </a>
+            <article class="rcp-card-mini" data-id="wagyu-cheeseburger" style="background-image:url(/Foodieland/images/recipes/meat/0.png)">
               <a href="/recipe" class="rcp-card-mini__link">
-                <h3>Classic Banana Pancakes</h3>
+                <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
               </a>
               <div class="rcp-card__meta">
                 <div class="meta"><span class="icon meta__icon">
@@ -280,7 +314,7 @@
                     </svg>
                   </span>
                   <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">5</span>
+                    <p class="meta__label"></p><span class="meta__value">15</span>
                   </div>
                 </div>
                 <div class="meta"><span class="icon meta__icon">
@@ -289,7 +323,7 @@
                     </svg>
                   </span>
                   <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">breakfast</span>
+                    <p class="meta__label"></p><span class="meta__value">meat</span>
                   </div>
                 </div>
               </div>
@@ -299,13 +333,9 @@
                   </svg>
                 </span></button>
             </article>
-            <a class="recipe-banner" href="/">
-              <h3>Don’t forget to eat healthy food</h3>
-              <img srcset="/Foodieland/assets/images/banner-320x320.png 320w, /Foodieland/assets/images/banner-355x355.png 355w" src="/Foodieland/assets/images/banner-355x355.png" sizes="(min-width: 355px) 355px, 100vw" width="355" height="355" alt decoding="async" loading="lazy"><span>www.foodieland.com</span>
-            </a>
-            <article class="rcp-card-mini" data-id="greek-yogurt-parfait" style="background-image:url(/Foodieland/images/recipes/breakfast/2.png)">
+            <article class="rcp-card-mini" data-id="morning-fruit-bowl" style="background-image:url(/Foodieland/images/recipes/breakfast/2.png)">
               <a href="/recipe" class="rcp-card-mini__link">
-                <h3>Greek Yogurt Fruit Parfait</h3>
+                <h3>Morning Fresh Fruit Bowl</h3>
               </a>
               <div class="rcp-card__meta">
                 <div class="meta"><span class="icon meta__icon">
@@ -324,36 +354,6 @@
                   </span>
                   <div class="meta__item">
                     <p class="meta__label"></p><span class="meta__value">breakfast</span>
-                  </div>
-                </div>
-              </div>
-              <button class="rcp-card-mini__liked is-liked disable-hover" type="button" aria-label="Dislike" title="Dislike"><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/Foodieland/assets/images/icons.svg#heart"></use>
-                  </svg>
-                </span></button>
-            </article>
-            <article class="rcp-card-mini" data-id="raspberry-gelato" style="background-image:url(/Foodieland/images/recipes/dessert/5.png)">
-              <a href="/recipe" class="rcp-card-mini__link">
-                <h3>Raspberry Gelato</h3>
-              </a>
-              <div class="rcp-card__meta">
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/Foodieland/assets/images/icons.svg#timer"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">20</span>
-                  </div>
-                </div>
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/Foodieland/assets/images/icons.svg#fork-knife"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item">
-                    <p class="meta__label"></p><span class="meta__value">dessert</span>
                   </div>
                 </div>
               </div>
@@ -558,7 +558,7 @@
     <footer class="footer">
       <div class="footer-inner">
         <div class="footer-desc">
-          <a href="/" class="logo" title="Home" aria-label="Home">
+          <a href="/Foodieland/" class="logo" title="Home" aria-label="Home">
             <img srcset="/Foodieland/assets/images/Foodieland-108x19.png 108w" src="/Foodieland/assets/images/Foodieland-108x19.png" sizes="(min-width: 108px) 108px, 100vw" width="108" height="19" alt decoding="async" loading="lazy" class="logo-image">
           </a>
           <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>

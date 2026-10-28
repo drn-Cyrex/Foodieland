@@ -1,29 +1,25 @@
-import { Image } from "minista"
 import "./Logo.scss"
 import classNames from "classnames"
+import { Image } from "minista"
+
 
 const Logo = (props) => {
+
    const title = "Home"
 
-   const { className,
-      loading = "lazy"
+   const baseUrl = import.meta.env.BASE_URL
+
+   const {
+      className
    } = props
 
    return (
       <a
-         href="/"
+         href={baseUrl}
          className={classNames(className, "logo")}
          title={title}
          aria-label={title}
       >
-         {/* <img
-            className="logo-image"
-            src="/src/assets/icons/logo/Foodieland.png"
-            alt=""
-            height={30}
-            width={110}
-            loading={loading}
-         /> */}
          <Image
             className="logo-image"
             src="/src/assets/icons/logo/Foodieland.png"
