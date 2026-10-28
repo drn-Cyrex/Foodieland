@@ -15,9 +15,9 @@ const Hero = () => {
                      }}
                      title='Fragrant chicken grill with haze'
                      TitleTag='h2'
-                     description='Juicy chicken legs with a golden brown crust, baked to perfection. Served with lemon, fresh herbs and baked garlic on a stylish dark plate.'                  
+                     description='Juicy chicken legs with a golden brown crust, baked to perfection. Served with lemon, fresh herbs and baked garlic on a stylish dark plate.'
                      author={{
-                        imgSrc: '/src/assets/images/man.jpg',
+                        imgSrc: 'images/authors/man.jpg',
                         name: 'John Smith',
                         date: {
                            dateTime: '2022-03-15',
@@ -37,7 +37,7 @@ const Hero = () => {
                      TitleTag='h1'
                      description='Appetizing chicken pieces topped with a sticky, caramelized sesame sauce. The perfect snack or base for dinner.'
                      author={{
-                        imgSrc: '/src/assets/images/man.jpg',
+                        imgSrc: 'images/authors/man.jpg',
                         name: 'John Smith',
                         date: {
                            dateTime: '2022-03-15',
@@ -57,7 +57,7 @@ const Hero = () => {
                      TitleTag='h2'
                      description='Garlic, lime, chili and coriander — a classic combination for preparing Asian or Mexican dishes.'
                      author={{
-                        imgSrc: '/src/assets/images/man.jpg',
+                        imgSrc: 'images/authors/man.jpg',
                         name: 'John Smith',
                         date: {
                            dateTime: '2022-03-15',

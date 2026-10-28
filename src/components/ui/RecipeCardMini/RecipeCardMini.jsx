@@ -2,7 +2,7 @@ import "./RecipeCardMini.scss"
 import clsx from "clsx"
 import Icon from "../Icon/Icon"
 import RecipeMeta from "../RecipeMeta/RecipeMeta"
-import { Image } from "minista"
+import getAssetUrl from "@/utils/getAssetUrl"
 
 const RecipeCardMini = (props) => {
 
@@ -18,7 +18,7 @@ const RecipeCardMini = (props) => {
    const likeButtonTitle = isLiked ? 'Dislike' : 'Like'
 
    const style = {
-      backgroundImage: `url(${backgroundImgSrc})`
+      backgroundImage: `url(${getAssetUrl(backgroundImgSrc)})`,
    }
 
    return (

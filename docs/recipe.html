@@ -72,10 +72,10 @@
             <p class="recipe-hero__description">A fluffy oat‑based pancake topped with fresh strawberries and sweet honey.</p>
             <div class="recipe-hero__meta">
               <article class="author-card recipe__meta-author">
-                <img srcset="/Foodieland/assets/images/man-50x50.jpg 50w" src="/Foodieland/assets/images/man-50x50.jpg" sizes="(min-width: 50px) 50px, 100vw" width="50" height="50" alt="photo by the author" decoding="async" loading="lazy" class="author-card__image">
+                <img srcset="/Foodieland/assets/images/man-0x0.jpg 0w" src="/Foodieland/assets/images/man-0x0.jpg" sizes="(min-width: 0px) 0px, 100vw" width="0" height="0" alt="photo by the author" decoding="async" loading="lazy" class="author-card__image">
                 <div class="author-card__body">
                   <p class="author-card__name">John Doe</p>
-                  <time class="author-card__date" dateTime="2024-01-15">15 January 2024</time>
+                  <time class="author-card__date" dateTime="[object Object]"></time>
                 </div>
               </article>
               <div class="recipe__meta-info">
@@ -124,8 +124,8 @@
         </div>
         <div class="recipe-hero__content">
           <div class="recipe-hero__video">
-            <video class="recipe-hero__video-player" poster="/video-posters/poster.jpg" controls="" playsinline="" preload="metadata">
-              <source src="/videos/preview-video.mp4" type="video/mp4">
+            <video class="recipe-hero__video-player" poster="video-posters/poster.jpg" controls="" playsinline="" preload="metadata">
+              <source src="videos/preview-video.mp4" type="video/mp4">
               <p>Video not available</p>
             </video>
           </div>
@@ -179,9 +179,18 @@
             <label class="ingredient-group__label" for="1/2 teaspoon salt">
               <input type="checkbox" name="1/2 teaspoon salt" id="1/2 teaspoon salt"><span>1/2 teaspoon salt</span>
             </label>
+            <label class="ingredient-group__label" for="3/4 cup milk">
+              <input type="checkbox" name="3/4 cup milk" id="3/4 cup milk"><span>3/4 cup milk</span>
+            </label>
+            <label class="ingredient-group__label" for="1 large egg">
+              <input type="checkbox" name="1 large egg" id="1 large egg"><span>1 large egg</span>
+            </label>
+            <label class="ingredient-group__label" for="1 teaspoon vanilla extract">
+              <input type="checkbox" name="1 teaspoon vanilla extract" id="1 teaspoon vanilla extract"><span>1 teaspoon vanilla extract</span>
+            </label>
           </field>
           <field class="ingredient-group">
-            <legend>For the sauce</legend>
+            <legend>For the topping</legend>
             <label class="ingredient-group__label" for="1 cup fresh strawberries, sliced">
               <input type="checkbox" name="1 cup fresh strawberries, sliced" id="1 cup fresh strawberries, sliced"><span>1 cup fresh strawberries, sliced</span>
             </label>

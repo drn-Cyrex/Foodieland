@@ -1,621 +1,1028 @@
 [
-   {
-      "id": "mixed-mayo-salad",
-      "author": {
-         "name": "Natalie Brooks",
-         "date": "2024-01-11",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "11 January 2024"
+  {
+    "id": "mixed-mayo-salad",
+    "author": {
+      "name": "Natalie Brooks",
+      "date": {
+        "dateTime": "2024-01-11",
+        "label": "11 January 2024"
       },
-      "title": "Fresh and Healthy Mixed Mayonnaise Salad",
-      "description": "A crisp veggie mix coated in a light, creamy mayo dressing.",
-      "category": "lunch",
-      "time": { "prep": 10, "cook": 0 },
-      "tags": ["healthy", "quick", "popular"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": true,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Mixed Salad with Creamy Mayonnaise Dressing",
+    "description": "Crisp lettuce and fresh vegetables tossed in a creamy mayonnaise, yogurt, and mustard dressing.",
+    "category": "lunch",
+    "time": {
+      "prep": 10,
+      "cook": 2
+    },
+    "tags": [
+      "healthy",
+      "quick",
+      "popular"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": true,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "186.5 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "13.2 g"
+        },
+        {
+          "label": "Protein",
+          "value": "3.4 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "12.7 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "14.0 mg"
+        }
+      ],
+      "note": "A light creamy dressing keeps this crunchy salad fresh and satisfying."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For the salad",
+          "items": [
+            "2 cups mixed lettuce",
+            "1/2 cup cherry tomatoes, halved",
+            "1/2 cucumber, sliced",
+            "1/4 red onion, thinly sliced",
+            "1/4 cup sweet corn"
+          ]
+        },
+        {
+          "groupName": "For the dressing",
+          "items": [
+            "3 tablespoons mayonnaise",
+            "1 tablespoon Greek yogurt",
+            "1 teaspoon lemon juice",
+            "1/2 teaspoon Dijon mustard",
+            "1 pinch salt and black pepper"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Prepare the vegetables",
+          "description": "Wash and chop the lettuce, tomatoes, cucumber, and onion, then place them in a large bowl with the corn."
+        },
+        {
+          "title": "Make the dressing",
+          "description": "Whisk the mayonnaise, yogurt, lemon juice, mustard, salt, and pepper until smooth."
+        },
+        {
+          "title": "Toss the salad",
+          "description": "Drizzle the dressing over the vegetables and toss gently to coat evenly."
+        },
+        {
+          "title": "Serve",
+          "description": "Serve immediately for the best crunch."
+        }
+      ]
+    }
+  },
+  {
+    "id": "tropical-fruit-salad",
+    "author": {
+      "name": "Diego Ramirez",
+      "date": {
+        "dateTime": "2024-01-24",
+        "label": "24 January 2024"
       },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "186.5 kcal" },
-            { "label": "Total Fat", "value": "13.2 g" },
-            { "label": "Protein", "value": "3.4 g" },
-            { "label": "Carbohydrate", "value": "12.7 g" },
-            { "label": "Cholesterol", "value": "14.0 mg" }
-         ],
-         "note": "A light creamy dressing keeps this crunchy salad fresh and satisfying."
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Tropical Fruit Salad with Superfood Toppings",
+    "description": "A refreshing mix of pineapple, mango, kiwi, and papaya finished with seeds, goji berries, and lime.",
+    "category": "lunch",
+    "time": {
+      "prep": 10,
+      "cook": 2
+    },
+    "tags": [
+      "healthy",
+      "vegan",
+      "quick"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": false,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "154.3 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "2.1 g"
+        },
+        {
+          "label": "Protein",
+          "value": "2.8 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "34.6 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "0 mg"
+        }
+      ],
+      "note": "Packed with vitamin C and antioxidants thanks to the superfood toppings."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For the fruit mix",
+          "items": [
+            "1 cup pineapple chunks",
+            "1 mango, diced",
+            "1 kiwi, sliced",
+            "1/2 cup papaya, cubed",
+            "1 tablespoon lime juice"
+          ]
+        },
+        {
+          "groupName": "For the superfood boost",
+          "items": [
+            "1 tablespoon chia seeds",
+            "1 tablespoon goji berries",
+            "1 teaspoon hemp seeds",
+            "1 teaspoon maple syrup"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Prepare the fruit",
+          "description": "Chop all the tropical fruit into bite-sized pieces and place in a large bowl."
+        },
+        {
+          "title": "Add citrus",
+          "description": "Drizzle the lime juice over the fruit and toss gently."
+        },
+        {
+          "title": "Add superfoods",
+          "description": "Sprinkle the chia seeds, goji berries, and hemp seeds over the top."
+        },
+        {
+          "title": "Sweeten and serve",
+          "description": "Drizzle with maple syrup and serve fresh."
+        }
+      ]
+    }
+  },
+  {
+    "id": "rainbow-chicken-salad",
+    "author": {
+      "name": "Rachel Donovan",
+      "date": {
+        "dateTime": "2024-02-08",
+        "label": "8 February 2024"
       },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For the salad",
-               "items": [
-                  "2 cups mixed lettuce",
-                  "1/2 cup cherry tomatoes, halved",
-                  "1/2 cucumber, sliced",
-                  "1/4 red onion, thinly sliced",
-                  "1/4 cup sweet corn"
-               ]
-            },
-            {
-               "groupName": "For the dressing",
-               "items": [
-                  "3 tablespoons mayonnaise",
-                  "1 tablespoon Greek yogurt",
-                  "1 teaspoon lemon juice",
-                  "1/2 teaspoon Dijon mustard",
-                  "1 pinch salt and black pepper"
-               ]
-            }
-         ]
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+    "description": "A colorful chicken salad drizzled with sweet almond honey‑mustard dressing.",
+    "category": "lunch",
+    "time": {
+      "prep": 10,
+      "cook": 5
+    },
+    "tags": [
+      "meat",
+      "healthy",
+      "popular"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": true,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "342.8 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "18.9 g"
+        },
+        {
+          "label": "Protein",
+          "value": "28.4 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "16.3 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "72.0 mg"
+        }
+      ],
+      "note": "High in lean protein and colorful vegetables for a balanced lunch."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For the salad",
+          "items": [
+            "2 cups mixed salad greens",
+            "1 grilled chicken breast, sliced",
+            "1/2 cup red cabbage, shredded",
+            "1/2 cup carrots, shredded",
+            "1/4 cup almonds, sliced",
+            "1/4 cup cherry tomatoes"
+          ]
+        },
+        {
+          "groupName": "For the almond honey mustard dressing",
+          "items": [
+            "2 tablespoons almond butter",
+            "1 tablespoon honey",
+            "1 tablespoon Dijon mustard",
+            "2 tablespoons water",
+            "1 teaspoon lemon juice"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Arrange the salad",
+          "description": "Place the greens in a bowl and arrange the sliced chicken, cabbage, carrots, tomatoes, and almonds on top."
+        },
+        {
+          "title": "Make the dressing",
+          "description": "Whisk the almond butter, honey, mustard, water, and lemon juice until smooth."
+        },
+        {
+          "title": "Toss and serve",
+          "description": "Drizzle the dressing over the salad and toss gently before serving."
+        }
+      ]
+    }
+  },
+  {
+    "id": "japanese-fried-rice-asparagus",
+    "author": {
+      "name": "Kenji Watanabe",
+      "date": {
+        "dateTime": "2024-02-21",
+        "label": "21 February 2024"
       },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Prepare the vegetables", "description": "Wash and chop the lettuce, tomatoes, cucumber, and onion, then place them in a large bowl with the corn." },
-            { "title": "Make the dressing", "description": "Whisk the mayonnaise, yogurt, lemon juice, mustard, salt, and pepper until smooth." },
-            { "title": "Toss the salad", "description": "Drizzle the dressing over the vegetables and toss gently to coat evenly." },
-            { "title": "Serve", "description": "Serve immediately for the best crunch." }
-         ]
-      }
-   },
-   {
-      "id": "tropical-fruit-salad",
-      "author": {
-         "name": "Diego Ramirez",
-         "date": "2024-01-24",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "24 January 2024"
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Healthy Japanese Fried Rice with Asparagus",
+    "description": "Light Japanese‑style fried rice featuring crisp asparagus and savory seasoning.",
+    "category": "lunch",
+    "time": {
+      "prep": 10,
+      "cook": 10
+    },
+    "tags": [
+      "healthy",
+      "comfort"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": false,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "268.9 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "7.4 g"
+        },
+        {
+          "label": "Protein",
+          "value": "9.2 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "41.6 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "58.0 mg"
+        }
+      ],
+      "note": "Day-old rice works best for a fluffy, non-sticky texture."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For main dish",
+          "items": [
+            "2 cups cooked rice (day-old)",
+            "1 cup asparagus, chopped",
+            "1 egg, beaten",
+            "2 tablespoons soy sauce",
+            "1 teaspoon sesame oil",
+            "1 tablespoon vegetable oil",
+            "2 green onions, sliced",
+            "1 teaspoon grated ginger"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Prep the ingredients",
+          "description": "Chop the asparagus and green onions and beat the egg."
+        },
+        {
+          "title": "Scramble the egg",
+          "description": "Heat half the oil in a wok, scramble the egg, and set aside."
+        },
+        {
+          "title": "Stir-fry the vegetables",
+          "description": "Add the remaining oil, then stir-fry the asparagus and ginger for 2 minutes."
+        },
+        {
+          "title": "Add rice",
+          "description": "Add the rice and soy sauce and stir-fry for 3–4 minutes until heated through."
+        },
+        {
+          "title": "Finish",
+          "description": "Return the egg to the wok, add the sesame oil and green onions, toss, and serve."
+        }
+      ]
+    }
+  },
+  {
+    "id": "classic-caesar-salad",
+    "author": {
+      "name": "Marco Bellini",
+      "date": {
+        "dateTime": "2024-03-06",
+        "label": "6 March 2024"
       },
-      "title": "Mixed Tropical Fruit Salad with Superfood Boosts",
-      "description": "A vibrant tropical fruit mix enhanced with nutrient‑packed superfoods.",
-      "category": "lunch",
-      "time": { "prep": 10, "cook": 0 },
-      "tags": ["healthy", "vegan", "quick"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": false,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Classic Caesar Salad",
+    "description": "Crisp romaine lettuce with creamy Caesar dressing and crunchy croutons.",
+    "category": "lunch",
+    "time": {
+      "prep": 10,
+      "cook": 2
+    },
+    "tags": [
+      "healthy",
+      "quick",
+      "popular"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": true,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "312.7 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "24.1 g"
+        },
+        {
+          "label": "Protein",
+          "value": "8.3 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "14.2 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "26.0 mg"
+        }
+      ],
+      "note": "A timeless classic; add grilled chicken or shrimp for extra protein."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For the salad",
+          "items": [
+            "1 head romaine lettuce, chopped",
+            "1 cup croutons",
+            "1/4 cup Parmesan cheese, shaved"
+          ]
+        },
+        {
+          "groupName": "For the Caesar dressing",
+          "items": [
+            "1/2 cup mayonnaise",
+            "2 anchovy fillets, minced",
+            "1 garlic clove, minced",
+            "1 tablespoon lemon juice",
+            "1 teaspoon Worcestershire sauce",
+            "1/4 cup grated Parmesan"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Make the dressing",
+          "description": "Whisk the mayonnaise, anchovies, garlic, lemon juice, Worcestershire sauce, and Parmesan until smooth."
+        },
+        {
+          "title": "Toss the lettuce",
+          "description": "Place the chopped romaine in a large bowl and toss with the dressing."
+        },
+        {
+          "title": "Add crunch",
+          "description": "Top with croutons and shaved Parmesan."
+        },
+        {
+          "title": "Serve",
+          "description": "Serve immediately."
+        }
+      ]
+    }
+  },
+  {
+    "id": "tomato-basil-soup",
+    "author": {
+      "name": "Elena Rossi",
+      "date": {
+        "dateTime": "2024-03-19",
+        "label": "19 March 2024"
       },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "154.3 kcal" },
-            { "label": "Total Fat", "value": "2.1 g" },
-            { "label": "Protein", "value": "2.8 g" },
-            { "label": "Carbohydrate", "value": "34.6 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
-         ],
-         "note": "Packed with vitamin C and antioxidants thanks to the superfood toppings."
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Tomato Basil Soup",
+    "description": "Warm tomato soup with fresh basil and a smooth texture.",
+    "category": "lunch",
+    "time": {
+      "prep": 10,
+      "cook": 20
+    },
+    "tags": [
+      "vegan",
+      "comfort",
+      "healthy"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": false,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "148.2 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "6.1 g"
+        },
+        {
+          "label": "Protein",
+          "value": "3.6 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "20.8 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "0 mg"
+        }
+      ],
+      "note": "Vegan and cozy; pairs perfectly with crusty bread."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For main dish",
+          "items": [
+            "6 ripe tomatoes, chopped",
+            "1 onion, diced",
+            "2 garlic cloves, minced",
+            "2 cups vegetable broth",
+            "1/4 cup fresh basil leaves",
+            "2 tablespoons olive oil",
+            "1 teaspoon salt",
+            "1/2 teaspoon black pepper"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Sauté the aromatics",
+          "description": "Heat the olive oil and sauté the onion and garlic until soft."
+        },
+        {
+          "title": "Add tomatoes",
+          "description": "Add the chopped tomatoes, broth, salt, and pepper, and simmer for 15 minutes."
+        },
+        {
+          "title": "Blend",
+          "description": "Blend the soup until smooth, then return to the pot."
+        },
+        {
+          "title": "Add basil and serve",
+          "description": "Stir in the fresh basil and serve warm."
+        }
+      ]
+    }
+  },
+  {
+    "id": "grilled-veggie-wrap",
+    "author": {
+      "name": "Priya Sharma",
+      "date": {
+        "dateTime": "2024-04-03",
+        "label": "3 April 2024"
       },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For the fruit mix",
-               "items": [
-                  "1 cup pineapple chunks",
-                  "1 mango, diced",
-                  "1 kiwi, sliced",
-                  "1/2 cup papaya, cubed",
-                  "1 tablespoon lime juice"
-               ]
-            },
-            {
-               "groupName": "For the superfood boost",
-               "items": [
-                  "1 tablespoon chia seeds",
-                  "1 tablespoon goji berries",
-                  "1 teaspoon hemp seeds",
-                  "1 teaspoon maple syrup"
-               ]
-            }
-         ]
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Grilled Veggie Wrap",
+    "description": "Grilled zucchini, bell pepper, and red onion wrapped in a soft tortilla with creamy hummus.",
+    "category": "lunch",
+    "time": {
+      "prep": 8,
+      "cook": 8
+    },
+    "tags": [
+      "vegan",
+      "quick",
+      "popular"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": true,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "286.4 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "11.2 g"
+        },
+        {
+          "label": "Protein",
+          "value": "7.9 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "39.5 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "0 mg"
+        }
+      ],
+      "note": "Easy to customize with whatever vegetables you have on hand."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For the wrap",
+          "items": [
+            "2 large tortillas",
+            "1 zucchini, sliced",
+            "1 bell pepper, sliced",
+            "1/2 red onion, sliced",
+            "1 cup hummus",
+            "1 tablespoon olive oil",
+            "1 teaspoon dried oregano"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Grill the vegetables",
+          "description": "Toss the zucchini, pepper, and onion with olive oil and oregano, then grill for 5–7 minutes until tender."
+        },
+        {
+          "title": "Warm the tortillas",
+          "description": "Warm the tortillas in a dry pan for 30 seconds per side."
+        },
+        {
+          "title": "Assemble",
+          "description": "Spread hummus over each tortilla and top with the grilled vegetables."
+        },
+        {
+          "title": "Roll and serve",
+          "description": "Roll up the wraps tightly and serve."
+        }
+      ]
+    }
+  },
+  {
+    "id": "pesto-pasta-bowl",
+    "author": {
+      "name": "Giulia Moretti",
+      "date": {
+        "dateTime": "2024-04-17",
+        "label": "17 April 2024"
       },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Prepare the fruit", "description": "Chop all the tropical fruit into bite-sized pieces and place in a large bowl." },
-            { "title": "Add citrus", "description": "Drizzle the lime juice over the fruit and toss gently." },
-            { "title": "Add superfoods", "description": "Sprinkle the chia seeds, goji berries, and hemp seeds over the top." },
-            { "title": "Sweeten and serve", "description": "Drizzle with maple syrup and serve fresh." }
-         ]
-      }
-   },
-   {
-      "id": "rainbow-chicken-salad",
-      "author": {
-         "name": "Rachel Donovan",
-         "date": "2024-02-08",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "8 February 2024"
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Pesto Pasta Bowl",
+    "description": "Pasta tossed with fresh basil pesto, cherry tomatoes, and grated Parmesan.",
+    "category": "lunch",
+    "time": {
+      "prep": 10,
+      "cook": 10
+    },
+    "tags": [
+      "comfort",
+      "quick"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": false,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "398.6 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "18.7 g"
+        },
+        {
+          "label": "Protein",
+          "value": "11.4 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "47.2 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "12.0 mg"
+        }
+      ],
+      "note": "Fresh pesto makes all the difference; toast the pine nuts for extra flavor."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For the pasta",
+          "items": [
+            "8 oz pasta",
+            "1/2 cup cherry tomatoes, halved",
+            "1/4 cup Parmesan, grated"
+          ]
+        },
+        {
+          "groupName": "For the pesto",
+          "items": [
+            "2 cups fresh basil leaves",
+            "1/3 cup pine nuts",
+            "1/2 cup olive oil",
+            "1 garlic clove",
+            "1/2 cup grated Parmesan",
+            "1/4 teaspoon salt"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Cook the pasta",
+          "description": "Boil the pasta in salted water until al dente, then drain, reserving a little pasta water."
+        },
+        {
+          "title": "Make the pesto",
+          "description": "Blend the basil, pine nuts, olive oil, garlic, Parmesan, and salt until smooth."
+        },
+        {
+          "title": "Combine",
+          "description": "Toss the pasta with the pesto, adding a splash of pasta water to loosen."
+        },
+        {
+          "title": "Serve",
+          "description": "Top with cherry tomatoes and extra Parmesan and serve."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mediterranean-quinoa-salad",
+    "author": {
+      "name": "Yasmin Haddad",
+      "date": {
+        "dateTime": "2024-05-01",
+        "label": "1 May 2024"
       },
-      "title": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
-      "description": "A colorful chicken salad drizzled with sweet almond honey‑mustard dressing.",
-      "category": "lunch",
-      "time": { "prep": 10, "cook": 5 },
-      "tags": ["meat", "healthy", "popular"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": true,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Mediterranean Quinoa Salad",
+    "description": "A protein-rich quinoa salad with olives, tomatoes, and herbs.",
+    "category": "lunch",
+    "time": {
+      "prep": 10,
+      "cook": 2
+    },
+    "tags": [
+      "healthy",
+      "vegan",
+      "popular"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": true,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "276.3 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "12.8 g"
+        },
+        {
+          "label": "Protein",
+          "value": "8.6 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "32.4 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "0 mg"
+        }
+      ],
+      "note": "A meal-prep favorite that keeps well in the fridge for several days."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For the salad",
+          "items": [
+            "1 cup cooked quinoa",
+            "1/2 cup cherry tomatoes, halved",
+            "1/4 cup Kalamata olives, sliced",
+            "1/4 cup cucumber, diced",
+            "2 tablespoons red onion, diced",
+            "2 tablespoons fresh parsley, chopped"
+          ]
+        },
+        {
+          "groupName": "For the dressing",
+          "items": [
+            "2 tablespoons olive oil",
+            "1 tablespoon lemon juice",
+            "1 teaspoon dried oregano",
+            "1/4 teaspoon salt"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Combine the salad ingredients",
+          "description": "Place the quinoa, tomatoes, olives, cucumber, onion, and parsley in a bowl."
+        },
+        {
+          "title": "Make the dressing",
+          "description": "Whisk the olive oil, lemon juice, oregano, and salt together."
+        },
+        {
+          "title": "Toss and serve",
+          "description": "Pour the dressing over the salad, toss well, and serve chilled or at room temperature."
+        }
+      ]
+    }
+  },
+  {
+    "id": "creamy-potato-soup",
+    "author": {
+      "name": "Sofia Novak",
+      "date": {
+        "dateTime": "2024-05-15",
+        "label": "15 May 2024"
       },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "342.8 kcal" },
-            { "label": "Total Fat", "value": "18.9 g" },
-            { "label": "Protein", "value": "28.4 g" },
-            { "label": "Carbohydrate", "value": "16.3 g" },
-            { "label": "Cholesterol", "value": "72.0 mg" }
-         ],
-         "note": "High in lean protein and colorful vegetables for a balanced lunch."
-      },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For the salad",
-               "items": [
-                  "2 cups mixed salad greens",
-                  "1 grilled chicken breast, sliced",
-                  "1/2 cup red cabbage, shredded",
-                  "1/2 cup carrots, shredded",
-                  "1/4 cup almonds, sliced",
-                  "1/4 cup cherry tomatoes"
-               ]
-            },
-            {
-               "groupName": "For the almond honey mustard dressing",
-               "items": [
-                  "2 tablespoons almond butter",
-                  "1 tablespoon honey",
-                  "1 tablespoon Dijon mustard",
-                  "2 tablespoons water",
-                  "1 teaspoon lemon juice"
-               ]
-            }
-         ]
-      },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Arrange the salad", "description": "Place the greens in a bowl and arrange the sliced chicken, cabbage, carrots, tomatoes, and almonds on top." },
-            { "title": "Make the dressing", "description": "Whisk the almond butter, honey, mustard, water, and lemon juice until smooth." },
-            { "title": "Toss and serve", "description": "Drizzle the dressing over the salad and toss gently before serving." }
-         ]
-      }
-   },
-   {
-      "id": "japanese-fried-rice-asparagus",
-      "author": {
-         "name": "Kenji Watanabe",
-         "date": "2024-02-21",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "21 February 2024"
-      },
-      "title": "Healthy Japanese Fried Rice with Asparagus",
-      "description": "Light Japanese‑style fried rice featuring crisp asparagus and savory seasoning.",
-      "category": "lunch",
-      "time": { "prep": 10, "cook": 10 },
-      "tags": ["healthy", "comfort"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": false,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
-      },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "268.9 kcal" },
-            { "label": "Total Fat", "value": "7.4 g" },
-            { "label": "Protein", "value": "9.2 g" },
-            { "label": "Carbohydrate", "value": "41.6 g" },
-            { "label": "Cholesterol", "value": "58.0 mg" }
-         ],
-         "note": "Day-old rice works best for a fluffy, non-sticky texture."
-      },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For main dish",
-               "items": [
-                  "2 cups cooked rice (day-old)",
-                  "1 cup asparagus, chopped",
-                  "1 egg, beaten",
-                  "2 tablespoons soy sauce",
-                  "1 teaspoon sesame oil",
-                  "1 tablespoon vegetable oil",
-                  "2 green onions, sliced",
-                  "1 teaspoon grated ginger"
-               ]
-            }
-         ]
-      },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Prep the ingredients", "description": "Chop the asparagus and green onions and beat the egg." },
-            { "title": "Scramble the egg", "description": "Heat half the oil in a wok, scramble the egg, and set aside." },
-            { "title": "Stir-fry the vegetables", "description": "Add the remaining oil, then stir-fry the asparagus and ginger for 2 minutes." },
-            { "title": "Add rice", "description": "Add the rice and soy sauce and stir-fry for 3–4 minutes until heated through." },
-            { "title": "Finish", "description": "Return the egg to the wok, add the sesame oil and green onions, toss, and serve." }
-         ]
-      }
-   },
-   {
-      "id": "classic-caesar-salad",
-      "author": {
-         "name": "Marco Bellini",
-         "date": "2024-03-06",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "6 March 2024"
-      },
-      "title": "Classic Caesar Salad",
-      "description": "Crisp romaine lettuce with creamy Caesar dressing and crunchy croutons.",
-      "category": "lunch",
-      "time": { "prep": 10, "cook": 0 },
-      "tags": ["healthy", "quick", "popular"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": true,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
-      },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "312.7 kcal" },
-            { "label": "Total Fat", "value": "24.1 g" },
-            { "label": "Protein", "value": "8.3 g" },
-            { "label": "Carbohydrate", "value": "14.2 g" },
-            { "label": "Cholesterol", "value": "26.0 mg" }
-         ],
-         "note": "A timeless classic; add grilled chicken or shrimp for extra protein."
-      },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For the salad",
-               "items": [
-                  "1 head romaine lettuce, chopped",
-                  "1 cup croutons",
-                  "1/4 cup Parmesan cheese, shaved"
-               ]
-            },
-            {
-               "groupName": "For the Caesar dressing",
-               "items": [
-                  "1/2 cup mayonnaise",
-                  "2 anchovy fillets, minced",
-                  "1 garlic clove, minced",
-                  "1 tablespoon lemon juice",
-                  "1 teaspoon Worcestershire sauce",
-                  "1/4 cup grated Parmesan"
-               ]
-            }
-         ]
-      },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Make the dressing", "description": "Whisk the mayonnaise, anchovies, garlic, lemon juice, Worcestershire sauce, and Parmesan until smooth." },
-            { "title": "Toss the lettuce", "description": "Place the chopped romaine in a large bowl and toss with the dressing." },
-            { "title": "Add crunch", "description": "Top with croutons and shaved Parmesan." },
-            { "title": "Serve", "description": "Serve immediately." }
-         ]
-      }
-   },
-   {
-      "id": "tomato-basil-soup",
-      "author": {
-         "name": "Elena Rossi",
-         "date": "2024-03-19",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "19 March 2024"
-      },
-      "title": "Tomato Basil Soup",
-      "description": "Warm tomato soup with fresh basil and a smooth texture.",
-      "category": "lunch",
-      "time": { "prep": 10, "cook": 15 },
-      "tags": ["vegan", "comfort", "healthy"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": false,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
-      },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "148.2 kcal" },
-            { "label": "Total Fat", "value": "6.1 g" },
-            { "label": "Protein", "value": "3.6 g" },
-            { "label": "Carbohydrate", "value": "20.8 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
-         ],
-         "note": "Vegan and cozy; pairs perfectly with crusty bread."
-      },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For main dish",
-               "items": [
-                  "6 ripe tomatoes, chopped",
-                  "1 onion, diced",
-                  "2 garlic cloves, minced",
-                  "2 cups vegetable broth",
-                  "1/4 cup fresh basil leaves",
-                  "2 tablespoons olive oil",
-                  "1 teaspoon salt",
-                  "1/2 teaspoon black pepper"
-               ]
-            }
-         ]
-      },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Sauté the aromatics", "description": "Heat the olive oil and sauté the onion and garlic until soft." },
-            { "title": "Add tomatoes", "description": "Add the chopped tomatoes, broth, salt, and pepper, and simmer for 15 minutes." },
-            { "title": "Blend", "description": "Blend the soup until smooth, then return to the pot." },
-            { "title": "Add basil and serve", "description": "Stir in the fresh basil and serve warm." }
-         ]
-      }
-   },
-   {
-      "id": "grilled-veggie-wrap",
-      "author": {
-         "name": "Priya Sharma",
-         "date": "2024-04-03",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "3 April 2024"
-      },
-      "title": "Grilled Veggie Wrap",
-      "description": "A soft tortilla filled with grilled vegetables and light dressing.",
-      "category": "lunch",
-      "time": { "prep": 8, "cook": 7 },
-      "tags": ["vegan", "quick", "popular"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": true,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
-      },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "286.4 kcal" },
-            { "label": "Total Fat", "value": "11.2 g" },
-            { "label": "Protein", "value": "7.9 g" },
-            { "label": "Carbohydrate", "value": "39.5 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
-         ],
-         "note": "Easy to customize with whatever vegetables you have on hand."
-      },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For the wrap",
-               "items": [
-                  "2 large tortillas",
-                  "1 zucchini, sliced",
-                  "1 bell pepper, sliced",
-                  "1/2 red onion, sliced",
-                  "1 cup hummus",
-                  "1 tablespoon olive oil",
-                  "1 teaspoon dried oregano"
-               ]
-            }
-         ]
-      },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Grill the vegetables", "description": "Toss the zucchini, pepper, and onion with olive oil and oregano, then grill for 5–7 minutes until tender." },
-            { "title": "Warm the tortillas", "description": "Warm the tortillas in a dry pan for 30 seconds per side." },
-            { "title": "Assemble", "description": "Spread hummus over each tortilla and top with the grilled vegetables." },
-            { "title": "Roll and serve", "description": "Roll up the wraps tightly and serve." }
-         ]
-      }
-   },
-   {
-      "id": "pesto-pasta-bowl",
-      "author": {
-         "name": "Giulia Moretti",
-         "date": "2024-04-17",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "17 April 2024"
-      },
-      "title": "Pesto Pasta Bowl",
-      "description": "Fresh pasta tossed in aromatic basil pesto.",
-      "category": "lunch",
-      "time": { "prep": 10, "cook": 10 },
-      "tags": ["comfort", "quick"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": false,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
-      },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "398.6 kcal" },
-            { "label": "Total Fat", "value": "18.7 g" },
-            { "label": "Protein", "value": "11.4 g" },
-            { "label": "Carbohydrate", "value": "47.2 g" },
-            { "label": "Cholesterol", "value": "12.0 mg" }
-         ],
-         "note": "Fresh pesto makes all the difference; toast the pine nuts for extra flavor."
-      },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For the pasta",
-               "items": [
-                  "8 oz pasta",
-                  "1/2 cup cherry tomatoes, halved",
-                  "1/4 cup Parmesan, grated"
-               ]
-            },
-            {
-               "groupName": "For the pesto",
-               "items": [
-                  "2 cups fresh basil leaves",
-                  "1/3 cup pine nuts",
-                  "1/2 cup olive oil",
-                  "1 garlic clove",
-                  "1/2 cup grated Parmesan",
-                  "1/4 teaspoon salt"
-               ]
-            }
-         ]
-      },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Cook the pasta", "description": "Boil the pasta in salted water until al dente, then drain, reserving a little pasta water." },
-            { "title": "Make the pesto", "description": "Blend the basil, pine nuts, olive oil, garlic, Parmesan, and salt until smooth." },
-            { "title": "Combine", "description": "Toss the pasta with the pesto, adding a splash of pasta water to loosen." },
-            { "title": "Serve", "description": "Top with cherry tomatoes and extra Parmesan and serve." }
-         ]
-      }
-   },
-   {
-      "id": "mediterranean-quinoa-salad",
-      "author": {
-         "name": "Yasmin Haddad",
-         "date": "2024-05-01",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "1 May 2024"
-      },
-      "title": "Mediterranean Quinoa Salad",
-      "description": "A protein-rich quinoa salad with olives, tomatoes, and herbs.",
-      "category": "lunch",
-      "time": { "prep": 10, "cook": 5 },
-      "tags": ["healthy", "vegan", "popular"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": true,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
-      },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "276.3 kcal" },
-            { "label": "Total Fat", "value": "12.8 g" },
-            { "label": "Protein", "value": "8.6 g" },
-            { "label": "Carbohydrate", "value": "32.4 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
-         ],
-         "note": "A meal-prep favorite that keeps well in the fridge for several days."
-      },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For the salad",
-               "items": [
-                  "1 cup cooked quinoa",
-                  "1/2 cup cherry tomatoes, halved",
-                  "1/4 cup Kalamata olives, sliced",
-                  "1/4 cup cucumber, diced",
-                  "2 tablespoons red onion, diced",
-                  "2 tablespoons fresh parsley, chopped"
-               ]
-            },
-            {
-               "groupName": "For the dressing",
-               "items": [
-                  "2 tablespoons olive oil",
-                  "1 tablespoon lemon juice",
-                  "1 teaspoon dried oregano",
-                  "1/4 teaspoon salt"
-               ]
-            }
-         ]
-      },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Combine the salad ingredients", "description": "Place the quinoa, tomatoes, olives, cucumber, onion, and parsley in a bowl." },
-            { "title": "Make the dressing", "description": "Whisk the olive oil, lemon juice, oregano, and salt together." },
-            { "title": "Toss and serve", "description": "Pour the dressing over the salad, toss well, and serve chilled or at room temperature." }
-         ]
-      }
-   },
-   {
-      "id": "creamy-potato-soup",
-      "author": {
-         "name": "Sofia Novak",
-         "date": "2024-05-15",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "15 May 2024"
-      },
-      "title": "Creamy Potato Soup",
-      "description": "A comforting potato soup with a smooth creamy base.",
-      "category": "lunch",
-      "time": { "prep": 10, "cook": 20 },
-      "tags": ["comfort", "healthy"],
-      "backgroundImgSrc": "/images/recipes/lunch/8.png",
-      "isLiked": false,
-      "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
-      },
-      "nutrition": {
-         "title": "Nutrition Information",
-         "facts": [
-            { "label": "Calories", "value": "241.7 kcal" },
-            { "label": "Total Fat", "value": "9.6 g" },
-            { "label": "Protein", "value": "5.2 g" },
-            { "label": "Carbohydrate", "value": "33.8 g" },
-            { "label": "Cholesterol", "value": "18.0 mg" }
-         ],
-         "note": "A cozy bowl that warms you up; top with chives or crispy bacon if you like."
-      },
-      "ingredients": {
-         "title": "Ingredients",
-         "groups": [
-            {
-               "groupName": "For main dish",
-               "items": [
-                  "4 medium potatoes, peeled and cubed",
-                  "1 onion, diced",
-                  "2 garlic cloves, minced",
-                  "3 cups vegetable broth",
-                  "1 cup milk",
-                  "2 tablespoons butter",
-                  "1/2 teaspoon salt",
-                  "1/4 teaspoon black pepper"
-               ]
-            }
-         ]
-      },
-      "directions": {
-         "title": "Directions",
-         "steps": [
-            { "title": "Sauté the aromatics", "description": "Melt the butter in a pot and sauté the onion and garlic until soft." },
-            { "title": "Cook the potatoes", "description": "Add the potatoes and broth, bring to a boil, then simmer for 15 minutes until tender." },
-            { "title": "Blend", "description": "Blend the soup until smooth (or partially blend for a chunkier texture)." },
-            { "title": "Add milk and season", "description": "Stir in the milk, salt, and pepper and warm through without boiling." },
-            { "title": "Serve", "description": "Ladle into bowls and serve warm." }
-         ]
-      }
-   }
+      "imgSrc": "images/authors/man.jpg"
+    },
+    "title": "Creamy Potato Soup",
+    "description": "A comforting potato soup with a smooth creamy base.",
+    "category": "lunch",
+    "time": {
+      "prep": 10,
+      "cook": 20
+    },
+    "tags": [
+      "comfort",
+      "healthy"
+    ],
+    "backgroundImgSrc": "images/recipes/lunch/8.png",
+    "isLiked": false,
+    "video": {
+      "sources": [
+        {
+          "src": "videos/preview-video.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "poster": "video-posters/poster.jpg"
+    },
+    "nutrition": {
+      "title": "Nutrition Information",
+      "facts": [
+        {
+          "label": "Calories",
+          "value": "241.7 kcal"
+        },
+        {
+          "label": "Total Fat",
+          "value": "9.6 g"
+        },
+        {
+          "label": "Protein",
+          "value": "5.2 g"
+        },
+        {
+          "label": "Carbohydrate",
+          "value": "33.8 g"
+        },
+        {
+          "label": "Cholesterol",
+          "value": "18.0 mg"
+        }
+      ],
+      "note": "A cozy bowl that warms you up; top with chives or crispy bacon if you like."
+    },
+    "ingredients": {
+      "title": "Ingredients",
+      "groups": [
+        {
+          "groupName": "For main dish",
+          "items": [
+            "4 medium potatoes, peeled and cubed",
+            "1 onion, diced",
+            "2 garlic cloves, minced",
+            "3 cups vegetable broth",
+            "1 cup milk",
+            "2 tablespoons butter",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper"
+          ]
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "steps": [
+        {
+          "title": "Sauté the aromatics",
+          "description": "Melt the butter in a pot and sauté the onion and garlic until soft."
+        },
+        {
+          "title": "Cook the potatoes",
+          "description": "Add the potatoes and broth, bring to a boil, then simmer for 15 minutes until tender."
+        },
+        {
+          "title": "Blend",
+          "description": "Blend the soup until smooth (or partially blend for a chunkier texture)."
+        },
+        {
+          "title": "Add milk and season",
+          "description": "Stir in the milk, salt, and pepper and warm through without boiling."
+        },
+        {
+          "title": "Serve",
+          "description": "Ladle into bowls and serve warm."
+        }
+      ]
+    }
+  }
 ]

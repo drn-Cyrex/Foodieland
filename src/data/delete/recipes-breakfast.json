@@ -1,0 +1,761 @@
+[
+   {
+      "id": "strawberry-oatmeal-pancake",
+      "author": {
+         "name": "John Doe",
+         "date": "2024-01-15",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "15 January 2024"
+      },
+      "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+      "description": "A fluffy oat‑based pancake topped with fresh strawberries and sweet honey.",
+      "category": "breakfast",
+      "time": { "prep": 15, "cook": 15 },
+      "tags": ["sweet", "quick", "popular"],
+      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "isLiked": true,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "219.9 kcal" },
+            { "label": "Total Fat", "value": "10.7 g" },
+            { "label": "Protein", "value": "7.9 g" },
+            { "label": "Carbohydrate", "value": "22.3 g" },
+            { "label": "Cholesterol", "value": "37.4 mg" }
+         ],
+         "note": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "1 cup rolled oats",
+                  "1/2 cup all-purpose flour",
+                  "1 tablespoon sugar",
+                  "1 teaspoon baking powder",
+                  "1/2 teaspoon salt"
+               ]
+            },
+            {
+               "groupName": "For the sauce",
+               "items": [
+                  "1 cup fresh strawberries, sliced",
+                  "1/4 cup honey",
+                  "1 tablespoon lemon juice"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Prepare the dry ingredients",
+               "description": "In a large mixing bowl, combine the rolled oats, all-purpose flour, sugar, baking powder, and salt. Whisk them together until evenly distributed."
+            },
+            {
+               "title": "Mix the wet ingredients",
+               "description": "In a separate bowl, whisk together the milk, eggs, and vanilla extract until smooth and well combined."
+            },
+            {
+               "title": "Combine the batter",
+               "description": "Pour the wet ingredients into the dry ingredients. Stir gently with a spatula until just combined. Be careful not to overmix; a few lumps are perfectly fine. Let the batter rest for 5 minutes to allow the oats to absorb the liquid."
+            },
+            {
+               "title": "Cook the pancakes",
+               "description": "Heat a non-stick griddle or frying pan over medium heat and lightly grease it with butter or oil. Pour about 1/4 cup of batter onto the pan for each pancake. Cook until bubbles form on the surface, then flip and cook the other side until golden brown."
+            },
+            {
+               "title": "Prepare the honey syrup",
+               "description": "While the pancakes are cooking, gently warm the honey in a small saucepan over low heat. Stir in the fresh lemon juice to balance the sweetness."
+            },
+            {
+               "title": "Serve and enjoy",
+               "description": "Stack the warm pancakes on a plate. Top generously with fresh sliced strawberries and drizzle with the warm honey syrup. Serve immediately."
+            }
+         ]
+      }
+   },
+   {
+      "id": "fruity-orange-blueberry-pancake",
+      "author": {
+         "name": "Emily Carter",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-02-03",
+         "label": "3 February 2024"
+      },
+      "title": "Fruity Pancake with Orange & Blueberry",
+      "description": "A bright, citrusy pancake bursting with orange zest and juicy blueberries.",
+      "category": "breakfast",
+      "time": { "prep": 12, "cook": 8 },
+      "tags": ["sweet", "quick"],
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
+      "isLiked": false,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "245.3 kcal" },
+            { "label": "Total Fat", "value": "8.1 g" },
+            { "label": "Protein", "value": "6.4 g" },
+            { "label": "Carbohydrate", "value": "38.2 g" },
+            { "label": "Cholesterol", "value": "42.0 mg" }
+         ],
+         "note": "A citrus-forward breakfast that balances natural sweetness with fresh berry tang."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "1 cup all-purpose flour",
+                  "2 tablespoons sugar",
+                  "1 teaspoon baking powder",
+                  "1 egg",
+                  "3/4 cup milk",
+                  "1 tablespoon orange zest",
+                  "1/2 cup fresh blueberries"
+               ]
+            },
+            {
+               "groupName": "For the topping",
+               "items": [
+                  "1/2 cup fresh blueberries",
+                  "2 tablespoons orange juice",
+                  "1 tablespoon maple syrup"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Mix the dry ingredients",
+               "description": "Whisk together the flour, sugar, and baking powder in a large bowl."
+            },
+            {
+               "title": "Add wet ingredients",
+               "description": "Beat in the egg, milk, and orange zest until the batter is smooth and free of lumps."
+            },
+            {
+               "title": "Fold in blueberries",
+               "description": "Gently fold the fresh blueberries into the batter, being careful not to crush them."
+            },
+            {
+               "title": "Cook the pancakes",
+               "description": "Heat a lightly greased pan over medium heat. Pour 1/4 cup of batter per pancake and cook until bubbles appear, then flip and cook until golden."
+            },
+            {
+               "title": "Make the orange-blueberry topping",
+               "description": "Simmer the blueberries, orange juice, and maple syrup in a small saucepan for 3–4 minutes until slightly thickened."
+            },
+            {
+               "title": "Serve",
+               "description": "Stack the pancakes and spoon the warm orange-blueberry topping over the top. Serve immediately."
+            }
+         ]
+      }
+   },
+   {
+      "id": "classic-banana-pancakes",
+      "author": {
+         "name": "Michael Smith",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-02-18",
+         "label": "18 February 2024"
+      },
+      "title": "Classic Banana Pancakes",
+      "description": "Soft banana pancakes with a naturally sweet flavor and fluffy texture.",
+      "category": "breakfast",
+      "time": { "prep": 10, "cook": 5 },
+      "tags": ["sweet", "quick", "popular"],
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
+      "isLiked": true,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "231.6 kcal" },
+            { "label": "Total Fat", "value": "7.2 g" },
+            { "label": "Protein", "value": "6.8 g" },
+            { "label": "Carbohydrate", "value": "35.4 g" },
+            { "label": "Cholesterol", "value": "39.5 mg" }
+         ],
+         "note": "Ripe bananas add natural sweetness, so little added sugar is needed."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "1 ripe banana, mashed",
+                  "1 cup all-purpose flour",
+                  "1 tablespoon sugar",
+                  "1 teaspoon baking powder",
+                  "1 egg",
+                  "3/4 cup milk",
+                  "1/2 teaspoon vanilla extract"
+               ]
+            },
+            {
+               "groupName": "For serving",
+               "items": [
+                  "1 sliced banana",
+                  "2 tablespoons maple syrup",
+                  "1 tablespoon butter"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Mash the banana",
+               "description": "In a large bowl, mash the ripe banana with a fork until smooth."
+            },
+            {
+               "title": "Combine wet ingredients",
+               "description": "Whisk the egg, milk, and vanilla extract into the mashed banana."
+            },
+            {
+               "title": "Add dry ingredients",
+               "description": "Stir in the flour, sugar, and baking powder until just combined; do not overmix."
+            },
+            {
+               "title": "Cook the pancakes",
+               "description": "Heat a buttered pan over medium heat. Pour 1/4 cup of batter per pancake, cook until bubbles form, then flip and cook until golden brown."
+            },
+            {
+               "title": "Serve",
+               "description": "Plate the pancakes, top with sliced banana and a drizzle of maple syrup, and serve warm."
+            }
+         ]
+      }
+   },
+   {
+      "id": "avocado-toast-egg",
+      "author": {
+         "name": "Sophia Bennett",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-03-07",
+         "label": "7 March 2024"
+      },
+      "title": "Avocado Toast with Egg",
+      "description": "Creamy avocado spread over crispy toast topped with a soft‑boiled egg.",
+      "category": "breakfast",
+      "time": { "prep": 5, "cook": 5 },
+      "tags": ["healthy", "quick"],
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
+      "isLiked": false,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "312.4 kcal" },
+            { "label": "Total Fat", "value": "21.8 g" },
+            { "label": "Protein", "value": "12.1 g" },
+            { "label": "Carbohydrate", "value": "18.9 g" },
+            { "label": "Cholesterol", "value": "186.0 mg" }
+         ],
+         "note": "Healthy fats from avocado pair with protein-rich eggs for a satisfying start."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "2 slices sourdough bread",
+                  "1 ripe avocado",
+                  "2 eggs",
+                  "1 teaspoon lemon juice",
+                  "1/2 teaspoon salt",
+                  "1/4 teaspoon black pepper",
+                  "1 pinch red pepper flakes"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Boil the eggs",
+               "description": "Place the eggs in a saucepan of boiling water and cook for 6–7 minutes for a soft-boiled yolk. Transfer to cold water, then peel."
+            },
+            {
+               "title": "Toast the bread",
+               "description": "Toast the sourdough slices until golden and crisp."
+            },
+            {
+               "title": "Mash the avocado",
+               "description": "Mash the avocado with lemon juice, salt, and black pepper."
+            },
+            {
+               "title": "Assemble",
+               "description": "Spread the mashed avocado over the toast and top each slice with a halved soft-boiled egg."
+            },
+            {
+               "title": "Finish and serve",
+               "description": "Sprinkle with red pepper flakes and serve immediately."
+            }
+         ]
+      }
+   },
+   {
+      "id": "greek-yogurt-parfait",
+      "author": {
+         "name": "Olivia Turner",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-03-22",
+         "label": "22 March 2024"
+      },
+      "title": "Greek Yogurt Fruit Parfait",
+      "description": "Layers of creamy yogurt, fresh fruit, and crunchy granola.",
+      "category": "breakfast",
+      "time": { "prep": 5, "cook": 0 },
+      "tags": ["healthy", "sweet", "quick"],
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
+      "isLiked": true,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "289.7 kcal" },
+            { "label": "Total Fat", "value": "6.3 g" },
+            { "label": "Protein", "value": "18.2 g" },
+            { "label": "Carbohydrate", "value": "41.5 g" },
+            { "label": "Cholesterol", "value": "8.0 mg" }
+         ],
+         "note": "High in protein from Greek yogurt; granola adds fiber and crunch."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "1 cup Greek yogurt",
+                  "1/2 cup granola",
+                  "1/2 cup mixed berries",
+                  "1 tablespoon honey",
+                  "1 teaspoon chia seeds"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Layer the yogurt",
+               "description": "Spoon half of the Greek yogurt into a glass or bowl."
+            },
+            {
+               "title": "Add granola and fruit",
+               "description": "Top with half of the granola and half of the mixed berries."
+            },
+            {
+               "title": "Repeat the layers",
+               "description": "Add the remaining yogurt, then the rest of the granola and berries."
+            },
+            {
+               "title": "Finish and serve",
+               "description": "Drizzle with honey and sprinkle with chia seeds. Serve immediately."
+            }
+         ]
+      }
+   },
+   {
+      "id": "scrambled-eggs-cheese",
+      "author": {
+         "name": "Daniel Harris",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-04-05",
+         "label": "5 April 2024"
+      },
+      "title": "Cheesy Scrambled Eggs",
+      "description": "Soft scrambled eggs melted together with rich cheddar cheese.",
+      "category": "breakfast",
+      "time": { "prep": 3, "cook": 5 },
+      "tags": ["quick", "comfort"],
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
+      "isLiked": false,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "278.5 kcal" },
+            { "label": "Total Fat", "value": "20.4 g" },
+            { "label": "Protein", "value": "17.9 g" },
+            { "label": "Carbohydrate", "value": "2.1 g" },
+            { "label": "Cholesterol", "value": "395.0 mg" }
+         ],
+         "note": "Rich and comforting; best enjoyed as an occasional indulgent breakfast."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "3 eggs",
+                  "1/4 cup grated cheddar cheese",
+                  "1 tablespoon butter",
+                  "2 tablespoons milk",
+                  "1/4 teaspoon salt",
+                  "1 pinch black pepper"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Whisk the eggs",
+               "description": "Beat the eggs with milk, salt, and black pepper until frothy."
+            },
+            {
+               "title": "Melt the butter",
+               "description": "Melt the butter in a non-stick pan over low heat."
+            },
+            {
+               "title": "Scramble gently",
+               "description": "Pour in the eggs and stir slowly with a spatula, cooking until soft curds form."
+            },
+            {
+               "title": "Add cheese",
+               "description": "Stir in the grated cheddar and remove from heat while still slightly creamy."
+            },
+            {
+               "title": "Serve",
+               "description": "Transfer to a plate and serve immediately."
+            }
+         ]
+      }
+   },
+   {
+      "id": "morning-fruit-bowl",
+      "author": {
+         "name": "Ava Mitchell",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-04-19",
+         "label": "19 April 2024"
+      },
+      "title": "Morning Fresh Fruit Bowl",
+      "description": "A refreshing mix of seasonal fruits for a light breakfast.",
+      "category": "breakfast",
+      "time": { "prep": 5, "cook": 0 },
+      "tags": ["healthy", "vegan", "quick"],
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
+      "isLiked": true,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "142.8 kcal" },
+            { "label": "Total Fat", "value": "0.6 g" },
+            { "label": "Protein", "value": "2.3 g" },
+            { "label": "Carbohydrate", "value": "35.7 g" },
+            { "label": "Cholesterol", "value": "0 mg" }
+         ],
+         "note": "Light, hydrating, and packed with vitamins from fresh seasonal fruit."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "1 kiwi, sliced",
+                  "1/2 cup strawberries, halved",
+                  "1/2 cup blueberries",
+                  "1/2 banana, sliced",
+                  "1 tablespoon lime juice",
+                  "1 teaspoon maple syrup",
+                  "1 tablespoon fresh mint, chopped"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Prepare the fruit",
+               "description": "Wash and slice the kiwi, strawberries, blueberries, and banana."
+            },
+            {
+               "title": "Combine in a bowl",
+               "description": "Add all the fruit to a serving bowl and toss gently."
+            },
+            {
+               "title": "Add dressing",
+               "description": "Drizzle with lime juice and maple syrup, then sprinkle with fresh mint."
+            },
+            {
+               "title": "Serve",
+               "description": "Toss lightly and serve immediately."
+            }
+         ]
+      }
+   },
+   {
+      "id": "honey-granola-bowl",
+      "author": {
+         "name": "Lucas Morgan",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-05-02",
+         "label": "2 May 2024"
+      },
+      "title": "Honey Granola Breakfast Bowl",
+      "description": "Crunchy granola with honey drizzle and fresh berries.",
+      "category": "breakfast",
+      "time": { "prep": 5, "cook": 2 },
+      "tags": ["sweet", "quick"],
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
+      "isLiked": false,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "264.1 kcal" },
+            { "label": "Total Fat", "value": "8.9 g" },
+            { "label": "Protein", "value": "7.4 g" },
+            { "label": "Carbohydrate", "value": "39.6 g" },
+            { "label": "Cholesterol", "value": "5.0 mg" }
+         ],
+         "note": "A crunchy, sweet bowl that comes together in minutes."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "3/4 cup granola",
+                  "1/2 cup milk",
+                  "1/4 cup fresh raspberries",
+                  "1/4 cup fresh blueberries",
+                  "2 tablespoons honey",
+                  "1 tablespoon sliced almonds"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Warm the honey",
+               "description": "Gently warm the honey in a small saucepan over low heat for 1–2 minutes."
+            },
+            {
+               "title": "Assemble the bowl",
+               "description": "Place the granola in a bowl and pour over the milk."
+            },
+            {
+               "title": "Add toppings",
+               "description": "Top with raspberries, blueberries, and sliced almonds."
+            },
+            {
+               "title": "Drizzle and serve",
+               "description": "Drizzle the warm honey over the top and serve immediately."
+            }
+         ]
+      }
+   },
+   {
+      "id": "veggie-omelette",
+      "author": {
+         "name": "Isabella Reed",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-05-17",
+         "label": "17 May 2024"
+      },
+      "title": "Veggie Omelette",
+      "description": "Fluffy omelette packed with fresh vegetables.",
+      "category": "breakfast",
+      "time": { "prep": 5, "cook": 7 },
+      "tags": ["healthy", "quick", "popular"],
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
+      "isLiked": true,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "198.3 kcal" },
+            { "label": "Total Fat", "value": "13.2 g" },
+            { "label": "Protein", "value": "14.1 g" },
+            { "label": "Carbohydrate", "value": "5.8 g" },
+            { "label": "Cholesterol", "value": "372.0 mg" }
+         ],
+         "note": "A vegetable-rich omelette that is low in carbs and high in protein."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "2 eggs",
+                  "1/4 cup bell pepper, diced",
+                  "1/4 cup spinach, chopped",
+                  "2 tablespoons onion, diced",
+                  "1 tablespoon olive oil",
+                  "1/4 teaspoon salt",
+                  "1 pinch black pepper"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Whisk the eggs",
+               "description": "Beat the eggs with salt and black pepper until smooth."
+            },
+            {
+               "title": "Sauté the vegetables",
+               "description": "Heat the olive oil in a non-stick pan and sauté the pepper and onion for 2 minutes, then add the spinach and wilt."
+            },
+            {
+               "title": "Add the eggs",
+               "description": "Pour the eggs over the vegetables and cook over medium-low heat until nearly set."
+            },
+            {
+               "title": "Fold the omelette",
+               "description": "Fold the omelette in half and cook for another minute."
+            },
+            {
+               "title": "Serve",
+               "description": "Slide onto a plate and serve immediately."
+            }
+         ]
+      }
+   },
+   {
+      "id": "cinnamon-apple-oatmeal",
+      "author": {
+         "name": "Ethan Cooper",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "date": "2024-06-01",
+         "label": "1 June 2024"
+      },
+      "title": "Cinnamon Apple Oatmeal",
+      "description": "Warm oatmeal with sweet apples and cinnamon spice.",
+      "category": "breakfast",
+      "time": { "prep": 5, "cook": 5 },
+      "tags": ["sweet", "quick", "comfort"],
+      "backgroundImgSrc": "/images/recipes/breakfast/2.png",
+      "isLiked": false,
+      "video": {
+         "sources": [
+            { "src": "/videos/preview-video.mp4", "type": "video/mp4" }
+         ],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "236.7 kcal" },
+            { "label": "Total Fat", "value": "4.5 g" },
+            { "label": "Protein", "value": "6.2 g" },
+            { "label": "Carbohydrate", "value": "44.8 g" },
+            { "label": "Cholesterol", "value": "0 mg" }
+         ],
+         "note": "Warm and filling; cinnamon helps balance the sweetness of the apple."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "1 cup rolled oats",
+                  "1 1/2 cups milk",
+                  "1 apple, diced",
+                  "1 teaspoon ground cinnamon",
+                  "1 tablespoon honey",
+                  "1 pinch salt"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            {
+               "title": "Combine oats and milk",
+               "description": "In a saucepan, combine the rolled oats, milk, and a pinch of salt."
+            },
+            {
+               "title": "Cook the oatmeal",
+               "description": "Bring to a gentle simmer over medium heat and cook for 4–5 minutes, stirring occasionally, until creamy."
+            },
+            {
+               "title": "Add apple and cinnamon",
+               "description": "Stir in the diced apple and ground cinnamon and cook for another 2 minutes until the apple softens."
+            },
+            {
+               "title": "Sweeten and serve",
+               "description": "Drizzle with honey, stir, and serve warm."
+            }
+         ]
+      }
+   }
+]

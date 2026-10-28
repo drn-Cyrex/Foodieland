@@ -8,4 +8,3 @@ import {} from "./modules/Test";
 
 initHeroSlider();
 
-document.querySelector(".hero.swiper")?.swiper

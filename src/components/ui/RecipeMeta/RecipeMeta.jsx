@@ -13,29 +13,4 @@ const RecipeMeta = ({ iconName, label, value, unit }) => (
    </div>
 )
 
-// const RecipeMeta = (props) => {
-
-//    const {
-//       iconName,
-//       label,
-//       value,
-//       minutes,
-//    } = props
-
-//    return (
-//       <div className="meta">
-//          <Icon className="meta__icon" name={iconName} hasFill />
-//          <div className="meta__item">
-//             <p className="meta__label">
-//                {label}
-//             </p>
-//             <span className="meta__value">
-//                {value} {minutes && <span>min</span>}
-//             </span>
-//          </div>
-//       </div>
-//    )
-// }
-
-
 export default RecipeMeta

@@ -1,7 +1,7 @@
 import "./RecipeCardStandard.scss"
 import RecipeMeta from "../RecipeMeta/RecipeMeta"
 import clsx from 'clsx'
-
+import getAssetUrl from "@/utils/getAssetUrl"
 const RecipeCardStandard = (props) => {
 
    const {
@@ -15,13 +15,13 @@ const RecipeCardStandard = (props) => {
    } = props
 
    const style = {
-      backgroundImage: `url(${backgroundImgSrc})`
+      backgroundImage: `url(${getAssetUrl(backgroundImgSrc)})`,
    }
 
 
    return (
       <article
-         className={clsx('rcp-card-standard')}
+         className='rcp-card-standard'
          data-id={id}
          data-category={category}
          data-tags={tags.join(",")}

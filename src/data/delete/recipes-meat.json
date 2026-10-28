@@ -1,0 +1,631 @@
+[
+   {
+      "id": "wagyu-cheeseburger",
+      "author": {
+         "name": "Marcus Hale",
+         "date": "2024-01-09",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "9 January 2024"
+      },
+      "title": "Big and Juicy Wagyu Beef Cheeseburger",
+      "description": "A rich, tender Wagyu burger stacked with melted cheese and fresh toppings.",
+      "category": "meat",
+      "time": { "prep": 15, "cook": 15 },
+      "tags": ["meat", "comfort", "popular"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": true,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "682.4 kcal" },
+            { "label": "Total Fat", "value": "42.8 g" },
+            { "label": "Protein", "value": "38.6 g" },
+            { "label": "Carbohydrate", "value": "33.1 g" },
+            { "label": "Cholesterol", "value": "118.0 mg" }
+         ],
+         "note": "An indulgent burger; Wagyu's marbling makes it extra rich and tender."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For the burger",
+               "items": [
+                  "1 lb Wagyu ground beef",
+                  "2 brioche buns",
+                  "2 slices cheddar cheese",
+                  "1 tomato, sliced",
+                  "4 lettuce leaves",
+                  "1/2 red onion, sliced",
+                  "2 tablespoons butter"
+               ]
+            },
+            {
+               "groupName": "For the sauce",
+               "items": [
+                  "3 tablespoons mayonnaise",
+                  "1 tablespoon ketchup",
+                  "1 teaspoon Dijon mustard",
+                  "1 tablespoon pickles, chopped"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Form the patties", "description": "Shape the Wagyu beef into two equal patties and season both sides with salt and pepper." },
+            { "title": "Make the sauce", "description": "Mix the mayonnaise, ketchup, mustard, and pickles in a small bowl." },
+            { "title": "Toast the buns", "description": "Butter the brioche buns and toast them cut-side down in a pan until golden." },
+            { "title": "Cook the patties", "description": "Cook the patties on a hot grill or pan for 3–4 minutes per side, adding cheese in the last minute to melt." },
+            { "title": "Assemble", "description": "Spread sauce on the buns, add lettuce, tomato, onion, and the cheesy patty, then close the burger." },
+            { "title": "Serve", "description": "Serve immediately while hot and juicy." }
+         ]
+      }
+   },
+   {
+      "id": "wagyu-cheeseburger-boosts",
+      "author": {
+         "name": "Tyler Jensen",
+         "date": "2024-01-23",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "23 January 2024"
+      },
+      "title": "Big and Juicy Wagyu Beef CheeseburgerBoosts",
+      "description": "A deluxe Wagyu cheeseburger with extra flavor and upgraded toppings.",
+      "category": "meat",
+      "time": { "prep": 18, "cook": 17 },
+      "tags": ["meat", "comfort"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": false,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "754.9 kcal" },
+            { "label": "Total Fat", "value": "48.3 g" },
+            { "label": "Protein", "value": "41.2 g" },
+            { "label": "Carbohydrate", "value": "38.7 g" },
+            { "label": "Cholesterol", "value": "132.0 mg" }
+         ],
+         "note": "An upgraded version with caramelized onions and truffle mayo for extra depth."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For the burger",
+               "items": [
+                  "1 lb Wagyu ground beef",
+                  "2 brioche buns",
+                  "2 slices Swiss cheese",
+                  "1 caramelized onion",
+                  "1 tomato, sliced",
+                  "4 lettuce leaves",
+                  "4 slices crispy bacon"
+               ]
+            },
+            {
+               "groupName": "For the truffle mayo",
+               "items": [
+                  "3 tablespoons mayonnaise",
+                  "1 teaspoon truffle oil",
+                  "1 teaspoon lemon juice",
+                  "1 pinch salt"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Caramelize the onions", "description": "Cook the sliced onion in butter over low heat for 15–20 minutes until deep golden." },
+            { "title": "Make the truffle mayo", "description": "Whisk the mayonnaise, truffle oil, lemon juice, and salt." },
+            { "title": "Cook the patties", "description": "Season the Wagyu patties and cook 3–4 minutes per side, topping with Swiss cheese to melt." },
+            { "title": "Toast the buns", "description": "Toast the brioche buns until golden." },
+            { "title": "Assemble", "description": "Layer truffle mayo, lettuce, tomato, the patty, bacon, and caramelized onions on each bun." },
+            { "title": "Serve", "description": "Serve hot with extra truffle mayo on the side." }
+         ]
+      }
+   },
+   {
+      "id": "lime-roasted-salmon",
+      "author": {
+         "name": "Hannah Lindqvist",
+         "date": "2024-02-06",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "6 February 2024"
+      },
+      "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+      "description": "Zesty lime‑infused salmon roasted to perfection with a warm ginger glaze.",
+      "category": "meat",
+      "time": { "prep": 10, "cook": 15 },
+      "tags": ["meat", "healthy", "popular"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": true,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "328.6 kcal" },
+            { "label": "Total Fat", "value": "19.4 g" },
+            { "label": "Protein", "value": "32.8 g" },
+            { "label": "Carbohydrate", "value": "6.2 g" },
+            { "label": "Cholesterol", "value": "84.0 mg" }
+         ],
+         "note": "High in omega-3 fatty acids; the lime and ginger keep it fresh and light."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For the salmon",
+               "items": [
+                  "2 salmon fillets",
+                  "1 lime, zested and juiced",
+                  "1 tablespoon olive oil",
+                  "1/2 teaspoon salt",
+                  "1/4 teaspoon black pepper"
+               ]
+            },
+            {
+               "groupName": "For the ginger sauce",
+               "items": [
+                  "1 tablespoon fresh ginger, grated",
+                  "2 tablespoons soy sauce",
+                  "1 tablespoon honey",
+                  "1 teaspoon sesame oil",
+                  "1 tablespoon lime juice"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Preheat the oven", "description": "Preheat the oven to 400°F (200°C) and line a baking tray with parchment." },
+            { "title": "Season the salmon", "description": "Rub the salmon with olive oil, lime zest, salt, and pepper, then place on the tray." },
+            { "title": "Roast", "description": "Roast for 12–15 minutes until the salmon flakes easily with a fork." },
+            { "title": "Make the ginger sauce", "description": "Whisk the ginger, soy sauce, honey, sesame oil, and lime juice together." },
+            { "title": "Serve", "description": "Drizzle the ginger sauce over the roasted salmon and serve with lime wedges." }
+         ]
+      }
+   },
+   {
+      "id": "chicken-meatballs-cream-cheese",
+      "author": {
+         "name": "Paulina Vega",
+         "date": "2024-02-20",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "20 February 2024"
+      },
+      "title": "Chicken Meatballs with Cream Cheese",
+      "description": "Tender chicken meatballs filled with smooth, savory cream cheese.",
+      "category": "meat",
+      "time": { "prep": 15, "cook": 10 },
+      "tags": ["meat", "comfort"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": false,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "296.1 kcal" },
+            { "label": "Total Fat", "value": "18.2 g" },
+            { "label": "Protein", "value": "26.4 g" },
+            { "label": "Carbohydrate", "value": "7.3 g" },
+            { "label": "Cholesterol", "value": "96.0 mg" }
+         ],
+         "note": "The cream cheese center keeps these meatballs moist and flavorful."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For the meatballs",
+               "items": [
+                  "1 lb ground chicken",
+                  "1/4 cup breadcrumbs",
+                  "1 egg",
+                  "2 tablespoons grated Parmesan",
+                  "1/2 teaspoon garlic powder",
+                  "1/2 teaspoon salt",
+                  "1/4 teaspoon black pepper"
+               ]
+            },
+            {
+               "groupName": "For the cream cheese filling",
+               "items": [
+                  "4 oz cream cheese, cubed",
+                  "1 tablespoon fresh parsley, chopped"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Mix the meatball base", "description": "Combine the ground chicken, breadcrumbs, egg, Parmesan, garlic powder, salt, and pepper." },
+            { "title": "Form and fill", "description": "Flatten a portion of the mixture, place a cube of cream cheese in the center, and roll into a ball." },
+            { "title": "Cook", "description": "Brown the meatballs in a skillet over medium heat for 8–10 minutes, turning until cooked through." },
+            { "title": "Serve", "description": "Sprinkle with fresh parsley and serve warm." }
+         ]
+      }
+   },
+   {
+      "id": "creamy-chicken-bacon-pasta",
+      "author": {
+         "name": "Oliver Grant",
+         "date": "2024-03-05",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "5 March 2024"
+      },
+      "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+      "description": "Ultra‑creamy pasta loaded with chicken, smoky bacon, and rich sauce.",
+      "category": "meat",
+      "time": { "prep": 10, "cook": 20 },
+      "tags": ["meat", "comfort", "popular"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": true,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "612.8 kcal" },
+            { "label": "Total Fat", "value": "34.5 g" },
+            { "label": "Protein", "value": "33.1 g" },
+            { "label": "Carbohydrate", "value": "48.2 g" },
+            { "label": "Cholesterol", "value": "105.0 mg" }
+         ],
+         "note": "Rich and indulgent; a smaller portion with a side salad balances it nicely."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For the pasta",
+               "items": [
+                  "8 oz fettuccine",
+                  "2 chicken breasts, sliced",
+                  "4 slices bacon, chopped",
+                  "2 garlic cloves, minced"
+               ]
+            },
+            {
+               "groupName": "For the cream sauce",
+               "items": [
+                  "1 cup heavy cream",
+                  "1/2 cup grated Parmesan",
+                  "1 tablespoon butter",
+                  "1/2 teaspoon salt",
+                  "1/4 teaspoon black pepper"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Cook the pasta", "description": "Boil the fettuccine until al dente and drain." },
+            { "title": "Crisp the bacon", "description": "Cook the chopped bacon in a large pan until crisp, then set aside." },
+            { "title": "Cook the chicken", "description": "In the same pan, cook the sliced chicken until golden and cooked through." },
+            { "title": "Make the sauce", "description": "Add the garlic and butter, then pour in the cream and simmer. Stir in the Parmesan, salt, and pepper." },
+            { "title": "Combine and serve", "description": "Toss the pasta, bacon, and chicken with the cream sauce and serve immediately." }
+         ]
+      }
+   },
+   {
+      "id": "one-pot-chicken-rice",
+      "author": {
+         "name": "Fiona Murray",
+         "date": "2024-03-20",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "20 March 2024"
+      },
+      "title": "The Best Easy One Pot Chicken and Rice",
+      "description": "A simple, comforting chicken‑and‑rice dish cooked together in one pot.",
+      "category": "meat",
+      "time": { "prep": 10, "cook": 20 },
+      "tags": ["meat", "comfort"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": false,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "438.2 kcal" },
+            { "label": "Total Fat", "value": "13.7 g" },
+            { "label": "Protein", "value": "31.6 g" },
+            { "label": "Carbohydrate", "value": "44.9 g" },
+            { "label": "Cholesterol", "value": "88.0 mg" }
+         ],
+         "note": "Minimal cleanup — everything cooks in one pot for an easy weeknight dinner."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "2 chicken thighs, bone-in",
+                  "1 cup long-grain rice",
+                  "2 cups chicken broth",
+                  "1 onion, diced",
+                  "2 garlic cloves, minced",
+                  "1 tablespoon olive oil",
+                  "1/2 teaspoon paprika",
+                  "1/2 teaspoon salt",
+                  "1/4 teaspoon black pepper",
+                  "1 tablespoon fresh parsley, chopped"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Brown the chicken", "description": "Season the chicken thighs with paprika, salt, and pepper, then brown them in olive oil in a large pot." },
+            { "title": "Sauté aromatics", "description": "Remove the chicken, then sauté the onion and garlic in the same pot." },
+            { "title": "Add rice and broth", "description": "Stir in the rice, then pour in the broth and return the chicken to the pot." },
+            { "title": "Simmer", "description": "Cover and simmer for 20 minutes until the rice is tender and the chicken is cooked through." },
+            { "title": "Serve", "description": "Fluff the rice, sprinkle with parsley, and serve." }
+         ]
+      }
+   },
+   {
+      "id": "bbq-spicy-sandwiches",
+      "author": {
+         "name": "Caleb Turner",
+         "date": "2024-04-04",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "4 April 2024"
+      },
+      "title": "Barbeque Spicy Sandwiches with Chips",
+      "description": "Spicy BBQ sandwiches served with crispy chips for a smoky, crunchy combo.",
+      "category": "meat",
+      "time": { "prep": 8, "cook": 12 },
+      "tags": ["meat", "comfort", "popular"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": true,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "521.3 kcal" },
+            { "label": "Total Fat", "value": "22.4 g" },
+            { "label": "Protein", "value": "28.7 g" },
+            { "label": "Carbohydrate", "value": "51.8 g" },
+            { "label": "Cholesterol", "value": "76.0 mg" }
+         ],
+         "note": "The spicy BBQ sauce adds a smoky kick; serve with extra chips for crunch."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For the sandwiches",
+               "items": [
+                  "2 cups pulled pork or shredded chicken",
+                  "1/2 cup spicy BBQ sauce",
+                  "2 sandwich buns",
+                  "1/2 cup coleslaw"
+               ]
+            },
+            {
+               "groupName": "For the chips",
+               "items": [
+                  "2 large potatoes, thinly sliced",
+                  "2 cups vegetable oil for frying",
+                  "1/2 teaspoon salt",
+                  "1/4 teaspoon cayenne pepper"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Warm the meat", "description": "Heat the pulled pork with the spicy BBQ sauce in a pan until warmed through." },
+            { "title": "Fry the chips", "description": "Fry the potato slices in hot oil until golden and crisp, then drain and season with salt and cayenne." },
+            { "title": "Assemble the sandwiches", "description": "Fill the buns with the BBQ meat and top with coleslaw." },
+            { "title": "Serve", "description": "Serve the sandwiches with the crispy chips on the side." }
+         ]
+      }
+   },
+   {
+      "id": "chicken-ramen-mushroom",
+      "author": {
+         "name": "Yuki Tanaka",
+         "date": "2024-04-18",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "18 April 2024"
+      },
+      "title": "Chicken Ramen Soup with Mushroom",
+      "description": "A warm ramen bowl with tender chicken, mushrooms, and savory broth.",
+      "category": "meat",
+      "time": { "prep": 10, "cook": 15 },
+      "tags": ["meat", "comfort"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": false,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "384.7 kcal" },
+            { "label": "Total Fat", "value": "11.8 g" },
+            { "label": "Protein", "value": "27.3 g" },
+            { "label": "Carbohydrate", "value": "42.6 g" },
+            { "label": "Cholesterol", "value": "68.0 mg" }
+         ],
+         "note": "A cozy bowl; add a soft-boiled egg for extra richness."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "2 packs ramen noodles",
+                  "2 chicken breasts, sliced",
+                  "1 cup mushrooms, sliced",
+                  "4 cups chicken broth",
+                  "1 tablespoon soy sauce",
+                  "1 teaspoon sesame oil",
+                  "2 green onions, sliced",
+                  "1 teaspoon grated ginger"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Cook the chicken", "description": "Simmer the sliced chicken in the chicken broth with ginger and soy sauce for 8 minutes." },
+            { "title": "Add mushrooms", "description": "Add the sliced mushrooms and cook for 5 more minutes." },
+            { "title": "Cook the noodles", "description": "Add the ramen noodles and cook according to package instructions." },
+            { "title": "Finish and serve", "description": "Stir in the sesame oil, top with green onions, and serve hot." }
+         ]
+      }
+   },
+   {
+      "id": "grilled-steak-classic",
+      "author": {
+         "name": "Brandon Cole",
+         "date": "2024-05-03",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "3 May 2024"
+      },
+      "title": "Classic Grilled Steak",
+      "description": "Juicy grilled steak seasoned with salt, pepper, and herbs.",
+      "category": "meat",
+      "time": { "prep": 5, "cook": 15 },
+      "tags": ["meat", "comfort", "popular"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": true,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "486.2 kcal" },
+            { "label": "Total Fat", "value": "28.9 g" },
+            { "label": "Protein", "value": "49.3 g" },
+            { "label": "Carbohydrate", "value": "1.2 g" },
+            { "label": "Cholesterol", "value": "135.0 mg" }
+         ],
+         "note": "Let the steak rest for 5 minutes after grilling to keep the juices locked in."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For main dish",
+               "items": [
+                  "2 ribeye steaks",
+                  "2 tablespoons olive oil",
+                  "1 teaspoon salt",
+                  "1/2 teaspoon black pepper",
+                  "1 teaspoon fresh rosemary, chopped",
+                  "1 teaspoon fresh thyme, chopped",
+                  "2 garlic cloves, smashed"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Season the steaks", "description": "Rub the steaks with olive oil, salt, pepper, rosemary, and thyme." },
+            { "title": "Preheat the grill", "description": "Preheat a grill or grill pan to high heat." },
+            { "title": "Grill", "description": "Grill the steaks for 4–5 minutes per side for medium-rare, adding the smashed garlic to the pan for aroma." },
+            { "title": "Rest", "description": "Remove the steaks and let them rest for 5 minutes." },
+            { "title": "Serve", "description": "Slice against the grain and serve." }
+         ]
+      }
+   },
+   {
+      "id": "crispy-chicken-strips",
+      "author": {
+         "name": "Megan Foster",
+         "date": "2024-05-17",
+         "imgSrc": "/src/assets/images/man.jpg",
+         "label": "17 May 2024"
+      },
+      "title": "Crispy Chicken Strips",
+      "description": "Golden crispy chicken strips with a crunchy coating.",
+      "category": "meat",
+      "time": { "prep": 8, "cook": 7 },
+      "tags": ["meat", "quick"],
+      "backgroundImgSrc": "/images/recipes/meat/0.png",
+      "isLiked": false,
+      "video": {
+         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
+         "poster": "/video-posters/poster.jpg"
+      },
+      "nutrition": {
+         "title": "Nutrition Information",
+         "facts": [
+            { "label": "Calories", "value": "352.9 kcal" },
+            { "label": "Total Fat", "value": "17.6 g" },
+            { "label": "Protein", "value": "29.4 g" },
+            { "label": "Carbohydrate", "value": "20.1 g" },
+            { "label": "Cholesterol", "value": "82.0 mg" }
+         ],
+         "note": "A kid-friendly favorite; pair with a dipping sauce of your choice."
+      },
+      "ingredients": {
+         "title": "Ingredients",
+         "groups": [
+            {
+               "groupName": "For the chicken",
+               "items": [
+                  "1 lb chicken breast, cut into strips",
+                  "1/2 cup all-purpose flour",
+                  "2 eggs, beaten",
+                  "1 cup breadcrumbs",
+                  "1/2 teaspoon paprika",
+                  "1/2 teaspoon salt",
+                  "1/4 teaspoon black pepper",
+                  "2 cups vegetable oil for frying"
+               ]
+            }
+         ]
+      },
+      "directions": {
+         "title": "Directions",
+         "steps": [
+            { "title": "Set up the breading station", "description": "Place the flour in one bowl, the beaten eggs in another, and the breadcrumbs mixed with paprika, salt, and pepper in a third." },
+            { "title": "Coat the chicken", "description": "Dredge each chicken strip in flour, then egg, then breadcrumbs." },
+            { "title": "Fry", "description": "Heat the oil to 350°F (175°C) and fry the strips for 5–7 minutes until golden and cooked through." },
+            { "title": "Drain and serve", "description": "Drain on paper towels and serve hot." }
+         ]
+      }
+   }
+]
