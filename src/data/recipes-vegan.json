@@ -3,29 +3,54 @@
       "id": "cauliflower-walnut-taco-meat",
       "author": {
          "name": "Maya Chen",
-         "date": "2024-01-10",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "10 January 2024"
+         "date": {
+            "dateTime": "2024-01-10",
+            "label": "10 January 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "Cauliflower Walnut Vegetarian Taco Meat",
       "description": "A hearty plant‑based taco filling made from roasted cauliflower and walnuts.",
       "category": "vegan",
-      "time": { "prep": 10, "cook": 10 },
+      "time": {
+         "prep": 10,
+         "cook": 10
+      },
       "tags": ["vegan", "healthy", "comfort"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": true,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "218.4 kcal" },
-            { "label": "Total Fat", "value": "14.6 g" },
-            { "label": "Protein", "value": "7.2 g" },
-            { "label": "Carbohydrate", "value": "17.8 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "218.4 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "14.6 g"
+            },
+            {
+               "label": "Protein",
+               "value": "7.2 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "17.8 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "Walnuts add healthy fats and a meaty texture; great in tacos or burrito bowls."
       },
@@ -50,10 +75,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Preheat the oven", "description": "Preheat the oven to 400°F (200°C) and line a baking tray." },
-            { "title": "Pulse the ingredients", "description": "Pulse the cauliflower and walnuts in a food processor until they resemble coarse crumbs." },
-            { "title": "Season and roast", "description": "Toss the mixture with olive oil, paprika, cumin, chili powder, salt, and soy sauce, then spread on the tray and roast for 10 minutes." },
-            { "title": "Serve", "description": "Use as a taco filling with tortillas, salsa, and avocado." }
+            {
+               "title": "Preheat the oven",
+               "description": "Preheat the oven to 400°F (200°C) and line a baking tray."
+            },
+            {
+               "title": "Pulse the ingredients",
+               "description": "Pulse the cauliflower and walnuts in a food processor until they resemble coarse crumbs."
+            },
+            {
+               "title": "Season and roast",
+               "description": "Toss the mixture with olive oil, paprika, cumin, chili powder, salt, and soy sauce, then spread on the tray and roast for 10 minutes."
+            },
+            {
+               "title": "Serve",
+               "description": "Use as a taco filling with tortillas, salsa, and avocado."
+            }
          ]
       }
    },
@@ -61,29 +98,54 @@
       "id": "firecracker-vegan-lettuce-wraps",
       "author": {
          "name": "Jasmine Patel",
-         "date": "2024-01-25",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "25 January 2024"
+         "date": {
+            "dateTime": "2024-01-25",
+            "label": "25 January 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "Firecracker Vegan Lettuce Wraps - Spicy!",
       "description": "Fiery vegan lettuce wraps packed with bold, spicy flavor.",
       "category": "vegan",
-      "time": { "prep": 8, "cook": 7 },
+      "time": {
+         "prep": 8,
+         "cook": 7
+      },
       "tags": ["vegan", "quick", "healthy"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": false,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "176.2 kcal" },
-            { "label": "Total Fat", "value": "8.9 g" },
-            { "label": "Protein", "value": "6.4 g" },
-            { "label": "Carbohydrate", "value": "18.7 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "176.2 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "8.9 g"
+            },
+            {
+               "label": "Protein",
+               "value": "6.4 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "18.7 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "The firecracker sauce is seriously spicy — adjust the chili to taste."
       },
@@ -116,10 +178,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Sauté the filling", "description": "Heat the sesame oil, sauté the garlic and mushrooms for 2 minutes, then add the lentils." },
-            { "title": "Make it fiery", "description": "Stir in the soy sauce, sriracha, and maple syrup and cook for 2–3 minutes." },
-            { "title": "Assemble", "description": "Spoon the filling into lettuce leaves and top with carrots, cilantro, and sesame seeds." },
-            { "title": "Serve", "description": "Serve immediately as a spicy hand-held snack." }
+            {
+               "title": "Sauté the filling",
+               "description": "Heat the sesame oil, sauté the garlic and mushrooms for 2 minutes, then add the lentils."
+            },
+            {
+               "title": "Make it fiery",
+               "description": "Stir in the soy sauce, sriracha, and maple syrup and cook for 2–3 minutes."
+            },
+            {
+               "title": "Assemble",
+               "description": "Spoon the filling into lettuce leaves and top with carrots, cilantro, and sesame seeds."
+            },
+            {
+               "title": "Serve",
+               "description": "Serve immediately as a spicy hand-held snack."
+            }
          ]
       }
    },
@@ -127,29 +201,54 @@
       "id": "vegan-buddha-bowl",
       "author": {
          "name": "Noah Ellis",
-         "date": "2024-02-09",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "9 February 2024"
+         "date": {
+            "dateTime": "2024-02-09",
+            "label": "9 February 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "Vegan Buddha Bowl",
       "description": "A nourishing bowl filled with quinoa, roasted veggies, and creamy tahini sauce.",
       "category": "vegan",
-      "time": { "prep": 10, "cook": 15 },
+      "time": {
+         "prep": 10,
+         "cook": 15
+      },
       "tags": ["vegan", "healthy", "comfort"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": true,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "402.8 kcal" },
-            { "label": "Total Fat", "value": "18.3 g" },
-            { "label": "Protein", "value": "13.5 g" },
-            { "label": "Carbohydrate", "value": "48.9 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "402.8 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "18.3 g"
+            },
+            {
+               "label": "Protein",
+               "value": "13.5 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "48.9 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "A balanced bowl; swap in whatever roasted vegetables are in season."
       },
@@ -182,10 +281,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Roast the vegetables", "description": "Toss the sweet potato, broccoli, and chickpeas with olive oil and salt, then roast at 400°F (200°C) for 15 minutes." },
-            { "title": "Make the tahini sauce", "description": "Whisk the tahini, lemon juice, garlic, water, and salt until smooth." },
-            { "title": "Assemble the bowl", "description": "Place the quinoa in a bowl and top with the roasted vegetables and chickpeas." },
-            { "title": "Drizzle and serve", "description": "Drizzle the tahini sauce over the top and serve." }
+            {
+               "title": "Roast the vegetables",
+               "description": "Toss the sweet potato, broccoli, and chickpeas with olive oil and salt, then roast at 400°F (200°C) for 15 minutes."
+            },
+            {
+               "title": "Make the tahini sauce",
+               "description": "Whisk the tahini, lemon juice, garlic, water, and salt until smooth."
+            },
+            {
+               "title": "Assemble the bowl",
+               "description": "Place the quinoa in a bowl and top with the roasted vegetables and chickpeas."
+            },
+            {
+               "title": "Drizzle and serve",
+               "description": "Drizzle the tahini sauce over the top and serve."
+            }
          ]
       }
    },
@@ -193,29 +304,54 @@
       "id": "vegan-chickpea-curry",
       "author": {
          "name": "Anika Desai",
-         "date": "2024-02-22",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "22 February 2024"
+         "date": {
+            "dateTime": "2024-02-22",
+            "label": "22 February 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "Creamy Vegan Chickpea Curry",
       "description": "A rich coconut curry with chickpeas, tomatoes, and warming spices.",
       "category": "vegan",
-      "time": { "prep": 10, "cook": 20 },
+      "time": {
+         "prep": 10,
+         "cook": 20
+      },
       "tags": ["vegan", "comfort", "healthy"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": false,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "358.7 kcal" },
-            { "label": "Total Fat", "value": "19.4 g" },
-            { "label": "Protein", "value": "11.2 g" },
-            { "label": "Carbohydrate", "value": "38.6 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "358.7 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "19.4 g"
+            },
+            {
+               "label": "Protein",
+               "value": "11.2 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "38.6 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "Coconut milk makes it creamy; serve with rice or naan for a full meal."
       },
@@ -242,10 +378,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Sauté aromatics", "description": "Heat the olive oil and sauté the onion, garlic, and ginger until soft." },
-            { "title": "Add spices", "description": "Stir in the curry powder and cumin and cook for 1 minute until fragrant." },
-            { "title": "Simmer the curry", "description": "Add the tomatoes, coconut milk, chickpeas, and salt, then simmer for 20 minutes." },
-            { "title": "Serve", "description": "Serve hot with rice or naan." }
+            {
+               "title": "Sauté aromatics",
+               "description": "Heat the olive oil and sauté the onion, garlic, and ginger until soft."
+            },
+            {
+               "title": "Add spices",
+               "description": "Stir in the curry powder and cumin and cook for 1 minute until fragrant."
+            },
+            {
+               "title": "Simmer the curry",
+               "description": "Add the tomatoes, coconut milk, chickpeas, and salt, then simmer for 20 minutes."
+            },
+            {
+               "title": "Serve",
+               "description": "Serve hot with rice or naan."
+            }
          ]
       }
    },
@@ -253,29 +401,54 @@
       "id": "vegan-avocado-pasta",
       "author": {
          "name": "Luca Romano",
-         "date": "2024-03-08",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "8 March 2024"
+         "date": {
+            "dateTime": "2024-03-08",
+            "label": "8 March 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "Green Vegan Avocado Pasta",
       "description": "Creamy avocado pasta with basil, garlic, and lemon.",
       "category": "vegan",
-      "time": { "prep": 5, "cook": 10 },
+      "time": {
+         "prep": 5,
+         "cook": 10
+      },
       "tags": ["vegan", "quick", "comfort"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": true,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "412.3 kcal" },
-            { "label": "Total Fat", "value": "22.1 g" },
-            { "label": "Protein", "value": "9.8 g" },
-            { "label": "Carbohydrate", "value": "44.7 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "412.3 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "22.1 g"
+            },
+            {
+               "label": "Protein",
+               "value": "9.8 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "44.7 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "Avocado makes this sauce incredibly creamy without any dairy."
       },
@@ -300,10 +473,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Cook the pasta", "description": "Boil the spaghetti in salted water until al dente, reserving a little pasta water." },
-            { "title": "Make the avocado sauce", "description": "Blend the avocado, basil, garlic, lemon juice, olive oil, salt, and pepper until smooth." },
-            { "title": "Combine", "description": "Toss the hot pasta with the avocado sauce, adding pasta water to loosen as needed." },
-            { "title": "Serve", "description": "Serve immediately with extra basil and black pepper." }
+            {
+               "title": "Cook the pasta",
+               "description": "Boil the spaghetti in salted water until al dente, reserving a little pasta water."
+            },
+            {
+               "title": "Make the avocado sauce",
+               "description": "Blend the avocado, basil, garlic, lemon juice, olive oil, salt, and pepper until smooth."
+            },
+            {
+               "title": "Combine",
+               "description": "Toss the hot pasta with the avocado sauce, adding pasta water to loosen as needed."
+            },
+            {
+               "title": "Serve",
+               "description": "Serve immediately with extra basil and black pepper."
+            }
          ]
       }
    },
@@ -311,29 +496,54 @@
       "id": "vegan-lentil-soup",
       "author": {
          "name": "Grace Kim",
-         "date": "2024-03-21",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "21 March 2024"
+         "date": {
+            "dateTime": "2024-03-21",
+            "label": "21 March 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "Warm Vegan Lentil Soup",
       "description": "Comforting lentil soup with vegetables and herbs.",
       "category": "vegan",
-      "time": { "prep": 10, "cook": 25 },
+      "time": {
+         "prep": 10,
+         "cook": 25
+      },
       "tags": ["vegan", "comfort", "healthy"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": false,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "241.5 kcal" },
-            { "label": "Total Fat", "value": "5.8 g" },
-            { "label": "Protein", "value": "14.3 g" },
-            { "label": "Carbohydrate", "value": "34.6 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "241.5 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "5.8 g"
+            },
+            {
+               "label": "Protein",
+               "value": "14.3 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "34.6 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "Lentils are a great plant-based protein source; this soup freezes well."
       },
@@ -360,10 +570,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Sauté the vegetables", "description": "Heat the olive oil and sauté the onion, carrots, and celery for 5 minutes." },
-            { "title": "Add aromatics and spices", "description": "Stir in the garlic and cumin and cook for 1 minute." },
-            { "title": "Simmer", "description": "Add the lentils, tomatoes, broth, and salt, then simmer for 25 minutes until the lentils are tender." },
-            { "title": "Serve", "description": "Serve warm with crusty bread." }
+            {
+               "title": "Sauté the vegetables",
+               "description": "Heat the olive oil and sauté the onion, carrots, and celery for 5 minutes."
+            },
+            {
+               "title": "Add aromatics and spices",
+               "description": "Stir in the garlic and cumin and cook for 1 minute."
+            },
+            {
+               "title": "Simmer",
+               "description": "Add the lentils, tomatoes, broth, and salt, then simmer for 25 minutes until the lentils are tender."
+            },
+            {
+               "title": "Serve",
+               "description": "Serve warm with crusty bread."
+            }
          ]
       }
    },
@@ -371,29 +593,54 @@
       "id": "vegan-tofu-stir-fry",
       "author": {
          "name": "Mei Ling",
-         "date": "2024-04-06",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "6 April 2024"
+         "date": {
+            "dateTime": "2024-04-06",
+            "label": "6 April 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "Crispy Tofu Veggie Stir Fry",
       "description": "Crispy tofu tossed with colorful vegetables in a savory sauce.",
       "category": "vegan",
-      "time": { "prep": 8, "cook": 12 },
+      "time": {
+         "prep": 8,
+         "cook": 12
+      },
       "tags": ["vegan", "quick", "healthy"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": true,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "289.6 kcal" },
-            { "label": "Total Fat", "value": "14.2 g" },
-            { "label": "Protein", "value": "16.8 g" },
-            { "label": "Carbohydrate", "value": "24.3 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "289.6 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "14.2 g"
+            },
+            {
+               "label": "Protein",
+               "value": "16.8 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "24.3 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "Pressing the tofu before cooking helps it get extra crispy."
       },
@@ -419,10 +666,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Crisp the tofu", "description": "Toss the tofu cubes in cornstarch and pan-fry in sesame oil until golden on all sides." },
-            { "title": "Stir-fry the vegetables", "description": "Add the pepper, broccoli, carrot, and ginger and stir-fry for 4–5 minutes." },
-            { "title": "Add sauce", "description": "Pour in the soy sauce and toss to coat everything evenly." },
-            { "title": "Serve", "description": "Top with green onions and serve with rice." }
+            {
+               "title": "Crisp the tofu",
+               "description": "Toss the tofu cubes in cornstarch and pan-fry in sesame oil until golden on all sides."
+            },
+            {
+               "title": "Stir-fry the vegetables",
+               "description": "Add the pepper, broccoli, carrot, and ginger and stir-fry for 4–5 minutes."
+            },
+            {
+               "title": "Add sauce",
+               "description": "Pour in the soy sauce and toss to coat everything evenly."
+            },
+            {
+               "title": "Serve",
+               "description": "Top with green onions and serve with rice."
+            }
          ]
       }
    },
@@ -430,29 +689,54 @@
       "id": "vegan-quinoa-bowl",
       "author": {
          "name": "Harper Lewis",
-         "date": "2024-04-20",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "20 April 2024"
+         "date": {
+            "dateTime": "2024-04-20",
+            "label": "20 April 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "High-Protein Vegan Quinoa Bowl",
       "description": "A protein-rich quinoa bowl with beans, corn, and fresh greens.",
       "category": "vegan",
-      "time": { "prep": 8, "cook": 10 },
+      "time": {
+         "prep": 8,
+         "cook": 10
+      },
       "tags": ["vegan", "healthy", "quick"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": false,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "367.4 kcal" },
-            { "label": "Total Fat", "value": "10.6 g" },
-            { "label": "Protein", "value": "16.1 g" },
-            { "label": "Carbohydrate", "value": "53.2 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "367.4 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "10.6 g"
+            },
+            {
+               "label": "Protein",
+               "value": "16.1 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "53.2 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "Quinoa and beans together provide a complete amino acid profile."
       },
@@ -477,10 +761,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Prepare the base", "description": "Place the spinach and quinoa in a bowl." },
-            { "title": "Add toppings", "description": "Top with black beans, corn, and cherry tomatoes." },
-            { "title": "Dress", "description": "Whisk the lime juice, olive oil, and salt and drizzle over the bowl." },
-            { "title": "Serve", "description": "Toss gently and serve." }
+            {
+               "title": "Prepare the base",
+               "description": "Place the spinach and quinoa in a bowl."
+            },
+            {
+               "title": "Add toppings",
+               "description": "Top with black beans, corn, and cherry tomatoes."
+            },
+            {
+               "title": "Dress",
+               "description": "Whisk the lime juice, olive oil, and salt and drizzle over the bowl."
+            },
+            {
+               "title": "Serve",
+               "description": "Toss gently and serve."
+            }
          ]
       }
    },
@@ -488,29 +784,54 @@
       "id": "vegan-mushroom-risotto",
       "author": {
          "name": "Elena Petrova",
-         "date": "2024-05-04",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "4 May 2024"
+         "date": {
+            "dateTime": "2024-05-04",
+            "label": "4 May 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "Creamy Vegan Mushroom Risotto",
       "description": "A silky risotto made with mushrooms, garlic, and vegetable broth.",
       "category": "vegan",
-      "time": { "prep": 10, "cook": 20 },
+      "time": {
+         "prep": 10,
+         "cook": 20
+      },
       "tags": ["vegan", "comfort", "healthy"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": true,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "389.2 kcal" },
-            { "label": "Total Fat", "value": "11.4 g" },
-            { "label": "Protein", "value": "8.7 g" },
-            { "label": "Carbohydrate", "value": "61.3 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "389.2 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "11.4 g"
+            },
+            {
+               "label": "Protein",
+               "value": "8.7 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "61.3 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "Stirring constantly is the secret to a creamy dairy-free risotto."
       },
@@ -535,10 +856,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Sauté mushrooms", "description": "Heat the olive oil and sauté the mushrooms until golden, then set aside." },
-            { "title": "Start the risotto", "description": "Sauté the onion and garlic, then add the rice and toast for 1 minute." },
-            { "title": "Add broth gradually", "description": "Add the warm broth one ladle at a time, stirring until absorbed before adding more." },
-            { "title": "Finish", "description": "Stir in the mushrooms, nutritional yeast, and salt. Serve creamy and hot." }
+            {
+               "title": "Sauté mushrooms",
+               "description": "Heat the olive oil and sauté the mushrooms until golden, then set aside."
+            },
+            {
+               "title": "Start the risotto",
+               "description": "Sauté the onion and garlic, then add the rice and toast for 1 minute."
+            },
+            {
+               "title": "Add broth gradually",
+               "description": "Add the warm broth one ladle at a time, stirring until absorbed before adding more."
+            },
+            {
+               "title": "Finish",
+               "description": "Stir in the mushrooms, nutritional yeast, and salt. Serve creamy and hot."
+            }
          ]
       }
    },
@@ -546,29 +879,54 @@
       "id": "vegan-sweet-potato-chili",
       "author": {
          "name": "Carlos Mendoza",
-         "date": "2024-05-18",
-         "imgSrc": "/src/assets/images/man.jpg",
-         "label": "18 May 2024"
+         "date": {
+            "dateTime": "2024-05-18",
+            "label": "18 May 2024"
+         },
+         "imgSrc": "images/authors/man.jpg"
       },
       "title": "Vegan Sweet Potato Chili",
       "description": "A hearty chili with sweet potatoes, beans, and smoky spices.",
       "category": "vegan",
-      "time": { "prep": 10, "cook": 25 },
+      "time": {
+         "prep": 10,
+         "cook": 25
+      },
       "tags": ["vegan", "comfort", "healthy"],
-      "backgroundImgSrc": "/images/recipes/vegan/4.png",
+      "backgroundImgSrc": "images/recipes/vegan/4.png",
       "isLiked": false,
       "video": {
-         "sources": [{ "src": "/videos/preview-video.mp4", "type": "video/mp4" }],
-         "poster": "/video-posters/poster.jpg"
+         "sources": [
+            {
+               "src": "videos/preview-video.mp4",
+               "type": "video/mp4"
+            }
+         ],
+         "poster": "video-posters/poster.jpg"
       },
       "nutrition": {
          "title": "Nutrition Information",
          "facts": [
-            { "label": "Calories", "value": "312.6 kcal" },
-            { "label": "Total Fat", "value": "6.3 g" },
-            { "label": "Protein", "value": "12.4 g" },
-            { "label": "Carbohydrate", "value": "54.8 g" },
-            { "label": "Cholesterol", "value": "0 mg" }
+            {
+               "label": "Calories",
+               "value": "312.6 kcal"
+            },
+            {
+               "label": "Total Fat",
+               "value": "6.3 g"
+            },
+            {
+               "label": "Protein",
+               "value": "12.4 g"
+            },
+            {
+               "label": "Carbohydrate",
+               "value": "54.8 g"
+            },
+            {
+               "label": "Cholesterol",
+               "value": "0 mg"
+            }
          ],
          "note": "Sweet potato balances the smoky spice; top with avocado or vegan sour cream."
       },
@@ -597,10 +955,22 @@
       "directions": {
          "title": "Directions",
          "steps": [
-            { "title": "Sauté aromatics", "description": "Heat the olive oil and sauté the onion and garlic until soft." },
-            { "title": "Add spices", "description": "Stir in the chili powder, paprika, and cumin and cook for 1 minute." },
-            { "title": "Simmer the chili", "description": "Add the sweet potatoes, beans, tomatoes, broth, and salt, then simmer for 25 minutes until the sweet potato is tender." },
-            { "title": "Serve", "description": "Serve hot with your favorite toppings." }
+            {
+               "title": "Sauté aromatics",
+               "description": "Heat the olive oil and sauté the onion and garlic until soft."
+            },
+            {
+               "title": "Add spices",
+               "description": "Stir in the chili powder, paprika, and cumin and cook for 1 minute."
+            },
+            {
+               "title": "Simmer the chili",
+               "description": "Add the sweet potatoes, beans, tomatoes, broth, and salt, then simmer for 25 minutes until the sweet potato is tender."
+            },
+            {
+               "title": "Serve",
+               "description": "Serve hot with your favorite toppings."
+            }
          ]
       }
    }
