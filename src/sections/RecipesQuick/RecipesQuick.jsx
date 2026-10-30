@@ -1,29 +1,27 @@
+
 import "./RecipesQuick.scss"
 import Section from "@/layouts/Section/Section"
 import GridAuto from "@/components/GridAuto/GridAuto"
-import RecipeCardMini from "@/components/ui/RecipeCardMini/RecipeCardMini";
-import { getQuickRandom } from "@/api/recipes";
+import RecipeCardMini from "@/components/ui/RecipeCardMini/RecipeCardMini"
+import { getQuickRandom } from "@/api/recipes"
 
 const RecipesQuick = () => {
-
-   const quick = getQuickRandom(6);
+   const quick = getQuickRandom(6)
 
    return (
       <Section
-         className='recipes-more container'
+         className="recipes-more container"
          title="Try these quick recipes to lift your spirits"
-         titleId="recipes"
-         description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim"
+         titleId="quick-recipes"
+         description="Short on time? These quick and delicious recipes are perfect for busy days when you want a homemade meal without the wait."
       >
          <GridAuto>
-            {quick.map((item) => {
-               return (
-                  <RecipeCardMini
-                     {...item}
-                     key={item.id}
-                  />
-               )
-            })}
+            {quick.map((item) => (
+               <RecipeCardMini
+                  {...item}
+                  key={item.id}
+               />
+            ))}
          </GridAuto>
       </Section>
    )
