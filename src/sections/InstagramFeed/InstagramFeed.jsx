@@ -26,8 +26,9 @@ const InstagramFeed = () => {
          className="instagram-feed"
          title="Check out @foodieland on Instagram"
          titleId="instagram-feed"
-         description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim"
+         description="Follow @foodieland for more delicious recipes, cooking inspiration, and food ideas. Discover new dishes, get inspired, and see what’s cooking in our kitchen."
          isHeaderVertical
+         titleEffect
       >
          <div className="instagram-feed__grid">
             {imageCard.map((image, index) => (

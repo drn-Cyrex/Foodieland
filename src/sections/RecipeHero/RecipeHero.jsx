@@ -10,7 +10,7 @@ const RecipeHero = ({ recipe }) => {
       <section className="recipe-hero">
          <div className="recipe-hero__top">
             <div className="recipe-hero__info">
-               <h2 className="title-effect">
+               <h2 className="recipe-hero__title">
                   {recipe.title}
                </h2>
 

@@ -8,7 +8,7 @@ const Subscribe = () => {
          className="subscribe container"
          title="Deliciousness to your inbox"
          titleId="subscribe"
-         description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
+         description="Get fresh recipes, cooking inspiration, and delicious ideas delivered straight to your inbox. Subscribe and never miss a new recipe from Foodieland."
          isHeaderVertical
       >
          <form action="">

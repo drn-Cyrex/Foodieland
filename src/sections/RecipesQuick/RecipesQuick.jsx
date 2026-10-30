@@ -14,6 +14,7 @@ const RecipesQuick = () => {
          title="Try these quick recipes to lift your spirits"
          titleId="quick-recipes"
          description="Short on time? These quick and delicious recipes are perfect for busy days when you want a homemade meal without the wait."
+         titleEffect
       >
          <GridAuto>
             {quick.map((item) => (

@@ -78,6 +78,8 @@
 
 .rcp-card-standard__tags-list {
    display: flex;
+   flex-wrap: wrap;
+   justify-content: end;
    gap: 10px;
 }
 

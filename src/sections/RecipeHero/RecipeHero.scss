@@ -34,7 +34,15 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: end;
-   gap: 10px
+   gap: 10px;
+}
+
+.recipe-hero__title {
+   width: fit-content;
+   background: linear-gradient(to right, var(--color-accent), var(--color-dim));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 .recipe-hero__action {

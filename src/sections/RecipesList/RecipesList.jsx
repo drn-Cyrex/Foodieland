@@ -15,8 +15,8 @@ const RecipesList = () => {
 
    return (
       <div className="rcp-list container">
-         <h2 className="rcp-list__title title-effect">
-            Recipes All
+         <h2 className="rcp-list__title">
+            All Recipes
          </h2>
 
          <div className="rcp-list__wrapper">

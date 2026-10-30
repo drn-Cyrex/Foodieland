@@ -10,13 +10,16 @@ const ChefPromo = () => {
          title="Everyone can be a
                chef in their own kitchen"
          titleId="chef-promo"
-         description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
+         description="You don’t need to be a professional chef to make something delicious. Find inspiring recipes, try new flavors, and enjoy the simple pleasure of cooking at home."
          linkLabel='Learn More'
+         titleEffect
       >
          <div className='chef-wrapper'>
-            <Image className='chef-promo__image-cook' src='/src/assets/images/q2.png' />
+            <Image className='chef-promo__image-cook'
+               src='/src/assets/images/q2.png' />
 
-            <Image className='chef-promo__image-meat' src='/src/assets/images/categories/meat.png' />
+            <Image className='chef-promo__image-meat'
+               src='/src/assets/images/categories/meat.png' />
             <Image className='chef-promo__image-onion' src='/src/assets/images/categories/onion.png' />
             <Image className='chef-promo__image-vegan' src='/src/assets/images/categories/vegan.png' />
             <Image className='chef-promo__image-tomato' src='/src/assets/images/categories/tomato.png' />

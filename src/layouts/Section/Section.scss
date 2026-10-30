@@ -1,6 +1,6 @@
 .section {
    display: grid;
-   row-gap: fluid(100, 80, desktop, mobile);
+   row-gap: fluid(100, 50, desktop, mobile);
 }
 
 .section__header {
@@ -20,9 +20,32 @@
    }
 }
 
-.section--text-center {
-   width: 100%;
-   text-align: center;
+.section__title {
+   width: fit-content;
+   background: linear-gradient(to right, var(--color-accent), var(--color-dim));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.title-effect {
+   position: relative;
+   animation: show-scroll-title linear both;
+   animation-timeline: view(block);
+   animation-range: cover 0% cover 20%;
+}
+
+@keyframes show-scroll-title {
+   from {
+      top: -100px;
+      opacity: 0;
+      filter: blur(20px);
+   }
+   to {
+      top: 0;
+      opacity: 1;
+      filter: blur(0);
+   }
 }
 
 .section__link {

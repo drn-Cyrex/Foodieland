@@ -21,6 +21,7 @@ const RecipesPopular = () => {
          titleId="popular-recipes"
          description="Explore a selection of recipes that are perfect for everyday cooking, from quick meals to comforting favorites."
          isHeaderVertical
+         titleEffect
       >
          <GridAuto>
             {itemsWithBanner.map((item, index) => {

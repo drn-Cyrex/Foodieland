@@ -75,15 +75,15 @@
 }
 
 .overlay-filter img {
-   height: fluid(275, 175, desktop ,tablet-l);
-   width:  fluid(275, 175, desktop ,tablet-l);
+   height: fluid(225, 125, desktop ,tablet-l);
+   width:  fluid(225, 125, desktop ,tablet-l);
 }
 
 .overlay-filter__btn {
    display: none;
 }
 // overlay mobile filter
-@media (width < 768px) {
+@media (width < 600px) {
    .overlay-filter {
       position: fixed;
       top: 50%;

@@ -8,6 +8,7 @@ const Section = (props) => {
       className,
       title,
       titleId,
+      titleEffect,
       isHeaderVertical,
       description,
       children,
@@ -27,7 +28,9 @@ const Section = (props) => {
             )}
          >
             <h2
-               className={clsx('section__title', 'title-effect')}
+               className={clsx(
+                  'section__title',
+                  titleEffect && 'title-effect')}
                id={titleId}
             >
                {title}

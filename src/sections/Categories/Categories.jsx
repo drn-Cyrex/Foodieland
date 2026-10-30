@@ -46,6 +46,7 @@ const Categories = () => {
          titleId='categories'
          linkLabel='View All Categories'
          linkPage="/recipes"
+         titleEffect
       >
          <Grid columns={6} className='categories-list'>
             {categories.map((category, index) => (

@@ -6,7 +6,10 @@
    border-radius: var(--radius);
 }
 
-.subscribe .title-effect {
+.subscribe {
    padding-top: fluid(50, 25, desktop, mobile);
-   -webkit-text-fill-color: var(--color-title-hover);
+
+    h2 {
+      -webkit-text-fill-color: var(--color-title-hover);
+   }
 }
