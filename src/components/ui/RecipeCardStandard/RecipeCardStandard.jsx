@@ -2,7 +2,7 @@ import "./RecipeCardStandard.scss"
 import RecipeMeta from "../RecipeMeta/RecipeMeta"
 import clsx from 'clsx'
 import getAssetUrl from "@/utils/getAssetUrl"
-
+import getPageUrl from "@/utils/getPageUrl"
 
 const RecipeCardStandard = (props) => {
    const {
@@ -32,7 +32,7 @@ const RecipeCardStandard = (props) => {
          }}
       >
 
-         <a href="/recipe"
+         <a href={getPageUrl(`/recipe/${id}`)}
          >
             <div className="rcp-card-standard__info">
                <h3>{title}</h3>

@@ -1,19 +1,14 @@
-import './RecipeDirections.scss'
-import Directions from '@/components/ui/Directions/Directions';
-import { getRecipeById } from "@/api/recipes/index";
+import "./RecipeDirections.scss"
+import Directions from "@/components/ui/Directions/Directions"
 
-const RecipeDirections = () => {
-
-   const recipe = getRecipeById("strawberry-oatmeal-pancake");
-
+const RecipeDirections = ({ recipe }) => {
    return (
-      <section className='recipe-directions container'>
-
-         <h5 className='recipe-directions__title'>
+      <section className="recipe-directions container">
+         <h5 className="recipe-directions__title">
             {recipe.directions.title}
          </h5>
-         
-         <Directions 
+
+         <Directions
             steps={recipe.directions.steps}
          />
       </section>

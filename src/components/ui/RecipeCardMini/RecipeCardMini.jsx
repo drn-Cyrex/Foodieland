@@ -3,6 +3,7 @@ import clsx from "clsx"
 import Icon from "../Icon/Icon"
 import RecipeMeta from "../RecipeMeta/RecipeMeta"
 import getAssetUrl from "@/utils/getAssetUrl"
+import getPageUrl from "@/utils/getPageUrl"
 
 const RecipeCardMini = (props) => {
 
@@ -26,8 +27,8 @@ const RecipeCardMini = (props) => {
          className="rcp-card-mini"
          data-id={id}
          style={style}>
-         <a href="/recipe"
-
+            
+         <a href={getPageUrl(`/recipe/${id}`)}
             className="rcp-card-mini__link"
          >
             <h3>{title}</h3>
