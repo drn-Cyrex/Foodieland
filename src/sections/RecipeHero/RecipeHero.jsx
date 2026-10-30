@@ -10,10 +10,8 @@ const RecipeHero = () => {
 
    const recipe = getRecipeById("strawberry-oatmeal-pancake");
 
-   const authorDate = {
-      dateTime: recipe.author.date,
-      label: recipe.author.label,
-   };
+   console.log('AUTHOR IMG:', recipe.author.imgSrc)
+
 
    return (
       <section className="recipe-hero">
@@ -30,24 +28,25 @@ const RecipeHero = () => {
 
                <div className="recipe-hero__meta">
                   <AuthorCard
-                     className='recipe__meta-author'
+                     className="recipe__meta-author"
                      imgSrc={recipe.author.imgSrc}
-                     alt="photo by the author"
+                     alt="Photo by the author"
                      name={recipe.author.name}
-                     date={authorDate}
+                     date={recipe.author.date}
                   />
                   <div className="recipe__meta-info">
                      <RecipeMeta
                         iconName="timer"
                         label="prep time"
                         value={recipe.time.prep}
-                        minutes
+                        unit='minutes'
+
                      />
                      <RecipeMeta
                         iconName="timer"
                         label="cook time"
                         value={recipe.time.cook}
-                        minutes
+                        unit='minutes'
                      />
                      <RecipeMeta
                         iconName="fork-knife"

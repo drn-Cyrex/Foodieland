@@ -3,7 +3,8 @@
    min-height: fluid(250, 200, desktop, laptop);
    border-radius: var(--radius);
    background-repeat: no-repeat;
-   background-position-y: top 10px;
+   // background-position-y: top 10px;
+   background-position-y: center;
    background-size: fluid(190, 125, desktop, mobile);
    background-origin: content-box;
    transition: 0.75s ease-out;
@@ -97,7 +98,7 @@
    transition: color 0.5s ease;
 }
 
-.rcp-card__meta {
+.rcp-card-mini__meta {
    position: absolute;
    left: 50%;
    transform: translateX(-50%);
@@ -105,14 +106,6 @@
    width: 90%;
    display: flex;
    justify-content: space-between;
-
-   div::before {
-      display: none;
-   }
-
-   div:nth-child(2) {
-      flex-direction: row-reverse;
-   }
 }
 
 .rcp-card-mini__liked {

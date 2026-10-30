@@ -5,8 +5,11 @@
 }
 
 .author-card__image {
+   flex-shrink: 0;
+   height: 50px;
+   width: 50px;
    border-radius: 50%;
-   overflow: hidden;
+   object-fit: cover;
 }
 
 .author-card__body {

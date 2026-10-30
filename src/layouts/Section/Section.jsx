@@ -1,45 +1,50 @@
 import './Section.scss'
 import clsx from 'clsx'
 import Button from '@/components/ui/Button/Button'
+import getPageUrl from '@/utils/getPageUrl'
 
 const Section = (props) => {
-
    const {
       className,
       title,
       titleId,
       isHeaderVertical,
       description,
-      mode = '',
       children,
       linkLabel,
       linkPage
    } = props
 
    return (
-      <section className={clsx(className, 'section')}
+      <section
+         className={clsx(className, 'section')}
          aria-labelledby={titleId}
       >
-         <header className={clsx('section__header',
-            isHeaderVertical && 'section__header--vertical')}>
-            <h2 className={clsx('section__title', 'title-effect')}
+         <header
+            className={clsx(
+               'section__header',
+               isHeaderVertical && 'section__header--vertical'
+            )}
+         >
+            <h2
+               className={clsx('section__title', 'title-effect')}
                id={titleId}
             >
                {title}
             </h2>
 
             {description && (
-               <div className={clsx('section__description')}>
+               <div className="section__description">
                   <p>{description}</p>
                </div>
             )}
 
             {linkLabel && (
-               <div >
+               <div>
                   <Button
-                     href={linkPage}
-                     mode='secondary'
-                     className='section__link'
+                     href={getPageUrl(linkPage)}
+                     mode="secondary"
+                     className="section__link"
                   >
                      {linkLabel}
                   </Button>
@@ -47,7 +52,7 @@ const Section = (props) => {
             )}
          </header>
 
-         <div className='section__body'>
+         <div className="section__body">
             {children}
          </div>
       </section>

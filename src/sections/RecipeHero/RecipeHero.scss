@@ -34,12 +34,12 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: end;
-   gap: fluid(10, 5, desktop, mobile);
+   gap: 10px
 }
 
 .recipe-hero__action {
    display: flex;
-   gap: fluid(32, 16, desktop, mobile);
+   gap: fluid(32, 2, desktop, mobile);
 
    @include tablet-l {
       position: absolute;

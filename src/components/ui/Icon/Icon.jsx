@@ -6,7 +6,10 @@ const Icon = (props) => {
    const { className, name, hasFill = false, ariaLabel } = props
 
    return (
-      <span className={clsx('icon', className)} aria-label={ariaLabel}>
+      <span
+         className={clsx('icon', className)}
+         aria-label={ariaLabel}
+      >
          <MinistaIcon
             iconId={name}
             fill={hasFill ? 'currentColor' : 'none'}

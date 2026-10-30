@@ -2,8 +2,9 @@ import "./RecipeCardStandard.scss"
 import RecipeMeta from "../RecipeMeta/RecipeMeta"
 import clsx from 'clsx'
 import getAssetUrl from "@/utils/getAssetUrl"
-const RecipeCardStandard = (props) => {
 
+
+const RecipeCardStandard = (props) => {
    const {
       id,
       title,
@@ -38,25 +39,29 @@ const RecipeCardStandard = (props) => {
                <p>{description}</p>
             </div>
 
-            <ul className="rcp-card-standard__tags-list">
-               {tags.map((tag, index) => (
-                  <li key={index}
-                     className={clsx(
-                        'rcp-card-standard__tag',
-                        `rcp-card-standard__tag--${tag}`
-                     )}>
-                     {tag}
-                  </li>
-               ))}
-            </ul>
-
-            <div className="rcp-card-standard__meta">
+            <div className="rcp-card-standard__footer">
                <RecipeMeta
                   iconName="timer"
                   value={time.cook}
-                  minutes
+                  unit='min'
                />
+
+               <ul className="rcp-card-standard__tags-list">
+                  {tags.map((tag, index) => (
+                     <li key={index}
+                        className={clsx(
+                           'rcp-card-standard__tag',
+                           `rcp-card-standard__tag--${tag}`
+                        )}>
+                        {tag}
+                     </li>
+                  ))}
+               </ul>
+
+
             </div>
+
+
 
             <span className="rcp-card-standard__category">             {category}
             </span>

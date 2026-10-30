@@ -33,15 +33,18 @@ const RecipeCardMini = (props) => {
             <h3>{title}</h3>
          </a>
 
-         <div className="rcp-card__meta">
+         <div className="rcp-card-mini__meta">
             <RecipeMeta
                iconName="timer"
                value={time.cook}
-               minutes
+               unit="min"
+               blur
             />
+
             <RecipeMeta
                iconName="fork-knife"
                value={category}
+               blur
             />
          </div>
 
