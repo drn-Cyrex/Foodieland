@@ -1,16 +1,17 @@
 import "./RecipeVideo.scss"
+import getAssetUrl from "@/utils/getAssetUrl"
 
 const RecipeVideo = (props) => {
    const {
       poster,
-      sources = []
+      sources = [],
    } = props
 
    return (
       <div className="recipe-hero__video">
          <video
             className="recipe-hero__video-player"
-            poster={poster}
+            poster={getAssetUrl(poster)}
             controls
             playsInline
             preload="metadata"
@@ -18,7 +19,7 @@ const RecipeVideo = (props) => {
             {sources.map(({ src, type }) => (
                <source
                   key={src}
-                  src={src}
+                  src={getAssetUrl(src)}
                   type={type}
                />
             ))}

@@ -1,24 +1,34 @@
 import { defineConfig } from "minista";
 import path from "path";
 
+const isBuild = process.env.npm_lifecycle_event === "build";
+
 export default defineConfig({
    root: "",
-   // base: process.env.NODE_ENV === "production" ? "/Foodieland/" : "/",
-   base: "/Foodieland/",
+
+   // Development: /
+   // Production build for GitHub Pages: /Foodieland/
+   base: isBuild ? "/Foodieland/" : "/",
+
    public: "public",
    out: "docs",
+
    assets: {
       outDir: "assets",
       outName: "[name]",
+
       images: {
          outDir: "assets/images",
          outName: "[name]",
          remoteName: "remote",
+
          optimize: {
             layout: "constrained",
+
             breakpoints: [
                320, 400, 640, 800, 1024, 1280, 1440, 1920, 2560, 2880, 3840,
             ],
+
             resolution: [1, 2],
             format: "inherit",
             formatOptions: {},
@@ -29,24 +39,30 @@ export default defineConfig({
             position: "centre",
          },
       },
+
       svgr: {
          svgrOptions: {},
       },
+
       icons: {
          srcDir: "src/assets/icons",
          outDir: "assets/images",
          outName: "[dirname]",
+
          svgstoreOptions: {
             cleanSymbols: ["fill", "stroke", "stroke-linejoin", "stroke-width"],
          },
       },
+
       fonts: {
          outDir: "assets/fonts",
          outName: "[name]",
       },
+
       bundle: {
          outName: "bundle",
       },
+
       partial: {
          usePreact: false,
          useIntersectionObserver: true,
@@ -54,7 +70,11 @@ export default defineConfig({
          rootAttrSuffix: "partial-hydration",
          rootValuePrefix: "ph",
          rootDOMElement: "div",
-         rootStyle: { display: "contents" },
+
+         rootStyle: {
+            display: "contents",
+         },
+
          intersectionObserverOptions: {
             root: null,
             rootMargin: "0px",
@@ -62,6 +82,7 @@ export default defineConfig({
          },
       },
    },
+
    resolve: {
       alias: [
          {
@@ -70,6 +91,7 @@ export default defineConfig({
          },
       ],
    },
+
    css: {
       modules: {
          scopeBehaviour: "local",
@@ -78,37 +100,47 @@ export default defineConfig({
          hashPrefix: "",
          localsConvention: "camelCaseOnly",
       },
+
       preprocessorOptions: {
          scss: {
             additionalData: `
-               @use "@/styles/core/functions" as *;
-               @use "@/styles/core/media" as *;
-               @use "@/styles/core/mixins" as *;
-            `,
+          @use "@/styles/core/functions" as *;
+          @use "@/styles/core/media" as *;
+          @use "@/styles/core/mixins" as *;
+        `,
+
             silenceDeprecations: ["legacy-js-api"],
          },
+
          less: {},
          stylus: {},
       },
    },
+
    markdown: {
       useRemarkGfm: true,
       useRehypeHighlight: true,
+
       remarkGfmOptions: {},
       rehypeHighlightOptions: {},
+
       mdxOptions: {
          remarkPlugins: [],
          rehypePlugins: [],
       },
    },
+
    search: {
       outDir: "assets",
       outName: "search",
+
       include: ["**/*"],
       exclude: ["/404"],
+
       baseUrl: "",
       trimTitle: "",
       targetSelector: "[data-search]",
+
       hit: {
          minLength: 3,
          number: false,
@@ -118,21 +150,26 @@ export default defineConfig({
          kanji: true,
       },
    },
+
    delivery: {
       include: ["**/*"],
       exclude: ["/404"],
+
       trimTitle: "",
       sortBy: "path",
       archives: [],
    },
+
    beautify: {
       useHtml: true,
       useAssets: false,
+
       htmlOptions: {
          indent_size: 2,
          max_preserve_newlines: 0,
          indent_inner_html: true,
          extra_liners: [],
+
          inline: [
             "span",
             "strong",
@@ -145,14 +182,17 @@ export default defineConfig({
             "wbr",
          ],
       },
+
       cssOptions: {
          indent_size: 2,
          space_around_combinator: true,
       },
+
       jsOptions: {
          indent_size: 2,
       },
    },
+
    vite: {
       css: {
          devSourcemap: true,
