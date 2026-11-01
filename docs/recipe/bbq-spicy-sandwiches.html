@@ -72,7 +72,7 @@
             <p class="recipe-hero__description">Spicy barbecue pulled-meat sandwiches served with homemade crispy potato chips.</p>
             <div class="recipe-hero__meta">
               <article class="author-card recipe__meta-author">
-                <img class="author-card__image" src="/Foodieland/images/authors/man.jpg" alt="Photo by the author">
+                <img class="author-card__image" src="/Foodieland/images/authors/guest.png" alt="Photo by the author">
                 <div class="author-card__body">
                   <p class="author-card__name">Caleb Turner</p>
                   <time class="author-card__date" dateTime="2024-04-04">4 April 2024</time>
@@ -92,13 +92,6 @@
                     </svg>
                   </span>
                   <div class="meta__item"><span class="meta__label">cook time</span><span class="meta__value">20<span class="meta__unit">minutes</span></span></div>
-                </div>
-                <div class="meta"><span class="icon meta__icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/Foodieland/assets/images/icons.svg#fork-knife"></use>
-                    </svg>
-                  </span>
-                  <div class="meta__item"><span class="meta__value">meat</span></div>
                 </div>
               </div>
             </div>
@@ -156,36 +149,36 @@
       <section class="recipe-ingredients container">
         <h4 class="recipe-ingredients-title">Ingredients</h4>
         <div class="ingredient">
-          <field class="ingredient-group">
+          <fieldset class="ingredient-group">
             <legend>For the sandwiches</legend>
-            <label class="ingredient-group__label" for="2 cups cooked pulled pork or shredded chicken">
-              <input type="checkbox" name="2 cups cooked pulled pork or shredded chicken" id="2 cups cooked pulled pork or shredded chicken"><span>2 cups cooked pulled pork or shredded chicken</span>
+            <label class="ingredient-group__label" for="ingredient-0-0">
+              <input type="checkbox" name="ingredient-0-0" id="ingredient-0-0"><span>2 cups cooked pulled pork or shredded chicken</span>
             </label>
-            <label class="ingredient-group__label" for="1/2 cup spicy BBQ sauce">
-              <input type="checkbox" name="1/2 cup spicy BBQ sauce" id="1/2 cup spicy BBQ sauce"><span>1/2 cup spicy BBQ sauce</span>
+            <label class="ingredient-group__label" for="ingredient-0-1">
+              <input type="checkbox" name="ingredient-0-1" id="ingredient-0-1"><span>1/2 cup spicy BBQ sauce</span>
             </label>
-            <label class="ingredient-group__label" for="2 sandwich buns">
-              <input type="checkbox" name="2 sandwich buns" id="2 sandwich buns"><span>2 sandwich buns</span>
+            <label class="ingredient-group__label" for="ingredient-0-2">
+              <input type="checkbox" name="ingredient-0-2" id="ingredient-0-2"><span>2 sandwich buns</span>
             </label>
-            <label class="ingredient-group__label" for="1/2 cup coleslaw">
-              <input type="checkbox" name="1/2 cup coleslaw" id="1/2 cup coleslaw"><span>1/2 cup coleslaw</span>
+            <label class="ingredient-group__label" for="ingredient-0-3">
+              <input type="checkbox" name="ingredient-0-3" id="ingredient-0-3"><span>1/2 cup coleslaw</span>
             </label>
-          </field>
-          <field class="ingredient-group">
+          </fieldset>
+          <fieldset class="ingredient-group">
             <legend>For the potato chips</legend>
-            <label class="ingredient-group__label" for="2 large potatoes, thinly sliced">
-              <input type="checkbox" name="2 large potatoes, thinly sliced" id="2 large potatoes, thinly sliced"><span>2 large potatoes, thinly sliced</span>
+            <label class="ingredient-group__label" for="ingredient-1-0">
+              <input type="checkbox" name="ingredient-1-0" id="ingredient-1-0"><span>2 large potatoes, thinly sliced</span>
             </label>
-            <label class="ingredient-group__label" for="About 2 cups vegetable oil, or enough for frying">
-              <input type="checkbox" name="About 2 cups vegetable oil, or enough for frying" id="About 2 cups vegetable oil, or enough for frying"><span>About 2 cups vegetable oil, or enough for frying</span>
+            <label class="ingredient-group__label" for="ingredient-1-1">
+              <input type="checkbox" name="ingredient-1-1" id="ingredient-1-1"><span>About 2 cups vegetable oil, or enough for frying</span>
             </label>
-            <label class="ingredient-group__label" for="1/2 teaspoon salt">
-              <input type="checkbox" name="1/2 teaspoon salt" id="1/2 teaspoon salt"><span>1/2 teaspoon salt</span>
+            <label class="ingredient-group__label" for="ingredient-1-2">
+              <input type="checkbox" name="ingredient-1-2" id="ingredient-1-2"><span>1/2 teaspoon salt</span>
             </label>
-            <label class="ingredient-group__label" for="1/4 teaspoon cayenne pepper">
-              <input type="checkbox" name="1/4 teaspoon cayenne pepper" id="1/4 teaspoon cayenne pepper"><span>1/4 teaspoon cayenne pepper</span>
+            <label class="ingredient-group__label" for="ingredient-1-3">
+              <input type="checkbox" name="ingredient-1-3" id="ingredient-1-3"><span>1/4 teaspoon cayenne pepper</span>
             </label>
-          </field>
+          </fieldset>
         </div>
       </section>
       <section class="recipe-directions container">
@@ -224,58 +217,58 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-inner">
-        <div class="footer-desc">
+      <div class="footer__main container">
+        <div class="footer__brand">
           <a href="/Foodieland/" class="logo" title="Home" aria-label="Home">
             <img srcset="/Foodieland/assets/images/Foodieland-108x19.png 108w" src="/Foodieland/assets/images/Foodieland-108x19.png" sizes="(min-width: 108px) 108px, 100vw" width="108" height="19" alt decoding="async" loading="lazy" class="logo-image">
           </a>
-          <p>Lorem ipsum dolor sit amet, consectetuipisicing elit,</p>
+          <p class="footer__description">Discover delicious recipes, cooking inspiration, and ideas to make every meal a little more special.</p>
         </div>
-        <div class="footer-links">
-          <ul class="footer-list">
+        <nav class="footer__navigation" aria-label="Footer navigation"><span class="footer__navigation-title">Explore</span>
+          <ul class="footer__list">
             <li>
-              <a href="/Recipes">Recipes</a>
+              <a href="/Foodieland/recipes">Recipes</a>
             </li>
             <li>
-              <a href="/Blog">Blog</a>
+              <a href="/Foodieland/blog">Blog</a>
             </li>
             <li>
-              <a href="/Contact">Contact</a>
-            </li>
-            <li>
-              <a href="/AboutUs">About-Us</a>
+              <a href="/Foodieland/contact">Contact</a>
             </li>
           </ul>
+        </nav>
+        <div class="footer__social"><span class="footer__navigation-title">Follow us</span>
+          <div class="soc1als">
+            <ul class="soc1als__list">
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/Foodieland/assets/images/icons.svg#facebook"></use>
+                    </svg>
+                  </span></a>
+              </li>
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/Foodieland/assets/images/icons.svg#twitter"></use>
+                    </svg>
+                  </span></a>
+              </li>
+              <li class="soc1als__item">
+                <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/Foodieland/assets/images/icons.svg#instagram"></use>
+                    </svg>
+                  </span></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="footer-extra container">
-        <p class="footer-copyright">© 2020 Flowbase. Powered by <span>Webflow</span></p>
-        <div class="soc1als">
-          <ul class="soc1als__list">
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Facebook"><span class="visually-hidden">Facebook</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/Foodieland/assets/images/icons.svg#facebook"></use>
-                  </svg>
-                </span></a>
-            </li>
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Twitter"><span class="visually-hidden">Twitter</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/Foodieland/assets/images/icons.svg#twitter"></use>
-                  </svg>
-                </span></a>
-            </li>
-            <li class="soc1als__item">
-              <a class="soc1als__link" href="/" title="Instagram"><span class="visually-hidden">Instagram</span><span class="icon">
-                  <svg fill="currentColor" stroke="none">
-                    <use href="/Foodieland/assets/images/icons.svg#instagram"></use>
-                  </svg>
-                </span></a>
-            </li>
-          </ul>
-        </div>
+      <div class="footer__bottom container">
+        <p class="footer__copyright">© 2026 Foodieland. All rights reserved.</p><span class="footer__signature" aria-hidden="true">FOODIELAND</span>
       </div>
+      <div class="footer__decor" aria-hidden="true">FOODIELAND</div>
     </footer>
   </body>
 </html>

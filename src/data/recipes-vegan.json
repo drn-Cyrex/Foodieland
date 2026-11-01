@@ -3,11 +3,11 @@
       "id": "cauliflower-walnut-taco-meat",
       "author": {
          "name": "Maya Chen",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-01-10",
             "label": "10 January 2024"
-         },
-         "imgSrc": "images/authors/man.jpg"
+         }
       },
       "title": "Cauliflower Walnut Vegetarian Taco Meat",
       "description": "A hearty plant‑based taco filling made from roasted cauliflower and walnuts.",
@@ -102,7 +102,7 @@
             "dateTime": "2024-01-25",
             "label": "25 January 2024"
          },
-         "imgSrc": "images/authors/man.jpg"
+         "imgSrc": "images/authors/guest.png"
       },
       "title": "Firecracker Vegan Lettuce Wraps - Spicy!",
       "description": "Fiery vegan lettuce wraps packed with bold, spicy flavor.",
@@ -205,7 +205,7 @@
             "dateTime": "2024-02-09",
             "label": "9 February 2024"
          },
-         "imgSrc": "images/authors/man.jpg"
+         "imgSrc": "images/authors/guest.png"
       },
       "title": "Vegan Buddha Bowl",
       "description": "A nourishing bowl filled with quinoa, roasted veggies, and creamy tahini sauce.",
@@ -308,7 +308,7 @@
             "dateTime": "2024-02-22",
             "label": "22 February 2024"
          },
-         "imgSrc": "images/authors/man.jpg"
+         "imgSrc": "images/authors/guest.png"
       },
       "title": "Creamy Vegan Chickpea Curry",
       "description": "A rich coconut curry with chickpeas, tomatoes, and warming spices.",
@@ -405,7 +405,7 @@
             "dateTime": "2024-03-08",
             "label": "8 March 2024"
          },
-         "imgSrc": "images/authors/man.jpg"
+         "imgSrc": "images/authors/guest.png"
       },
       "title": "Green Vegan Avocado Pasta",
       "description": "Creamy avocado pasta with basil, garlic, and lemon.",
@@ -500,7 +500,7 @@
             "dateTime": "2024-03-21",
             "label": "21 March 2024"
          },
-         "imgSrc": "images/authors/man.jpg"
+         "imgSrc": "images/authors/guest.png"
       },
       "title": "Warm Vegan Lentil Soup",
       "description": "Comforting lentil soup with vegetables and herbs.",
@@ -597,7 +597,7 @@
             "dateTime": "2024-04-06",
             "label": "6 April 2024"
          },
-         "imgSrc": "images/authors/man.jpg"
+         "imgSrc": "images/authors/guest.png"
       },
       "title": "Crispy Tofu Veggie Stir Fry",
       "description": "Crispy tofu tossed with colorful vegetables in a savory sauce.",
@@ -693,7 +693,7 @@
             "dateTime": "2024-04-20",
             "label": "20 April 2024"
          },
-         "imgSrc": "images/authors/man.jpg"
+         "imgSrc": "images/authors/guest.png"
       },
       "title": "High-Protein Vegan Quinoa Bowl",
       "description": "A protein-rich quinoa bowl with beans, corn, and fresh greens.",
@@ -788,7 +788,7 @@
             "dateTime": "2024-05-04",
             "label": "4 May 2024"
          },
-         "imgSrc": "images/authors/man.jpg"
+         "imgSrc": "images/authors/guest.png"
       },
       "title": "Creamy Vegan Mushroom Risotto",
       "description": "A silky risotto made with mushrooms, garlic, and vegetable broth.",
@@ -883,7 +883,7 @@
             "dateTime": "2024-05-18",
             "label": "18 May 2024"
          },
-         "imgSrc": "images/authors/man.jpg"
+         "imgSrc": "images/authors/guest.png"
       },
       "title": "Vegan Sweet Potato Chili",
       "description": "A hearty chili with sweet potatoes, beans, and smoky spices.",

@@ -18,7 +18,10 @@ const NutritionInfo = (props) => {
             </tbody>
          </table>
 
-         {note && <p className="nutrition-info__note">{note}</p>}
+         {note &&
+            <p className="nutrition-info__note">
+               {note}
+            </p>}
       </div>
    )
 }

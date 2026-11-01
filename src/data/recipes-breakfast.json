@@ -3,7 +3,7 @@
       "id": "strawberry-oatmeal-pancake",
       "author": {
          "name": "John Doe",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-01-15",
             "label": "15 January 2024"
@@ -114,7 +114,7 @@
       "id": "fruity-orange-blueberry-pancake",
       "author": {
          "name": "Emily Carter",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-02-03",
             "label": "3 February 2024"
@@ -224,7 +224,7 @@
       "id": "classic-banana-pancakes",
       "author": {
          "name": "Michael Smith",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-02-18",
             "label": "18 February 2024"
@@ -330,7 +330,7 @@
       "id": "avocado-toast-egg",
       "author": {
          "name": "Sophia Bennett",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-03-07",
             "label": "7 March 2024"
@@ -428,7 +428,7 @@
       "id": "greek-yogurt-parfait",
       "author": {
          "name": "Olivia Turner",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-03-22",
             "label": "22 March 2024"
@@ -520,7 +520,7 @@
       "id": "scrambled-eggs-cheese",
       "author": {
          "name": "Daniel Harris",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-04-05",
             "label": "5 April 2024"
@@ -617,7 +617,7 @@
       "id": "morning-fruit-bowl",
       "author": {
          "name": "Ava Mitchell",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-04-19",
             "label": "19 April 2024"
@@ -711,7 +711,7 @@
       "id": "honey-granola-bowl",
       "author": {
          "name": "Lucas Morgan",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-05-02",
             "label": "2 May 2024"
@@ -804,7 +804,7 @@
       "id": "veggie-omelette",
       "author": {
          "name": "Isabella Reed",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-05-17",
             "label": "17 May 2024"
@@ -902,7 +902,7 @@
       "id": "cinnamon-apple-oatmeal",
       "author": {
          "name": "Ethan Cooper",
-         "imgSrc": "images/authors/man.jpg",
+         "imgSrc": "images/authors/guest.png",
          "date": {
             "dateTime": "2024-06-01",
             "label": "1 June 2024"

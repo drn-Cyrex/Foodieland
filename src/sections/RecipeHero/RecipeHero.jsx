@@ -41,11 +41,6 @@ const RecipeHero = ({ recipe }) => {
                         value={recipe.time.cook}
                         unit="minutes"
                      />
-
-                     <RecipeMeta
-                        iconName="fork-knife"
-                        value={recipe.category}
-                     />
                   </div>
                </div>
             </div>

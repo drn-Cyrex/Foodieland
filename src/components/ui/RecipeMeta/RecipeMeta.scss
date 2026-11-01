@@ -1,23 +1,14 @@
 .meta {
    position: relative;
-   isolation: isolate;
-   padding: 5px fluid(12, 6, desktop, mobile);
+   padding: 8px 17px 8px 10px;
    display: flex;
    align-items: center;
+   justify-content: center;
    column-gap: fluid(10, 5, desktop, mobile);
-   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+   border-top: 1px solid var(--color-gray);
    border-radius: var(--radius);
-   background-color: rgba(0, 0, 0, 0.25);
+   background: linear-gradient(to top, transparent, var( --color-dark));
    backdrop-filter: blur(10px);
-
-   &::before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      inset: 5px;
-      filter: blur(10px);
-      background-color: rgba(0, 0, 0, 0.25);
-   }
 }
 
 .meta__icon {

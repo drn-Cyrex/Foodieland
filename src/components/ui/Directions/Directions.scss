@@ -4,8 +4,6 @@
    row-gap: fluid(96, 48, desktop, mobile);
 }
 
-
-
 .directions-group {
    position: relative;
    max-width: 800px;
@@ -42,7 +40,7 @@
 }
 
 @keyframes directions-counter {
-   50% {
+   25%, 75% {
       opacity: 1;
    }
 }
