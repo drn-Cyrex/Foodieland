@@ -14,6 +14,6 @@
    //    minmax(var(--gutter), 1fr);
 
    > section:last-of-type {
-      margin-bottom: fluid(160, 80, desktop, mobile);
+      margin-bottom: fluid(100, 50, desktop, mobile);
    }
 }

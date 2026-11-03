@@ -31,7 +31,9 @@ const Footer = () => {
                </p>
             </div>
 
-            <nav className="footer__navigation" aria-label="Footer navigation">
+            <nav
+               className="footer__navigation" aria-label="Footer navigation"
+            >
                <span className="footer__navigation-title">
                   Explore
                </span>

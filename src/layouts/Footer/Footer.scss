@@ -1,17 +1,14 @@
 .footer {
    position: relative;
    overflow: hidden;
-   margin-top: fluid(120, 70, desktop, mobile);
-   padding-top: fluid(70, 45, desktop, mobile);
-   background: var(--color-dark);
-
-   color: var(--color-white);
+   margin-top: fluid(100, 50, desktop, mobile);
+   padding-top: fluid(50, 25, desktop, mobile);
+   background: var(--color-bg);
 }
 
 .footer__main {
    position: relative;
    z-index: 1;
-
    display: grid;
    grid-template-columns: minmax(220px, 1.5fr) minmax(140px, 0.6fr) minmax(
          140px,
@@ -107,7 +104,7 @@
       transform: scaleX(0);
       transform-origin: right;
 
-      transition: transform 0.3s ease;
+      transition: transform 0.5s ease;
    }
 
    @include hover {
@@ -171,24 +168,22 @@
 .footer__decor {
    position: absolute;
    z-index: 0;
-   left: 0;
    bottom: -0.18em;
+   transform: scaleX(1.25);
+   //transform-origin: center bottom;
    width: 100%;
    color: rgba(255, 255, 255, 0.035);
-   font-size: clamp(90px, 15vw, 260px);
+   text-align: center;
+   font-size: fluid(200, 50, desktop, mobile);
    font-weight: 800;
    letter-spacing: -0.08em;
    line-height: 0.8;
+
    white-space: nowrap;
-   text-align: center;
-   transform: scaleX(1.15);
-   transform-origin: center bottom;
    pointer-events: none;
    user-select: none;
 
    @include mobile {
-      bottom: -0.05em;
-      font-size: 24vw;
-      transform: scaleX(1.08);
+      transform: scaleX(1.1);
    }
 }
