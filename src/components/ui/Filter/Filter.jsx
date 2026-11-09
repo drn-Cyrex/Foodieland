@@ -3,9 +3,12 @@ import { Image } from "minista"
 
 
 const Filter = (props) => {
+
    const {
       img
    } = props
+
+   
 
    return (
       <>

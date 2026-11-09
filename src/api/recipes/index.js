@@ -25,10 +25,10 @@ export const allRecipes = {
 
 export { getAllRecipes } from "./getAll";
 export { getRecipeById } from "./getById";
-export { filterRecipes } from "./filter";
 export { getRecipesByCategory } from "./getByCategory";
 export { getRandomRecipes } from "./getRandom";
 export { getLikedRecipes } from "./getLiked";
 export { getLikedRandom } from "./getLikedRandom";
 export { getQuickRecipes } from "./getQuick";
 export { getQuickRandom } from "./getQuickRandom";
+export { filterRecipes } from "./filter";

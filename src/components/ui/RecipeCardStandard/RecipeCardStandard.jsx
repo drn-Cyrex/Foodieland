@@ -30,6 +30,7 @@ const RecipeCardStandard = (props) => {
             ...style,
             viewTransitionName: `recipe-${id}`,
          }}
+         data-pagination-item=''
       >
 
          <a href={getPageUrl(`/recipe/${id}`)}

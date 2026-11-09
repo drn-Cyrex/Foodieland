@@ -19,6 +19,11 @@ li {
    list-style-type: none;
 }
 
+button {
+  border: none;
+  outline: none; 
+} 
+
 /*  Убираем анимации для людей с ограничениями */
 @media (prefers-reduced-motion: reduce) {
    * {
