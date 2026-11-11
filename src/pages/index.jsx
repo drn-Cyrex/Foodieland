@@ -7,7 +7,6 @@ import Subscribe from "@/sections/Subscribe/Subscribe"
 import RecipesPopular from "@/sections/RecipesPopular/RecipesPopular"
 
 
-
 export const metadata = {
    title: 'Home'
 }
