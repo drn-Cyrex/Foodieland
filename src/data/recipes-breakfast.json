@@ -17,7 +17,7 @@
          "cook": 15
       },
       "tags": ["sweet", "quick", "popular"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/strawberry-oatmeal-pancake.png",
       "isLiked": true,
       "video": {
          "sources": [
@@ -128,7 +128,7 @@
          "cook": 8
       },
       "tags": ["sweet", "quick"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/fruity-orange-blueberry-pancake.png",
       "isLiked": false,
       "video": {
          "sources": [
@@ -238,7 +238,7 @@
          "cook": 5
       },
       "tags": ["sweet", "quick", "popular"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/classic-banana-pancakes.png",
       "isLiked": true,
       "video": {
          "sources": [
@@ -344,7 +344,7 @@
          "cook": 7
       },
       "tags": ["healthy", "quick"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/avocado-toast-egg.png",
       "isLiked": false,
       "video": {
          "sources": [
@@ -442,7 +442,7 @@
          "cook": 2
       },
       "tags": ["healthy", "sweet", "quick"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/greek-yogurt-parfait.png",
       "isLiked": true,
       "video": {
          "sources": [
@@ -534,7 +534,7 @@
          "cook": 5
       },
       "tags": ["quick", "comfort"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/scrambled-eggs-cheese.png",
       "isLiked": false,
       "video": {
          "sources": [
@@ -631,7 +631,7 @@
          "cook": 2
       },
       "tags": ["healthy", "vegan", "quick"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/morning-fruit-bowl.png",
       "isLiked": true,
       "video": {
          "sources": [
@@ -725,7 +725,7 @@
          "cook": 2
       },
       "tags": ["sweet", "quick"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/honey-granola-bowl.png",
       "isLiked": false,
       "video": {
          "sources": [
@@ -818,7 +818,7 @@
          "cook": 7
       },
       "tags": ["healthy", "quick", "popular"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/veggie-omelette.png",
       "isLiked": true,
       "video": {
          "sources": [
@@ -916,7 +916,7 @@
          "cook": 7
       },
       "tags": ["sweet", "quick", "comfort"],
-      "backgroundImgSrc": "images/recipes/breakfast/2.png",
+      "backgroundImgSrc": "images/recipes/breakfast/cinnamon-apple-oatmeal.png",
       "isLiked": false,
       "video": {
          "sources": [
