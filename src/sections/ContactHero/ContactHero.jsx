@@ -7,69 +7,80 @@ import Button from "@/components/ui/Button/Button"
 
 const ContactHero = () => {
 
-   const items = [
-      "text 1", "text 2", "text 3", "text 4", "text 5",
-   ]
-
    return (
       <Section
-         className='contact-hero container'
+         className="contact-hero container"
          title="Contact us"
          titleId="contact-hero"
          isHeaderVertical
       >
          <div className="contact-hero__wrapper">
+
             <div className="contact-hero__image">
                <Image src="/src/assets/images/contact-c2.png" />
             </div>
 
             <form className="contact-form" action="">
+
                <FormField
                   type="text"
                   text="Enter your name..."
-                  isFor="user-name"
+                  id="user-name"
                />
+
                <FormField
                   type="email"
                   text="Your email address..."
-                  isFor="user-mail"
-               />
-               <FormField
-                  type="text"
-                  text="Enter subject..."
-                  isFor="subject"
+                  id="user-mail"
                />
 
                <FormField
                   type="text"
-                  text="Advertising"
-                  isFor="advertising"
-               >
-                  <Select
-                     isFor="select-advertising"
-                     options={[
-                        { value: "Advertising--1" },
-                        { value: "Advertising--2" },
-                        { value: "Advertising--3" },
-                        { value: "Advertising--4" },
-                        { value: "Advertising--5" },
-                        { value: "Advertising--6" },
-                     ]}
-                  />
-               </FormField>
+                  text="Enter subject..."
+                  id="subject"
+               />
+
+               <Select
+                  id="reason"
+                  name="reason"
+                  label="Reason for contacting us"
+                  options={[
+                     {
+                        value: "advertising",
+                        text: "Advertising",
+                     },
+                     {
+                        value: "partnership",
+                        text: "Partnership",
+                     },
+                     {
+                        value: "recipe",
+                        text: "Recipe submission",
+                     },
+                     {
+                        value: "feedback",
+                        text: "Feedback",
+                     },
+                     {
+                        value: "other",
+                        text: "Other",
+                     },
+                  ]}
+               />
 
                <FormField
                   className="textarea"
                   type="textarea"
-                  text="Enter your messages..."
-                  isFor="message"
+                  text="Enter your message..."
+                  id="message"
                />
 
-               <Button
-                  className="form-button" type="button">
+               <Button type="submit">
                   Submit
                </Button>
+
             </form>
+
          </div>
       </Section>
    )

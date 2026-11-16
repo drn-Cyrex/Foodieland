@@ -1,37 +1,44 @@
 import "./Select.scss"
 
 const Select = (props) => {
-
    const {
       label,
+      id,
       name,
-      isFor,
-      /** 
-       * Array <{
-       * value: string
-       * isSelected?: boolean 
-       * }>
-       * 
-      */
       options = [],
 
    } = props
 
    return (
-      <div>
-         <label htmlFor={isFor}>{label}</label>
-         <select className="select" name={name} id={isFor}>
-            {options.map(({ value }, index) => (
-               <option className="select__option"
-                  value={value} key={index}>
-                  {value}
+      <div className="select-wrapper">
+
+         <label
+            className="select-label"
+            htmlFor={id}
+         >
+            {label}
+         </label>
+
+         <select
+            className="select-control"
+            id={id}
+            name={name}
+            defaultValue=""
+            required
+         >
+            <option value="" disabled>
+               Select a reason...
+            </option>
+
+            {options.map(({ value, text }) => (
+               <option value={value} key={value}>
+                  {text}
                </option>
             ))}
+
          </select>
       </div>
-
    )
-
 }
 
 export default Select

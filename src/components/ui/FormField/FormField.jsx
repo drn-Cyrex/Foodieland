@@ -1,17 +1,13 @@
 import "./FormField.scss"
 import clsx from "clsx"
-import Button from "@/components/ui/Button/Button"
-import getIdFromTitle from "@/utils/getIdFromTitle"
 
 const FormField = (props) => {
    const {
       className,
-      text,
-      isFor,
       type,
-      autoComplete,
-      button,
-      children,
+      id,
+      text,
+      children
    } = props
 
    const Component = type === "textarea" ? "textarea" : "input"
@@ -21,26 +17,21 @@ const FormField = (props) => {
 
          <Component
             className="field__control"
-            name={isFor}
-            id={isFor}
             type={type}
-            placeholder=""
+            name={id}
+            id={id}
+            placeholder=" "
             required
-            autoComplete={autoComplete}
+
          />
 
-         <label className="field__label" htmlFor={isFor}>
+         <label className="field__label" htmlFor={id}>
             {text}
          </label>
 
-         <span className="field-border-top"></span>
-         <span className="field-border-bottom"></span>
-
          {children}
-
-         {button && (
-            <Button type="submit">Subscribe</Button>
-         )}
+         {/* <span className="field-border-top"></span>
+         <span className="field-border-bottom"></span> */}
 
       </div >
    )

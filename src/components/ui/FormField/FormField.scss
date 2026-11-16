@@ -1,95 +1,95 @@
 .field {
    position: relative;
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   border-width: 1px;
-   border-style: solid;
-   border-block: none;
-   border-radius: 24px;
+   border-radius: 15px;
+   border: 1px solid gray;
 }
 
 .field__control {
-   position: relative;
+   height: 100%;
    width: 100%;
-   min-inline-size: 150px;
-   padding-left: fluid(25, 15, desktop, mobile);
-   padding-block: 18px;
-   border: none;
-   outline: none;
-   border-radius: inherit;
+   padding: 16px 18px;
    background: inherit;
-   font-size: fluid(18, 16, desktop, mobile);
+   border-radius: inherit;
+   border: none;
    color: var(--color-title-hover);
+   font-size: fluid(18, 16, desktop, mobile);
+
+   &:focus-visible {
+      outline: 1px solid var(--color-accent-hover);
+   }
+}
+
+textarea.field__control {
+   resize: vertical; // разрешаем изменять только высоту
 }
 
 .field__label {
    position: absolute;
+   top: 14px;
    left: 25px;
-   opacity: 0.5;
-   color: var(--color-white);
-   font-family: var(--font-family);
-   font-weight: 500;
-   font-size: fluid(16, 14, desktop, mobile);
+   padding-inline: 5px;
+   border-radius: inherit;
+   color: var(--color-dim);
+   font-size: 16px;
    letter-spacing: -0.02em;
-   transition: all 0.3s ease;
+   transition: all 0.25s ease;
    pointer-events: none;
 }
 
 .field__control:focus ~ .field__label,
 .field__control:not(:placeholder-shown) ~ .field__label {
-   color: var(--color-accent);
-   transform: translateY(-35px) translateX(-10px) scale(0.8);
-   opacity: 1;
+   transform-origin: left;
+   top: -17px;
+   scale: 0.8;
+   background-color: var(--color-bg);
 }
 
-.field-border-top,
-.field-border-bottom {
-   position: absolute;
-   height: 2px;
-   width: 96%;
-   background: linear-gradient(
-      to right,
-      transparent,
-      rgba(255, 255, 255, 0.5),
-      transparent
-   );
-   transition: 0.25s ease;
-}
+// .field-border-top,
+// .field-border-bottom {
+//    position: absolute;
+//    height: 2px;
+//    width: 96%;
+//    background: linear-gradient(
+//       to right,
+//       transparent,
+//       rgba(255, 255, 255, 0.5),
+//       transparent
+//    );
+//    transition: 0.25s ease;
+// }
 
-.field-border-top {
-   top: -1px;
-   right: 2%;
-}
+// .field-border-top {
+//    top: -1px;
+//    right: 2%;
+// }
 
-.field-border-bottom {
-   bottom: -1px;
-   left: 2%;
-}
+// .field-border-bottom {
+//    bottom: -1px;
+//    left: 2%;
+// }
 
-.field__control:focus ~ .field-border-top,
-.field__control:not(:placeholder-shown) ~ .field-border-top {
-   width: 50%;
-}
+// .field__control:focus ~ .field-border-top,
+// .field__control:not(:placeholder-shown) ~ .field-border-top {
+//    width: 50%;
+// }
 
-.field__control:focus ~ .field-border-bottom,
-.field__control:not(:placeholder-shown) ~ .field-border-bottom {
-   width: 50%;
-   background: linear-gradient(
-      to right,
-      transparent,
-      rgba(255, 255, 255, 0.5),
-      transparent
-   );
-}
+// .field__control:focus ~ .field-border-bottom,
+// .field__control:not(:placeholder-shown) ~ .field-border-bottom {
+//    width: 50%;
+//    background: linear-gradient(
+//       to right,
+//       transparent,
+//       rgba(255, 255, 255, 0.5),
+//       transparent
+//    );
+// }
 
-textarea.field__control {
-   resize: vertical;
-   padding-right: 15px;
-}
+// textarea.field__control {
+//    resize: vertical;
+//    padding-right: 15px;
+// }
 
-.field ~ button {
-   margin: 10px;
-   padding: fluid(20, 10, desktop, mobile) fluid(60, 40, desktop, mobile);
-}
+// .field ~ button {
+//    margin: 10px;
+//    padding: fluid(20, 10, desktop, mobile) fluid(60, 40, desktop, mobile);
+// }

@@ -1,10 +1,63 @@
-.select {
-   margin: 10px;
-   background-color: transparent;
-   color: var(--color-accent);
-   border: none;
+.select-wrapper {
+   position: relative;
+   border-radius: 15px;
+   border: 1px solid gray;
+
+   &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) rotate(45deg);
+      right: 18px;
+      width: 10px;
+      height: 10px;
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      color: var(--color-dim);
+
+      pointer-events: none;
+      transition: transform 0.25s ease;
+   }
+
+   &:focus-within::after {
+      transform: rotate(225deg);
+   }
 }
 
-.select__option {
+.select-label {
+   position: absolute;
+   top: -17px;
+   left: 25px;
+   padding-inline: 5px;
+   border-radius: inherit;
    background-color: var(--color-bg);
+   color: var(--color-dim);
+   font-size: 16px;
+   letter-spacing: -0.02em;
+   transition: all 0.25s ease;
+   pointer-events: none;
 }
+
+.select-control {
+   width: 100%;
+   padding: 12px 18px;
+   border-radius: inherit;
+   background-color: var(--color-bg);
+   color: var(--color-title-hover);
+   font: inherit;
+   font-size: fluid(18, 16, desktop, mobile);
+   cursor: pointer;
+   outline: none;
+   appearance: none;
+   //appearance: base-select;
+
+   transition:
+      border-color 0.25s ease,
+      box-shadow 0.25s ease;
+      
+}
+
+.select-wrapper:focus-within .select-control {
+   border-color: var(--color-title-hover);
+}
+
