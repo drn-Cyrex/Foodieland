@@ -13,3 +13,21 @@
       -webkit-text-fill-color: var(--color-title-hover);
    }
 }
+
+.subscribe-form {
+   display: flex;
+   align-items: center;
+}
+
+.subscribe-form .field__control {
+   &:focus-visible {
+      outline: 1px solid transparent;
+      background: linear-gradient(transparent);
+   }
+}
+
+.subscribe-button {
+   margin-left: -30px;
+   padding-inline: 40px;
+   max-block-size: 40px;
+}

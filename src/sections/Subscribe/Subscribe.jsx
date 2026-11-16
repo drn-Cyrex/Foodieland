@@ -1,6 +1,7 @@
 import "./Subscribe.scss"
 import Section from "@/layouts/Section/Section"
 import FormField from "@/components/ui/FormField/FormField"
+import Button from "@/components/ui/Button/Button"
 
 const Subscribe = () => {
    return (
@@ -11,14 +12,16 @@ const Subscribe = () => {
          description="Get fresh recipes, cooking inspiration, and delicious ideas delivered straight to your inbox. Subscribe and never miss a new recipe from Foodieland."
          isHeaderVertical
       >
-         <form action="">
+         <form className="subscribe-form" action="">
             <FormField
-               className="subscribe__form"
                type="email"
-               autoComplete="off"
                text="Your email address..."
-               button
+               id="sub"
             />
+
+            <Button className="subscribe-button">
+               Subscribe
+            </Button>
          </form>
 
       </Section>

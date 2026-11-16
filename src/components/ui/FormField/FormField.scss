@@ -11,11 +11,17 @@
    background: inherit;
    border-radius: inherit;
    border: none;
-   color: var(--color-title-hover);
+   color: var(--color-white);
    font-size: fluid(18, 16, desktop, mobile);
 
    &:focus-visible {
-      outline: 1px solid var(--color-accent-hover);
+      outline: 1px solid rgba(0, 255, 0, 0.2);
+      background: linear-gradient(
+         to top,
+         transparent,
+         rgba(0, 255, 0, 0.1),
+         transparent
+      );
    }
 }
 
@@ -25,10 +31,12 @@ textarea.field__control {
 
 .field__label {
    position: absolute;
+   z-index: 10;
    top: 14px;
    left: 25px;
-   padding-inline: 5px;
+   padding-inline: 10px;
    border-radius: inherit;
+   border-bottom: 1px solid transparent;
    color: var(--color-dim);
    font-size: 16px;
    letter-spacing: -0.02em;
@@ -40,8 +48,10 @@ textarea.field__control {
 .field__control:not(:placeholder-shown) ~ .field__label {
    transform-origin: left;
    top: -17px;
+   left: 15px;
    scale: 0.8;
-   background-color: var(--color-bg);
+   border-bottom: 1px solid gray;
+   background: linear-gradient(to top, var(--color-bg), transparent);
 }
 
 // .field-border-top,

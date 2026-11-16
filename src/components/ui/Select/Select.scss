@@ -27,10 +27,11 @@
 .select-label {
    position: absolute;
    top: -17px;
-   left: 25px;
-   padding-inline: 5px;
+   left: 15px;
+   padding-inline: 10px;
    border-radius: inherit;
-   background-color: var(--color-bg);
+   border-bottom: 1px solid gray;
+   background: linear-gradient(to top, var(--color-bg), transparent);
    color: var(--color-dim);
    font-size: 16px;
    letter-spacing: -0.02em;
@@ -43,7 +44,7 @@
    padding: 12px 18px;
    border-radius: inherit;
    background-color: var(--color-bg);
-   color: var(--color-title-hover);
+   color: var(--color-white);
    font: inherit;
    font-size: fluid(18, 16, desktop, mobile);
    cursor: pointer;
@@ -54,10 +55,14 @@
    transition:
       border-color 0.25s ease,
       box-shadow 0.25s ease;
-      
 }
 
 .select-wrapper:focus-within .select-control {
-   border-color: var(--color-title-hover);
+   outline: 1px solid rgba(0, 255, 0, 0.2);
+   background: linear-gradient(
+      to top,
+      transparent,
+      rgba(0, 255, 0, 0.1),
+      transparent
+   );
 }
-

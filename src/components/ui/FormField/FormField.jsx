@@ -7,7 +7,6 @@ const FormField = (props) => {
       type,
       id,
       text,
-      children
    } = props
 
    const Component = type === "textarea" ? "textarea" : "input"
@@ -22,14 +21,12 @@ const FormField = (props) => {
             id={id}
             placeholder=" "
             required
-
          />
 
          <label className="field__label" htmlFor={id}>
             {text}
          </label>
 
-         {children}
          {/* <span className="field-border-top"></span>
          <span className="field-border-bottom"></span> */}
 
