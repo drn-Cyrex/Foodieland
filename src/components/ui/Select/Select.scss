@@ -1,27 +1,27 @@
 .select-wrapper {
    position: relative;
    border-radius: 15px;
-   border: 1px solid gray;
 
-   &::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%) rotate(45deg);
-      right: 18px;
-      width: 10px;
-      height: 10px;
-      border-right: 2px solid currentColor;
-      border-bottom: 2px solid currentColor;
-      color: var(--color-dim);
+   // icon
+   // &::after {
+   //    content: "";
+   //    position: absolute;
+   //    top: 50%;
+   //    transform: translateY(-50%) rotate(45deg);
+   //    right: 18px;
+   //    width: 10px;
+   //    height: 10px;
+   //    border-right: 2px solid currentColor;
+   //    border-bottom: 2px solid currentColor;
+   //    color: var(--color-dim);
 
-      pointer-events: none;
-      transition: transform 0.25s ease;
-   }
+   //    pointer-events: none;
+   //    transition: transform 0.25s ease;
+   // }
 
-   &:focus-within::after {
-      transform: rotate(225deg);
-   }
+   // &:focus-within::after {
+   //    transform: rotate(225deg);
+   // }
 }
 
 .select-label {
@@ -31,7 +31,7 @@
    padding-inline: 10px;
    border-radius: inherit;
    border-bottom: 1px solid gray;
-   background: linear-gradient(to top, var(--color-bg), transparent);
+   background: linear-gradient(to top, var(--color-bg) 30%, transparent);
    color: var(--color-dim);
    font-size: 16px;
    letter-spacing: -0.02em;
@@ -41,28 +41,34 @@
 
 .select-control {
    width: 100%;
-   padding: 12px 18px;
+   padding: 16px 18px;
    border-radius: inherit;
+   outline: none;
+   border: 1px solid gray;
    background-color: var(--color-bg);
-   color: var(--color-white);
+   color: whitesmoke;
    font: inherit;
    font-size: fluid(18, 16, desktop, mobile);
    cursor: pointer;
-   outline: none;
-   appearance: none;
-   //appearance: base-select;
 
-   transition:
-      border-color 0.25s ease,
-      box-shadow 0.25s ease;
+   &,
+   &::picker(select) {
+      appearance: base-select;
+      padding: 16px 18px;
+      border: 1px solid gray;
+      border-radius: 15px;
+      background-color: var(--color-bg);
+      color: whitesmoke;
+      line-height: 1.6;
+   }
+
+   &::picker(select) {
+      margin-block-start: 10px;
+      background: linear-gradient(var(--color-dark), var(--color-gray));
+   }
 }
 
 .select-wrapper:focus-within .select-control {
    outline: 1px solid rgba(0, 255, 0, 0.2);
-   background: linear-gradient(
-      to top,
-      transparent,
-      rgba(0, 255, 0, 0.1),
-      transparent
-   );
+   background: linear-gradient(transparent, rgba(0, 255, 0, 0.1));
 }

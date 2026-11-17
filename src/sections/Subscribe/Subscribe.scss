@@ -26,6 +26,14 @@
    }
 }
 
+.subscribe-form {
+   .field__control:focus ~ .field__label,
+   .field__control:not(:placeholder-shown) ~ .field__label {
+      border-bottom: 1px solid gray;
+      // background: linear-gradient(to top, var(--color-bg) 30%, transparent);
+   }
+}
+
 .subscribe-button {
    margin-left: -30px;
    padding-inline: 40px;

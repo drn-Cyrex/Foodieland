@@ -75,37 +75,33 @@
             </div>
             <form class="contact-form" action="">
               <div class="field">
-                <input class="field__control" name="user-name" id="user-name" type="text" placeholder="" required="">
-                <label class="field__label" for="user-name">Enter your name...</label><span class="field-border-top"></span><span class="field-border-bottom"></span>
+                <input class="field__control" type="text" name="user-name" id="user-name" placeholder=" " required="">
+                <label class="field__label" for="user-name">Enter your name...</label>
               </div>
               <div class="field">
-                <input class="field__control" name="user-mail" id="user-mail" type="email" placeholder="" required="">
-                <label class="field__label" for="user-mail">Your email address...</label><span class="field-border-top"></span><span class="field-border-bottom"></span>
+                <input class="field__control" type="email" name="user-mail" id="user-mail" placeholder=" " required="">
+                <label class="field__label" for="user-mail">Your email address...</label>
               </div>
               <div class="field">
-                <input class="field__control" name="subject" id="subject" type="text" placeholder="" required="">
-                <label class="field__label" for="subject">Enter subject...</label><span class="field-border-top"></span><span class="field-border-bottom"></span>
+                <input class="field__control" type="text" name="subject" id="subject" placeholder=" " required="">
+                <label class="field__label" for="subject">Enter subject...</label>
               </div>
-              <div class="field">
-                <input class="field__control" name="advertising" id="advertising" type="text" placeholder="" required="">
-                <label class="field__label" for="advertising">Advertising</label><span class="field-border-top"></span><span class="field-border-bottom"></span>
-                <div>
-                  <label for="select-advertising"></label>
-                  <select class="select" id="select-advertising">
-                    <option class="select__option" value="Advertising--1">Advertising--1</option>
-                    <option class="select__option" value="Advertising--2">Advertising--2</option>
-                    <option class="select__option" value="Advertising--3">Advertising--3</option>
-                    <option class="select__option" value="Advertising--4">Advertising--4</option>
-                    <option class="select__option" value="Advertising--5">Advertising--5</option>
-                    <option class="select__option" value="Advertising--6">Advertising--6</option>
-                  </select>
-                </div>
+              <div class="select-wrapper">
+                <label class="select-label" for="reason">Reason for contacting us</label>
+                <select class="select-control" id="reason" name="reason" required="">
+                  <option value="" disabled="" selected="">Select a reason...</option>
+                  <option value="advertising">Advertising</option>
+                  <option value="partnership">Partnership</option>
+                  <option value="recipe">Recipe submission</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="other">Other</option>
+                </select>
               </div>
               <div class="field textarea">
-                <textarea class="field__control" name="message" id="message" type="textarea" placeholder="" required=""></textarea>
-                <label class="field__label" for="message">Enter your messages...</label><span class="field-border-top"></span><span class="field-border-bottom"></span>
+                <textarea class="field__control" type="textarea" name="message" id="message" placeholder=" " required=""></textarea>
+                <label class="field__label" for="message">Enter your message...</label>
               </div>
-              <button class="button form-button" type="button">Submit</button>
+              <button class="button" type="submit">Submit</button>
             </form>
           </div>
         </div>
@@ -118,12 +114,12 @@
           </div>
         </header>
         <div class="section__body">
-          <form action="">
-            <div class="field subscribe__form">
-              <input class="field__control" type="email" placeholder="" required="" autoComplete="off">
-              <label class="field__label">Your email address...</label><span class="field-border-top"></span><span class="field-border-bottom"></span>
-              <button class="button" type="submit">Subscribe</button>
+          <form class="subscribe-form" action="">
+            <div class="field">
+              <input class="field__control" type="email" name="sub" id="sub" placeholder=" " required="">
+              <label class="field__label" for="sub">Your email address...</label>
             </div>
+            <button class="button subscribe-button" type="button">Subscribe</button>
           </form>
         </div>
       </section>
