@@ -15,34 +15,38 @@
    font-size: fluid(18, 16, desktop, mobile);
 
    &:focus-visible {
-      outline: 1px solid rgba(0, 255, 0, 0.2);
-      background: linear-gradient(transparent, rgba(0, 255, 0, 0.1));
+      outline: 1px solid transparent;
    }
 
    &:invalid:not(:placeholder-shown) {
-      background: url("/src/assets/icons/check/check-red-3d.png");
+      background-image: url("/src/assets/icons/check/check-red-3d.png");
    }
 
    &:valid:not(:placeholder-shown) {
-      background: url("/src/assets/icons/check/check-green-3d.png");
+      background-image: url("/src/assets/icons/check/check-green-3d.png");
    }
 
-   &:invalid:not(:placeholder-shown),
-   &:valid:not(:placeholder-shown) {
-      outline: 1px solid transparent;
+   &:is(:invalid, :valid):not(:placeholder-shown) {
       background-size: 30px;
       background-repeat: no-repeat;
-      background-position-x: calc(100% - 10px);
-      background-position-y: 15px;
+      background-position: right 10px top 15px;
+   }
+
+   // Невалидное поле, когда оно НЕ в фокусе
+   &:invalid:not(:placeholder-shown):not(:focus) {
+      outline: 1px solid rgba(255, 0, 0, 0.35);
+      background-color: rgba(255, 0, 0, 0.05);
+   }
+
+   // Валидное поле, когда оно НЕ в фокусе
+   &:valid:not(:placeholder-shown):not(:focus) {
+      outline: 1px solid rgba(0, 255, 0, 0.35);
+      background-color: rgba(0, 255, 0, 0.05);
    }
 }
 
 textarea.field__control {
-   resize: vertical; // разрешаем изменять только высоту
-   height: 100%;
-   + .field__label {
-      width: 95%;
-   }
+   resize: vertical;
 }
 
 .field__label {
@@ -50,7 +54,6 @@ textarea.field__control {
    z-index: 10;
    top: 14px;
    left: 25px;
-   width: 90%;
    padding-inline: 10px;
    border-radius: inherit;
    border-bottom: 1px solid transparent;
@@ -61,29 +64,12 @@ textarea.field__control {
    pointer-events: none;
 }
 
-// .field:has([required]) label {
-//    &::after {
-//       content: "";
-//       position: absolute;
-//       display: block;
-//       right: 0;
-//       top: 50%;
-//       transform: translateY(-50%);
-//       width: 30px;
-//       height: 30px;
-//       background-image: url("/src/assets/icons/check/check-gray-3d.png");
-//       background-size: contain;
-//       background-repeat: no-repeat;
-//    }
-// }
-
 .field__control:focus ~ .field__label,
 .field__control:not(:placeholder-shown) ~ .field__label {
    transform-origin: left;
    top: -17px;
    left: 15px;
    scale: 0.8;
-   width: 200px;
    border-bottom: 1px solid gray;
    background: linear-gradient(to top, var(--color-bg) 30%, transparent);
 }

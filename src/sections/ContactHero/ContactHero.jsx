@@ -26,19 +26,25 @@ const ContactHero = () => {
                   type="text"
                   text="Enter your name..."
                   id="user-name"
+                  required
+                  minLength={2}
                />
 
                <FormField
                   type="email"
                   text="Your email address..."
                   id="user-mail"
+                  required
                />
 
                <FormField
                   type="text"
                   text="Enter subject..."
                   id="subject"
+                  required
+                  minLength={3}
                />
+
 
                <Select
                   id="reason"
@@ -73,9 +79,12 @@ const ContactHero = () => {
                   type="textarea"
                   text="Enter your message..."
                   id="message"
+                  required
+                  minLength={10}
+                  rows={6}
                />
 
-               <Button type="submit">
+               <Button type="submit" disabled>
                   Submit
                </Button>
 

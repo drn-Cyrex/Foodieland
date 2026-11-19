@@ -5,6 +5,7 @@
    justify-content: center;
    align-items: center;
    column-gap: 15px;
+
    color: var(--color-white);
    border: 1px solid rgba(255, 255, 255, 0.25);
    border-radius: var(--radius-s);
@@ -13,6 +14,7 @@
    font-weight: 600;
    font-size: 16px;
    letter-spacing: -0.28px;
+
    transition:
       color 0.5s ease,
       border-color 0.75s ease;
@@ -21,32 +23,32 @@
       content: "";
       position: absolute;
       inset: -3px -1px;
-      // top: 50%;
-      // left: 50%;
-      // transform: translate(-50%, -50%);
-      // height: 115%;
-      // width: 99%;
       z-index: -1;
       background-color: var(--color-dim);
       border-radius: var(--radius-s);
       transition: background-color 0.5s ease;
    }
 
-   @include hover {
-      color: var(--color-accent-hover);
-      border-color: var(--color-accent-border);
+   &:not(:disabled) {
+      @include hover {
+         color: var(--color-accent-hover);
+         border-color: var(--color-accent-border);
+         cursor: pointer;
 
-      &::before {
-         background-color: var(--color-accent-hover);
+         &::before {
+            background-color: var(--color-accent-hover);
+         }
       }
+   }
+
+   &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
    }
 
    &--secondary {
       color: var(--color-white);
       background-color: var(--color-dark);
-
-      @include hover {
-      }
    }
 
    @include above(tablet) {

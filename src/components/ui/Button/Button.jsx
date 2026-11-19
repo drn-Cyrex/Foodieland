@@ -1,5 +1,6 @@
-import './Button.scss'
-import clsx from 'clsx'
+
+import "./Button.scss"
+import clsx from "clsx"
 
 const Button = (props) => {
    const {
@@ -7,21 +8,34 @@ const Button = (props) => {
       /**
        * '' (default) | 'secondary'
        */
-      mode = '',
-      type = 'button',
+      mode = "",
+      type = "button",
       href,
+      disabled = false,
       children,
    } = props
 
    const isLink = href !== undefined
-   const Component = isLink ? 'a' : 'button'
-   const linkAttributes = { href }
-   const buttonAttributes = { type }
+   const Component = isLink ? "a" : "button"
+
+   const linkAttributes = {
+      href,
+   }
+
+   const buttonAttributes = {
+      type,
+      disabled,
+   }
+
    const attributesByTag = isLink ? linkAttributes : buttonAttributes
 
    return (
       <Component
-         className={clsx('button', className, mode && `button--${mode}`)}
+         className={clsx(
+            "button",
+            className,
+            mode && `button--${mode}`,
+         )}
          {...attributesByTag}
       >
          {children}

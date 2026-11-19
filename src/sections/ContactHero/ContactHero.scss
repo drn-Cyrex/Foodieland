@@ -28,10 +28,9 @@
 
 .contact-form .textarea {
    grid-column: 1 / -1;
-   height: 6lh;
 }
 
-// .field__control:invalid ~ button[type="submit"] {
-//    opacity: 0.6;
-//    pointer-events: none;
-// }
+.contact-form .field .field__control:invalid ~ button[type="submit"] {
+      opacity: 0.6;
+      pointer-events: none;
+}

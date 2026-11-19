@@ -4,31 +4,31 @@ import clsx from "clsx"
 const FormField = (props) => {
    const {
       className,
-      type,
+      type = "text",
       id,
       text,
-
+      required = false,
+      ...rest
    } = props
 
    const Component = type === "textarea" ? "textarea" : "input"
 
    return (
       <div className={clsx("field", className)}>
-
          <Component
             className="field__control"
-            type={type}
+            {...(Component === "input" && { type })}
             name={id}
             id={id}
             placeholder=" "
-            required
+            required={required}
+            {...rest}
          />
 
          <label className="field__label" htmlFor={id}>
             {text}
          </label>
-
-      </div >
+      </div>
    )
 }
 
