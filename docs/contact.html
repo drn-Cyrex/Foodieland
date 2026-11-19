@@ -75,7 +75,7 @@
             </div>
             <form class="contact-form" action="">
               <div class="field">
-                <input class="field__control" type="text" name="user-name" id="user-name" placeholder=" " required="">
+                <input class="field__control" type="text" name="user-name" id="user-name" placeholder=" " required="" minLength="2">
                 <label class="field__label" for="user-name">Enter your name...</label>
               </div>
               <div class="field">
@@ -83,7 +83,7 @@
                 <label class="field__label" for="user-mail">Your email address...</label>
               </div>
               <div class="field">
-                <input class="field__control" type="text" name="subject" id="subject" placeholder=" " required="">
+                <input class="field__control" type="text" name="subject" id="subject" placeholder=" " required="" minLength="3">
                 <label class="field__label" for="subject">Enter subject...</label>
               </div>
               <div class="select-wrapper">
@@ -98,10 +98,10 @@
                 </select>
               </div>
               <div class="field textarea">
-                <textarea class="field__control" type="textarea" name="message" id="message" placeholder=" " required=""></textarea>
+                <textarea class="field__control" name="message" id="message" placeholder=" " required="" minLength="10" rows="6"></textarea>
                 <label class="field__label" for="message">Enter your message...</label>
               </div>
-              <button class="button" type="submit">Submit</button>
+              <button class="button" type="submit" disabled="">Submit</button>
             </form>
           </div>
         </div>
@@ -116,7 +116,7 @@
         <div class="section__body">
           <form class="subscribe-form" action="">
             <div class="field">
-              <input class="field__control" type="email" name="sub" id="sub" placeholder=" " required="">
+              <input class="field__control" type="email" name="sub" id="sub" placeholder=" ">
               <label class="field__label" for="sub">Your email address...</label>
             </div>
             <button class="button subscribe-button" type="button">Subscribe</button>
