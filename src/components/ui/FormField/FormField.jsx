@@ -7,6 +7,7 @@ const FormField = (props) => {
       type,
       id,
       text,
+
    } = props
 
    const Component = type === "textarea" ? "textarea" : "input"
@@ -26,9 +27,6 @@ const FormField = (props) => {
          <label className="field__label" htmlFor={id}>
             {text}
          </label>
-
-         {/* <span className="field-border-top"></span>
-         <span className="field-border-bottom"></span> */}
 
       </div >
    )

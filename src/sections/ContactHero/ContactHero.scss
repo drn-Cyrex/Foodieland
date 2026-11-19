@@ -28,9 +28,10 @@
 
 .contact-form .textarea {
    grid-column: 1 / -1;
-   min-height: fluid(200, 150, desktop, mobile);
-
-   & > textarea {
-      height: 100%;
-   }
+   height: 6lh;
 }
+
+// .field__control:invalid ~ button[type="submit"] {
+//    opacity: 0.6;
+//    pointer-events: none;
+// }

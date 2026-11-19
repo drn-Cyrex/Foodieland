@@ -1,11 +1,11 @@
 .field {
    position: relative;
+   height: fit-content;
    border-radius: 15px;
    border: 1px solid gray;
 }
 
 .field__control {
-   height: 100%;
    width: 100%;
    padding: 16px 18px;
    background: inherit;
@@ -18,10 +18,31 @@
       outline: 1px solid rgba(0, 255, 0, 0.2);
       background: linear-gradient(transparent, rgba(0, 255, 0, 0.1));
    }
+
+   &:invalid:not(:placeholder-shown) {
+      background: url("/src/assets/icons/check/check-red-3d.png");
+   }
+
+   &:valid:not(:placeholder-shown) {
+      background: url("/src/assets/icons/check/check-green-3d.png");
+   }
+
+   &:invalid:not(:placeholder-shown),
+   &:valid:not(:placeholder-shown) {
+      outline: 1px solid transparent;
+      background-size: 30px;
+      background-repeat: no-repeat;
+      background-position-x: calc(100% - 10px);
+      background-position-y: 15px;
+   }
 }
 
 textarea.field__control {
    resize: vertical; // разрешаем изменять только высоту
+   height: 100%;
+   + .field__label {
+      width: 95%;
+   }
 }
 
 .field__label {
@@ -29,6 +50,7 @@ textarea.field__control {
    z-index: 10;
    top: 14px;
    left: 25px;
+   width: 90%;
    padding-inline: 10px;
    border-radius: inherit;
    border-bottom: 1px solid transparent;
@@ -39,62 +61,29 @@ textarea.field__control {
    pointer-events: none;
 }
 
+// .field:has([required]) label {
+//    &::after {
+//       content: "";
+//       position: absolute;
+//       display: block;
+//       right: 0;
+//       top: 50%;
+//       transform: translateY(-50%);
+//       width: 30px;
+//       height: 30px;
+//       background-image: url("/src/assets/icons/check/check-gray-3d.png");
+//       background-size: contain;
+//       background-repeat: no-repeat;
+//    }
+// }
+
 .field__control:focus ~ .field__label,
 .field__control:not(:placeholder-shown) ~ .field__label {
    transform-origin: left;
    top: -17px;
    left: 15px;
    scale: 0.8;
+   width: 200px;
    border-bottom: 1px solid gray;
    background: linear-gradient(to top, var(--color-bg) 30%, transparent);
 }
-
-// .field-border-top,
-// .field-border-bottom {
-//    position: absolute;
-//    height: 2px;
-//    width: 96%;
-//    background: linear-gradient(
-//       to right,
-//       transparent,
-//       rgba(255, 255, 255, 0.5),
-//       transparent
-//    );
-//    transition: 0.25s ease;
-// }
-
-// .field-border-top {
-//    top: -1px;
-//    right: 2%;
-// }
-
-// .field-border-bottom {
-//    bottom: -1px;
-//    left: 2%;
-// }
-
-// .field__control:focus ~ .field-border-top,
-// .field__control:not(:placeholder-shown) ~ .field-border-top {
-//    width: 50%;
-// }
-
-// .field__control:focus ~ .field-border-bottom,
-// .field__control:not(:placeholder-shown) ~ .field-border-bottom {
-//    width: 50%;
-//    background: linear-gradient(
-//       to right,
-//       transparent,
-//       rgba(255, 255, 255, 0.5),
-//       transparent
-//    );
-// }
-
-// textarea.field__control {
-//    resize: vertical;
-//    padding-right: 15px;
-// }
-
-// .field ~ button {
-//    margin: 10px;
-//    padding: fluid(20, 10, desktop, mobile) fluid(60, 40, desktop, mobile);
-// }

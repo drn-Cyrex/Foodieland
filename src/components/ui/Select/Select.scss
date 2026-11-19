@@ -41,8 +41,8 @@
 
 .select-control {
    width: 100%;
-   padding: 16px 18px;
    border-radius: inherit;
+   padding: 15px 18px;
    outline: none;
    border: 1px solid gray;
    background-color: var(--color-bg);
@@ -54,7 +54,7 @@
    &,
    &::picker(select) {
       appearance: base-select;
-      padding: 16px 18px;
+      padding: 14px 18px;
       border: 1px solid gray;
       border-radius: 15px;
       background-color: var(--color-bg);

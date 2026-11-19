@@ -17,6 +17,12 @@
 .subscribe-form {
    display: flex;
    align-items: center;
+   border: 1px solid gray;
+   border-radius: var(--radius);
+}
+
+.subscribe-form .field {
+   border: none;
 }
 
 .subscribe-form .field__control {
@@ -24,18 +30,4 @@
       outline: 1px solid transparent;
       background: linear-gradient(transparent);
    }
-}
-
-.subscribe-form {
-   .field__control:focus ~ .field__label,
-   .field__control:not(:placeholder-shown) ~ .field__label {
-      border-bottom: 1px solid gray;
-      // background: linear-gradient(to top, var(--color-bg) 30%, transparent);
-   }
-}
-
-.subscribe-button {
-   margin-left: -30px;
-   padding-inline: 40px;
-   max-block-size: 40px;
 }
