@@ -69,6 +69,6 @@
 }
 
 .select-wrapper:focus-within .select-control {
-   outline: 1px solid rgba(0, 255, 0, 0.2);
-   background: linear-gradient(transparent, rgba(0, 255, 0, 0.1));
+   outline: 1px solid rgba(0, 255, 0, 0.35);
+   background: linear-gradient(rgba(0, 255, 0, 0.05), rgba(0, 255, 0, 0.1));
 }

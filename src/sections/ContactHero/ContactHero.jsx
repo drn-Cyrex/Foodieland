@@ -7,6 +7,11 @@ import Button from "@/components/ui/Button/Button"
 
 const ContactHero = () => {
 
+   const handleSubmit = (event) => {
+      event.preventDefault()
+      event.currentTarget.reset()
+   }
+
    return (
       <Section
          className="contact-hero container"
@@ -20,7 +25,10 @@ const ContactHero = () => {
                <Image src="/src/assets/images/contact-c2.png" />
             </div>
 
-            <form className="contact-form" action="">
+            <form
+               className="contact-form"
+               onSubmit={handleSubmit}
+            >
 
                <FormField
                   type="text"
@@ -84,7 +92,7 @@ const ContactHero = () => {
                   rows={6}
                />
 
-               <Button type="submit" disabled>
+               <Button type="submit">
                   Submit
                </Button>
 

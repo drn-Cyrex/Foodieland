@@ -30,7 +30,18 @@
    grid-column: 1 / -1;
 }
 
-.contact-form .field .field__control:invalid ~ button[type="submit"] {
-      opacity: 0.6;
-      pointer-events: none;
+.contact-form button[type="submit"] {
+   opacity: 0.5;
+   background-color: var(--color-gray);
+   pointer-events: none;
+}
+
+.contact-form:valid button[type="submit"] {
+   opacity: 1;
+   pointer-events: auto;
+   background-color: var(--color-black);
+   &:hover {
+      color: white;
+      border-color:  limegreen
+   }
 }
