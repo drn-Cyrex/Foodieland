@@ -64,13 +64,49 @@
       </div>
     </header>
     <main class="main">
-      <div>
-        <h2>блок</h2>
-        <a class="recipe-banner" href="/">
-          <h3>Don’t forget to eat healthy food</h3>
-          <img srcset="/Foodieland/assets/images/banner-320x320.png 320w, /Foodieland/assets/images/banner-355x355.png 355w" src="/Foodieland/assets/images/banner-355x355.png" sizes="(min-width: 355px) 355px, 100vw" width="355" height="355" alt decoding="async" loading="lazy"><span>www.foodieland.com</span>
-        </a>
+      <section class="blog-hero container section">
+        <header class="section__header section__header--vertical">
+          <h2 class="section__title">Blog &amp; Article</h2>
+          <div class="section__description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+          </div>
+        </header>
+        <div class="section__body">
+          <form action="/search" class="search-wrapper">
+            <input class="search" type="search" name="" id="" placeholder=" Search article, news or recipe..." required="">
+            <button class="button search-button" type="button">Search</button>
+          </form>
+        </div>
+      </section>
+      <div class="blog-list container"><span>cards list</span>
+        <article>
+          <img alt="image">
+          <div>
+            <div>
+              <h3>title</h3>
+              <p>description</p>
+            </div>
+            <div><span>author</span><span>date</span></div>
+          </div>
+        </article>
       </div>
+      <section class="subscribe container section" aria-labelledby="subscribe">
+        <header class="section__header section__header--vertical">
+          <h2 class="section__title" id="subscribe">Deliciousness to your inbox</h2>
+          <div class="section__description">
+            <p>Get fresh recipes, cooking inspiration, and delicious ideas delivered straight to your inbox. Subscribe and never miss a new recipe from Foodieland.</p>
+          </div>
+        </header>
+        <div class="section__body">
+          <form class="subscribe-form" action="">
+            <div class="field">
+              <input class="field__control" type="email" name="sub" id="sub" placeholder=" ">
+              <label class="field__label" for="sub">Your email address...</label>
+            </div>
+            <button class="button subscribe-button" type="button">Subscribe</button>
+          </form>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__main container">

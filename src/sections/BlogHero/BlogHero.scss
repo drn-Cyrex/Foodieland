@@ -1,0 +1,7 @@
+.blog-hero {
+   margin-top: fluid(80, 50, desktop, mobile);
+}
+
+.blog-hero .section__description {
+   max-width: fit-content !important;
+}

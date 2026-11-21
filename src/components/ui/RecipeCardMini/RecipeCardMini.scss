@@ -7,6 +7,7 @@
    background-position-y: center;
    background-size: fluid(190, 125, desktop, mobile);
    background-origin: content-box;
+   opacity: 0;
    transition: 0.75s ease-out;
    @include hover {
       background-color: var(--color-black);
@@ -21,7 +22,6 @@
       box-shadow: 7px 4px 10px 1px var(--color-black);
       border-right: 1px solid var(--color-gray);
       border-bottom: 1px solid var(--color-gray);
-      opacity: 0;
       background-position-x: 15px;
 
       animation: recipe-card-center linear both;
@@ -47,6 +47,7 @@
       border-left: 1px solid var(--color-gray);
       border-bottom: 1px solid var(--color-gray);
       background-position-x: right 15px;
+
       animation: recipe-card-center linear both;
       animation-timeline: view(block);
       animation-range: cover 0% cover 30%;

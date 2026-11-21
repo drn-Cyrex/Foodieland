@@ -58,11 +58,8 @@ const RecipeCardStandard = (props) => {
                      </li>
                   ))}
                </ul>
-
-
+               
             </div>
-
-
 
             <span className="rcp-card-standard__category">             {category}
             </span>

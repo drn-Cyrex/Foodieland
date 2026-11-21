@@ -35,7 +35,7 @@ const ContactHero = () => {
                   text="Enter your name..."
                   id="user-name"
                   required
-                  minLength={2}
+                  minLength={3}
                />
 
                <FormField
@@ -50,7 +50,7 @@ const ContactHero = () => {
                   text="Enter subject..."
                   id="subject"
                   required
-                  minLength={3}
+                  minLength={5}
                />
 
 

@@ -51,6 +51,12 @@
    font-size: fluid(18, 16, desktop, mobile);
    cursor: pointer;
 
+   // Валидное поле, когда оно НЕ в фокусе
+   &:valid:not(:placeholder-shown):not(:focus) {
+      outline: 1px solid rgba(0, 255, 0, 0.35);
+      background-color: rgba(0, 255, 0, 0.05);
+   }
+
    &,
    &::picker(select) {
       appearance: base-select;

@@ -1,4 +1,6 @@
-import RecipeBanner from "@/components/ui/RecipeBanner/RecipeBanner"
+import BlogHero from "@/sections/BlogHero/BlogHero"
+import BlogContent from "@/sections/BlogContent/BlogContent"
+import Subscribe from "@/sections/Subscribe/Subscribe"
 
 export const metadata = {
    title: "blog",
@@ -6,9 +8,10 @@ export const metadata = {
 
 export default function () {
    return (
-      <div>
-         <h2>блок</h2>
-         <RecipeBanner />
-      </div>
+      <>
+         <BlogHero />
+         <BlogContent />
+         <Subscribe />
+      </>
    )
 }

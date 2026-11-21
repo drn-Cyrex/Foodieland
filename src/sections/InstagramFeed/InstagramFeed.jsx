@@ -23,7 +23,7 @@ const InstagramFeed = () => {
 
    return (
       <Section
-         className="instagram-feed"
+         className="instagram-feed container"
          title="Check out @foodieland on Instagram"
          titleId="instagram-feed"
          description="Follow @foodieland for more delicious recipes, cooking inspiration, and food ideas. Discover new dishes, get inspired, and see what’s cooking in our kitchen."
