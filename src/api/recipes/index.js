@@ -1,8 +1,8 @@
-import recipesBreakfast from "../../data/recipes-breakfast.json";
-import recipesDessert from "../../data/recipes-dessert.json";
-import recipesLunch from "../../data/recipes-lunch.json";
-import recipesMeat from "../../data/recipes-meat.json";
-import recipesVegan from "../../data/recipes-vegan.json";
+import recipesBreakfast from "../../data/recipes/recipes-breakfast.json";
+import recipesDessert from "../../data/recipes/recipes-dessert.json";
+import recipesLunch from "../../data/recipes/recipes-lunch.json";
+import recipesMeat from "../../data/recipes/recipes-meat.json";
+import recipesVegan from "../../data/recipes/recipes-vegan.json";
 
 // перечень тэгов в рецептах
 // {

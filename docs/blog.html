@@ -72,24 +72,155 @@
           </div>
         </header>
         <div class="section__body">
-          <form action="/search" class="search-wrapper">
-            <input class="search" type="search" name="" id="" placeholder=" Search article, news or recipe..." required="">
-            <button class="button search-button" type="button">Search</button>
+          <form class="search-form">
+            <label class="visually-hidden" for="blog-search">Search</label>
+            <input class="search-form__input" type="search" name="search" id="blog-search" placeholder="Search article, news or recipe..." required="">
+            <button class="button search-form__button" type="submit">Search</button>
           </form>
         </div>
       </section>
-      <div class="blog-list container"><span>cards list</span>
-        <article>
-          <img alt="image">
-          <div>
-            <div>
-              <h3>title</h3>
-              <p>description</p>
-            </div>
-            <div><span>author</span><span>date</span></div>
+      <section class="blog-content  container section">
+        <header class="section__header">
+          <h2 class="section__title"></h2>
+        </header>
+        <div class="section__body">
+          <div class="grid-auto blog-list">
+            <article class="blog-card">
+              <a href="/blog/crochet-projects-for-noodle-lovers" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Crochet Projects for Noodle Lovers">
+                </div>
+                <div class="blog-card__info">
+                  <h3>Crochet Projects for Noodle Lovers</h3>
+                  <p>Creative crochet projects inspired by food, comfort and everything we love about a cozy kitchen.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/full-guide-to-becoming-a-professional-chef" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Professional chef preparing food">
+                </div>
+                <div class="blog-card__info">
+                  <h3>Full Guide to Becoming a Professional Chef</h3>
+                  <p>Learn what it takes to build a career in the food industry, develop your skills and become a professional chef.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/plantain-and-pinto-stew-with-aji-verde" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Plantain and Pinto Stew with Aji Verde">
+                </div>
+                <div class="blog-card__info">
+                  <h3>Plantain and Pinto Stew with Aji Verde</h3>
+                  <p>A comforting plantain and pinto bean stew served with a fresh and vibrant Aji Verde sauce.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/were-hiring-a-communications-assistant" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Communications Assistant">
+                </div>
+                <div class="blog-card__info">
+                  <h3>We’re Hiring a Communications Assistant!</h3>
+                  <p>Join our team and help us share great food stories, recipes and ideas with our growing community.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/10-easy-recipes-for-busy-weeknights" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Easy recipes for busy weeknights">
+                </div>
+                <div class="blog-card__info">
+                  <h3>10 Easy Recipes for Busy Weeknights</h3>
+                  <p>Quick and satisfying recipes for evenings when you want something delicious without spending hours in the kitchen.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/how-to-build-a-better-breakfast-routine" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Healthy breakfast">
+                </div>
+                <div class="blog-card__info">
+                  <h3>How to Build a Better Breakfast Routine</h3>
+                  <p>Simple ideas to make your mornings easier, more balanced and much more enjoyable.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/the-ultimate-guide-to-homemade-pasta" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Homemade pasta">
+                </div>
+                <div class="blog-card__info">
+                  <h3>The Ultimate Guide to Homemade Pasta</h3>
+                  <p>Everything you need to know about making fresh pasta at home, from dough to the final dish.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/simple-meals-that-actually-taste-amazing" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Simple homemade meal">
+                </div>
+                <div class="blog-card__info">
+                  <h3>Simple Meals That Actually Taste Amazing</h3>
+                  <p>You don&#x27;t need complicated techniques to make food that tastes great. Here are some simple ideas to try.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/kitchen-essentials-every-home-cook-needs" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Kitchen essentials">
+                </div>
+                <div class="blog-card__info">
+                  <h3>Kitchen Essentials Every Home Cook Needs</h3>
+                  <p>A practical look at the tools that make everyday cooking easier and more enjoyable.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/how-to-make-restaurant-style-food-at-home" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Restaurant-style food at home">
+                </div>
+                <div class="blog-card__info">
+                  <h3>How to Make Restaurant-Style Food at Home</h3>
+                  <p>A few practical techniques that can make your homemade meals feel a little more special.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/fresh-ideas-for-your-weekend-dinner" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Weekend dinner">
+                </div>
+                <div class="blog-card__info">
+                  <h3>Fresh Ideas for Your Weekend Dinner</h3>
+                  <p>Give your weekend dinner something different with these simple and flavorful ideas.</p>
+                </div>
+              </a>
+            </article>
+            <article class="blog-card">
+              <a href="/blog/a-beginners-guide-to-cooking-with-herbs" class="blog-card__link">
+                <div class="blog-card__image">
+                  <img src="/images/blog/placeholder.jpg" alt="Fresh cooking herbs">
+                </div>
+                <div class="blog-card__info">
+                  <h3>A Beginner’s Guide to Cooking with Herbs</h3>
+                  <p>Learn how to use fresh herbs to add more aroma, flavor and character to everyday dishes.</p>
+                </div>
+              </a>
+            </article>
           </div>
-        </article>
-      </div>
+          <div class="pagination"></div>
+        </div>
+      </section>
       <section class="subscribe container section" aria-labelledby="subscribe">
         <header class="section__header section__header--vertical">
           <h2 class="section__title" id="subscribe">Deliciousness to your inbox</h2>
@@ -99,11 +230,8 @@
         </header>
         <div class="section__body">
           <form class="subscribe-form" action="">
-            <div class="field">
-              <input class="field__control" type="email" name="sub" id="sub" placeholder=" ">
-              <label class="field__label" for="sub">Your email address...</label>
-            </div>
-            <button class="button subscribe-button" type="button">Subscribe</button>
+            <input type="email" name="subscribe-mail" id="subscribe-mail" placeholder="Your email address...">
+            <button class="button" type="button">Subscribe</button>
           </form>
         </div>
       </section>

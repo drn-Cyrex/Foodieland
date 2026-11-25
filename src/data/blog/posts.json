@@ -1,0 +1,453 @@
+[
+   {
+      "id": 1,
+      "slug": "crochet-projects-for-noodle-lovers",
+      "title": "Crochet Projects for Noodle Lovers",
+      "description": "Creative crochet projects inspired by food, comfort and everything we love about a cozy kitchen.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Crochet Projects for Noodle Lovers"
+      },
+      "author": {
+         "name": "Wade Warren",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Wade Warren"
+      },
+      "date": "12 November 2021",
+      "content": [
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "heading",
+            "text": "Creative ideas for food lovers"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar."
+         },
+         {
+            "type": "heading",
+            "text": "Simple projects to enjoy at home"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit."
+         }
+      ]
+   },
+
+   {
+      "id": 2,
+      "slug": "full-guide-to-becoming-a-professional-chef",
+      "title": "Full Guide to Becoming a Professional Chef",
+      "description": "Learn what it takes to build a career in the food industry, develop your skills and become a professional chef.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Professional chef preparing food"
+      },
+      "author": {
+         "name": "Wade Warren",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Wade Warren"
+      },
+      "date": "10 November 2021",
+      "content": [
+         {
+            "type": "heading",
+            "text": "How did you start out in the food industry?"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar."
+         },
+         {
+            "type": "heading",
+            "text": "What do you like most about your job?"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar."
+         },
+         {
+            "type": "heading",
+            "text": "Do you cook at home on your days off?"
+         },
+         {
+            "type": "image",
+            "src": "/images/blog/placeholder.jpg",
+            "alt": "Chef preparing food at home"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit."
+         },
+         {
+            "type": "heading",
+            "text": "What would your advice be to young people looking to get their foot in the door?"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit."
+         },
+         {
+            "type": "quote",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio."
+         },
+         {
+            "type": "heading",
+            "text": "What is the biggest misconception that people have about being a professional chef?"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit."
+         }
+      ]
+   },
+
+   {
+      "id": 3,
+      "slug": "plantain-and-pinto-stew-with-aji-verde",
+      "title": "Plantain and Pinto Stew with Aji Verde",
+      "description": "A comforting plantain and pinto bean stew served with a fresh and vibrant Aji Verde sauce.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Plantain and Pinto Stew with Aji Verde"
+      },
+      "author": {
+         "name": "Dianne Russell",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Dianne Russell"
+      },
+      "date": "8 November 2021",
+      "content": [
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "heading",
+            "text": "A comforting combination of flavors"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar."
+         },
+         {
+            "type": "image",
+            "src": "/images/blog/placeholder.jpg",
+            "alt": "Plantain and pinto stew"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit."
+         }
+      ]
+   },
+
+   {
+      "id": 4,
+      "slug": "were-hiring-a-communications-assistant",
+      "title": "We’re Hiring a Communications Assistant!",
+      "description": "Join our team and help us share great food stories, recipes and ideas with our growing community.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Communications Assistant"
+      },
+      "author": {
+         "name": "Foodieland Team",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Foodieland Team"
+      },
+      "date": "5 November 2021",
+      "content": [
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "heading",
+            "text": "What will you be working on?"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar."
+         },
+         {
+            "type": "heading",
+            "text": "Who are we looking for?"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit."
+         }
+      ]
+   },
+
+   {
+      "id": 5,
+      "slug": "10-easy-recipes-for-busy-weeknights",
+      "title": "10 Easy Recipes for Busy Weeknights",
+      "description": "Quick and satisfying recipes for evenings when you want something delicious without spending hours in the kitchen.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Easy recipes for busy weeknights"
+      },
+      "author": {
+         "name": "Robert Fox",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Robert Fox"
+      },
+      "date": "2 November 2021",
+      "content": [
+         {
+            "type": "heading",
+            "text": "Why simple recipes matter"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "heading",
+            "text": "Recipes that save time"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar."
+         }
+      ]
+   },
+
+   {
+      "id": 6,
+      "slug": "how-to-build-a-better-breakfast-routine",
+      "title": "How to Build a Better Breakfast Routine",
+      "description": "Simple ideas to make your mornings easier, more balanced and much more enjoyable.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Healthy breakfast"
+      },
+      "author": {
+         "name": "Leslie Alexander",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Leslie Alexander"
+      },
+      "date": "30 October 2021",
+      "content": [
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "heading",
+            "text": "Start with simple ingredients"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula sed velit a faucibus."
+         }
+      ]
+   },
+
+   {
+      "id": 7,
+      "slug": "the-ultimate-guide-to-homemade-pasta",
+      "title": "The Ultimate Guide to Homemade Pasta",
+      "description": "Everything you need to know about making fresh pasta at home, from dough to the final dish.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Homemade pasta"
+      },
+      "author": {
+         "name": "Courtney Henry",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Courtney Henry"
+      },
+      "date": "27 October 2021",
+      "content": [
+         {
+            "type": "heading",
+            "text": "Start with the right dough"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "image",
+            "src": "/images/blog/placeholder.jpg",
+            "alt": "Fresh homemade pasta"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id mollis ex."
+         }
+      ]
+   },
+
+   {
+      "id": 8,
+      "slug": "simple-meals-that-actually-taste-amazing",
+      "title": "Simple Meals That Actually Taste Amazing",
+      "description": "You don't need complicated techniques to make food that tastes great. Here are some simple ideas to try.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Simple homemade meal"
+      },
+      "author": {
+         "name": "Theresa Webb",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Theresa Webb"
+      },
+      "date": "24 October 2021",
+      "content": [
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "heading",
+            "text": "Keep the ingredients simple"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula sed velit a faucibus."
+         }
+      ]
+   },
+
+   {
+      "id": 9,
+      "slug": "kitchen-essentials-every-home-cook-needs",
+      "title": "Kitchen Essentials Every Home Cook Needs",
+      "description": "A practical look at the tools that make everyday cooking easier and more enjoyable.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Kitchen essentials"
+      },
+      "author": {
+         "name": "Jerome Bell",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Jerome Bell"
+      },
+      "date": "20 October 2021",
+      "content": [
+         {
+            "type": "heading",
+            "text": "Start with the basics"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "heading",
+            "text": "Tools worth investing in"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula sed velit a faucibus."
+         }
+      ]
+   },
+
+   {
+      "id": 10,
+      "slug": "how-to-make-restaurant-style-food-at-home",
+      "title": "How to Make Restaurant-Style Food at Home",
+      "description": "A few practical techniques that can make your homemade meals feel a little more special.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Restaurant-style food at home"
+      },
+      "author": {
+         "name": "Guy Hawkins",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Guy Hawkins"
+      },
+      "date": "17 October 2021",
+      "content": [
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "heading",
+            "text": "Presentation makes a difference"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit."
+         }
+      ]
+   },
+
+   {
+      "id": 11,
+      "slug": "fresh-ideas-for-your-weekend-dinner",
+      "title": "Fresh Ideas for Your Weekend Dinner",
+      "description": "Give your weekend dinner something different with these simple and flavorful ideas.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Weekend dinner"
+      },
+      "author": {
+         "name": "Annette Black",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Annette Black"
+      },
+      "date": "14 October 2021",
+      "content": [
+         {
+            "type": "heading",
+            "text": "Make dinner something to look forward to"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "image",
+            "src": "/images/blog/placeholder.jpg",
+            "alt": "Weekend dinner table"
+         }
+      ]
+   },
+
+   {
+      "id": 12,
+      "slug": "a-beginners-guide-to-cooking-with-herbs",
+      "title": "A Beginner’s Guide to Cooking with Herbs",
+      "description": "Learn how to use fresh herbs to add more aroma, flavor and character to everyday dishes.",
+      "image": {
+         "src": "/images/blog/placeholder.jpg",
+         "alt": "Fresh cooking herbs"
+      },
+      "author": {
+         "name": "Jenny Wilson",
+         "image": "/src/assets/images/guest.png",
+         "alt": "Jenny Wilson"
+      },
+      "date": "10 October 2021",
+      "content": [
+         {
+            "type": "heading",
+            "text": "Start with a few versatile herbs"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis."
+         },
+         {
+            "type": "heading",
+            "text": "Fresh herbs can change a dish"
+         },
+         {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar."
+         }
+      ]
+   }
+]

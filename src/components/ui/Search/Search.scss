@@ -1,4 +1,4 @@
-.search-wrapper {
+.search-form {
    position: relative;
    margin-inline: auto;
    max-width: 600px;
@@ -18,7 +18,7 @@
    }
 }
 
-.search {
+.search-form__input {
    flex: 1;
    padding-block: fluid(20, 15, desktop, mobile);
    padding-left: 20px;
@@ -32,7 +32,7 @@
    color: var(--color-white);
 }
 
-.search-button {
+.search-form__button {
    height: fluid(50, 40, desktop, mobile);
    padding-inline: fluid(50, 30, desktop, mobile);
 }

@@ -28,7 +28,7 @@
    &:not(:disabled) {
       @include hover {
          color: var(--color-accent-hover);
-         border-color: var(--color-accent-border);
+         border-color: var(--color-accent-hover);
          cursor: pointer;
       }
    }

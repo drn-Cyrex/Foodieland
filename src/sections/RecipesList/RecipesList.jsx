@@ -1,8 +1,8 @@
 import "./RecipesList.scss"
 import RecipeCardStandard from "@/components/ui/RecipeCardStandard/RecipeCardStandard"
 import Filter from "@/components/ui/Filter/Filter"
-
 import { getAllRecipes } from "@/api/recipes"
+import { Pagination } from "swiper/modules"
 
 
 const RecipesList = () => {

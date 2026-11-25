@@ -1,6 +1,5 @@
 import "./Subscribe.scss"
 import Section from "@/layouts/Section/Section"
-import FormField from "@/components/ui/FormField/FormField"
 import Button from "@/components/ui/Button/Button"
 
 const Subscribe = () => {
@@ -13,13 +12,14 @@ const Subscribe = () => {
          isHeaderVertical
       >
          <form className="subscribe-form" action="">
-            <FormField
+            <input
                type="email"
-               text="Your email address..."
-               id="sub"
+               name="subscribe-mail"
+               id="subscribe-mail"
+               placeholder="Your email address..."
             />
 
-            <Button className="subscribe-button">
+            <Button type="button">
                Subscribe
             </Button>
          </form>

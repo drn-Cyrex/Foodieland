@@ -5,21 +5,27 @@ const Search = () => {
 
    return (
       <form
-         action="/search"
-         className='search-wrapper'
+         className="search-form"
+      //onSubmit={handleSubmit}
       >
+         <label
+            className="visually-hidden"
+            htmlFor="blog-search"
+         >
+            Search
+         </label>
          <input
-            className='search'
+            className="search-form__input"
             type="search"
-            name=""
-            id=""
-            placeholder=" Search article, news or recipe..."
+            name="search"
+            id="blog-search"
+            placeholder="Search article, news or recipe..."
             required
-            results
          />
+
          <Button
-            className="search-button"
-            type="button"
+            className="search-form__button"
+            type="submit"
          >
             Search
          </Button>

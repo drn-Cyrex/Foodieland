@@ -1,31 +1,47 @@
 import "./BlogCard.scss"
+import AuthorCard from "../AuthorCard/AuthorCard"
 
 const BlogCard = (props) => {
 
    const {
-      imgSrs,
-      title = 'title',
-      description = 'description',
-      author = 'author',
-      date = 'date'
-
+      slug,
+      image = {},
+      title,
+      description,
    } = props
 
    return (
-      <article>
-         <img src={imgSrs} alt="image" />
-         <div>
-            <div>
+      <article className="blog-card">
+         <a
+            href={`/blog/${slug}`}
+            className="blog-card__link"
+         >
+            <div className="blog-card__image">
+               <img
+                  src={image.src}
+                  alt={image.alt}
+               />
+            </div>
+
+            <div className="blog-card__info">
                <h3>{title}</h3>
                <p>{description}</p>
             </div>
-            <div>
-               <span>{author}</span>
-               <span>{date}</span>
-            </div>
-         </div>
+
+         </a>
       </article>
    )
 }
 
-export default BlogCard 
+export default BlogCard
+
+
+/* 
+
+
+
+
+
+ 
+
+*/
