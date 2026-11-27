@@ -21,7 +21,7 @@
 }
 
 .recipe-hero__meta {
-   margin-top: fluid(48, 24, desktop, mobile);
+   margin-top: fluid(48, 32, desktop, mobile);
    display: flex;
    gap: fluid(90, 00, desktop, mobile);
 }
@@ -47,7 +47,7 @@
 
 .recipe-hero__action {
    display: flex;
-   gap: fluid(32, 2, desktop, mobile);
+   gap: fluid(32, 5, desktop, mobile);
 
    @include tablet-l {
       position: absolute;

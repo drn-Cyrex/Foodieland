@@ -1,0 +1,58 @@
+.subscribe-form {
+   position: relative;
+   display: flex;
+   align-items: center;
+   border-radius: var(--radius);
+   background: linear-gradient(var(--color-bg));
+
+   &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      inset: -1px;
+      border-radius: inherit;
+      background: linear-gradient(
+         to right,
+         var(--color-accent),
+         transparent 70%
+      );
+      filter: blur(2px);
+   }
+
+   @include tablet {
+      flex-wrap: wrap;
+   }
+}
+
+.subscribe-form input {
+   flex: 1;
+   padding-block: fluid(20, 15, desktop, mobile);
+   padding-inline: 20px;
+   border-top-left-radius: inherit;
+   border-bottom-left-radius: inherit;
+   border: none;
+   background-color: transparent;
+   font-weight: 500;
+   font-size: fluid(16, 14, desktop, mobile);
+   letter-spacing: -0.02em;
+   color: var(--color-white);
+}
+
+.subscribe-form button {
+   height: fluid(50, 40, desktop, mobile);
+   padding-inline: fluid(30, 20, desktop, mobile);
+
+   @include tablet {
+      position: absolute;
+      bottom: -50px;
+      flex: 1;
+   }
+}
+
+// .subscribe-form .field__control {
+//    &:focus-visible {
+//       outline: 1px solid transparent;
+//       background: linear-gradient(transparent);
+//    }
+// }
+

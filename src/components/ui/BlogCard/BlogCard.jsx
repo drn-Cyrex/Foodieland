@@ -1,5 +1,5 @@
 import "./BlogCard.scss"
-import AuthorCard from "../AuthorCard/AuthorCard"
+import getAssetUrl from "@/utils/getAssetUrl"
 
 const BlogCard = (props) => {
 
@@ -18,7 +18,7 @@ const BlogCard = (props) => {
          >
             <div className="blog-card__image">
                <img
-                  src={image.src}
+                  src={getAssetUrl(image.src)}
                   alt={image.alt}
                />
             </div>
@@ -27,21 +27,9 @@ const BlogCard = (props) => {
                <h3>{title}</h3>
                <p>{description}</p>
             </div>
-
          </a>
       </article>
    )
 }
 
 export default BlogCard
-
-
-/* 
-
-
-
-
-
- 
-
-*/

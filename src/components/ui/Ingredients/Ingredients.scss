@@ -32,7 +32,7 @@
    padding-right: fluid(33, 23, desktop, mobile);
    display: flex;
    gap: 12px;
-   background-image: linear-gradient(to right, lime, transparent);
+   background-image: linear-gradient(to right, transparent, lime, transparent);
    background-repeat: no-repeat;
    background-position: left center;
    background-size: 0 75%;
@@ -102,10 +102,10 @@
    &:checked {
       //border-color: rgba(0, 255, 0, 0.25);
       //background-color: rgba(0, 255, 0, 0.15);
-      opacity: 0; // временно скрыто 
+      opacity: 0; // временно скрыто
    }
 
-   &:checked::after {      
+   &:checked::after {
       transform: scale(1);
    }
 

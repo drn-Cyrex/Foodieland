@@ -1,10 +1,11 @@
 .grid-auto {
+   --inline-size: 410px;
+
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(var(--inline-size), 1fr));
    gap: fluid(40, 30, desktop, mobile);
 
    @include tablet {
       grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
    }
 }
-

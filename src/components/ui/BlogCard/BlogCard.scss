@@ -1,15 +1,14 @@
 .blog-card {
-   position: relative;
 }
 
 .blog-card__link {
    display: flex;
-   align-items: center;
    gap: 16px;
-   padding: 5px 5px 5px 0;
-   border-right: 4px solid rgba(128, 128, 128, 0.5);
+   padding-block: 10px;
    border-radius: var(--radius);
+   border-right: 4px solid rgba(128, 128, 128, 0.5);
    background: linear-gradient(to right, black, transparent);
+
    transition: background-color 0.5s ease;
    @include hover {
       background-color: black;
@@ -17,18 +16,8 @@
 }
 
 .blog-card__image {
-   position: relative;
-   scale: 1 1.1;
-   display: grid;
-   place-content: center;
-   overflow: clip;
-   border-radius: var(--radius);
-
    img {
-      height: 200px;
-      width: fluid(200, 150, desktop, mobile);
-      object-fit: cover;
-      border-radius: inherit;
+      display: none;
    }
 }
 
