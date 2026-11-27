@@ -8,26 +8,32 @@ const Field = (props) => {
       name,
       id,
       ariaLabel,
+      imageSrc,
+      imageAlt,
    } = props
 
    return (
-      <form className="subscribe-form" action="">
-         <label htmlFor={name}>
+      <div className="form-group" action="">
+
+         <label htmlFor={id}>
             {label}
          </label>
+
          <input
             type={type}
             name={name}
             id={id}
+            placeholder=''
+            required
          />
 
          <button
             type="submit"
             aria-label={ariaLabel}
          >
-            иконка лупы
+            <img src={imageSrc} alt={imageAlt} />
          </button>
-      </form>
+      </div>
    )
 }
 

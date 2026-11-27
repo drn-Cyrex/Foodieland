@@ -1,7 +1,6 @@
 import './BlogHero.scss'
 import Section from "@/layouts/Section/Section"
-import Search from '@/components/ui/Search/Search'
-
+import Field from '@/components/ui/Field/Field'
 
 const BlogHero = () => {
 
@@ -9,10 +8,22 @@ const BlogHero = () => {
       <Section
          className='blog-hero container'
          title='Blog & Article'
-         description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore'
+         description='Explore delicious recipes, cooking tips, and inspiring stories to make every meal more enjoyable.'
          isHeaderVertical
       >
-         <Search/>
+
+         <form className='blog-hero__search' action="">
+            <Field
+               label="Search article, news or recipe..."
+               type="search"
+               name="search"
+               id="blog-search"
+               ariaLabel="Search"
+               imageSrc="/src/assets/icons/blog-search.png"
+               imageAlt=""
+            />
+         </form>
+
       </Section>
    )
 }

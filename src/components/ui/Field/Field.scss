@@ -1,8 +1,12 @@
-.subscribe-form {
+.form-group {
+   --color-gradient: var(--color-accent);
+
    position: relative;
+   width: fluid(500, 250, desktop, mobile);
+   border-radius: var(--radius);
+   padding-inline: 10px;
    display: flex;
    align-items: center;
-   border-radius: var(--radius);
    background: linear-gradient(var(--color-bg));
 
    &::before {
@@ -13,46 +17,85 @@
       border-radius: inherit;
       background: linear-gradient(
          to right,
-         var(--color-accent),
+         var(--color-gradient),
          transparent 70%
       );
       filter: blur(2px);
    }
 
-   @include tablet {
-      flex-wrap: wrap;
-   }
-}
-
-.subscribe-form input {
-   flex: 1;
-   padding-block: fluid(20, 15, desktop, mobile);
-   padding-inline: 20px;
-   border-top-left-radius: inherit;
-   border-bottom-left-radius: inherit;
-   border: none;
-   background-color: transparent;
-   font-weight: 500;
-   font-size: fluid(16, 14, desktop, mobile);
-   letter-spacing: -0.02em;
-   color: var(--color-white);
-}
-
-.subscribe-form button {
-   height: fluid(50, 40, desktop, mobile);
-   padding-inline: fluid(30, 20, desktop, mobile);
-
-   @include tablet {
+   label {
       position: absolute;
-      bottom: -50px;
-      flex: 1;
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+      color: var(--color-white);
+      pointer-events: none;
+
+      transition:
+         top 0.2s ease,
+         transform 0.2s ease,
+         font-size 0.2s ease,
+         background-color 0.2s ease,
+         color 0.2s ease;
+   }
+
+   input {
+      width: 100%;
+      padding-block: fluid(20, 15, desktop, mobile);
+      padding-inline: 10px;
+
+      border: none;
+      background-color: transparent;
+
+      font-size: fluid(16, 14, desktop, mobile);
+      color: var(--color-white);
+
+      &:focus {
+         outline: none;
+      }
+   }
+
+   button {
+      flex-shrink: 0;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+
+      filter: grayscale(80%);
+      opacity: 0.7;
+
+      transition:
+         filter 0.25s ease,
+         opacity 0.25s ease,
+         scale 0.15s ease;
+
+      &:active {
+         scale: 0.95;
+      }
+
+      img {
+         scale: 1.4;
+         width: 40px;
+         height: 40px;
+         object-fit: cover;
+         border-radius: 50%;
+      }
+   }
+
+   // Floating label
+   &:focus-within label,
+   &:has(input:not(:placeholder-shown)) label {
+      top: 0;
+      transform: translateY(-50%);
+      padding-inline: 5px;
+      font-size: 12px;
+      background-color: var(--color-bg);
+      color: gray;
+   }
+
+   // Button becomes active only when the input is valid
+   &:has(input:valid) button {
+      filter: grayscale(0);
+      opacity: 1;
    }
 }
-
-// .subscribe-form .field__control {
-//    &:focus-visible {
-//       outline: 1px solid transparent;
-//       background: linear-gradient(transparent);
-//    }
-// }
-

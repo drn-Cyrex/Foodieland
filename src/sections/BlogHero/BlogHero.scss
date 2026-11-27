@@ -5,3 +5,18 @@
 .blog-hero .section__description {
    max-width: fit-content !important;
 }
+
+.blog-hero__search {
+   max-width: 600px;
+   margin-inline: auto;
+   display: grid;
+   justify-content: center;
+
+   .form-group {
+      --color-gradient: var(--color-dim);
+
+      // & > button {
+      //    filter: drop-shadow(0 0 10px lime);
+      // }
+   }
+}

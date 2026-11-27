@@ -214,9 +214,14 @@
           </div>
         </header>
         <div class="section__body">
-          <form class="subscribe-form" action="">
-            <input type="email" name="subscribe-mail" id="subscribe-mail" placeholder="Your email address...">
-            <button class="button" type="button">Subscribe</button>
+          <form class="subscribe-form__mail" action="">
+            <div class="form-group" action="">
+              <label for="subscribe-mail">Your email address...</label>
+              <input type="email" name="subscribe-mail" id="subscribe-mail" placeholder="" required="">
+              <button type="submit" aria-label="mail">
+                <img src="/src/assets/icons/mail-arrow-2.png" alt="submitting the form">
+              </button>
+            </div>
           </form>
         </div>
       </section>
