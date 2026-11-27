@@ -36,6 +36,11 @@ export default function Global(props) {
                href="/src/styles/main.scss"
             />
 
+            <link
+               rel="stylesheet"
+               href="/src/styles/swiper.css"
+            />
+
             <script
                type="module"
                src="/src/scripts/app.js">

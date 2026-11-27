@@ -1,12 +1,8 @@
 import Swiper from "swiper";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
 import { EffectCoverflow } from "swiper/modules";
 
 const initHeroSlider = () => {
    const heroSlider = document.querySelector(".hero.swiper");
-
-   
 
    if (!heroSlider) {
       return;
